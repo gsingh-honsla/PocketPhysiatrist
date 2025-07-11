@@ -19,7 +19,22 @@ struct PocketPhysiatristApp: App {
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+            let container = try ModelContainer(for: schema, configurations: [modelConfiguration])
+            
+            // Check if we need to populate sample data
+            let context = container.mainContext
+            let descriptor = FetchDescriptor<MedicalContent>()
+            do {
+                let existingContent = try context.fetch(descriptor)
+                if existingContent.isEmpty {
+                    // Populate sample data if no content exists
+                    SampleDataProvider.populateSampleData(modelContext: context)
+                }
+            } catch {
+                print("Error checking existing content: \(error)")
+            }
+            
+            return container
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
