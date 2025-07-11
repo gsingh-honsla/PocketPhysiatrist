@@ -12,7 +12,9 @@ import SwiftData
 struct PocketPhysiatristApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            MedicalContent.self,
+            ContentSection.self,
+            TableRow.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
