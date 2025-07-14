@@ -21,14 +21,14 @@ struct PocketPhysiatristApp: App {
         do {
             let container = try ModelContainer(for: schema, configurations: [modelConfiguration])
             
-            // Check if we need to populate sample data
+            // Check if we need to populate content
             let context = container.mainContext
             let descriptor = FetchDescriptor<MedicalContent>()
             do {
                 let existingContent = try context.fetch(descriptor)
                 if existingContent.isEmpty {
-                    // Populate sample data if no content exists
-                    SampleDataProvider.populateSampleData(modelContext: context)
+                    // Populate content if no content exists
+                    ContentProvider.populateContent(modelContext: context)
                 }
             } catch {
                 print("Error checking existing content: \(error)")
