@@ -11,6 +11,7 @@ import SwiftData
 struct BrowseView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var allContent: [MedicalContent]
+    @State private var showingFeedback = false
     
     var categorizedContent: [MedicalContent] {
         allContent.filter { $0.contentType == .guide }
@@ -50,6 +51,46 @@ struct BrowseView: View {
                         groupedContent: groupedAssessments,
                         accentColor: .green
                     )
+                    
+                    // Feedback Button at Bottom
+                    VStack(spacing: 16) {
+                        Divider()
+                            .padding(.horizontal, 20)
+                        
+                        Button(action: {
+                            showingFeedback = true
+                        }) {
+                            HStack(spacing: 12) {
+                                Image(systemName: "bubble.left.and.bubble.right")
+                                    .font(.system(size: 18, weight: .medium))
+                                
+                                Text("Send Feedback")
+                                    .font(.headline)
+                                    .fontWeight(.medium)
+                            }
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [Color.blue, Color.blue.opacity(0.8)]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
+                            .shadow(color: Color.blue.opacity(0.3), radius: 4, x: 0, y: 2)
+                        }
+                        .padding(.horizontal, 20)
+                        .accessibilityLabel("Send Feedback")
+                        
+                        Text("Help us improve PocketPhysiatrist")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(.top, 20)
+                    .padding(.bottom, 30)
                 }
                 .padding(.horizontal, 20)
                 .padding(.vertical, 16)
@@ -57,6 +98,20 @@ struct BrowseView: View {
             .navigationTitle("Pocket Physiatrist")
             .navigationBarTitleDisplayMode(.large)
             .background(Color(.systemGroupedBackground))
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showingFeedback = true
+                    }) {
+                        Image(systemName: "bubble.left.and.bubble.right")
+                            .foregroundColor(.blue)
+                    }
+                    .accessibilityLabel("Send Feedback")
+                }
+            }
+            .sheet(isPresented: $showingFeedback) {
+                FeedbackView()
+            }
         }
     }
 }
