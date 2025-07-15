@@ -35,14 +35,14 @@
 			path = PocketPhysiatrist;
 			sourceTree = "<group>";
 		};
-		F50CCFEE2E2149FD00A4A7AC /* PocketPhysiatristTests */ = {
+		F50CCFDF2E2149FC00A4A7AD /* Guides */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketPhysiatristTests;
+			path = Guides;
 			sourceTree = "<group>";
 		};
-		F50CCFF82E2149FD00A4A7AC /* PocketPhysiatristUITests */ = {
+		F50CCFE02E2149FC00A4A7AE /* Assessment Tools */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketPhysiatristUITests;
+			path = "Assessment Tools";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				F50CCFDE2E2149FC00A4A7AC /* PocketPhysiatrist */,
-				F50CCFEE2E2149FD00A4A7AC /* PocketPhysiatristTests */,
-				F50CCFF82E2149FD00A4A7AC /* PocketPhysiatristUITests */,
+				F50CCFDF2E2149FC00A4A7AD /* Guides */,
+				F50CCFE02E2149FC00A4A7AE /* Assessment Tools */,
 				F50CCFDD2E2149FC00A4A7AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +109,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				F50CCFDE2E2149FC00A4A7AC /* PocketPhysiatrist */,
+				F50CCFDF2E2149FC00A4A7AD /* Guides */,
+				F50CCFE02E2149FC00A4A7AE /* Assessment Tools */,
 			);
 			name = PocketPhysiatrist;
 			packageProductDependencies = (
@@ -130,9 +132,6 @@
 			dependencies = (
 				F50CCFED2E2149FD00A4A7AC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F50CCFEE2E2149FD00A4A7AC /* PocketPhysiatristTests */,
-			);
 			name = PocketPhysiatristTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +151,6 @@
 			);
 			dependencies = (
 				F50CCFF72E2149FD00A4A7AC /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F50CCFF82E2149FD00A4A7AC /* PocketPhysiatristUITests */,
 			);
 			name = PocketPhysiatristUITests;
 			packageProductDependencies = (
@@ -395,6 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G39UBPRB4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G39UBPRB4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

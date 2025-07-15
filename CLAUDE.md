@@ -18,7 +18,6 @@ Key principles:
 - Implement standard iOS navigation patterns
 - Respect Dynamic Type and accessibility features
 - Match native iOS app aesthetics (Settings, Health, etc.)
-- Prefer SF Symbols over text labels where appropriate (e.g., tab bar icons, toolbar buttons, list row accessories)
 
 ## Architecture
 
@@ -95,11 +94,13 @@ Medical content is managed through markdown files and automated integration:
 
 2. **Adding/Updating Content**:
    - Edit markdown files following the templates
-   - Run the integration script to regenerate ContentProvider:
+   - Run the Swift-based build script to regenerate content:
    ```bash
-   python3 integrate_all_content.py
+   swift Scripts/ProcessMarkdownContent.swift
    ```
    - Rebuild the app in Xcode
+   
+   **IMPORTANT**: This project uses Swift-based build processes exclusively. Do NOT use Python scripts for any build or content processing tasks. If a Python script seems necessary, seek approval first.
 
 3. **Templates**:
    - `GUIDE_TEMPLATE.md` - Template for clinical guides
