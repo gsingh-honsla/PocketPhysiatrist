@@ -1,4 +1,4 @@
-# Neurogenic Bowel Management in Spinal Cord Injury
+# Neurogenic Bowel Management
 
 ## Metadata
 - **Category**: Spinal Cord Injury Medicine

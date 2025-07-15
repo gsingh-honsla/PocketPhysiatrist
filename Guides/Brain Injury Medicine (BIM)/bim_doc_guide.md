@@ -1,4 +1,4 @@
-# Disorders of Consciousness after Traumatic Brain Injury
+# Disorders of Consciousness
 
 ## Metadata
 - **Category**: Brain Injury Medicine

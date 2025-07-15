@@ -1,4 +1,4 @@
-# Phantom Limb Pain and Residual Limb Pain: A Comprehensive Rehabilitation Guide
+# Phantom Limb Pain and Residual Limb Pain
 
 ## Metadata
 - **Category**: Amputee Care

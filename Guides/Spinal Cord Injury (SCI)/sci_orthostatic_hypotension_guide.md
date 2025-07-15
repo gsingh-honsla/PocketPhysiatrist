@@ -1,4 +1,4 @@
-# Orthostatic Hypotension in Spinal Cord Injury
+# Orthostatic Hypotension
 
 ## Metadata
 - **Category**: Spinal Cord Injury Medicine

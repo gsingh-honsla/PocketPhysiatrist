@@ -11,7 +11,7 @@ class GeneratedContentProvider {
     static func getAllContent() -> [MedicalContent] {
         return [
         MedicalContent(
-            title: "Phantom Limb Pain and Residual Limb Pain: A Comprehensive Rehabilitation Guide",
+            title: "Phantom Limb Pain and Residual Limb Pain",
             subtitle: nil,
             contentType: .guide,
             category: "Amputee Care",
@@ -1670,7 +1670,7 @@ class GeneratedContentProvider {
             keywords: ["CRPS", "complex regional pain syndrome", "reflex sympathetic dystrophy", "causalgia", "neuropathic pain", "Budapest criteria", "graded motor imagery", "mirror therapy"]
         ),
         MedicalContent(
-            title: "Neurogenic Bladder Management in Spinal Cord Injury",
+            title: "Neurogenic Bladder Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1840,7 +1840,7 @@ class GeneratedContentProvider {
             keywords: ["neurogenic bladder", "spinal cord injury", "urodynamics", "detrusor hyperreflexia", "intermittent catheterization"]
         ),
         MedicalContent(
-            title: "Orthostatic Hypotension in Spinal Cord Injury",
+            title: "Orthostatic Hypotension",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1989,7 +1989,7 @@ class GeneratedContentProvider {
             keywords: ["orthostatic hypotension", "spinal cord injury", "autonomic dysfunction", "neurogenic hypotension"]
         ),
         MedicalContent(
-            title: "Autonomic Dysreflexia in Spinal Cord Injury",
+            title: "Autonomic Dysreflexia",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -2150,7 +2150,7 @@ class GeneratedContentProvider {
             keywords: ["autonomic dysreflexia", "spinal cord injury", "hypertensive crisis", "sympathetic hyperreflexia", "neurogenic bladder"]
         ),
         MedicalContent(
-            title: "Pressure Injury Prevention and Management in Spinal Cord Injury",
+            title: "Pressure Injury Prevention and Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -2343,7 +2343,7 @@ class GeneratedContentProvider {
             keywords: ["pressure injury", "pressure ulcer", "spinal cord injury", "wound care", "prevention", "management"]
         ),
         MedicalContent(
-            title: "Neurogenic Bowel Management in Spinal Cord Injury",
+            title: "Neurogenic Bowel Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -3165,7 +3165,7 @@ class GeneratedContentProvider {
             keywords: ["post-stroke gait", "hemiparesis", "neuroplasticity", "motor recovery", "gait training", "spasticity"]
         ),
         MedicalContent(
-            title: "Agitation and Aggression after Traumatic Brain Injury",
+            title: "Agitation and Aggression",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -3887,7 +3887,7 @@ class GeneratedContentProvider {
             keywords: ["traumatic brain injury", "hypopituitarism", "growth hormone deficiency", "neuroendocrine dysfunction", "hormone replacement therapy"]
         ),
         MedicalContent(
-            title: "Disorders of Consciousness after Traumatic Brain Injury",
+            title: "Disorders of Consciousness",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",

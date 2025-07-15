@@ -1,4 +1,4 @@
-# Agitation and Aggression after Traumatic Brain Injury
+# Agitation and Aggression
 
 ## Metadata
 - **Category**: Brain Injury Medicine

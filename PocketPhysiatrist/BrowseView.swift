@@ -455,9 +455,34 @@ struct CategoryDetailView: View {
     let content: [MedicalContent]
     let accentColor: Color
     
+    // Check if this is a guide category (not assessment) to show intro dropdown
+    private var isGuideCategory: Bool {
+        // Only show intro dropdown for guide categories, not assessment categories
+        let guideCategories = [
+            "Spinal Cord Injury Medicine",
+            "Brain Injury Medicine", 
+            "Stroke Rehabilitation",
+            "Pediatric Rehabilitation",
+            "Musculoskeletal and Sports Medicine",
+            "Pain Medicine",
+            "Cancer Rehabilitation",
+            "Amputee Care"
+        ]
+        return guideCategories.contains(category)
+    }
+    
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
+                // NEW: Intro Dropdown at the top for guide categories only
+                if isGuideCategory {
+                    IntroDropdownView(
+                        category: category,
+                        accentColor: accentColor
+                    )
+                    .padding(.top, 4)
+                }
+                
                 ForEach(content) { item in
                     NavigationLink(destination: ContentDetailView(content: item)) {
                         HStack(spacing: 16) {
