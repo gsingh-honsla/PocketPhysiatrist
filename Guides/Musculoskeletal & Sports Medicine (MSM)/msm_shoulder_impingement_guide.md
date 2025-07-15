@@ -1,7 +1,7 @@
 # Shoulder Impingement Syndrome
 
 ## Metadata
-- **Category**: Musculoskeletal Medicine
+- **Category**: Musculoskeletal and Sports Medicine
 - **Keywords**: shoulder impingement, subacromial impingement, rotator cuff, subacromial pain syndrome, overhead athletes
 
 ## Core Pathophysiology and Clinical Presentation

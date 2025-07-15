@@ -4077,7 +4077,7 @@ class GeneratedContentProvider {
             title: "Carpal Tunnel Syndrome",
             subtitle: nil,
             contentType: .guide,
-            category: "Musculoskeletal Medicine",
+            category: "Musculoskeletal and Sports Medicine",
             abbreviation: nil,
             overview: """
             Carpal tunnel syndrome (CTS) is the most common entrapment neuropathy, occurring when the median nerve is compressed as it traverses the carpal tunnel at the wrist. The carpal tunnel is a narrow osteofibrous passageway formed by the carpal bones inferiorly and the transverse carpal ligament (flexor retinaculum) superiorly, accommodating nine flexor tendons and the median nerve.
@@ -4379,7 +4379,7 @@ class GeneratedContentProvider {
             title: "Shoulder Impingement Syndrome",
             subtitle: nil,
             contentType: .guide,
-            category: "Musculoskeletal Medicine",
+            category: "Musculoskeletal and Sports Medicine",
             abbreviation: nil,
             overview: """
             Shoulder impingement syndrome represents a painful condition of the upper extremity resulting from structural narrowing of the subacromial space and subsequent compression of soft tissues. The subacromial space is anatomically defined by the humeral head inferiorly, and the acromion, coracoacromial ligament, and acromioclavicular joint superiorly. This space normally measures 1.0-1.5 cm in height and contains critical structures including the rotator cuff tendons (particularly the supraspinatus), the subacromial bursa, and portions of the long head of the biceps tendon.

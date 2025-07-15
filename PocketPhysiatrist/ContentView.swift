@@ -766,15 +766,9 @@ struct FavoriteRowView: View {
             Spacer()
             
             if !isEditMode {
-                VStack(spacing: 4) {
-                    Image(systemName: "heart.fill")
-                        .foregroundColor(.red)
-                        .font(.system(size: 16))
-                    
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 12, weight: .medium))
-                        .foregroundColor(.secondary)
-                }
+                Image(systemName: "heart.fill")
+                    .foregroundColor(.red)
+                    .font(.system(size: 16))
             }
         }
         .padding(.vertical, 8)

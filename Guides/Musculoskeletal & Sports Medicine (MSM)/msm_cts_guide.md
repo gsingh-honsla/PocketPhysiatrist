@@ -1,7 +1,7 @@
 # Carpal Tunnel Syndrome
 
 ## Metadata
-- **Category**: Musculoskeletal Medicine
+- **Category**: Musculoskeletal and Sports Medicine
 - **Keywords**: median nerve entrapment, carpal tunnel, neuropathy, nerve compression
 
 ## Core Pathophysiology and Clinical Presentation

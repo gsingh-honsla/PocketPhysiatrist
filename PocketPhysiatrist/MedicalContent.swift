@@ -16,7 +16,7 @@ final class MedicalContent {
     var contentType: ContentType
     var category: String
     var abbreviation: String? // For assessment tools
-    var keywords: [String] = []
+    var keywordsString: String = "" // Comma-separated keywords
     var overview: String // First content section or purpose
     var sections: [ContentSection] = []
     var isFavorite: Bool
@@ -41,10 +41,20 @@ final class MedicalContent {
         self.abbreviation = abbreviation
         self.overview = overview
         self.sections = sections
-        self.keywords = keywords
+        self.keywordsString = keywords.joined(separator: ", ")
         self.isFavorite = false
         self.createdAt = Date()
         self.updatedAt = Date()
+    }
+    
+    // Computed property for backward compatibility
+    var keywords: [String] {
+        get {
+            return keywordsString.isEmpty ? [] : keywordsString.components(separatedBy: ", ").map { $0.trimmingCharacters(in: .whitespaces) }
+        }
+        set {
+            keywordsString = newValue.joined(separator: ", ")
+        }
     }
     
     // Template-aware section organization
