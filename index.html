@@ -60,9 +60,22 @@
         }
         
         header {
-            padding: 48px 0 32px;
+            padding: 64px 0 48px;
             text-align: center;
+            background: linear-gradient(180deg, var(--surface) 0%, var(--background) 100%);
             border-bottom: 1px solid var(--border);
+            position: relative;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: radial-gradient(circle at 50% 0%, rgba(139, 63, 229, 0.08) 0%, transparent 70%);
+            pointer-events: none;
         }
         
         .app-icon {
@@ -100,6 +113,14 @@
         
         section {
             padding: 64px 0;
+        }
+        
+        section#about {
+            padding-bottom: 32px;
+        }
+        
+        section#features {
+            padding-top: 32px;
         }
         
         .section-header {
@@ -316,9 +337,9 @@
         
         <section id="about">
             <div class="section-header">
-                <h2>About PocketPhysiatrist</h2>
+                <h2>About Us</h2>
                 <p class="section-description">
-                    PocketPhysiatrist is a professional medical reference app designed specifically for Physical Medicine & Rehabilitation practitioners. Access evidence-based clinical guides and assessment tools instantly on your iOS device.
+                    PocketPhysiatrist is a medical reference app designed specifically for students, residents, physicians, and other clinicians in the Physical Medicine & Rehabilitation space. Access evidence-based clinical guides and assessment tools instantly on your iOS device.
                 </p>
             </div>
         </section>
@@ -402,7 +423,6 @@
         </section>
         
         <footer>
-            <p>&copy; 2025 PocketPhysiatrist. All rights reserved.</p>
             <p>Created with care for the PM&R community.</p>
         </footer>
     </div>
