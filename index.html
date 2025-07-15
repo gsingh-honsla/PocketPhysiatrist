@@ -1,1 +1,455 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PocketPhysiatrist - Support</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        
+        :root {
+            --primary-color: #8B3FE5;
+            --primary-light: #A970FF;
+            --primary-dark: #6B2DB5;
+            --secondary-color: #E6D6FF;
+            --text-primary: #000000;
+            --text-secondary: #6C6C70;
+            --background: #FFFFFF;
+            --surface: #F8F5FF;
+            --surface-light: #FDFCFF;
+            --border: #E0D0F0;
+            --error: #FF3B30;
+            --success: #34C759;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #A970FF;
+                --primary-light: #C19BFF;
+                --primary-dark: #8B3FE5;
+                --text-primary: #FFFFFF;
+                --text-secondary: #A8A8AC;
+                --background: #000000;
+                --surface: #1C1C1E;
+                --surface-light: #2C2C2E;
+                --border: #48485A;
+            }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.47059;
+            font-weight: 400;
+            color: var(--text-primary);
+            background-color: var(--background);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 22px;
+        }
+        
+        header {
+            padding: 48px 0 32px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: var(--primary-color);
+            border-radius: 27.6px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            color: white;
+            font-weight: 300;
+            letter-spacing: -8px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .app-icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+        
+        h1 {
+            font-size: 48px;
+            line-height: 1.08349;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+            margin-bottom: 16px;
+        }
+        
+        .tagline {
+            font-size: 21px;
+            line-height: 1.381;
+            font-weight: 400;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        section {
+            padding: 64px 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        h2 {
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: -0.002em;
+            margin-bottom: 16px;
+        }
+        
+        .section-description {
+            font-size: 19px;
+            line-height: 1.4211;
+            color: var(--text-secondary);
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+        
+        .feature {
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 18px;
+            text-align: center;
+            border: 1px solid var(--border);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(139, 63, 229, 0.1);
+        }
+        
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 16px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+        }
+        
+        .feature h3 {
+            font-size: 24px;
+            line-height: 1.16667;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .feature p {
+            color: var(--text-secondary);
+            font-size: 17px;
+            line-height: 1.47059;
+        }
+        
+        .form-section {
+            background: var(--surface);
+            padding: 48px;
+            border-radius: 18px;
+            max-width: 720px;
+            margin: 0 auto;
+            border: 1px solid var(--border);
+        }
+        
+        .form-group {
+            margin-bottom: 32px;
+        }
+        
+        label {
+            display: block;
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 16px;
+            font-size: 17px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--surface-light);
+            color: var(--text-primary);
+            font-family: inherit;
+            -webkit-appearance: none;
+            appearance: none;
+            transition: border-color 0.2s ease;
+        }
+        
+        select {
+            cursor: pointer;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236C6C70' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 20px;
+            padding-right: 48px;
+        }
+        
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(139, 63, 229, 0.1);
+        }
+        
+        .button {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: inline-block;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px rgba(139, 63, 229, 0.3);
+        }
+        
+        .button:active {
+            transform: translateY(0);
+        }
+        
+        .email-note {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+        
+        .email-note a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .email-note a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 48px 0;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            h2 {
+                font-size: 32px;
+            }
+            
+            .form-section {
+                padding: 32px 24px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">PP</div>
+            <h1>PocketPhysiatrist</h1>
+            <p class="tagline">Your comprehensive PM&R reference, always at hand</p>
+        </header>
+        
+        <section id="about">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p class="section-description">
+                    PocketPhysiatrist is a professional medical reference app designed specifically for Physical Medicine & Rehabilitation practitioners. Access evidence-based clinical guides and assessment tools instantly on your iOS device.
+                </p>
+            </div>
+        </section>
+        
+        <section id="features">
+            <div class="section-header">
+                <h2>Key Features</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h3>Comprehensive Guides</h3>
+                    <p>In-depth clinical guides covering all major PM&R conditions and specialties, from spinal cord injury to pediatric rehabilitation.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>Assessment Tools</h3>
+                    <p>Quick access to validated assessment scales, examination techniques, and functional evaluation tools used in daily practice.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Smart Search</h3>
+                    <p>Find exactly what you need with intelligent search across all content, including real-time suggestions and keyword matching.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Favorites</h3>
+                    <p>Save your most-used references for instant access. Your favorites persist across sessions for a personalized experience.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Native iOS Design</h3>
+                    <p>Built with SwiftUI following Apple's Human Interface Guidelines for a familiar, intuitive experience that feels right at home on iOS.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Works Offline</h3>
+                    <p>All content is available offline, ensuring you have access to critical information whenever you need it, even without internet.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="support">
+            <div class="section-header">
+                <h2>Support & Feedback</h2>
+                <p class="section-description">
+                    We're here to help and always looking to improve. Whether you have a question, found a bug, or have a feature suggestion, we'd love to hear from you.
+                </p>
+            </div>
+            
+            <div class="form-section">
+                <form id="supportForm">
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <select id="category" name="category" required>
+                            <option value="">Select a category</option>
+                            <option value="Bug Report">Bug Report</option>
+                            <option value="Feature Request">Feature Request</option>
+                            <option value="General Question">General Question</option>
+                            <option value="Feedback">Feedback</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email (optional)</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us more..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="button">Send Email</button>
+                </form>
+                
+                <p class="email-note">
+                    You can also email us directly at <a href="mailto:gsingh.honsla@gmail.com">gsingh.honsla@gmail.com</a>
+                </p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 PocketPhysiatrist. All rights reserved.</p>
+            <p>Created with care for the PM&R community.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Handle form submission via mailto
+        const form = document.getElementById('supportForm');
+        
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const category = document.getElementById('category').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Construct email content
+            const subject = `PocketPhysiatrist Support: ${category}`;
+            let body = `Category: ${category}\n\n`;
+            
+            if (email) {
+                body += `From: ${email}\n\n`;
+            }
+            
+            body += `Message:\n${message}`;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:gsingh.honsla@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Open default email client
+            window.location.href = mailtoLink;
+            
+            // Reset form after a short delay
+            setTimeout(() => {
+                form.reset();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
