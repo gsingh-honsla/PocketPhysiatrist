@@ -10,8 +10,14 @@ import SwiftData
 
 class ContentProvider {
     static func populateContent(modelContext: ModelContext) {
-        // Clear existing data
-        try? modelContext.delete(model: MedicalContent.self)
+        // Force clear existing data to ensure fresh content loading
+        do {
+            try modelContext.delete(model: MedicalContent.self)
+            try modelContext.save()
+            print("🗑️ Cleared existing content from database")
+        } catch {
+            print("⚠️ Error clearing existing content: \(error)")
+        }
         
         // Process markdown files and populate content
         populateFromMarkdownFiles(context: modelContext)

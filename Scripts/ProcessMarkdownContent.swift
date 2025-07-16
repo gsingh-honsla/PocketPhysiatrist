@@ -16,27 +16,55 @@ func processMarkdownFiles() {
     
     var allContent: [ProcessedContent] = []
     
-    // Process guides
-    let guidesPath = "\(currentDirectory)/Guides"
-    let guideFiles = findMarkdownFiles(in: guidesPath, fileManager: fileManager)
-    print("📖 Found \(guideFiles.count) guide files")
+    // Process enhanced guides from Guides2 folder (with citations) - PRIORITY
+    let guides2Path = "\(currentDirectory)/Guides2"
+    let guides2Files = findMarkdownFiles(in: guides2Path, fileManager: fileManager)
+    print("📖 Found \(guides2Files.count) enhanced guide files in Guides2")
     
-    for file in guideFiles {
+    for file in guides2Files {
         if let content = processMarkdownFile(at: file, contentType: .guide) {
             allContent.append(content)
-            print("✅ Processed guide: \(content.title)")
+            print("✅ Processed enhanced guide: \(content.title)")
         }
     }
     
-    // Process assessments
-    let assessmentsPath = "\(currentDirectory)/Assessment Tools"
-    let assessmentFiles = findMarkdownFiles(in: assessmentsPath, fileManager: fileManager)
-    print("📋 Found \(assessmentFiles.count) assessment files")
+    // Process enhanced assessments from Assessments2 folder (with citations) - PRIORITY
+    let assessments2Path = "\(currentDirectory)/Assessments2"
+    let assessments2Files = findMarkdownFiles(in: assessments2Path, fileManager: fileManager)
+    print("📋 Found \(assessments2Files.count) enhanced assessment files in Assessments2")
     
-    for file in assessmentFiles {
+    for file in assessments2Files {
         if let content = processMarkdownFile(at: file, contentType: .assessment) {
             allContent.append(content)
-            print("✅ Processed assessment: \(content.title)")
+            print("✅ Processed enhanced assessment: \(content.title)")
+        }
+    }
+    
+    // Only process original guides if no enhanced versions exist
+    if guides2Files.isEmpty {
+        let guidesPath = "\(currentDirectory)/Guides"
+        let guideFiles = findMarkdownFiles(in: guidesPath, fileManager: fileManager)
+        print("📖 Found \(guideFiles.count) original guide files (fallback)")
+        
+        for file in guideFiles {
+            if let content = processMarkdownFile(at: file, contentType: .guide) {
+                allContent.append(content)
+                print("✅ Processed original guide: \(content.title)")
+            }
+        }
+    }
+    
+    // Only process original assessments if no enhanced versions exist
+    if assessments2Files.isEmpty {
+        let assessmentsPath = "\(currentDirectory)/Assessment Tools"
+        let assessmentFiles = findMarkdownFiles(in: assessmentsPath, fileManager: fileManager)
+        print("📋 Found \(assessmentFiles.count) original assessment files (fallback)")
+        
+        for file in assessmentFiles {
+            if let content = processMarkdownFile(at: file, contentType: .assessment) {
+                allContent.append(content)
+                print("✅ Processed original assessment: \(content.title)")
+            }
         }
     }
     
