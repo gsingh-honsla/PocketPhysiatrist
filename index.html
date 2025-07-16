@@ -116,11 +116,11 @@
         }
         
         section#about {
-            padding-bottom: 32px;
+            padding-bottom: 0px;
         }
         
         section#features {
-            padding-top: 32px;
+            padding-top: 0px;
         }
         
         .section-header {
@@ -288,6 +288,251 @@
             text-decoration: underline;
         }
         
+        /* Improved Privacy Section Styles */
+        section#privacy {
+            background: var(--background);
+            border-top: 1px solid var(--border);
+            padding: 64px 0;
+        }
+        
+        .privacy-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding: 32px;
+            background: var(--surface);
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .privacy-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(139, 63, 229, 0.05) 0%, rgba(169, 112, 255, 0.05) 100%);
+            pointer-events: none;
+        }
+        
+        .privacy-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 16px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-date {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-intro {
+            font-size: 19px;
+            line-height: 1.4211;
+            color: var(--text-secondary);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+        
+        .privacy-card {
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-align: center;
+            position: relative;
+        }
+        
+        .privacy-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 24px;
+            background: var(--primary-color);
+            transform: translateX(-50%);
+            border-radius: 0 0 2px 2px;
+        }
+        
+        .privacy-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(139, 63, 229, 0.1);
+        }
+        
+        .privacy-card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 12px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+        
+        .privacy-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+            text-align: center;
+        }
+        
+        .privacy-card p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+        
+        .privacy-card strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .privacy-highlight {
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            text-align: center;
+            margin: 32px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .privacy-highlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(52, 199, 89, 0.05) 0%, rgba(52, 199, 89, 0.02) 100%);
+            pointer-events: none;
+        }
+        
+        .privacy-highlight-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--success), #30D158);
+            border-radius: 14px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-highlight h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-highlight p {
+            font-size: 17px;
+            line-height: 1.47059;
+            color: var(--text-secondary);
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .privacy-details-intro {
+            text-align: center;
+            margin: 48px 0 32px;
+        }
+        
+        .privacy-details-intro h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .privacy-details-intro h3::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            transform: translateX(-50%);
+            border-radius: 1px;
+        }
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            text-align: center;
+            margin-top: 32px;
+        }
+        
+        .privacy-contact h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        .privacy-contact p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+        
+        .privacy-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .privacy-contact a:hover {
+            text-decoration: underline;
+        }
+        
         footer {
             text-align: center;
             padding: 48px 0;
@@ -306,6 +551,15 @@
             text-decoration: underline;
         }
         
+        footer p {
+            margin: 8px 0;
+        }
+        
+        footer p:last-child {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
         @media (max-width: 768px) {
             h1 {
                 font-size: 36px;
@@ -319,7 +573,27 @@
                 padding: 32px 24px;
             }
             
+            .privacy-header {
+                padding: 24px;
+            }
+            
+            .privacy-card {
+                padding: 24px;
+            }
+            
+            .privacy-highlight {
+                padding: 24px;
+            }
+            
+            .privacy-contact {
+                padding: 24px;
+            }
+            
             .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .privacy-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -339,7 +613,7 @@
             <div class="section-header">
                 <h2>About Us</h2>
                 <p class="section-description">
-                    PocketPhysiatrist is a medical reference app designed specifically for students, residents, physicians, and other clinicians in the Physical Medicine & Rehabilitation space. Access evidence-based clinical guides and assessment tools instantly on your iPhone.
+                    PocketPhysiatrist is a medical reference app designed specifically for students, residents, physicians, and other clinicians in the Physical Medicine & Rehabilitation space. Access evidence-based clinical guides and assessment tools instantly on your iOS device.
                 </p>
             </div>
         </section>
@@ -398,8 +672,7 @@
                             <option value="">Select a category</option>
                             <option value="Bug Report">Bug Report</option>
                             <option value="Feature Request">Feature Request</option>
-                            <option value="General Question">General Question</option>
-                            <option value="Feedback">Feedback</option>
+                            <option value="General">General</option>
                         </select>
                     </div>
                     
@@ -422,8 +695,63 @@
             </div>
         </section>
         
+        <section id="privacy">
+            <div class="container">
+                <div class="privacy-container">
+                    <div class="privacy-header">
+                        <div class="privacy-icon">🔐</div>
+                        <p class="privacy-date">Last updated: July 15, 2025</p>
+                        <h2>Privacy Policy</h2>
+                        <p class="privacy-intro">PocketPhysiatrist is designed with your privacy in mind. We believe medical professionals should be able to access reference materials without concerns about data collection or privacy.</p>
+                    </div>
+                    
+                    <div class="privacy-highlight">
+                        <div class="privacy-highlight-icon">✓</div>
+                        <h3>Zero Data Collection</h3>
+                        <p><strong>We do not collect, store, or share any personal information.</strong> PocketPhysiatrist operates entirely on your device without requiring any personal data, account creation, or internet connectivity for core functionality.</p>
+                    </div>
+                    
+                    <div class="privacy-details-intro">
+                        <h3>Here's how we protect your privacy:</h3>
+                    </div>
+                    
+                    <div class="privacy-grid">
+                        <div class="privacy-card">
+                            <div class="privacy-card-icon">💾</div>
+                            <h3>Local Storage Only</h3>
+                            <p>All app data, including your favorites and preferences, is stored locally on your device. This information never leaves your device and is not accessible to us or any third parties.</p>
+                        </div>
+                        
+                        <div class="privacy-card">
+                            <div class="privacy-card-icon">📊</div>
+                            <h3>No Analytics or Tracking</h3>
+                            <p>PocketPhysiatrist does not use any analytics services, tracking codes, or third-party SDKs that could compromise your privacy. Your usage remains completely private.</p>
+                        </div>
+                        
+                        <div class="privacy-card">
+                            <div class="privacy-card-icon">🚫</div>
+                            <h3>No Third-Party Services</h3>
+                            <p>The app does not integrate with any third-party services or APIs that could access your information. Everything works offline and independently.</p>
+                        </div>
+                        
+                        <div class="privacy-card">
+                            <div class="privacy-card-icon">🔄</div>
+                            <h3>Policy Updates</h3>
+                            <p>If we make any changes to this privacy policy, we will update the "Last updated" date above. Continued use of the app after any changes constitutes acceptance of the updated policy.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="privacy-contact">
+                        <h3>Questions About Privacy?</h3>
+                        <p>If you have any questions about this privacy policy or the app's privacy practices, please contact us at <a href="mailto:gsingh.honsla@gmail.com">gsingh.honsla@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <footer>
-            <p>Created with care for the PM&R community.</p>
+            <p>Created with love for the PM&R community.</p>
+            <p>&copy; 2025 Gurasees Singh Bajaj. All rights reserved.</p>
         </footer>
     </div>
     
