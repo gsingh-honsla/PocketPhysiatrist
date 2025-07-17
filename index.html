@@ -102,7 +102,20 @@
             margin-bottom: 16px;
         }
         
-        .tagline {
+        .app-store-button {
+            display: inline-block;
+            margin-top: 24px;
+            transition: transform 0.2s ease;
+        }
+        
+        .app-store-button:hover {
+            transform: scale(1.05);
+        }
+        
+        .app-store-button img {
+            height: 60px;
+            width: auto;
+        }
             font-size: 21px;
             line-height: 1.381;
             font-weight: 400;
@@ -607,6 +620,9 @@
             </div>
             <h1>PocketPhysiatrist</h1>
             <p class="tagline">Your comprehensive PM&R reference, always at hand</p>
+            <a href="https://apps.apple.com/us/app/pocketphysiatrist-pm-r-guide/id6748661550" target="_blank" rel="noopener noreferrer" class="app-store-button">
+                <img src="DOAS.svg" alt="Download on the App Store">
+            </a>
         </header>
         
         <section id="about">
@@ -750,7 +766,7 @@
         </section>
         
         <footer>
-            <p>Created with love for the PM&R community.</p>
+            <p>Created with ❤️ for the PM&R community.</p>
             <p>&copy; 2025 Gurasees Singh Bajaj. All rights reserved.</p>
         </footer>
     </div>
