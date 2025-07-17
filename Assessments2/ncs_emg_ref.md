@@ -109,10 +109,10 @@ Electrodiagnostic findings must always be interpreted in the context of clinical
 
 [^1]: Preston DC, Shapiro BE. Electromyography and Neuromuscular Disorders: Clinical-Electrophysiologic Correlations. 4th ed. Elsevier; 2021. [(Find Online)](https://www.elsevier.com/books/electromyography-and-neuromuscular-disorders/preston/978-0-323-66180-5)
 
-[^2]: Dumitru D, Amato AA, Zwarts MJ. Electrodiagnostic Medicine. 2nd ed. Hanley & Belfus; 2002. [(Find Online)](https://www.worldcat.org/title/electrodiagnostic-medicine/oclc/48053277)
+[^2]: Dumitru D, Amato AA, Zwarts MJ. Electrodiagnostic Medicine. 2nd ed. Hanley & Belfus; 2002. [(Find Online)](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68684363)
 
 [^3]: Katirji B, Kaminski HJ, Ruff RL. Neuromuscular Disorders in Clinical Practice. 2nd ed. Springer; 2014. [(Find Online)](https://link.springer.com/book/10.1007/978-1-4614-6567-6)
 
-[^4]: Chen S, Andary M, Buschbacher R, et al. Electrodiagnostic reference values for upper and lower limb nerve conduction studies in adult populations. *Muscle Nerve*. 2016;54(3):371-377. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/26659868/)
+[^4]: Chen S, Andary M, Buschbacher R, et al. Electrodiagnostic reference values for upper and lower limb nerve conduction studies in adult populations. *Muscle Nerve*. 2016;54(3):371-377. [(Find Online)](https://doi.org/10.1002/mus.25203)
 
 [^5]: Rutkove SB. Introduction to volume conduction. In: Blum AS, Rutkove SB, eds. The Clinical Neurophysiology Primer. Humana Press; 2007:43-53. [(Find Online)](https://link.springer.com/chapter/10.1007/978-1-59745-271-7_4)

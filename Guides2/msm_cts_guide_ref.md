@@ -95,14 +95,14 @@ Based on nerve conduction study findings, widely used neurophysiological grading
 
 ## References
 
-[^1]: Atroshi I, Flondell M, Hofer M, Ranstam J. Methylprednisolone injections for the carpal tunnel syndrome: a randomized, placebo-controlled trial. Ann Intern Med. 2013;159(5):309-317. [(Find Online)](https://www.acpjournals.org/doi/10.7326/0003-4819-159-5-201309030-00004)
+[^1]: Atroshi I, Flondell M, Hofer M, Ranstam J. Methylprednisolone injections for the carpal tunnel syndrome: a randomized, placebo-controlled trial. Ann Intern Med. 2013;159(5):309-317. [(Find Online)](https://doi.org/10.7326/0003-4819-159-5-201309030-00004)
 
-[^2]: Dahlin LB, Zimmerman M, Calcagni M, et al. Carpal tunnel syndrome. Nat Rev Dis Primers. 2024;10(1):37. [(Find Online)](https://www.nature.com/articles/s41572-024-00521-1)
+[^2]: Dahlin LB, Zimmerman M, Calcagni M, et al. Carpal tunnel syndrome. Nat Rev Dis Primers. 2024;10(1):37. [(Find Online)](https://doi.org/10.1038/s41572-024-00521-1)
 
-[^3]: Bland JD. A neurophysiological grading scale for carpal tunnel syndrome. Muscle Nerve. 2000;23(8):1280-1283. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/1097-4598(200008)23:8%3C1280::AID-MUS20%3E3.0.CO;2-Y)
+[^3]: Bland JD. A neurophysiological grading scale for carpal tunnel syndrome. Muscle Nerve. 2000;23(8):1280-1283. [(Find Online)](https://doi.org/10.1002/1097-4598(200008)23:8<1280::AID-MUS20>3.0.CO;2-Y)
 
-[^4]: Gerritsen AA, de Vet HC, Scholten RJ, et al. Splinting vs surgery in the treatment of carpal tunnel syndrome: a randomized controlled trial. JAMA. 2002;288(10):1245-1251. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/195294)
+[^4]: Gerritsen AA, de Vet HC, Scholten RJ, et al. Splinting vs surgery in the treatment of carpal tunnel syndrome: a randomized controlled trial. JAMA. 2002;288(10):1245-1251. [(Find Online)](https://doi.org/10.1001/jama.288.10.1245)
 
-[^5]: Chang MH, Chiang HT, Lee SS, et al. Oral drug of choice in carpal tunnel syndrome. Neurology. 1998;51(2):390-393. [(Find Online)](https://www.neurology.org/doi/10.1212/WNL.51.2.390)
+[^5]: Chang MH, Chiang HT, Lee SS, et al. Oral drug of choice in carpal tunnel syndrome. Neurology. 1998;51(2):390-393. [(Find Online)](https://doi.org/10.1212/WNL.51.2.390)
 
-[^6]: Gay RE, Amadio PC, Johnson JC. Comparative responsiveness of the disabilities of the arm, shoulder, and hand, the carpal tunnel questionnaire, and the SF-36 to clinical change after carpal tunnel release. J Hand Surg Am. 2003;28(2):250-254. [(Find Online)](https://www.jhandsurg.org/article/S0363-5023(02)00046-3/fulltext)
+[^6]: Gay RE, Amadio PC, Johnson JC. Comparative responsiveness of the disabilities of the arm, shoulder, and hand, the carpal tunnel questionnaire, and the SF-36 to clinical change after carpal tunnel release. J Hand Surg Am. 2003;28(2):250-254. [(Find Online)](https://doi.org/10.1053/jhsu.2003.50043)

@@ -77,12 +77,12 @@ Side-to-side difference of ≥3mm is considered clinically significant for ACL i
 
 ## References
 
-[^1]: Sokal PA, Norris R, Maddox TW, Oldershaw RA. The diagnostic accuracy of clinical tests for anterior cruciate ligament tears are comparable but the Lachman test has been previously overestimated: a systematic review and meta-analysis. *Knee Surg Sports Traumatol Arthrosc*. 2022;30(10):3287-3303. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/34978580/)
+[^1]: Sokal PA, Norris R, Maddox TW, Oldershaw RA. The diagnostic accuracy of clinical tests for anterior cruciate ligament tears are comparable but the Lachman test has been previously overestimated: a systematic review and meta-analysis. *Knee Surg Sports Traumatol Arthrosc*. 2022;30(10):3287-3303. [(Find Online)](https://doi.org/10.1007/s00167-022-06898-4)
 
-[^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. *J Orthop Sports Phys Ther*. 2006;36(5):267-288. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16715828/)
+[^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. *J Orthop Sports Phys Ther*. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
 
-[^3]: Wetzler A, Ruzzi S, Keller R, Patel A, Chaudhry Y, Wetzler M. The Stabilized Lachman's Test: A Highly Sensitive, Specific and Accurate Test to Diagnose Acute ACL Tears. *Journal of Orthopaedic Experience & Innovation*. 2024;5(2). [(Find Online)](https://journaloei.com/volume-5-issue-2/#the-stabilized-lachmans-test-a-highly-sensitive-specific-and-accurate-test-to-diagnose-acute-acl-tears)
+[^3]: Wetzler A, Ruzzi S, Keller R, Patel A, Chaudhry Y, Wetzler M. The Stabilized Lachman's Test: A Highly Sensitive, Specific and Accurate Test to Diagnose Acute ACL Tears. *Journal of Orthopaedic Experience & Innovation*. 2024;5(2). [(Find Online)](https://doi.org/10.60118/001c.94221)
 
-[^4]: Mulligan EP, Harwell JL, Robertson WJ. Reliability and diagnostic accuracy of the Lachman test performed in a prone position. *J Orthop Sports Phys Ther*. 2011;41(10):749-757. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21979553/)
+[^4]: Mulligan EP, Harwell JL, Robertson WJ. Reliability and diagnostic accuracy of the Lachman test performed in a prone position. *J Orthop Sports Phys Ther*. 2011;41(10):749-757. [(Find Online)](https://doi.org/10.2519/jospt.2011.3761)
 
-[^5]: Coffey R, Bordoni B. Lachman Test. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK554476/)
+[^5]: Coffey R, Bordoni B. Lachman Test. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK554415/)

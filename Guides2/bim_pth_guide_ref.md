@@ -107,14 +107,14 @@ While most acute PTH resolves within three months, a substantial percentage of i
 
 ## References
 
-[^1]: Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition. *Cephalalgia*. 2018;38(1):1-211. [(Find Online)](https://journals.sagepub.com/doi/10.1177/0333102417738202)
+[^1]: Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition. *Cephalalgia*. 2018;38(1):1-211. [(Find Online)](https://doi.org/10.1177/0333102417738202)
 
-[^2]: Seifert TD, Evans RW. Posttraumatic headache: a review. *Curr Neurol Neurosci Rep*. 2010;10(6):434-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20697984/)
+[^2]: Seifert TD, Evans RW. Posttraumatic headache: a review. *Curr Neurol Neurosci Rep*. 2010;10(6):434-40. [(Find Online)](https://www.researchgate.net/profile/Randolph-Evans/publication/44647230_Posttraumatic_Headache_A_Review/links/004635186c88a68eff000000/Posttraumatic-Headache-A-Review.pdf)
 
-[^3]: Ashina H, Iljazi A, Al-Khazali HM, et al. Efficacy, tolerability, and safety of erenumab for the preventive treatment of persistent post-traumatic headache attributed to mild traumatic brain injury: an open-label study. *J Headache Pain*. 2020;21(1):62. [(Find Online)](https://thejournalofheadacheandpain.biomedcentral.com/articles/10.1186/s10194-020-01136-z)
+[^3]: Ashina H, Iljazi A, Al-Khazali HM, et al. Efficacy, tolerability, and safety of erenumab for the preventive treatment of persistent post-traumatic headache attributed to mild traumatic brain injury: an open-label study. *J Headache Pain*. 2020;21(1):62. [(Find Online)](https://doi.org/10.1186/s10194-020-01136-z)
 
-[^4]: Zirovich MD, Pangarkar SS, Manh C, et al. Botulinum Toxin Type A for the Treatment of Post-traumatic Headache: A Randomized, Placebo-Controlled, Cross-over Study. *Mil Med*. 2021;186(5-6):493-499. [(Find Online)](https://academic.oup.com/milmed/article/186/5-6/493/5941823)
+[^4]: Zirovich MD, Pangarkar SS, Manh C, et al. Botulinum Toxin Type A for the Treatment of Post-traumatic Headache: A Randomized, Placebo-Controlled, Cross-over Study. *Mil Med*. 2021;186(5-6):493-499. [(Find Online)](https://doi.org/10.1093/milmed/usaa391)
 
-[^5]: Lampl C, Maassen Van Den Brink A, Deligianni CI, et al. Ten open questions in migraine prophylaxis with monoclonal antibodies blocking the calcitonin-gene related peptide pathway: a narrative review. *J Headache Pain*. 2023;24(1):99. [(Find Online)](https://thejournalofheadacheandpain.biomedcentral.com/articles/10.1186/s10194-023-01638-6)
+[^5]: Lampl C, Maassen Van Den Brink A, Deligianni CI, et al. Ten open questions in migraine prophylaxis with monoclonal antibodies blocking the calcitonin-gene related peptide pathway: a narrative review. *J Headache Pain*. 2023;24(1):99. [(Find Online)](https://doi.org/10.1186/s10194-023-01637-7)
 
-[^6]: Aurora SK, Dodick DW, Turkel CC, et al. OnabotulinumtoxinA for treatment of chronic migraine: results from the double-blind, randomized, placebo-controlled phase of the PREEMPT 1 trial. *Cephalalgia*. 2010;30(7):793-803. [(Find Online)](https://journals.sagepub.com/doi/10.1177/0333102410364676)
+[^6]: Aurora SK, Dodick DW, Turkel CC, et al. OnabotulinumtoxinA for treatment of chronic migraine: results from the double-blind, randomized, placebo-controlled phase of the PREEMPT 1 trial. *Cephalalgia*. 2010;30(7):793-803. [(Find Online)](https://doi.org/10.1177/0333102410364676)

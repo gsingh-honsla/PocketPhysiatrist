@@ -91,8 +91,8 @@ MCID values vary by population and age: 3.4 seconds in younger populations (mean
 
 ## References
 
-[^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. *J Am Geriatr Soc*. 1991;39(2):142-148. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1991946/)
+[^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. *J Am Geriatr Soc*. 1991;39(2):142-148. [(Find Online)](https://doi.org/10.1111/j.1532-5415.1991.tb01616.x)
 
-[^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis. *BMC Geriatrics*. 2014;14(1):14. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24484314/)
+[^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis. *BMC Geriatrics*. 2014;14(1):14. [(Find Online)](https://doi.org/10.1186/1471-2318-14-14)
 
-[^3]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up and Go Test. *Phys Ther*. 2000;80(9):896-903. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10960937/)
+[^3]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up and Go Test. *Phys Ther*. 2000;80(9):896-903. [(Find Online)](https://doi.org/10.1093/ptj/80.9.896)

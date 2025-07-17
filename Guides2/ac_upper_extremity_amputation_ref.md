@@ -107,10 +107,10 @@ A key principle in UE rehabilitation is the importance of early prosthetic fitti
 
 [^2]: Limbs4Life. A Guide to Rehabilitation for Upper Limb Amputees. Accessed July 11, 2025. [(Find Online)](https://limbs4life.org.au/)
 
-[^3]: Management of Upper Extremity Amputation Rehabilitation Working Group. (2014). Evidence-based clinical practice guidelines for the rehabilitation of persons with upper-limb amputation. *Archives of Physical Medicine and Rehabilitation*, 95(4), 710-717. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(14)00179-2/fulltext)
+[^3]: Management of Upper Extremity Amputation Rehabilitation Working Group. (2014). Evidence-based clinical practice guidelines for the rehabilitation of persons with upper-limb amputation. *Archives of Physical Medicine and Rehabilitation*, 95(4), 710-717. [(Find Online)](https://www.healthquality.va.gov/guidelines/Rehab/ULA/VADoDULACPG_Final_508.pdf)
 
-[^4]: Cancio, J. M., Ikeda, A. J., Barnicott, S. L., Childers, W. L., Alderete, J. F., & Goff, B. J. (2018). Upper Extremity Amputation and Prosthetics Care Across the Active Duty Military and Veteran Populations. *Physical Medicine and Rehabilitation Clinics of North America*, 29(4), 809-824. [(Find Online)](https://www.pmr.theclinics.com/article/S1047-9651(18)30056-8/fulltext)
+[^4]: Cancio, J. M., Ikeda, A. J., Barnicott, S. L., Childers, W. L., Alderete, J. F., & Goff, B. J. (2018). Upper Extremity Amputation and Prosthetics Care Across the Active Duty Military and Veteran Populations. *Physical Medicine and Rehabilitation Clinics of North America*, 29(4), 809-824. [(Find Online)](https://doi.org/10.1016/j.pmr.2018.08.011)
 
-[^5]: Salminger, S., Sturma, A., Herceg, M., Mayer, J. A., Rupp, M., & Aszmann, O. C. (2022). Upper Limb Prostheses by the Level of Amputation: A Systematic Review. *Prosthetics*, 6(2), 22. [(Find Online)](https://www.mdpi.com/2673-1592/6/2/22)
+[^5]: Salminger, S., Sturma, A., Herceg, M., Mayer, J. A., Rupp, M., & Aszmann, O. C. (2022). Upper Limb Prostheses by the Level of Amputation: A Systematic Review. *Prosthetics*, 6(2), 22. [(Find Online)](https://doi.org/10.3390/prosthesis6020022)
 
-[^6]: Karami, M., Azari, S., & Movahednia, N. (2021). The importance of rehabilitation concerning upper extremity amputees: A Systematic review. *Pakistan Journal of Medical Sciences*, 32(6), 1156-1160. [(Find Online)](https://pjms.org.pk/index.php/pjms/article/view/9)
+[^6]: Karami, M., Azari, S., & Movahednia, N. (2021). The importance of rehabilitation concerning upper extremity amputees: A Systematic review. *Pakistan Journal of Medical Sciences*, 32(6), 1156-1160. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5103156/pdf/PJMS-32-1312.pdf)

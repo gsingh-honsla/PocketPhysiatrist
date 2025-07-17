@@ -95,16 +95,16 @@ No established MCID exists specifically for the Modified Tardieu Scale in most p
 
 ## References
 
-[^1]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. *Eur J Neurol*. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10581998/)
+[^1]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. *Eur J Neurol*. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://doi.org/10.1111/j.1468-1331.1999.tb00031.x)
 
-[^2]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. *Disabil Rehabil*. 2006;28(15):899-907. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16861197/)
+[^2]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. *Disabil Rehabil*. 2006;28(15):899-907. [(Find Online)](https://doi.org/10.1080/09638280500404305)
 
-[^3]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. *Clin Rehabil*. 2006;20(2):173-182. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16541938/)
+[^3]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. *Clin Rehabil*. 2006;20(2):173-182. [(Find Online)](https://doi.org/10.1191/0269215506cr922oa)
 
-[^4]: Shu X, McConaghy C, Knight A. Validity and reliability of the Modified Tardieu Scale as a spasticity outcome measure of the upper limbs in adults with neurological conditions: a systematic review and narrative analysis. *BMJ Open*. 2021;11(12):e050711. [(Find Online)](https://bmjopen.bmj.com/content/11/12/e050711)
+[^4]: Shu X, McConaghy C, Knight A. Validity and reliability of the Modified Tardieu Scale as a spasticity outcome measure of the upper limbs in adults with neurological conditions: a systematic review and narrative analysis. *BMJ Open*. 2021;11(12):e050711. [(Find Online)](https://doi.org/10.1136/bmjopen-2021-050711)
 
-[^5]: Akpinar P, Atici A, Ozkan FU, et al. Reliability of the Modified Ashworth Scale and Modified Tardieu Scale in patients with spinal cord injuries. *Spinal Cord*. 2017;55(10):944-949. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/28485385/)
+[^5]: Akpinar P, Atici A, Ozkan FU, et al. Reliability of the Modified Ashworth Scale and Modified Tardieu Scale in patients with spinal cord injuries. *Spinal Cord*. 2017;55(10):944-949. [(Find Online)](https://doi.org/10.1038/sc.2017.48)
 
-[^6]: Gracies JM, Burke K, Clegg NJ, et al. Reliability of the Tardieu Scale for assessing spasticity in children with cerebral palsy. *Arch Phys Med Rehabil*. 2010;91(3):421-428. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20298834/)
+[^6]: Gracies JM, Burke K, Clegg NJ, et al. Reliability of the Tardieu Scale for assessing spasticity in children with cerebral palsy. *Arch Phys Med Rehabil*. 2010;91(3):421-428. [(Find Online)](https://doi.org/10.1016/j.apmr.2009.11.017)
 
-[^7]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16250194/)
+[^7]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://doi.org/10.1191/0269215505cr889oa)

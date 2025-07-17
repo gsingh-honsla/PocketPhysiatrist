@@ -100,14 +100,14 @@ Approximately 356 million limb amputations are performed globally each year, wit
 
 ## References
 
-[^1]: Hsu E, Cohen SP. Postamputation pain: epidemiology, mechanisms, and treatment. *J Pain Res*. 2013;6:121-136. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575088/)
+[^1]: Hsu E, Cohen SP. Postamputation pain: epidemiology, mechanisms, and treatment. *J Pain Res*. 2013;6:121-136. [(Find Online)](https://doi.org/10.2147/jpr.s32299)
 
-[^2]: Alviar MJ, Hale T, Lim-Dungca M. Pharmacologic interventions for treating phantom limb pain. *Cochrane Database Syst Rev*. 2016;(10):CD006380. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006380.pub3/full)
+[^2]: Alviar MJ, Hale T, Lim-Dungca M. Pharmacologic interventions for treating phantom limb pain. *Cochrane Database Syst Rev*. 2016;(10):CD006380. [(Find Online)](https://doi.org/10.1002/14651858.CD006380.pub3)
 
-[^3]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Front Pain Res*. 2024;5:1425544. [(Find Online)](https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2024.1425544/full)
+[^3]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Front Pain Res*. 2024;5:1425544. [(Find Online)](https://doi.org/10.3389/fpain.2024.1425544)
 
-[^4]: Griffin SC, Alphonso AL, Tung M, et al. Characteristics of phantom limb pain in U.S. civilians and service members. *Scand J Pain*. 2021;22(1):125-132. [(Find Online)](https://www.degruyter.com/document/doi/10.1515/sjpain-2021-0049/html)
+[^4]: Griffin SC, Alphonso AL, Tung M, et al. Characteristics of phantom limb pain in U.S. civilians and service members. *Scand J Pain*. 2021;22(1):125-132. [(Find Online)](https://doi.org/10.1515/sjpain-2021-0139)
 
-[^5]: Limakatso K, McGowan E, Ortiz-Catalan M. Evaluating mirror therapy protocols in phantom limb pain clinical trials: a scoping review. *J Pain Res*. 2025;18:619-629. [(Find Online)](https://www.dovepress.com/evaluating-mirror-therapy-protocols-in-phantom-limb-pain-clinical-tri-peer-reviewed-fulltext-article-JPR)
+[^5]: Limakatso K, McGowan E, Ortiz-Catalan M. Evaluating mirror therapy protocols in phantom limb pain clinical trials: a scoping review. *J Pain Res*. 2025;18:619-629. [(Find Online)](https://doi.org/10.2147/jpr.s502541)
 
-[^6]: Guémann M, Olié E, Raquin L, et al. Effect of mirror therapy in the treatment of phantom limb pain in amputees: a systematic review of randomized placebo-controlled trials does not find any evidence of efficacy. *Eur J Pain*. 2023;27(1):3-13. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ejp.2035)
+[^6]: Guémann M, Olié E, Raquin L, et al. Effect of mirror therapy in the treatment of phantom limb pain in amputees: a systematic review of randomized placebo-controlled trials does not find any evidence of efficacy. *Eur J Pain*. 2023;27(1):3-13. [(Find Online)](https://doi.org/10.1002/ejp.2035)

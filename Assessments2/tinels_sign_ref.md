@@ -73,10 +73,10 @@ Recent meta-analyses demonstrate that Tinel's sign has limited diagnostic accura
 
 [^1]: Tinel J. Le signe du "fourmillement" dans les lésions des nerfs périphériques. *Presse Med*. 1915;23:388-389. [(Find Online)](https://gallica.bnf.fr/ark:/12148/bpt6k5654280m/f388.item)
 
-[^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://www.cureus.com/articles/177843-sensitivity-and-specificity-of-examination-maneuvers-for-carpal-tunnel-syndrome-a-meta-analysis)
+[^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://doi.org/10.7759/cureus.42383)
 
-[^3]: Dabbagh A, MacDermid JC, Yong J, et al. Diagnostic test accuracy of provocative maneuvers for the diagnosis of carpal tunnel syndrome: a systematic review and meta-analysis. *Phys Ther*. 2023;103(6):pzad029. [(Find Online)](https://academic.oup.com/ptj/article/103/6/pzad029/7074329)
+[^3]: Dabbagh A, MacDermid JC, Yong J, et al. Diagnostic test accuracy of provocative maneuvers for the diagnosis of carpal tunnel syndrome: a systematic review and meta-analysis. *Phys Ther*. 2023;103(6):pzad029. [(Find Online)](https://doi.org/10.1093/ptj/pzad029)
 
-[^4]: Seror P. Tinel's sign in the diagnosis of carpal tunnel syndrome. *J Hand Surg Br*. 1987;12(3):364-365. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3325607/)
+[^4]: Seror P. Tinel's sign in the diagnosis of carpal tunnel syndrome. *J Hand Surg Br*. 1987;12(3):364-365. [(Find Online)](https://doi.org/10.1016/0266-7681_87_90190-2)
 
-[^5]: Stewart JD, Eisen A. Tinel's sign and the carpal tunnel syndrome. *Br Med J*. 1978;2(6145):1125-1126. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1608187/)
+[^5]: Stewart JD, Eisen A. Tinel's sign and the carpal tunnel syndrome. *Br Med J*. 1978;2(6145):1125-1126. [(Find Online)](https://doi.org/10.1136/bmj.2.6145.1125-a)

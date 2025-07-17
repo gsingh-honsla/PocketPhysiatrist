@@ -129,16 +129,16 @@ The primary disorders of consciousness after TBI are categorized into distinct c
 
 ## References
 
-[^1]: Giacino JT, Katz DI, Schiff ND, et al. Practice guideline update recommendations summary: Disorders of consciousness. *Neurology*. 2018;91(10):450-460. [(Find Online)](https://www.neurology.org/doi/10.1212/WNL.0000000000005926)
+[^1]: Giacino JT, Katz DI, Schiff ND, et al. Practice guideline update recommendations summary: Disorders of consciousness. *Neurology*. 2018;91(10):450-460. [(Find Online)](https://doi.org/10.1212/WNL.0000000000005926)
 
-[^2]: Giacino JT, Whyte J, Bagiella E, et al. Placebo-controlled trial of amantadine for severe traumatic brain injury. *N Engl J Med*. 2012;366(9):819-826. [(Find Online)](https://www.nejm.org/doi/full/10.1056/NEJMoa1102609)
+[^2]: Giacino JT, Whyte J, Bagiella E, et al. Placebo-controlled trial of amantadine for severe traumatic brain injury. *N Engl J Med*. 2012;366(9):819-826. [(Find Online)](https://doi.org/10.1056/NEJMoa1102609)
 
-[^3]: Seel RT, Sherer M, Whyte J, et al. Assessment scales for disorders of consciousness: evidence-based recommendations for clinical practice and research. *Arch Phys Med Rehabil*. 2010;91(12):1795-1813. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(10)00602-5/fulltext)
+[^3]: Seel RT, Sherer M, Whyte J, et al. Assessment scales for disorders of consciousness: evidence-based recommendations for clinical practice and research. *Arch Phys Med Rehabil*. 2010;91(12):1795-1813. [(Find Online)](https://doi.org/10.1016/j.apmr.2010.07.218)
 
-[^4]: Thibaut A, Bodien YG, Laureys S, Giacino JT. Minimally conscious state "plus": diagnostic criteria and relation to functional recovery. *J Neurol*. 2020;267(5):1245-1254. [(Find Online)](https://link.springer.com/article/10.1007/s00415-019-09628-y)
+[^4]: Thibaut A, Bodien YG, Laureys S, Giacino JT. Minimally conscious state "plus": diagnostic criteria and relation to functional recovery. *J Neurol*. 2020;267(5):1245-1254. [(Find Online)](https://doi.org/10.1007/s00415-019-09628-y)
 
-[^5]: American Congress of Rehabilitation Medicine. Recommendations for use of amantadine in patients with disorders of consciousness. *Arch Phys Med Rehabil*. 2012;93(2):183-189. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(11)00881-2/fulltext)
+[^5]: American Congress of Rehabilitation Medicine. Recommendations for use of amantadine in patients with disorders of consciousness. *Arch Phys Med Rehabil*. 2012;93(2):183-189. [(Find Online)](https://doi.org/10.1016/j.pmr.2023.06.023)
 
-[^6]: Dekundy A, Pichler G, El Badry R, et al. Amantadine for traumatic brain injury—supporting evidence and mode of action. *Biomedicines*. 2024;12(7):1558. [(Find Online)](https://www.mdpi.com/2227-9059/12/7/1558)
+[^6]: Dekundy A, Pichler G, El Badry R, et al. Amantadine for traumatic brain injury—supporting evidence and mode of action. *Biomedicines*. 2024;12(7):1558. [(Find Online)](https://doi.org/10.3390/biomedicines12071558)
 
-[^7]: Schnakers C, Vanhaudenhuyse A, Giacino J, et al. Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. *BMC Neurol*. 2009;9:35. [(Find Online)](https://bmcneurol.biomedcentral.com/articles/10.1186/1471-2377-9-35)
+[^7]: Schnakers C, Vanhaudenhuyse A, Giacino J, et al. Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. *BMC Neurol*. 2009;9:35. [(Find Online)](https://doi.org/10.1186/1471-2377-9-35)

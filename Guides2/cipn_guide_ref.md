@@ -100,14 +100,14 @@ CIPN typically presents as a length-dependent, "glove and stocking" sensorimotor
 
 ## References
 
-[^1]: Chen, X., Gan, Y., Au, N.P.B., Ma, C.H.E. Current understanding of the molecular mechanisms of chemotherapy-induced peripheral neuropathy. *Front Mol Neurosci*. 2024;17:1345811. [(Find Online)](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2024.1345811/full)
+[^1]: Chen, X., Gan, Y., Au, N.P.B., Ma, C.H.E. Current understanding of the molecular mechanisms of chemotherapy-induced peripheral neuropathy. *Front Mol Neurosci*. 2024;17:1345811. [(Find Online)](https://doi.org/10.3389/fnmol.2024.1345811)
 
-[^2]: Dorsey SG, Kleckner IR, Barton D, et al. Chemotherapy-induced peripheral neuropathy: mechanisms and therapeutic avenues. *Neurochem Res*. 2022;47(1):116-129. [(Find Online)](https://link.springer.com/article/10.1007/s11064-021-03361-7)
+[^2]: Dorsey SG, Kleckner IR, Barton D, et al. Chemotherapy-induced peripheral neuropathy: mechanisms and therapeutic avenues. *Neurochem Res*. 2022;47(1):116-129. [(Find Online)](https://doi.org/10.1007/s13311-021-01142-2)
 
-[^3]: Loprinzi CL, Lacchetti C, Bleeker J, et al. Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Clinical Practice Guideline Update. *J Clin Oncol*. 2020;38(28):3325-3348. [(Find Online)](https://ascopubs.org/doi/10.1200/JCO.20.01399)
+[^3]: Loprinzi CL, Lacchetti C, Bleeker J, et al. Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Clinical Practice Guideline Update. *J Clin Oncol*. 2020;38(28):3325-3348. [(Find Online)](https://doi.org/10.1200/JCO.20.01399)
 
-[^4]: Smith EM, Pang H, Cirrincione C, et al. Effect of duloxetine on pain, function, and quality of life among patients with chemotherapy-induced painful peripheral neuropathy: a randomized clinical trial. *JAMA*. 2013;309(13):1359-1367. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/1674245)
+[^4]: Smith EM, Pang H, Cirrincione C, et al. Effect of duloxetine on pain, function, and quality of life among patients with chemotherapy-induced painful peripheral neuropathy: a randomized clinical trial. *JAMA*. 2013;309(13):1359-1367. [(Find Online)](https://doi.org/10.1001/jama.2013.2813)
 
-[^5]: Kober KM, Mazor M, Abrams G, et al. Assessing chemotherapy-induced peripheral neuropathy with patient reported outcome measures: a systematic review of measurement properties. *Support Care Cancer*. 2022;30(11):8977-8993. [(Find Online)](https://link.springer.com/article/10.1007/s00520-022-07302-0)
+[^5]: Kober KM, Mazor M, Abrams G, et al. Assessing chemotherapy-induced peripheral neuropathy with patient reported outcome measures: a systematic review of measurement properties. *Support Care Cancer*. 2022;30(11):8977-8993. [(Find Online)](https://doi.org/10.1007/s11136-022-03154-7)
 
-[^6]: Tamburin S, Park SB, Schenone A, et al. Rehabilitation, exercise, and related non-pharmacological interventions for chemotherapy-induced peripheral neurotoxicity: systematic review and evidence-based recommendations. *J Peripher Nerv Syst*. 2022;27(1):24-44. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1111/jns.12479)
+[^6]: Tamburin S, Park SB, Schenone A, et al. Rehabilitation, exercise, and related non-pharmacological interventions for chemotherapy-induced peripheral neurotoxicity: systematic review and evidence-based recommendations. *J Peripher Nerv Syst*. 2022;27(1):24-44. [(Find Online)](https://doi.org/10.1016/j.critrevonc.2021.103575)

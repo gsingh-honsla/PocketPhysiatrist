@@ -86,16 +86,16 @@ Based on stroke population studies, the MCID values are 0.45-0.48 for a moderate
 
 ## References
 
-[^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. *Phys Ther*. 1987;67(2):206-207. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3809245/)
+[^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. *Phys Ther*. 1987;67(2):206-207. [(Find Online)](https://doi.org/10.1093/ptj/67.2.206)
 
-[^2]: Ansari NN, Naghdi S, Moammeri H, Jalaie S. The Modified Modified Ashworth Scale (MMAS) for the assessment of muscle spasticity. *J Rehabil Med*. 2006;38(5):327-328. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16931463/)
+[^2]: Ansari NN, Naghdi S, Moammeri H, Jalaie S. The Modified Modified Ashworth Scale (MMAS) for the assessment of muscle spasticity. *J Rehabil Med*. 2006;38(5):327-328. [(Find Online)](https://doi.org/10.1080/09593980600724188)
 
-[^3]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. *Clin Rehabil*. 1999;13(5):373-383. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10498344/)
+[^3]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. *Clin Rehabil*. 1999;13(5):373-383. [(Find Online)](https://doi.org/10.1191/026921599677595404)
 
-[^4]: Blackburn M, van Vliet P, Mockett SP. Reliability of measurements obtained with the modified Ashworth scale in the lower extremities of people with stroke. *Phys Ther*. 2002;82(1):25-34. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11784275/)
+[^4]: Blackburn M, van Vliet P, Mockett SP. Reliability of measurements obtained with the modified Ashworth scale in the lower extremities of people with stroke. *Phys Ther*. 2002;82(1):25-34. [(Find Online)](https://doi.org/10.1093/ptj/82.1.25)
 
-[^5]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16250194/)
+[^5]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://doi.org/10.1191/0269215505cr889oa)
 
 [^6]: Li F, Wu Y, Li X. Test-retest reliability and inter-rater reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in hemiplegic patients with stroke. *Eur J Phys Rehabil Med*. 2014;50(1):9-15. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24309501/)
 
-[^7]: Nair KP, Marsden J. The management of spasticity in adults. *BMJ*. 2014;349:g4737. [(Find Online)](https://www.bmj.com/content/349/bmj.g4737)
+[^7]: Nair KP, Marsden J. The management of spasticity in adults. *BMJ*. 2014;349:g4737. [(Find Online)](https://doi.org/10.1136/bmj.g4737)

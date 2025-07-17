@@ -97,16 +97,16 @@ The Budapest Criteria are the accepted international standard for CRPS diagnosis
 
 ## References
 
-[^1]: Harden RN, Bruehl S, Perez RSGM, et al. Validation of proposed diagnostic criteria (the "Budapest Criteria") for Complex Regional Pain Syndrome. *Pain*. 2010;150(2):268-274. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2914607/)
+[^1]: Harden RN, Bruehl S, Perez RSGM, et al. Validation of proposed diagnostic criteria (the "Budapest Criteria") for Complex Regional Pain Syndrome. *Pain*. 2010;150(2):268-274. [(Find Online)](https://doi.org/10.1016/j.pain.2010.04.030)
 
-[^2]: Abd-Elsayed A, Stark CW, Topoluk N, et al. A brief review of complex regional pain syndrome and current management. *Ann Med*. 2024;56(1):2334398. [(Find Online)](https://www.tandfonline.com/doi/full/10.1080/07853890.2024.2334398)
+[^2]: Abd-Elsayed A, Stark CW, Topoluk N, et al. A brief review of complex regional pain syndrome and current management. *Ann Med*. 2024;56(1):2334398. [(Find Online)](https://doi.org/10.1080/07853890.2024.2334398)
 
-[^3]: Donati D, Boccolari P, Giorgi F, et al. Breaking the Cycle of Pain: The Role of Graded Motor Imagery and Mirror Therapy in Complex Regional Pain Syndrome. *Biomedicines*. 2024;12(9):2140. [(Find Online)](https://www.mdpi.com/2227-9059/12/9/2140)
+[^3]: Donati D, Boccolari P, Giorgi F, et al. Breaking the Cycle of Pain: The Role of Graded Motor Imagery and Mirror Therapy in Complex Regional Pain Syndrome. *Biomedicines*. 2024;12(9):2140. [(Find Online)](https://doi.org/10.3390/biomedicines12092140)
 
-[^4]: Moseley GL. Graded motor imagery is effective for long-standing complex regional pain syndrome: a randomised controlled trial. *Pain*. 2004;108(1-2):192-198. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15109523/)
+[^4]: Moseley GL. Graded motor imagery is effective for long-standing complex regional pain syndrome: a randomised controlled trial. *Pain*. 2004;108(1-2):192-198. [(Find Online)](https://doi.org/10.1016/j.pain.2004.01.006)
 
-[^5]: Tran DQ, Duong S, Bertini P, Finlayson RJ. Treatment of complex regional pain syndrome: a review of the evidence. *Can J Anaesth*. 2010;57(2):149-166. [(Find Online)](https://link.springer.com/article/10.1007/s12630-009-9237-0)
+[^5]: Tran DQ, Duong S, Bertini P, Finlayson RJ. Treatment of complex regional pain syndrome: a review of the evidence. *Can J Anaesth*. 2010;57(2):149-166. [(Find Online)](https://doi.org/10.1007/s12630-009-9237-0)
 
-[^6]: Bruehl S. Complex regional pain syndrome. *BMJ*. 2015;351:h2730. [(Find Online)](https://www.bmj.com/content/351/bmj.h2730)
+[^6]: Bruehl S. Complex regional pain syndrome. *BMJ*. 2015;351:h2730. [(Find Online)](https://doi.org/10.1136/bmj.h2730)
 
-[^7]: Goebel A, Barker CH, Turner-Stokes L, et al. Complex regional pain syndrome in adults: UK guidelines for diagnosis, referral and management in primary and secondary care. *Pain Med*. 2012;13(9):1101-1121. [(Find Online)](https://academic.oup.com/painmedicine/article/13/9/1101/1866932)
+[^7]: Goebel A, Barker CH, Turner-Stokes L, et al. Complex regional pain syndrome in adults: UK guidelines for diagnosis, referral and management in primary and secondary care. *Pain Med*. 2012;13(9):1101-1121. [(Find Online)](https://kclpure.kcl.ac.uk/portal/en/publications/complex-regional-pain-syndrome-in-adults-2nd-edition-uk-guideline)

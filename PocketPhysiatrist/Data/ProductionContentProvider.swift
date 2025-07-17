@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 class ProductionContentProvider {
-    private static let contentVersion = "1.0.0" // Update this when content changes
+    private static let contentVersion = "1.0.1" // Update this when content changes
     private static let versionKey = "PocketPhysiatrist_ContentVersion"
     
     /// Check if content needs to be loaded/updated

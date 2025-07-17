@@ -139,12 +139,12 @@ Pressure injuries can develop through "top-down" mechanisms (surface friction da
 
 [^1]: European Pressure Ulcer Advisory Panel, National Pressure Injury Advisory Panel, and Pan Pacific Pressure Injury Alliance. Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline. The International Guideline. 2019. [(Find Online)](https://www.epuap.org/pu-guidelines/)
 
-[^2]: Garber SL, Rintala DH. Pressure ulcers in veterans with spinal cord injury: a retrospective study. J Rehabil Res Dev. 2003;40(5):433-441. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15080226/)
+[^2]: Garber SL, Rintala DH. Pressure ulcers in veterans with spinal cord injury: a retrospective study. J Rehabil Res Dev. 2003;40(5):433-441. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15080228/)
 
-[^3]: Regan MA, Teasell RW, Wolfe DL, et al. A systematic review of therapeutic interventions for pressure ulcers after spinal cord injury. Arch Phys Med Rehabil. 2009;90(2):213-231. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19236976/)
+[^3]: Regan MA, Teasell RW, Wolfe DL, et al. A systematic review of therapeutic interventions for pressure ulcers after spinal cord injury. Arch Phys Med Rehabil. 2009;90(2):213-231. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.08.212)
 
-[^4]: Houghton PE, Campbell KE. Canadian Best Practice Guidelines for the Prevention and Management of Pressure Ulcers in People With Spinal Cord Injury. A resource handbook for clinicians. 2013. [(Find Online)](https://onf.org/wp-content/uploads/2019/04/Pressure_Ulcers_Best_Practice_Guideline_Final_web4.pdf)
+[^4]: Houghton PE, Campbell KE. Canadian Best Practice Guidelines for the Prevention and Management of Pressure Ulcers in People With Spinal Cord Injury. A resource handbook for clinicians. 2013. [(Find Online)](https://policycommons.net/artifacts/1200744/canadian-best-practice-guidelines-for-the-prevention-and-management-of-pressure-ulcers-in-people-with-spinal-cord-injury/1753863/)
 
-[^5]: Delparte JJ, Scovil CY, Flett HM, et al. Determining Pressure Injury Risk on Admission to Inpatient Spinal Cord Injury Rehabilitation: A Comparison of the FIM, Spinal Cord Injury Pressure Ulcer Scale, and Braden Scale. Arch Phys Med Rehabil. 2019;100(8):1527-1536. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30831091/)
+[^5]: Delparte JJ, Scovil CY, Flett HM, et al. Determining Pressure Injury Risk on Admission to Inpatient Spinal Cord Injury Rehabilitation: A Comparison of the FIM, Spinal Cord Injury Pressure Ulcer Scale, and Braden Scale. Arch Phys Med Rehabil. 2019;100(8):1527-1536. [(Find Online)](https://doi.org/10.1016/j.apmr.2019.04.004)
 
-[^6]: Gould L, Abadir P, Brem H, et al. WHS guidelines for the treatment of pressure ulcers—2023 update. Wound Repair and Regeneration. 2024;32(1):6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/37975173/)
+[^6]: Gould L, Abadir P, Brem H, et al. WHS guidelines for the treatment of pressure ulcers—2023 update. Wound Repair and Regeneration. 2024;32(1):6-18. [(Find Online)](https://doi.org/10.1111/wrr.13130)

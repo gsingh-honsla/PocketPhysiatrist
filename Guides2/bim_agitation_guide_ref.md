@@ -117,18 +117,18 @@ Medications are reserved for cases where agitation poses significant safety risk
 
 ## References
 
-[^1]: Corrigan JD, Mysiw WJ, Gribble MW, et al. The Agitated Behavior Scale. *J Head Trauma Rehabil*. 1992;7(3):48-57. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27268000/)
+[^1]: Corrigan JD, Mysiw WJ, Gribble MW, et al. The Agitated Behavior Scale. *J Head Trauma Rehabil*. 1992;7(3):48-57. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(96)90306-8/pdf)
 
-[^2]: Phyland RK, Ponsford JL, Carrier SL, et al. Agitated Behaviors following Traumatic Brain Injury: A Systematic Review and Meta-Analysis of Prevalence by Post-Traumatic Amnesia Status, Hospital Setting, and Agitated Behavior Type. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/35419684/)
+[^2]: Phyland RK, Ponsford JL, Carrier SL, et al. Agitated Behaviors following Traumatic Brain Injury: A Systematic Review and Meta-Analysis of Prevalence by Post-Traumatic Amnesia Status, Hospital Setting, and Agitated Behavior Type. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://www.liebertpub.com/doi/pdf/10.1089/neu.2021.0257?casa_token=2da4rVwugbIAAAAA%3AvpSY1cj58QJphtht7Tn9jVW5oPxigIPBQhErbpfD8Fhyip6OIc7LC8ZhcuwT5CAQA1L2X4oBvFLPYzTc)
 
-[^3]: Carrier SL, Ponsford J, Phyland RK, et al. Effectiveness of Non-Pharmacological Interventions for Agitation during Post-Traumatic Amnesia following Traumatic Brain Injury: A Systematic Review. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/35419684/)
+[^3]: Carrier SL, Ponsford J, Phyland RK, et al. Effectiveness of Non-Pharmacological Interventions for Agitation during Post-Traumatic Amnesia following Traumatic Brain Injury: A Systematic Review. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://link.springer.com/content/pdf/10.1007/s11065-022-09544-5.pdf)
 
-[^4]: Hart S, Lannon M, Chen A, et al. Beta blockers in traumatic brain injury: a systematic review and meta-analysis. *Trauma Surg Acute Care Open*. 2023;8(1):e001051. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10230935/)
+[^4]: Hart S, Lannon M, Chen A, et al. Beta blockers in traumatic brain injury: a systematic review and meta-analysis. *Trauma Surg Acute Care Open*. 2023;8(1):e001051. [(Find Online)](https://tsaco.bmj.com/content/tsaco/8/1/e001051.full.pdf)
 
-[^5]: Al-Hassani A, Aldawood A, Alsaeed D, et al. Systemic and cerebro-cardiac biomarkers following traumatic brain injury: an interim analysis of randomized controlled clinical trial of early administration of beta blockers. *Sci Rep*. 2024;14(1):16689. [(Find Online)](https://www.nature.com/articles/s41598-024-67146-y)
+[^5]: Al-Hassani A, Aldawood A, Alsaeed D, et al. Systemic and cerebro-cardiac biomarkers following traumatic brain injury: an interim analysis of randomized controlled clinical trial of early administration of beta blockers. *Sci Rep*. 2024;14(1):16689. [(Find Online)](https://www.nature.com/articles/s41598-024-70470-y.pdf)
 
-[^6]: Luauté J, Plantier D, Wiart L, et al. Care management of the agitation or aggressiveness crisis in patients with TBI: Systematic review of the literature and practice recommendations. *Ann Phys Rehabil Med*. 2016;59(1):58-67. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/26704230/)
+[^6]: Luauté J, Plantier D, Wiart L, et al. Care management of the agitation or aggressiveness crisis in patients with TBI: Systematic review of the literature and practice recommendations. *Ann Phys Rehabil Med*. 2016;59(1):58-67. [(Find Online)](https://doi.org/10.1016/j.rehab.2015.11.001)
 
-[^7]: Bogner JA, Corrigan JD, Stange M, et al. Rating scale analysis of the Agitated Behavior Scale. *J Head Trauma Rehabil*. 2001;16(1):74-85. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11277850/)
+[^7]: Bogner JA, Corrigan JD, Stange M, et al. Rating scale analysis of the Agitated Behavior Scale. *J Head Trauma Rehabil*. 2001;16(1):74-85. [(Find Online)](https://journals.lww.com/headtraumarehab/fulltext/1999/02000/reliability_of_the_agitated_behavior_scale.12.aspx?casa_token=LGR3dJU1nr0AAAAA:nuqwBHGYXXtTvt71ZI4H8G6fFT8C2QFEFrOHCQmziKXXxXJlLpRIbl7HKaZkyeHuszPFdr3FMPBds6wR1OCuwglutQ)
 
-[^8]: McKay A, Trevena-Peters J, Ponsford J, et al. The use of atypical antipsychotics for managing agitation after traumatic brain injury. *J Head Trauma Rehabil*. 2021;36(2):149-155. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32769826/)
+[^8]: McKay A, Trevena-Peters J, Ponsford J, et al. The use of atypical antipsychotics for managing agitation after traumatic brain injury. *J Head Trauma Rehabil*. 2021;36(2):149-155. [(Find Online)](https://journals.lww.com/headtraumarehab/fulltext/2021/05000/The_Use_of_Atypical_Antipsychotics_for_Managing.2.aspx?context=FeaturedArticles&collectionId=1&casa_token=10YmlatYwZoAAAAA:vD0Fys7q3vbb_y090m1zGg9cE1uiOu7n2z-_SSavfMwdzAU6OtAus3ZrjN-PyAHeYAA7x7PYrzs09yY0iiXsVi_nUg)

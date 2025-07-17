@@ -133,18 +133,18 @@ The clinical presentation encompasses a wide spectrum of motor dysfunction, from
 
 ## References
 
-[^1]: Rosenbaum P, Paneth N, Leviton A, et al. A report: the definition and classification of cerebral palsy April 2006. *Dev Med Child Neurol Suppl*. 2007;109:8-14. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17370477/)
+[^1]: Rosenbaum P, Paneth N, Leviton A, et al. A report: the definition and classification of cerebral palsy April 2006. *Dev Med Child Neurol Suppl*. 2007;109:8-14. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2007.tb12610.x)
 
-[^2]: Palisano R, Rosenbaum P, Walter S, Russell D, Wood E, Galuppi B. Development and reliability of a system to classify gross motor function in children with cerebral palsy. *Dev Med Child Neurol*. 1997;39(4):214-23. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/9183258/)
+[^2]: Palisano R, Rosenbaum P, Walter S, Russell D, Wood E, Galuppi B. Development and reliability of a system to classify gross motor function in children with cerebral palsy. *Dev Med Child Neurol*. 1997;39(4):214-23. [(Find Online)](https://doi.org/10.1111/j.1469-8749.1997.tb07414.x)
 
-[^3]: Novak I, Morgan C, Fahey M, et al. State of the evidence traffic lights 2019: systematic review of interventions for preventing and treating children with cerebral palsy. *Curr Neurol Neurosci Rep*. 2020;20(2):3. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32086598/)
+[^3]: Novak I, Morgan C, Fahey M, et al. State of the evidence traffic lights 2019: systematic review of interventions for preventing and treating children with cerebral palsy. *Curr Neurol Neurosci Rep*. 2020;20(2):3. [(Find Online)](https://doi.org/10.1007/s11910-020-1022-z)
 
-[^4]: Masrour M, Zare A, Presedo A, Nabian MH. Intrathecal baclofen efficacy for managing motor function and spasticity severity in patients with cerebral palsy: a systematic review and meta-analysis. *BMC Neurol*. 2024;24(1):143. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38664627/)
+[^4]: Masrour M, Zare A, Presedo A, Nabian MH. Intrathecal baclofen efficacy for managing motor function and spasticity severity in patients with cerebral palsy: a systematic review and meta-analysis. *BMC Neurol*. 2024;24(1):143. [(Find Online)](https://doi.org/10.1186/s12883-024-03647-7)
 
-[^5]: Strobl W, Theologis T, Brunner R, et al. Best clinical practice in botulinum toxin treatment for children with cerebral palsy. *Toxins*. 2015;7(5):1629-48. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/25969944/)
+[^5]: Strobl W, Theologis T, Brunner R, et al. Best clinical practice in botulinum toxin treatment for children with cerebral palsy. *Toxins*. 2015;7(5):1629-48. [(Find Online)](https://doi.org/10.3390/toxins7051629)
 
-[^6]: Graham HK, Rosenbaum P, Paneth N, et al. Cerebral palsy. *Nat Rev Dis Primers*. 2016;2:15082. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27188686/)
+[^6]: Graham HK, Rosenbaum P, Paneth N, et al. Cerebral palsy. *Nat Rev Dis Primers*. 2016;2:15082. [(Find Online)](https://doi.org/10.1038/nrdp.2015.82)
 
-[^7]: Surveillance of Cerebral Palsy in Europe. Prevalence and characteristics of children with cerebral palsy in Europe. *Dev Med Child Neurol*. 2002;44(9):633-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12227618/)
+[^7]: Surveillance of Cerebral Palsy in Europe. Prevalence and characteristics of children with cerebral palsy in Europe. *Dev Med Child Neurol*. 2002;44(9):633-40. [(Find Online)](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9F0B521B05BB3C3CA7A4C7487360FAEA/S0012162201002675a.pdf/prevalence-and-characteristics-of-children-with-cerebral-palsy-in-europe.pdf)
 
-[^8]: Himpens E, Van den Broeck C, Oostra A, Calders P, Vanhaesebrouck P. Prevalence, type, distribution, and severity of cerebral palsy in relation to gestational age: a meta-analytic review. *Dev Med Child Neurol*. 2008;50(5):334-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/18355333/)
+[^8]: Himpens E, Van den Broeck C, Oostra A, Calders P, Vanhaesebrouck P. Prevalence, type, distribution, and severity of cerebral palsy in relation to gestational age: a meta-analytic review. *Dev Med Child Neurol*. 2008;50(5):334-40. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2008.02047.x)

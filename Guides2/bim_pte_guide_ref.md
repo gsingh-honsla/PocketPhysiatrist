@@ -105,18 +105,18 @@ The clinical presentation of post-traumatic seizures varies widely depending on 
 
 ## References
 
-[^1]: Annegers JF, Hauser WA, Coan SP, Rocca WA. A population-based study of seizures after traumatic brain injuries. *N Engl J Med*. 1998;338(1):20-24. [(Find Online)](https://www.nejm.org/doi/full/10.1056/NEJM199801013380104)
+[^1]: Annegers JF, Hauser WA, Coan SP, Rocca WA. A population-based study of seizures after traumatic brain injuries. *N Engl J Med*. 1998;338(1):20-24. [(Find Online)](https://doi.org/10.1056/NEJM199801013380104)
 
-[^2]: Lucke-Wold BP, Nguyen L, Turner RC, et al. Traumatic brain injury and epilepsy: underlying mechanisms leading to seizure. *Seizure*. 2015;33:13-23. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S1059131115002484)
+[^2]: Lucke-Wold BP, Nguyen L, Turner RC, et al. Traumatic brain injury and epilepsy: underlying mechanisms leading to seizure. *Seizure*. 2015;33:13-23. [(Find Online)](https://doi.org/10.1016/j.seizure.2015.10.002)
 
-[^3]: Wilson CD, Burks JD, Rodgers RB, et al. Early and late posttraumatic epilepsy in the setting of traumatic brain injury: a meta-analysis and review of antiepileptic management. *World Neurosurg*. 2018;110:e901-e906. [(Find Online)](https://www.worldneurosurgery.org/article/S1878-8750(17)32019-5/fulltext)
+[^3]: Wilson CD, Burks JD, Rodgers RB, et al. Early and late posttraumatic epilepsy in the setting of traumatic brain injury: a meta-analysis and review of antiepileptic management. *World Neurosurg*. 2018;110:e901-e906. [(Find Online)](https://doi.org/10.1016/j.wneu.2017.11.116)
 
-[^4]: Szaflarski JP, Sangha KS, Lindsell CJ, Shutter LA. Prospective, randomized, single-blinded comparative trial of intravenous levetiracetam versus phenytoin for seizure prophylaxis. *Neurocrit Care*. 2010;12(2):165-172. [(Find Online)](https://link.springer.com/article/10.1007/s12028-009-9304-y)
+[^4]: Szaflarski JP, Sangha KS, Lindsell CJ, Shutter LA. Prospective, randomized, single-blinded comparative trial of intravenous levetiracetam versus phenytoin for seizure prophylaxis. *Neurocrit Care*. 2010;12(2):165-172. [(Find Online)](https://doi.org/10.1007/s12028-009-9304-y)
 
-[^5]: Hunt RF, Boychuk JA, Smith BN. Neural circuit mechanisms of post-traumatic epilepsy. *Front Cell Neurosci*. 2013;7:89. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fncel.2013.00089/full)
+[^5]: Hunt RF, Boychuk JA, Smith BN. Neural circuit mechanisms of post-traumatic epilepsy. *Front Cell Neurosci*. 2013;7:89. [(Find Online)](https://doi.org/10.3389/fncel.2013.00089)
 
-[^6]: Yang Y, Zheng F, Xu X, Wang X. Levetiracetam versus phenytoin for seizure prophylaxis following traumatic brain injury: a systematic review and meta-analysis. *CNS Drugs*. 2016;30(8):677-688. [(Find Online)](https://link.springer.com/article/10.1007/s40263-016-0365-0)
+[^6]: Yang Y, Zheng F, Xu X, Wang X. Levetiracetam versus phenytoin for seizure prophylaxis following traumatic brain injury: a systematic review and meta-analysis. *CNS Drugs*. 2016;30(8):677-688. [(Find Online)](https://doi.org/10.1007/s40263-016-0365-0)
 
-[^7]: Practice parameter: antiepileptic drug prophylaxis in severe traumatic brain injury: report of the Quality Standards Subcommittee of the American Academy of Neurology. *Neurology*. 2003;60(1):10-16. [(Find Online)](https://n.neurology.org/content/60/1/10)
+[^7]: Practice parameter: antiepileptic drug prophylaxis in severe traumatic brain injury: report of the Quality Standards Subcommittee of the American Academy of Neurology. *Neurology*. 2003;60(1):10-16. [(Find Online)](https://doi.org/10.1212/01.WNL.0000031432.05543.14)
 
-[^8]: Haltiner AM, Temkin NR, Dikmen SS. Risk of seizure recurrence after a first late posttraumatic seizure. *Arch Phys Med Rehabil*. 1997;78(8):835-840. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(97)90196-9/fulltext)
+[^8]: Haltiner AM, Temkin NR, Dikmen SS. Risk of seizure recurrence after a first late posttraumatic seizure. *Arch Phys Med Rehabil*. 1997;78(8):835-840. [(Find Online)](https://doi.org/10.1016/S0003-9993(97)90196-9)

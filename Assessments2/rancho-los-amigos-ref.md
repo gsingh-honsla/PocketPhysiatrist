@@ -88,8 +88,8 @@ No established MCID for the RLAS-R as it is a descriptive ordinal scale rather t
 
 [^2]: Lin K, Wroten M. Ranchos Los Amigos. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022. Available from: https://www.ncbi.nlm.nih.gov/books/NBK448151/ [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK448151/)
 
-[^3]: Flannery J, Abraham I. Psychometric properties of a cognitive functioning scale for patients with traumatic brain injury. *Western Journal of Nursing Research*. 1993;15(4):465-482. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/8342342/)
+[^3]: Flannery J, Abraham I. Psychometric properties of a cognitive functioning scale for patients with traumatic brain injury. *Western Journal of Nursing Research*. 1993;15(4):465-482. [(Find Online)](https://psycnet.apa.org/doi/10.1177/019394599301500406)
 
 [^4]: Gouvier W, Blanton P, LaPorte K, Nepomuceno C. Reliability and validity of the disability rating scale and the levels of cognitive functioning scale in monitoring recovery from severe head injury. *Archives of Physical Medicine and Rehabilitation*. 1987;68:94-97. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3813863/)
 
-[^5]: Whyte J, Kunz R. Rancho Los Amigos Scale. In: Kreutzer JS, DeLuca J, Caplan B, editors. Encyclopedia of Clinical Neuropsychology. Springer; 2018. [(Find Online)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-57111-9_177)
+[^5]: Whyte J, Kunz R. Rancho Los Amigos Scale. In: Kreutzer JS, DeLuca J, Caplan B, editors. Encyclopedia of Clinical Neuropsychology. Springer; 2018. [(Find Online)](https://link.springer.com/rwe/10.1007/978-3-319-57111-9_67)

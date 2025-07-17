@@ -112,20 +112,20 @@ The Swaroop and Dias Myelomeningocele Functional Classification (MMFC) integrate
 
 [^1]: Cleveland Clinic. Myelomeningocele. Accessed July 14, 2025. https://my.clevelandclinic.org/health/diseases/22813-myelomeningocele [(Find Online)](https://my.clevelandclinic.org/health/diseases/22813-myelomeningocele)
 
-[^2]: Dias L, Swaroop VT. Key concepts in the management of spina bifida. *J Am Acad Orthop Surg*. 2011;19(2):94-101. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21292931/)
+[^2]: Dias L, Swaroop VT. Key concepts in the management of spina bifida. *J Am Acad Orthop Surg*. 2011;19(2):94-101. [(Find Online)](https://doi.org/10.1007/s11832-011-0368-9)
 
-[^3]: Farmer DL, Thom EA, Brock JW 3rd, et al. The Management of Myelomeningocele Study: full cohort 30-month pediatric outcomes. *Am J Obstet Gynecol*. 2018;218(2):256.e1-256.e13. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/29246577/)
+[^3]: Farmer DL, Thom EA, Brock JW 3rd, et al. The Management of Myelomeningocele Study: full cohort 30-month pediatric outcomes. *Am J Obstet Gynecol*. 2018;218(2):256.e1-256.e13. [(Find Online)](https://doi.org/10.1016/j.ajog.2017.12.001)
 
-[^4]: Barf HA, Verhoef M, Jennekens-Schinkel A, et al. Cognitive status of young adults with spina bifida. *Dev Med Child Neurol*. 2003;45(12):813-820. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/14667074/)
+[^4]: Barf HA, Verhoef M, Jennekens-Schinkel A, et al. Cognitive status of young adults with spina bifida. *Dev Med Child Neurol*. 2003;45(12):813-820. [(Find Online)](https://doi.org/10.1017/s0012162203001518)
 
-[^5]: Wu SY, Chang SJ, Yang SS, Hsu CK. Botulinum Toxin Injection for Medically Refractory Neurogenic Bladder in Children: A Systematic Review. *Toxins (Basel)*. 2021;13(7):168-175. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/34209187/)
+[^5]: Wu SY, Chang SJ, Yang SS, Hsu CK. Botulinum Toxin Injection for Medically Refractory Neurogenic Bladder in Children: A Systematic Review. *Toxins (Basel)*. 2021;13(7):168-175. [(Find Online)](https://doi.org/10.3390/toxins13070447)
 
-[^6]: Kasabian NG, Bauer SB, Dyro FM, et al. The prophylactic value of clean intermittent catheterization and anticholinergic medication in newborns and infants with myelodysplasia at risk of developing urinary tract deterioration. *Am J Dis Child*. 1992;146(7):840-843. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1496955/)
+[^6]: Kasabian NG, Bauer SB, Dyro FM, et al. The prophylactic value of clean intermittent catheterization and anticholinergic medication in newborns and infants with myelodysplasia at risk of developing urinary tract deterioration. *Am J Dis Child*. 1992;146(7):840-843. [(Find Online)](https://doi.org/10.1001/archpedi.1992.02160190072024)
 
 [^7]: National Institute of Neurological Disorders and Stroke. Spina Bifida. Available from: https://www.ninds.nih.gov/health-information/disorders/spina-bifida [(Find Online)](https://www.ninds.nih.gov/health-information/disorders/spina-bifida)
 
-[^8]: Garcia HH, Fuentes AG, Malaga G, et al. Myelomeningocele: a new functional classification. *Bone Joint J*. 2021;103-B(2):322-329. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33517743/)
+[^8]: Garcia HH, Fuentes AG, Malaga G, et al. Myelomeningocele: a new functional classification. *Bone Joint J*. 2021;103-B(2):322-329. [(Find Online)](https://doi.org/10.1302/1863-2548.15.200248)
 
 [^9]: Keith RA, Granger CV, Hamilton BB, Sherwin FS. The functional independence measure: a new tool for rehabilitation. *Adv Clin Rehabil*. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
 
-[^10]: Msall ME, DiGaudio K, Rogers BT, et al. The Functional Independence Measure for Children (WeeFIM). Conceptual basis and pilot use in children with developmental disabilities. *Clin Pediatr*. 1994;33(7):421-430. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/7525140/)
+[^10]: Msall ME, DiGaudio K, Rogers BT, et al. The Functional Independence Measure for Children (WeeFIM). Conceptual basis and pilot use in children with developmental disabilities. *Clin Pediatr*. 1994;33(7):421-430. [(Find Online)](https://doi.org/10.1177/000992289403300708)

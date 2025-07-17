@@ -97,12 +97,12 @@ The clinical presentation of LBP varies considerably based on the underlying pat
 
 ## References
 
-[^1]: Chou R, Qaseem A, Snow V, et al. Diagnosis and treatment of low back pain: a joint clinical practice guideline from the American College of Physicians and the American Pain Society. *Ann Intern Med*. 2007;147(7):478-491. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17909209/)
+[^1]: Chou R, Qaseem A, Snow V, et al. Diagnosis and treatment of low back pain: a joint clinical practice guideline from the American College of Physicians and the American Pain Society. *Ann Intern Med*. 2007;147(7):478-491. [(Find Online)](https://doi.org/10.7326/0003-4819-147-7-200710020-00006)
 
-[^2]: Koes BW, van Tulder M, Lin CW, et al. An updated overview of clinical guidelines for the management of non-specific low back pain in primary care. *Eur Spine J*. 2010;19(12):2075-2094. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20602122/)
+[^2]: Koes BW, van Tulder M, Lin CW, et al. An updated overview of clinical guidelines for the management of non-specific low back pain in primary care. *Eur Spine J*. 2010;19(12):2075-2094. [(Find Online)](https://doi.org/10.1007/s00586-010-1502-y)
 
-[^3]: Shiri R, Karppinen J, Leino-Arjas P, et al. The association between smoking and low back pain: a meta-analysis. *Am J Med*. 2010;123(1):87.e7-35. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20102998/)
+[^3]: Shiri R, Karppinen J, Leino-Arjas P, et al. The association between smoking and low back pain: a meta-analysis. *Am J Med*. 2010;123(1):87.e7-35. [(Find Online)](https://doi.org/10.1016/j.amjmed.2009.05.028)
 
-[^4]: Cohen SP, Bhaskar A, Bhatia A, et al. Consensus practice guidelines on interventions for lumbar facet joint pain from a multispecialty, international working group. *Reg Anesth Pain Med*. 2020;45(6):424-467. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32245841/)
+[^4]: Cohen SP, Bhaskar A, Bhatia A, et al. Consensus practice guidelines on interventions for lumbar facet joint pain from a multispecialty, international working group. *Reg Anesth Pain Med*. 2020;45(6):424-467. [(Find Online)](https://doi.org/10.1136/rapm-2019-101243)
 
-[^5]: Lurie J, Tomkins-Lane C. Management of lumbar spinal stenosis. *BMJ*. 2016;352:h6234. [(Find Online)](https://pu
+[^5]: Lurie J, Tomkins-Lane C. Management of lumbar spinal stenosis. *BMJ*. 2016;352:h6234. [(Find Online)](https://doi.org/10.1136/bmj.h6234)

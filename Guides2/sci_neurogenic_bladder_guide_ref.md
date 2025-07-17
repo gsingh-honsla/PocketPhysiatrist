@@ -110,18 +110,18 @@ Recent studies demonstrate that 90% of patients develop unfavorable urodynamic p
 
 ## References
 
-[^1]: Taweel WA, Seyam R. Neurogenic bladder in spinal cord injury patients. *Res Rep Urol*. 2015;7:85-99. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472195/)
+[^1]: Taweel WA, Seyam R. Neurogenic bladder in spinal cord injury patients. *Res Rep Urol*. 2015;7:85-99. [(Find Online)](https://doi.org/10.2147/RRU.S29644)
 
-[^2]: Milligan J, Goetz LL, Kennelly MJ. A Primary Care Provider's Guide to Management of Neurogenic Lower Urinary Tract Dysfunction and Urinary Tract Infection After Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(2):108-115. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7315755/)
+[^2]: Milligan J, Goetz LL, Kennelly MJ. A Primary Care Provider's Guide to Management of Neurogenic Lower Urinary Tract Dysfunction and Urinary Tract Infection After Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(2):108-115. [(Find Online)](https://doi.org/10.46292/sci2602-108)
 
-[^3]: Bywater M, Tornic J, Mehnert U, Kessler TM. Neurogenic Lower Urinary Tract Dysfunction in the First Year After Spinal Cord Injury: A Descriptive Study of Urodynamic Findings. *J Urol*. 2023;209(1):193-201. [(Find Online)](https://www.auajournals.org/doi/10.1097/JU.0000000000002962)
+[^3]: Bywater M, Tornic J, Mehnert U, Kessler TM. Neurogenic Lower Urinary Tract Dysfunction in the First Year After Spinal Cord Injury: A Descriptive Study of Urodynamic Findings. *J Urol*. 2023;209(1):193-201. [(Find Online)](https://doi.org/10.1097/JU.0000000000003021)
 
-[^4]: Tate DG, Wheeler T, Lane GI, et al. Recommendations for evaluation of neurogenic bladder and bowel dysfunction after spinal cord injury and/or disease. *J Spinal Cord Med*. 2020;43(2):141-164. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7054938/)
+[^4]: Tate DG, Wheeler T, Lane GI, et al. Recommendations for evaluation of neurogenic bladder and bowel dysfunction after spinal cord injury and/or disease. *J Spinal Cord Med*. 2020;43(2):141-164. [(Find Online)](https://doi.org/10.1080/10790268.2019.1706033)
 
-[^5]: Welk B, Lenherr S, Elliott S, et al. The Neurogenic Bladder Symptom Score (NBSS): a secondary assessment of its validity, reliability among people with a spinal cord injury. *Spinal Cord*. 2018;56(3):259-264. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5849027/)
+[^5]: Welk B, Lenherr S, Elliott S, et al. The Neurogenic Bladder Symptom Score (NBSS): a secondary assessment of its validity, reliability among people with a spinal cord injury. *Spinal Cord*. 2018;56(3):259-264. [(Find Online)](https://doi.org/10.1038/s41393-017-0028-0)
 
-[^6]: Kim O, An L, Lee BC. Urodynamic evaluation of neurogenic bladder in patients with spinal cord injury within 6 months post-injury: a Retrospective Cross-Sectional Study. *Spinal Cord*. 2025;63(5):246-251. [(Find Online)](https://www.nature.com/articles/s41393-025-01032-3)
+[^6]: Kim O, An L, Lee BC. Urodynamic evaluation of neurogenic bladder in patients with spinal cord injury within 6 months post-injury: a Retrospective Cross-Sectional Study. *Spinal Cord*. 2025;63(5):246-251. [(Find Online)](https://doi.org/10.1038/s41393-025-01074-0)
 
-[^7]: Loftus CJ, Ratanawong JP, Myers JB, et al. Bladder management is the top health concern among adults with a spinal cord injury. *Neurourol Urodyn*. 2024;43(2):449-458. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/nau.25348)
+[^7]: Loftus CJ, Ratanawong JP, Myers JB, et al. Bladder management is the top health concern among adults with a spinal cord injury. *Neurourol Urodyn*. 2024;43(2):449-458. [(Find Online)](https://doi.org/10.1002/nau.25369)
 
-[^8]: Przydacz M, Chlosta P, Corcos J. Recommendations for urological follow-up of patients with neurogenic bladder secondary to spinal cord injury. *Int Urol Nephrol*. 2018;50(6):1005-1016. [(Find Online)](https://link.springer.com/article/10.1007/s11255-018-1852-7)
+[^8]: Przydacz M, Chlosta P, Corcos J. Recommendations for urological follow-up of patients with neurogenic bladder secondary to spinal cord injury. *Int Urol Nephrol*. 2018;50(6):1005-1016. [(Find Online)](https://doi.org/10.1007/s11255-018-1852-7)

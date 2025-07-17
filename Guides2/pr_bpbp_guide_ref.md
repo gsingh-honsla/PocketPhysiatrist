@@ -97,12 +97,12 @@ Most infants with brachial plexus birth palsy will recover both movement and fee
 
 ## References
 
-[^1]: The natural history and management of brachial plexus birth palsy. *Curr Rev Musculoskelet Med*, 2016;9(4):418-426. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5127950/)
+[^1]: The natural history and management of brachial plexus birth palsy. *Curr Rev Musculoskelet Med*, 2016;9(4):418-426. [(Find Online)](https://doi.org/10.1007/s12178-016-9374-3)
 
-[^2]: Thatte MR, Mehta R. Obstetric brachial plexus injury. *Indian J Plast Surg*, 2011;44(3):380-389. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3263267/)
+[^2]: Thatte MR, Mehta R. Obstetric brachial plexus injury. *Indian J Plast Surg*, 2011;44(3):380-389. [(Find Online)](https://doi.org/10.4103/0970-0358.90805)
 
-[^3]: Waters PM. Brachial Plexus Birth Palsy: The Boston Children's Hospital Experience. *Hand Clin*, 2010;26(2):197-208. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20494747/)
+[^3]: Waters PM. Brachial Plexus Birth Palsy: The Boston Children's Hospital Experience. *Hand Clin*, 2010;26(2):197-208. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884800/pdf/sps18275.pdf)
 
-[^4]: Foad SL, Mehlman CT, Foad MB, Lippert WC. Prognosis following neonatal brachial plexus palsy: an evidence-based review. *J Pediatr Orthop B*, 2009;18(6):285-90. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19707151/)
+[^4]: Foad SL, Mehlman CT, Foad MB, Lippert WC. Prognosis following neonatal brachial plexus palsy: an evidence-based review. *J Pediatr Orthop B*, 2009;18(6):285-90. [(Find Online)](https://doi.org/10.1007/s11832-009-0208-3)
 
-[^5]: Curtis C, Stephens D, Clarke HM, Andrews D. The active movement scale: an evaluative tool for infants with obstetrical brachial plexus palsy. *J Hand Surg Am*, 2002;27(3):470-8. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12015721/)
+[^5]: Curtis C, Stephens D, Clarke HM, Andrews D. The active movement scale: an evaluative tool for infants with obstetrical brachial plexus palsy. *J Hand Surg Am*, 2002;27(3):470-8. [(Find Online)](https://doi.org/10.1053/jhsu.2002.32965)

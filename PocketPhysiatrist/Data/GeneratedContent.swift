@@ -11,7 +11,7 @@ class GeneratedContentProvider {
     static func getAllContent() -> [MedicalContent] {
         return [
         MedicalContent(
-            title: "Orthostatic Hypotension in Spinal Cord Injury",
+            title: "Orthostatic Hypotension",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -138,17 +138,17 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. *Clin Auton Res*. 2011;21(2):69-72. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21431947/)
 
-                [^2]: Illman A, Stiller K, Williams M. The prevalence of orthostatic hypotension during physiotherapy treatment in patients with an acute spinal cord injury. *Spinal Cord*. 2000;38(12):741-747. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11175372/)
+                [^2]: Illman A, Stiller K, Williams M. The prevalence of orthostatic hypotension during physiotherapy treatment in patients with an acute spinal cord injury. *Spinal Cord*. 2000;38(12):741-747. [(Find Online)](https://doi.org/10.1038/sj.sc.3101089)
 
                 [^3]: Claydon VE, Krassioukov AV. Orthostatic hypotension and autonomic pathways after spinal cord injury. *J Neurotrauma*. 2006;23(12):1713-1725. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17184183/)
 
                 [^4]: Krassioukov A, Eng JJ, Warburton DE, Teasell R. A systematic review of the management of orthostatic hypotension after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(5):876-885. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19406310/)
 
-                [^5]: Wecht JM, Weir JP, Huang V, et al. Treatment of orthostatic hypotension during acute inpatient rehabilitation after spinal cord injury: usual care vs. anti-hypotensive therapy. *Am J Hypertens*. 2024;37(8):554-560. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38652661/)
+                [^5]: Wecht JM, Weir JP, Huang V, et al. Treatment of orthostatic hypotension during acute inpatient rehabilitation after spinal cord injury: usual care vs. anti-hypotensive therapy. *Am J Hypertens*. 2024;37(8):554-560. [(Find Online)](https://doi.org/10.1093/ajh/hpae057)
 
-                [^6]: Nightingale TE, Zheng MMZ, Sachdeva R, Phillips AA, Krassioukov AV. Diverse cognitive impairment after spinal cord injury is associated with orthostatic hypotension symptom burden. *J Neurotrauma*. 2019;36(15):2373-2380. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30924705/)
+                [^6]: Nightingale TE, Zheng MMZ, Sachdeva R, Phillips AA, Krassioukov AV. Diverse cognitive impairment after spinal cord injury is associated with orthostatic hypotension symptom burden. *J Neurotrauma*. 2019;36(15):2373-2380. [(Find Online)](https://doi.org/10.1016/j.physbeh.2019.112742)
 
-                [^7]: Gillis DJ, Wouda M, Hjeltnes N. Non-pharmacological management of orthostatic hypotension after spinal cord injury: a critical review of the literature. *Spinal Cord*. 2008;46(10):652-659. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/18542096/)
+                [^7]: Gillis DJ, Wouda M, Hjeltnes N. Non-pharmacological management of orthostatic hypotension after spinal cord injury: a critical review of the literature. *Spinal Cord*. 2008;46(10):652-659. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK76415/)
 
                 [^8]: Kaufmann H, Freeman R, Biaggioni I, et al. Droxidopa for neurogenic orthostatic hypotension: a randomized, placebo-controlled, phase 3 trial. *Neurology*. 2014;83(4):328-335. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24944260/)
                 """,
@@ -303,13 +303,13 @@ class GeneratedContentProvider {
 
                 [^2]: Limbs4Life. A Guide to Rehabilitation for Upper Limb Amputees. Accessed July 11, 2025. [(Find Online)](https://limbs4life.org.au/)
 
-                [^3]: Management of Upper Extremity Amputation Rehabilitation Working Group. (2014). Evidence-based clinical practice guidelines for the rehabilitation of persons with upper-limb amputation. *Archives of Physical Medicine and Rehabilitation*, 95(4), 710-717. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(14)00179-2/fulltext)
+                [^3]: Management of Upper Extremity Amputation Rehabilitation Working Group. (2014). Evidence-based clinical practice guidelines for the rehabilitation of persons with upper-limb amputation. *Archives of Physical Medicine and Rehabilitation*, 95(4), 710-717. [(Find Online)](https://www.healthquality.va.gov/guidelines/Rehab/ULA/VADoDULACPG_Final_508.pdf)
 
-                [^4]: Cancio, J. M., Ikeda, A. J., Barnicott, S. L., Childers, W. L., Alderete, J. F., & Goff, B. J. (2018). Upper Extremity Amputation and Prosthetics Care Across the Active Duty Military and Veteran Populations. *Physical Medicine and Rehabilitation Clinics of North America*, 29(4), 809-824. [(Find Online)](https://www.pmr.theclinics.com/article/S1047-9651(18)30056-8/fulltext)
+                [^4]: Cancio, J. M., Ikeda, A. J., Barnicott, S. L., Childers, W. L., Alderete, J. F., & Goff, B. J. (2018). Upper Extremity Amputation and Prosthetics Care Across the Active Duty Military and Veteran Populations. *Physical Medicine and Rehabilitation Clinics of North America*, 29(4), 809-824. [(Find Online)](https://doi.org/10.1016/j.pmr.2018.08.011)
 
-                [^5]: Salminger, S., Sturma, A., Herceg, M., Mayer, J. A., Rupp, M., & Aszmann, O. C. (2022). Upper Limb Prostheses by the Level of Amputation: A Systematic Review. *Prosthetics*, 6(2), 22. [(Find Online)](https://www.mdpi.com/2673-1592/6/2/22)
+                [^5]: Salminger, S., Sturma, A., Herceg, M., Mayer, J. A., Rupp, M., & Aszmann, O. C. (2022). Upper Limb Prostheses by the Level of Amputation: A Systematic Review. *Prosthetics*, 6(2), 22. [(Find Online)](https://doi.org/10.3390/prosthesis6020022)
 
-                [^6]: Karami, M., Azari, S., & Movahednia, N. (2021). The importance of rehabilitation concerning upper extremity amputees: A Systematic review. *Pakistan Journal of Medical Sciences*, 32(6), 1156-1160. [(Find Online)](https://pjms.org.pk/index.php/pjms/article/view/9)
+                [^6]: Karami, M., Azari, S., & Movahednia, N. (2021). The importance of rehabilitation concerning upper extremity amputees: A Systematic review. *Pakistan Journal of Medical Sciences*, 32(6), 1156-1160. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5103156/pdf/PJMS-32-1312.pdf)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -319,7 +319,7 @@ class GeneratedContentProvider {
             keywords: ["upper extremity amputation", "prosthetics", "rehabilitation", "phantom limb pain", "residual limb pain"]
         ),
         MedicalContent(
-            title: "Autonomic Dysreflexia in Spinal Cord Injury",
+            title: "Autonomic Dysreflexia",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -456,21 +456,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Krassioukov A, Warburton DE, Teasell R, et al. A systematic review of the management of autonomic dysreflexia after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(4):682-695. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19345789/)
+                [^1]: Krassioukov A, Warburton DE, Teasell R, et al. A systematic review of the management of autonomic dysreflexia after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(4):682-695. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.10.017)
 
-                [^2]: Eldahan KC, Rabchevsky AG. Autonomic dysreflexia after spinal cord injury: systemic pathophysiology and methods of management. *Auton Neurosci*. 2017;209:59-70. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/28506502/)
+                [^2]: Eldahan KC, Rabchevsky AG. Autonomic dysreflexia after spinal cord injury: systemic pathophysiology and methods of management. *Auton Neurosci*. 2017;209:59-70. [(Find Online)](https://doi.org/10.1016/j.autneu.2017.05.002)
 
                 [^3]: Allen KJ, Leslie SW. Autonomic Dysreflexia. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK482434/)
 
                 [^4]: Clinical Practice Guideline Development for Autonomic Dysreflexia in Spinal Cord Injury. *Spinal Cord*. 2023. [(Find Online)](https://www.nature.com/sc/)
 
-                [^5]: Krassioukov A, Warburton DE, Teasell R, et al. A Systematic Review of the Management of Autonomic Dysreflexia Following Spinal Cord Injury. *Arch Phys Med Rehabil*. 2009. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19345789/)
+                [^5]: Krassioukov A, Warburton DE, Teasell R, et al. A Systematic Review of the Management of Autonomic Dysreflexia Following Spinal Cord Injury. *Arch Phys Med Rehabil*. 2009. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.10.017)
 
                 [^6]: Consortium for Spinal Cord Medicine. Acute Management of Autonomic Dysreflexia: Individuals with Spinal Cord Injury Presenting to Health Care Facilities. 2001. [(Find Online)](https://www.pva.org/research-resources/clinical-practice-guidelines/)
 
-                [^7]: Kirby AK, Pancholi S, Anderson Z, et al. Time and frequency domain analysis of physiological features during autonomic dysreflexia after spinal cord injury. *Front Neurosci*. 2023;17:1210815. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/37638318/)
+                [^7]: Kirby AK, Pancholi S, Anderson Z, et al. Time and frequency domain analysis of physiological features during autonomic dysreflexia after spinal cord injury. *Front Neurosci*. 2023;17:1210815. [(Find Online)](https://doi.org/10.3389/fnins.2023.1210815)
 
-                [^8]: Calderón-Juárez M, Miller T, Samejima S, et al. Heart Rate Variability-Based Prediction of Autonomic Dysreflexia After Spinal Cord Injury. *J Neurotrauma*. 2024;41(9-10):1172-1180. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38185869/)
+                [^8]: Calderón-Juárez M, Miller T, Samejima S, et al. Heart Rate Variability-Based Prediction of Autonomic Dysreflexia After Spinal Cord Injury. *J Neurotrauma*. 2024;41(9-10):1172-1180. [(Find Online)](https://doi.org/10.1089/neu.2023.0583)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -613,15 +613,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Chou R, Qaseem A, Snow V, et al. Diagnosis and treatment of low back pain: a joint clinical practice guideline from the American College of Physicians and the American Pain Society. *Ann Intern Med*. 2007;147(7):478-491. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17909209/)
+                [^1]: Chou R, Qaseem A, Snow V, et al. Diagnosis and treatment of low back pain: a joint clinical practice guideline from the American College of Physicians and the American Pain Society. *Ann Intern Med*. 2007;147(7):478-491. [(Find Online)](https://doi.org/10.7326/0003-4819-147-7-200710020-00006)
 
-                [^2]: Koes BW, van Tulder M, Lin CW, et al. An updated overview of clinical guidelines for the management of non-specific low back pain in primary care. *Eur Spine J*. 2010;19(12):2075-2094. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20602122/)
+                [^2]: Koes BW, van Tulder M, Lin CW, et al. An updated overview of clinical guidelines for the management of non-specific low back pain in primary care. *Eur Spine J*. 2010;19(12):2075-2094. [(Find Online)](https://doi.org/10.1007/s00586-010-1502-y)
 
-                [^3]: Shiri R, Karppinen J, Leino-Arjas P, et al. The association between smoking and low back pain: a meta-analysis. *Am J Med*. 2010;123(1):87.e7-35. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20102998/)
+                [^3]: Shiri R, Karppinen J, Leino-Arjas P, et al. The association between smoking and low back pain: a meta-analysis. *Am J Med*. 2010;123(1):87.e7-35. [(Find Online)](https://doi.org/10.1016/j.amjmed.2009.05.028)
 
-                [^4]: Cohen SP, Bhaskar A, Bhatia A, et al. Consensus practice guidelines on interventions for lumbar facet joint pain from a multispecialty, international working group. *Reg Anesth Pain Med*. 2020;45(6):424-467. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32245841/)
+                [^4]: Cohen SP, Bhaskar A, Bhatia A, et al. Consensus practice guidelines on interventions for lumbar facet joint pain from a multispecialty, international working group. *Reg Anesth Pain Med*. 2020;45(6):424-467. [(Find Online)](https://doi.org/10.1136/rapm-2019-101243)
 
-                [^5]: Lurie J, Tomkins-Lane C. Management of lumbar spinal stenosis. *BMJ*. 2016;352:h6234. [(Find Online)](https://pu
+                [^5]: Lurie J, Tomkins-Lane C. Management of lumbar spinal stenosis. *BMJ*. 2016;352:h6234. [(Find Online)](https://doi.org/10.1136/bmj.h6234)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -767,15 +767,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 1: diagnosis, and neuromuscular, rehabilitation, endocrine, and gastrointestinal and nutritional management. *Lancet Neurol*. 2018;17(3):251-267. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30024-3/fulltext)
+                [^1]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 1: diagnosis, and neuromuscular, rehabilitation, endocrine, and gastrointestinal and nutritional management. *Lancet Neurol*. 2018;17(3):251-267. [(Find Online)](https://doi.org/10.1016/S1474-4422(18)30024-3)
 
-                [^2]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 2: respiratory, cardiac, bone health, and orthopaedic management. *Lancet Neurol*. 2018;17(4):347-361. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30025-5/fulltext)
+                [^2]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 2: respiratory, cardiac, bone health, and orthopaedic management. *Lancet Neurol*. 2018;17(4):347-361. [(Find Online)](https://doi.org/10.1016/S1474-4422(18)30025-5)
 
-                [^3]: Hoffman EP, Brown RH Jr, Kunkel LM. Dystrophin: the protein product of the Duchenne muscular dystrophy locus. *Cell*. 1987;51(6):919-928. [(Find Online)](https://www.cell.com/cell/pdf/0092-8674(87)90579-4.pdf)
+                [^3]: Hoffman EP, Brown RH Jr, Kunkel LM. Dystrophin: the protein product of the Duchenne muscular dystrophy locus. *Cell*. 1987;51(6):919-928. [(Find Online)](https://doi.org/10.1016/0092-8674(87)90579-4)
 
-                [^4]: McDonald CM, Henricson EK, Abresch RT, et al. The 6-minute walk test and other clinical endpoints in duchenne muscular dystrophy: reliability, concurrent validity, and minimal clinically important differences from a multicenter study. *Muscle Nerve*. 2013;48(3):357-368. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/mus.23905)
+                [^4]: McDonald CM, Henricson EK, Abresch RT, et al. The 6-minute walk test and other clinical endpoints in duchenne muscular dystrophy: reliability, concurrent validity, and minimal clinically important differences from a multicenter study. *Muscle Nerve*. 2013;48(3):357-368. [(Find Online)](https://doi.org/10.1002/mus.23905)
 
-                [^5]: Mercuri E, Bönnemann CG, Muntoni F. Muscular dystrophies. *Lancet*. 2019;394(10213):2025-2038. [(Find Online)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32910-1/fulltext)
+                [^5]: Mercuri E, Bönnemann CG, Muntoni F. Muscular dystrophies. *Lancet*. 2019;394(10213):2025-2038. [(Find Online)](https://doi.org/10.1016/S0140-6736(19)32910-1)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -928,17 +928,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition. *Cephalalgia*. 2018;38(1):1-211. [(Find Online)](https://journals.sagepub.com/doi/10.1177/0333102417738202)
+                [^1]: Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition. *Cephalalgia*. 2018;38(1):1-211. [(Find Online)](https://doi.org/10.1177/0333102417738202)
 
-                [^2]: Seifert TD, Evans RW. Posttraumatic headache: a review. *Curr Neurol Neurosci Rep*. 2010;10(6):434-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20697984/)
+                [^2]: Seifert TD, Evans RW. Posttraumatic headache: a review. *Curr Neurol Neurosci Rep*. 2010;10(6):434-40. [(Find Online)](https://www.researchgate.net/profile/Randolph-Evans/publication/44647230_Posttraumatic_Headache_A_Review/links/004635186c88a68eff000000/Posttraumatic-Headache-A-Review.pdf)
 
-                [^3]: Ashina H, Iljazi A, Al-Khazali HM, et al. Efficacy, tolerability, and safety of erenumab for the preventive treatment of persistent post-traumatic headache attributed to mild traumatic brain injury: an open-label study. *J Headache Pain*. 2020;21(1):62. [(Find Online)](https://thejournalofheadacheandpain.biomedcentral.com/articles/10.1186/s10194-020-01136-z)
+                [^3]: Ashina H, Iljazi A, Al-Khazali HM, et al. Efficacy, tolerability, and safety of erenumab for the preventive treatment of persistent post-traumatic headache attributed to mild traumatic brain injury: an open-label study. *J Headache Pain*. 2020;21(1):62. [(Find Online)](https://doi.org/10.1186/s10194-020-01136-z)
 
-                [^4]: Zirovich MD, Pangarkar SS, Manh C, et al. Botulinum Toxin Type A for the Treatment of Post-traumatic Headache: A Randomized, Placebo-Controlled, Cross-over Study. *Mil Med*. 2021;186(5-6):493-499. [(Find Online)](https://academic.oup.com/milmed/article/186/5-6/493/5941823)
+                [^4]: Zirovich MD, Pangarkar SS, Manh C, et al. Botulinum Toxin Type A for the Treatment of Post-traumatic Headache: A Randomized, Placebo-Controlled, Cross-over Study. *Mil Med*. 2021;186(5-6):493-499. [(Find Online)](https://doi.org/10.1093/milmed/usaa391)
 
-                [^5]: Lampl C, Maassen Van Den Brink A, Deligianni CI, et al. Ten open questions in migraine prophylaxis with monoclonal antibodies blocking the calcitonin-gene related peptide pathway: a narrative review. *J Headache Pain*. 2023;24(1):99. [(Find Online)](https://thejournalofheadacheandpain.biomedcentral.com/articles/10.1186/s10194-023-01638-6)
+                [^5]: Lampl C, Maassen Van Den Brink A, Deligianni CI, et al. Ten open questions in migraine prophylaxis with monoclonal antibodies blocking the calcitonin-gene related peptide pathway: a narrative review. *J Headache Pain*. 2023;24(1):99. [(Find Online)](https://doi.org/10.1186/s10194-023-01637-7)
 
-                [^6]: Aurora SK, Dodick DW, Turkel CC, et al. OnabotulinumtoxinA for treatment of chronic migraine: results from the double-blind, randomized, placebo-controlled phase of the PREEMPT 1 trial. *Cephalalgia*. 2010;30(7):793-803. [(Find Online)](https://journals.sagepub.com/doi/10.1177/0333102410364676)
+                [^6]: Aurora SK, Dodick DW, Turkel CC, et al. OnabotulinumtoxinA for treatment of chronic migraine: results from the double-blind, randomized, placebo-controlled phase of the PREEMPT 1 trial. *Cephalalgia*. 2010;30(7):793-803. [(Find Online)](https://doi.org/10.1177/0333102410364676)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1089,21 +1089,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Annegers JF, Hauser WA, Coan SP, Rocca WA. A population-based study of seizures after traumatic brain injuries. *N Engl J Med*. 1998;338(1):20-24. [(Find Online)](https://www.nejm.org/doi/full/10.1056/NEJM199801013380104)
+                [^1]: Annegers JF, Hauser WA, Coan SP, Rocca WA. A population-based study of seizures after traumatic brain injuries. *N Engl J Med*. 1998;338(1):20-24. [(Find Online)](https://doi.org/10.1056/NEJM199801013380104)
 
-                [^2]: Lucke-Wold BP, Nguyen L, Turner RC, et al. Traumatic brain injury and epilepsy: underlying mechanisms leading to seizure. *Seizure*. 2015;33:13-23. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S1059131115002484)
+                [^2]: Lucke-Wold BP, Nguyen L, Turner RC, et al. Traumatic brain injury and epilepsy: underlying mechanisms leading to seizure. *Seizure*. 2015;33:13-23. [(Find Online)](https://doi.org/10.1016/j.seizure.2015.10.002)
 
-                [^3]: Wilson CD, Burks JD, Rodgers RB, et al. Early and late posttraumatic epilepsy in the setting of traumatic brain injury: a meta-analysis and review of antiepileptic management. *World Neurosurg*. 2018;110:e901-e906. [(Find Online)](https://www.worldneurosurgery.org/article/S1878-8750(17)32019-5/fulltext)
+                [^3]: Wilson CD, Burks JD, Rodgers RB, et al. Early and late posttraumatic epilepsy in the setting of traumatic brain injury: a meta-analysis and review of antiepileptic management. *World Neurosurg*. 2018;110:e901-e906. [(Find Online)](https://doi.org/10.1016/j.wneu.2017.11.116)
 
-                [^4]: Szaflarski JP, Sangha KS, Lindsell CJ, Shutter LA. Prospective, randomized, single-blinded comparative trial of intravenous levetiracetam versus phenytoin for seizure prophylaxis. *Neurocrit Care*. 2010;12(2):165-172. [(Find Online)](https://link.springer.com/article/10.1007/s12028-009-9304-y)
+                [^4]: Szaflarski JP, Sangha KS, Lindsell CJ, Shutter LA. Prospective, randomized, single-blinded comparative trial of intravenous levetiracetam versus phenytoin for seizure prophylaxis. *Neurocrit Care*. 2010;12(2):165-172. [(Find Online)](https://doi.org/10.1007/s12028-009-9304-y)
 
-                [^5]: Hunt RF, Boychuk JA, Smith BN. Neural circuit mechanisms of post-traumatic epilepsy. *Front Cell Neurosci*. 2013;7:89. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fncel.2013.00089/full)
+                [^5]: Hunt RF, Boychuk JA, Smith BN. Neural circuit mechanisms of post-traumatic epilepsy. *Front Cell Neurosci*. 2013;7:89. [(Find Online)](https://doi.org/10.3389/fncel.2013.00089)
 
-                [^6]: Yang Y, Zheng F, Xu X, Wang X. Levetiracetam versus phenytoin for seizure prophylaxis following traumatic brain injury: a systematic review and meta-analysis. *CNS Drugs*. 2016;30(8):677-688. [(Find Online)](https://link.springer.com/article/10.1007/s40263-016-0365-0)
+                [^6]: Yang Y, Zheng F, Xu X, Wang X. Levetiracetam versus phenytoin for seizure prophylaxis following traumatic brain injury: a systematic review and meta-analysis. *CNS Drugs*. 2016;30(8):677-688. [(Find Online)](https://doi.org/10.1007/s40263-016-0365-0)
 
-                [^7]: Practice parameter: antiepileptic drug prophylaxis in severe traumatic brain injury: report of the Quality Standards Subcommittee of the American Academy of Neurology. *Neurology*. 2003;60(1):10-16. [(Find Online)](https://n.neurology.org/content/60/1/10)
+                [^7]: Practice parameter: antiepileptic drug prophylaxis in severe traumatic brain injury: report of the Quality Standards Subcommittee of the American Academy of Neurology. *Neurology*. 2003;60(1):10-16. [(Find Online)](https://doi.org/10.1212/01.WNL.0000031432.05543.14)
 
-                [^8]: Haltiner AM, Temkin NR, Dikmen SS. Risk of seizure recurrence after a first late posttraumatic seizure. *Arch Phys Med Rehabil*. 1997;78(8):835-840. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(97)90196-9/fulltext)
+                [^8]: Haltiner AM, Temkin NR, Dikmen SS. Risk of seizure recurrence after a first late posttraumatic seizure. *Arch Phys Med Rehabil*. 1997;78(8):835-840. [(Find Online)](https://doi.org/10.1016/S0003-9993(97)90196-9)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1253,15 +1253,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hillis, A. E. (2007). Aphasia: progress in the last quarter of a century. *Neurology*, 69(2), 200-213. [(Find Online)](https://n.neurology.org/content/69/2/200)
+                [^1]: Hillis, A. E. (2007). Aphasia: progress in the last quarter of a century. *Neurology*, 69(2), 200-213. [(Find Online)](https://doi.org/10.1212/01.wnl.0000265600.69385.6f)
 
-                [^2]: Brady, M. C., Kelly, H., Godwin, J., Enderby, P., & Campbell, P. (2016). Speech and language therapy for aphasia following stroke. *Cochrane Database of Systematic Reviews*, (6). [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000425.pub4/full)
+                [^2]: Brady, M. C., Kelly, H., Godwin, J., Enderby, P., & Campbell, P. (2016). Speech and language therapy for aphasia following stroke. *Cochrane Database of Systematic Reviews*, (6). [(Find Online)](https://doi.org/10.1002/14651858.CD000425.pub4)
 
-                [^3]: Fridriksson, J., Yourganov, G., Bonilha, L., Basilakos, A., Den Ouden, D. B., & Rorden, C. (2016). Revealing the dual streams of speech processing. *Proceedings of the National Academy of Sciences*, 113(52), 15108-15113. [(Find Online)](https://www.pnas.org/doi/10.1073/pnas.1614038114)
+                [^3]: Fridriksson, J., Yourganov, G., Bonilha, L., Basilakos, A., Den Ouden, D. B., & Rorden, C. (2016). Revealing the dual streams of speech processing. *Proceedings of the National Academy of Sciences*, 113(52), 15108-15113. [(Find Online)](https://doi.org/10.1073/pnas.1614038114)
 
-                [^4]: Berthier, M. L., Green, C., Lara, J. P., Higueras, C., Barbancho, M. A., Dávila, G., & Pulvermüller, F. (2009). Memantine and constraint-induced aphasia therapy in chronic poststroke aphasia. *Annals of Neurology*, 65(5), 577-585. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ana.21597)
+                [^4]: Berthier, M. L., Green, C., Lara, J. P., Higueras, C., Barbancho, M. A., Dávila, G., & Pulvermüller, F. (2009). Memantine and constraint-induced aphasia therapy in chronic poststroke aphasia. *Annals of Neurology*, 65(5), 577-585. [(Find Online)](https://doi.org/10.1002/ana.21597)
 
-                [^5]: Kiran, S., & Thompson, C. K. (2019). Neuroplasticity of language networks in aphasia: advances, updates, and future challenges. *Frontiers in Neurology*, 10, 295. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fneur.2019.00295/full)
+                [^5]: Kiran, S., & Thompson, C. K. (2019). Neuroplasticity of language networks in aphasia: advances, updates, and future challenges. *Frontiers in Neurology*, 10, 295. [(Find Online)](https://doi.org/10.3389/fneur.2019.00295)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1271,7 +1271,7 @@ class GeneratedContentProvider {
             keywords: ["aphasia", "stroke", "language disorders", "speech therapy", "communication", "neuroplasticity"]
         ),
         MedicalContent(
-            title: "Neurogenic Bladder Management in Spinal Cord Injury",
+            title: "Neurogenic Bladder Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1417,21 +1417,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Taweel WA, Seyam R. Neurogenic bladder in spinal cord injury patients. *Res Rep Urol*. 2015;7:85-99. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472195/)
+                [^1]: Taweel WA, Seyam R. Neurogenic bladder in spinal cord injury patients. *Res Rep Urol*. 2015;7:85-99. [(Find Online)](https://doi.org/10.2147/RRU.S29644)
 
-                [^2]: Milligan J, Goetz LL, Kennelly MJ. A Primary Care Provider's Guide to Management of Neurogenic Lower Urinary Tract Dysfunction and Urinary Tract Infection After Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(2):108-115. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7315755/)
+                [^2]: Milligan J, Goetz LL, Kennelly MJ. A Primary Care Provider's Guide to Management of Neurogenic Lower Urinary Tract Dysfunction and Urinary Tract Infection After Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(2):108-115. [(Find Online)](https://doi.org/10.46292/sci2602-108)
 
-                [^3]: Bywater M, Tornic J, Mehnert U, Kessler TM. Neurogenic Lower Urinary Tract Dysfunction in the First Year After Spinal Cord Injury: A Descriptive Study of Urodynamic Findings. *J Urol*. 2023;209(1):193-201. [(Find Online)](https://www.auajournals.org/doi/10.1097/JU.0000000000002962)
+                [^3]: Bywater M, Tornic J, Mehnert U, Kessler TM. Neurogenic Lower Urinary Tract Dysfunction in the First Year After Spinal Cord Injury: A Descriptive Study of Urodynamic Findings. *J Urol*. 2023;209(1):193-201. [(Find Online)](https://doi.org/10.1097/JU.0000000000003021)
 
-                [^4]: Tate DG, Wheeler T, Lane GI, et al. Recommendations for evaluation of neurogenic bladder and bowel dysfunction after spinal cord injury and/or disease. *J Spinal Cord Med*. 2020;43(2):141-164. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7054938/)
+                [^4]: Tate DG, Wheeler T, Lane GI, et al. Recommendations for evaluation of neurogenic bladder and bowel dysfunction after spinal cord injury and/or disease. *J Spinal Cord Med*. 2020;43(2):141-164. [(Find Online)](https://doi.org/10.1080/10790268.2019.1706033)
 
-                [^5]: Welk B, Lenherr S, Elliott S, et al. The Neurogenic Bladder Symptom Score (NBSS): a secondary assessment of its validity, reliability among people with a spinal cord injury. *Spinal Cord*. 2018;56(3):259-264. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5849027/)
+                [^5]: Welk B, Lenherr S, Elliott S, et al. The Neurogenic Bladder Symptom Score (NBSS): a secondary assessment of its validity, reliability among people with a spinal cord injury. *Spinal Cord*. 2018;56(3):259-264. [(Find Online)](https://doi.org/10.1038/s41393-017-0028-0)
 
-                [^6]: Kim O, An L, Lee BC. Urodynamic evaluation of neurogenic bladder in patients with spinal cord injury within 6 months post-injury: a Retrospective Cross-Sectional Study. *Spinal Cord*. 2025;63(5):246-251. [(Find Online)](https://www.nature.com/articles/s41393-025-01032-3)
+                [^6]: Kim O, An L, Lee BC. Urodynamic evaluation of neurogenic bladder in patients with spinal cord injury within 6 months post-injury: a Retrospective Cross-Sectional Study. *Spinal Cord*. 2025;63(5):246-251. [(Find Online)](https://doi.org/10.1038/s41393-025-01074-0)
 
-                [^7]: Loftus CJ, Ratanawong JP, Myers JB, et al. Bladder management is the top health concern among adults with a spinal cord injury. *Neurourol Urodyn*. 2024;43(2):449-458. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/nau.25348)
+                [^7]: Loftus CJ, Ratanawong JP, Myers JB, et al. Bladder management is the top health concern among adults with a spinal cord injury. *Neurourol Urodyn*. 2024;43(2):449-458. [(Find Online)](https://doi.org/10.1002/nau.25369)
 
-                [^8]: Przydacz M, Chlosta P, Corcos J. Recommendations for urological follow-up of patients with neurogenic bladder secondary to spinal cord injury. *Int Urol Nephrol*. 2018;50(6):1005-1016. [(Find Online)](https://link.springer.com/article/10.1007/s11255-018-1852-7)
+                [^8]: Przydacz M, Chlosta P, Corcos J. Recommendations for urological follow-up of patients with neurogenic bladder secondary to spinal cord injury. *Int Urol Nephrol*. 2018;50(6):1005-1016. [(Find Online)](https://doi.org/10.1007/s11255-018-1852-7)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1612,21 +1612,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Department of Veterans Affairs/Department of Defense. Clinical Practice Guidelines for the Rehabilitation of Lower Limb Amputation: An Update from the Department of Veterans Affairs and the Department of Defense. *Archives of Physical Medicine and Rehabilitation*, 2019;100(8):1583-1589. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/31419214/)
+                [^1]: Department of Veterans Affairs/Department of Defense. Clinical Practice Guidelines for the Rehabilitation of Lower Limb Amputation: An Update from the Department of Veterans Affairs and the Department of Defense. *Archives of Physical Medicine and Rehabilitation*, 2019;100(8):1583-1589. [(Find Online)](https://doi.org/10.1097/phm.0000000000001213)
 
                 [^2]: Molina CS, Faulk JB. Lower Extremity Amputation. *StatPearls*, 2025. Available from: https://www.ncbi.nlm.nih.gov/books/NBK546594/ [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK546594/)
 
                 [^3]: Balk EM, Gazula A, Markozannes G, et al. Lower Limb Prostheses: Measurement Instruments, Comparison of Component Effects by Subgroups, and Long-Term Outcomes. *Agency for Healthcare Research and Quality (US)*, 2018. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK531523/)
 
-                [^4]: Dillon MP, Major MJ, Kaluf B, Balasanov Y, Fatone S. Predict the Medicare Functional Classification Level (K-level) using the Amputee Mobility Predictor in people with unilateral transfemoral and transtibial amputation: A pilot study. *Prosthetics and Orthotics International*, 2018;42(2):191-197. [(Find Online)](https://journals.sagepub.com/doi/full/10.1177/0309364617706748)
+                [^4]: Dillon MP, Major MJ, Kaluf B, Balasanov Y, Fatone S. Predict the Medicare Functional Classification Level (K-level) using the Amputee Mobility Predictor in people with unilateral transfemoral and transtibial amputation: A pilot study. *Prosthetics and Orthotics International*, 2018;42(2):191-197. [(Find Online)](https://doi.org/10.1177/0309364617706748)
 
-                [^5]: Ephraim PL, Wegener ST, MacKenzie EJ, Dillingham TR, Pezzin LE. Phantom pain, residual limb pain, and back pain in amputees: results of a national survey. *Archives of Physical Medicine and Rehabilitation*, 2005;86(10):1910-1919. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16213230/)
+                [^5]: Ephraim PL, Wegener ST, MacKenzie EJ, Dillingham TR, Pezzin LE. Phantom pain, residual limb pain, and back pain in amputees: results of a national survey. *Archives of Physical Medicine and Rehabilitation*, 2005;86(10):1910-1919. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.03.031)
 
-                [^6]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Frontiers in Pain Research*, 2024;5:1425544. [(Find Online)](https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2024.1425544/full)
+                [^6]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Frontiers in Pain Research*, 2024;5:1425544. [(Find Online)](https://doi.org/10.3389/fpain.2024.1425544)
 
-                [^7]: Erlenwein J, Diers M, Ernst J, Schulz F, Petzke F. Clinical updates on phantom limb pain. *Pain Reports*, 2021;6(1):e888. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33490849/)
+                [^7]: Erlenwein J, Diers M, Ernst J, Schulz F, Petzke F. Clinical updates on phantom limb pain. *Pain Reports*, 2021;6(1):e888. [(Find Online)](https://doi.org/10.1097/PR9.0000000000000888)
 
-                [^8]: Esquenazi A, DiGiacomo R. Rehabilitation of the patient with a lower-limb amputation. *Journal of the American Podiatric Medical Association*, 2001;91(1):13-22. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11196327/)
+                [^8]: Esquenazi A, DiGiacomo R. Rehabilitation of the patient with a lower-limb amputation. *Journal of the American Podiatric Medical Association*, 2001;91(1):13-22. [(Find Online)](https://doi.org/10.7547/87507315-91-1-13)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1769,15 +1769,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: The natural history and management of brachial plexus birth palsy. *Curr Rev Musculoskelet Med*, 2016;9(4):418-426. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5127950/)
+                [^1]: The natural history and management of brachial plexus birth palsy. *Curr Rev Musculoskelet Med*, 2016;9(4):418-426. [(Find Online)](https://doi.org/10.1007/s12178-016-9374-3)
 
-                [^2]: Thatte MR, Mehta R. Obstetric brachial plexus injury. *Indian J Plast Surg*, 2011;44(3):380-389. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3263267/)
+                [^2]: Thatte MR, Mehta R. Obstetric brachial plexus injury. *Indian J Plast Surg*, 2011;44(3):380-389. [(Find Online)](https://doi.org/10.4103/0970-0358.90805)
 
-                [^3]: Waters PM. Brachial Plexus Birth Palsy: The Boston Children's Hospital Experience. *Hand Clin*, 2010;26(2):197-208. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20494747/)
+                [^3]: Waters PM. Brachial Plexus Birth Palsy: The Boston Children's Hospital Experience. *Hand Clin*, 2010;26(2):197-208. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884800/pdf/sps18275.pdf)
 
-                [^4]: Foad SL, Mehlman CT, Foad MB, Lippert WC. Prognosis following neonatal brachial plexus palsy: an evidence-based review. *J Pediatr Orthop B*, 2009;18(6):285-90. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19707151/)
+                [^4]: Foad SL, Mehlman CT, Foad MB, Lippert WC. Prognosis following neonatal brachial plexus palsy: an evidence-based review. *J Pediatr Orthop B*, 2009;18(6):285-90. [(Find Online)](https://doi.org/10.1007/s11832-009-0208-3)
 
-                [^5]: Curtis C, Stephens D, Clarke HM, Andrews D. The active movement scale: an evaluative tool for infants with obstetrical brachial plexus palsy. *J Hand Surg Am*, 2002;27(3):470-8. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12015721/)
+                [^5]: Curtis C, Stephens D, Clarke HM, Andrews D. The active movement scale: an evaluative tool for infants with obstetrical brachial plexus palsy. *J Hand Surg Am*, 2002;27(3):470-8. [(Find Online)](https://doi.org/10.1053/jhsu.2002.32965)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -1787,7 +1787,7 @@ class GeneratedContentProvider {
             keywords: ["obstetric brachial plexus palsy", "Erb's palsy", "Klumpke's palsy", "nerve injury", "microsurgery"]
         ),
         MedicalContent(
-            title: "Neurogenic Bowel Management in Spinal Cord Injury",
+            title: "Neurogenic Bowel Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1932,17 +1932,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Rodriguez GM, Gater DR. Neurogenic Bowel and Management after Spinal Cord Injury: A Narrative Review. *J Pers Med*. 2022;12(7):1141. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9324990/)
+                [^1]: Rodriguez GM, Gater DR. Neurogenic Bowel and Management after Spinal Cord Injury: A Narrative Review. *J Pers Med*. 2022;12(7):1141. [(Find Online)](https://doi.org/10.3390/jpm12071141)
 
-                [^2]: Krassioukov A, Eng JJ, Warburton DE, et al. Neurogenic bowel management after spinal cord injury: a systematic review of the evidence. *Spinal Cord*. 2010;48(10):718-733. [(Find Online)](https://www.nature.com/articles/sc201014)
+                [^2]: Krassioukov A, Eng JJ, Warburton DE, et al. Neurogenic bowel management after spinal cord injury: a systematic review of the evidence. *Spinal Cord*. 2010;48(10):718-733. [(Find Online)](https://doi.org/10.1038/sc.2010.14)
 
-                [^3]: Emmanuel A, Krogh K, Bazzocchi G, et al. Consensus review of best practice of transanal irrigation in adults. *Spinal Cord*. 2013;51:732-738. [(Find Online)](https://www.nature.com/articles/sc2013123)
+                [^3]: Emmanuel A, Krogh K, Bazzocchi G, et al. Consensus review of best practice of transanal irrigation in adults. *Spinal Cord*. 2013;51:732-738. [(Find Online)](https://dx.doi.org/10.1038/sc.2013.86)
 
-                [^4]: Krogh K, Christensen P, Sabroe S, Laurberg S. Neurogenic bowel dysfunction score. *Spinal Cord*. 2006;44:625-631. [(Find Online)](https://www.nature.com/articles/3101887)
+                [^4]: Krogh K, Christensen P, Sabroe S, Laurberg S. Neurogenic bowel dysfunction score. *Spinal Cord*. 2006;44:625-631. [(Find Online)](https://doi.org/10.1038/sj.sc.3101887)
 
-                [^5]: Durney P, Stillman M, Montero W, Goetz L. A Primary Care Provider's Guide to Neurogenic Bowel Dysfunction in Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(3):172-176. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7530347/)
+                [^5]: Durney P, Stillman M, Montero W, Goetz L. A Primary Care Provider's Guide to Neurogenic Bowel Dysfunction in Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(3):172-176. [(Find Online)](https://doi.org/10.46292/sci2603-172)
 
-                [^6]: Johns J, Krogh K, Rodriguez GM, et al. Management of Neurogenic Bowel Dysfunction in Adults after Spinal Cord Injury: Clinical Practice Guideline for Health Care Providers. *Top Spinal Cord Inj Rehabil*. 2021;27(2):75-151. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8152171/)
+                [^6]: Johns J, Krogh K, Rodriguez GM, et al. Management of Neurogenic Bowel Dysfunction in Adults after Spinal Cord Injury: Clinical Practice Guideline for Health Care Providers. *Top Spinal Cord Inj Rehabil*. 2021;27(2):75-151. [(Find Online)](https://doi.org/10.1080/10790268.2021.1883385)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2089,23 +2089,23 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: National Institute for Health and Care Excellence. *Stroke rehabilitation in adults*. Published 2023. [(Find Online)](https://www.nice.org.uk/guidance/ng236)
 
-                [^2]: Winstein CJ, Stein J, Arena R, et al. Guidelines for Adult Stroke Rehabilitation and Recovery: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. *Stroke*. 2016;47(6):e98-e169. [(Find Online)](https://www.ahajournals.org/doi/10.1161/STR.0000000000000098)
+                [^2]: Winstein CJ, Stein J, Arena R, et al. Guidelines for Adult Stroke Rehabilitation and Recovery: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. *Stroke*. 2016;47(6):e98-e169. [(Find Online)](https://doi.org/10.1161/STR.0000000000000098)
 
-                [^3]: Hornby TG, Moore JL, Giles G, et al. The FIRST trial: A randomized clinical trial of a framework for implementing high-intensity stepping training during inpatient stroke rehabilitation. *Neurorehabil Neural Repair*. 2020;34(10):915-928. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32878551/)
+                [^3]: Hornby TG, Moore JL, Giles G, et al. The FIRST trial: A randomized clinical trial of a framework for implementing high-intensity stepping training during inpatient stroke rehabilitation. *Neurorehabil Neural Repair*. 2020;34(10):915-928. [(Find Online)](https://doi.org/10.1161/strokeaha.119.027450)
 
-                [^4]: Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke. *Cochrane Database Syst Rev*. 2017;8:CD002840. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002840.pub4/full)
+                [^4]: Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke. *Cochrane Database Syst Rev*. 2017;8:CD002840. [(Find Online)](https://doi.org/10.1002/14651858.CD002840.pub4)
 
-                [^5]: Saunders DH, Sanderson M, Hayes S, et al. Physical fitness training for stroke patients. *Cochrane Database Syst Rev*. 2020;3:CD003316. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003316.pub7/full)
+                [^5]: Saunders DH, Sanderson M, Hayes S, et al. Physical fitness training for stroke patients. *Cochrane Database Syst Rev*. 2020;3:CD003316. [(Find Online)](https://doi.org/10.1002/14651858.CD003316.pub7)
 
-                [^6]: Polese JC, Ada L, Dean CM, et al. Treadmill training is effective for ambulatory adults with stroke: a systematic review. *J Physiother*. 2017;63(3):140-147. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S1836955317300504)
+                [^6]: Polese JC, Ada L, Dean CM, et al. Treadmill training is effective for ambulatory adults with stroke: a systematic review. *J Physiother*. 2013;63(3):140-147. [(Find Online)](https://doi.org/10.1016/S1836-9553(13)70159-0)
 
                 [^7]: Teasell R, Salbach NM, Foley N, et al. Canadian Stroke Best Practice Recommendations: Rehabilitation, Recovery, and Community Participation following Stroke, 6th Edition. Heart and Stroke Foundation. Published 2019. [(Find Online)](https://www.strokebestpractices.ca/recommendations/stroke-rehabilitation)
 
-                [^8]: Pin-Barre C, Laurin J. Physical exercise as a diagnostic, rehabilitation, and preventive tool: influence on neuroplasticity and motor recovery after stroke. *Neural Plasticity*. 2015;2015:608581. [(Find Online)](https://www.hindawi.com/journals/np/2015/608581/)
+                [^8]: Pin-Barre C, Laurin J. Physical exercise as a diagnostic, rehabilitation, and preventive tool: influence on neuroplasticity and motor recovery after stroke. *Neural Plasticity*. 2015;2015:608581. [(Find Online)](https://doi.org/10.1155/2015/608581)
 
-                [^9]: Mang CS, Campbell KL, Ross CJ, Boyd LA. Promoting neuroplasticity for motor rehabilitation after stroke: considering the effects of aerobic exercise and genetic variation on brain-derived neurotrophic factor. *Physical Therapy*. 2013;93(12):1707-16. [(Find Online)](https://academic.oup.com/ptj/article/93/12/1707/2735362)
+                [^9]: Mang CS, Campbell KL, Ross CJ, Boyd LA. Promoting neuroplasticity for motor rehabilitation after stroke: considering the effects of aerobic exercise and genetic variation on brain-derived neurotrophic factor. *Physical Therapy*. 2013;93(12):1707-16. [(Find Online)](https://doi.org/10.2522/ptj.20130053)
 
-                [^10]: Li X, He Y, Wang D, Rezaei MJ. Stroke rehabilitation: from diagnosis to therapy. *Front Neurol*. 2024;15:1402729. [(Find Online)](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1402729/full)
+                [^10]: Li X, He Y, Wang D, Rezaei MJ. Stroke rehabilitation: from diagnosis to therapy. *Front Neurol*. 2024;15:1402729. [(Find Online)](https://doi.org/10.3389/fneur.2024.1402729)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2263,23 +2263,23 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: Cleveland Clinic. Myelomeningocele. Accessed July 14, 2025. https://my.clevelandclinic.org/health/diseases/22813-myelomeningocele [(Find Online)](https://my.clevelandclinic.org/health/diseases/22813-myelomeningocele)
 
-                [^2]: Dias L, Swaroop VT. Key concepts in the management of spina bifida. *J Am Acad Orthop Surg*. 2011;19(2):94-101. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21292931/)
+                [^2]: Dias L, Swaroop VT. Key concepts in the management of spina bifida. *J Am Acad Orthop Surg*. 2011;19(2):94-101. [(Find Online)](https://doi.org/10.1007/s11832-011-0368-9)
 
-                [^3]: Farmer DL, Thom EA, Brock JW 3rd, et al. The Management of Myelomeningocele Study: full cohort 30-month pediatric outcomes. *Am J Obstet Gynecol*. 2018;218(2):256.e1-256.e13. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/29246577/)
+                [^3]: Farmer DL, Thom EA, Brock JW 3rd, et al. The Management of Myelomeningocele Study: full cohort 30-month pediatric outcomes. *Am J Obstet Gynecol*. 2018;218(2):256.e1-256.e13. [(Find Online)](https://doi.org/10.1016/j.ajog.2017.12.001)
 
-                [^4]: Barf HA, Verhoef M, Jennekens-Schinkel A, et al. Cognitive status of young adults with spina bifida. *Dev Med Child Neurol*. 2003;45(12):813-820. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/14667074/)
+                [^4]: Barf HA, Verhoef M, Jennekens-Schinkel A, et al. Cognitive status of young adults with spina bifida. *Dev Med Child Neurol*. 2003;45(12):813-820. [(Find Online)](https://doi.org/10.1017/s0012162203001518)
 
-                [^5]: Wu SY, Chang SJ, Yang SS, Hsu CK. Botulinum Toxin Injection for Medically Refractory Neurogenic Bladder in Children: A Systematic Review. *Toxins (Basel)*. 2021;13(7):168-175. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/34209187/)
+                [^5]: Wu SY, Chang SJ, Yang SS, Hsu CK. Botulinum Toxin Injection for Medically Refractory Neurogenic Bladder in Children: A Systematic Review. *Toxins (Basel)*. 2021;13(7):168-175. [(Find Online)](https://doi.org/10.3390/toxins13070447)
 
-                [^6]: Kasabian NG, Bauer SB, Dyro FM, et al. The prophylactic value of clean intermittent catheterization and anticholinergic medication in newborns and infants with myelodysplasia at risk of developing urinary tract deterioration. *Am J Dis Child*. 1992;146(7):840-843. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1496955/)
+                [^6]: Kasabian NG, Bauer SB, Dyro FM, et al. The prophylactic value of clean intermittent catheterization and anticholinergic medication in newborns and infants with myelodysplasia at risk of developing urinary tract deterioration. *Am J Dis Child*. 1992;146(7):840-843. [(Find Online)](https://doi.org/10.1001/archpedi.1992.02160190072024)
 
                 [^7]: National Institute of Neurological Disorders and Stroke. Spina Bifida. Available from: https://www.ninds.nih.gov/health-information/disorders/spina-bifida [(Find Online)](https://www.ninds.nih.gov/health-information/disorders/spina-bifida)
 
-                [^8]: Garcia HH, Fuentes AG, Malaga G, et al. Myelomeningocele: a new functional classification. *Bone Joint J*. 2021;103-B(2):322-329. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33517743/)
+                [^8]: Garcia HH, Fuentes AG, Malaga G, et al. Myelomeningocele: a new functional classification. *Bone Joint J*. 2021;103-B(2):322-329. [(Find Online)](https://doi.org/10.1302/1863-2548.15.200248)
 
                 [^9]: Keith RA, Granger CV, Hamilton BB, Sherwin FS. The functional independence measure: a new tool for rehabilitation. *Adv Clin Rehabil*. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
 
-                [^10]: Msall ME, DiGaudio K, Rogers BT, et al. The Functional Independence Measure for Children (WeeFIM). Conceptual basis and pilot use in children with developmental disabilities. *Clin Pediatr*. 1994;33(7):421-430. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/7525140/)
+                [^10]: Msall ME, DiGaudio K, Rogers BT, et al. The Functional Independence Measure for Children (WeeFIM). Conceptual basis and pilot use in children with developmental disabilities. *Clin Pediatr*. 1994;33(7):421-430. [(Find Online)](https://doi.org/10.1177/000992289403300708)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2422,17 +2422,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Garving C, Jakob S, Bauer I, Nadjar R, Brunner UH. Impingement Syndrome of the Shoulder. *Dtsch Arztebl Int*. 2017;114(45):765-776. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729225/)
+                [^1]: Garving C, Jakob S, Bauer I, Nadjar R, Brunner UH. Impingement Syndrome of the Shoulder. *Dtsch Arztebl Int*. 2017;114(45):765-776. [(Find Online)](https://doi.org/10.3238/arztebl.2017.0765)
 
-                [^2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. *Br J Sports Med*. 2012;46(14):964-978. [(Find Online)](https://bjsm.bmj.com/content/46/14/964)
+                [^2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. *Br J Sports Med*. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
 
-                [^3]: Dong W, Goost H, Lin XB, et al. Treatments for shoulder impingement syndrome: a PRISMA systematic review and network meta-analysis. *Medicine (Baltimore)*. 2015;94(10):e510. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602475/)
+                [^3]: Dong W, Goost H, Lin XB, et al. Treatments for shoulder impingement syndrome: a PRISMA systematic review and network meta-analysis. *Medicine (Baltimore)*. 2015;94(10):e510. [(Find Online)](https://doi.org/10.1097/MD.0000000000000510)
 
-                [^4]: Ziradkar R, Best TM, Quintero D, Paultre K. Nonsteroidal Anti-inflammatory and Corticosteroid Injections for Shoulder Impingement Syndrome: A Systematic Review and Meta-analysis. *Sports Health*. 2023;15(4):579-590. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10293538/)
+                [^4]: Ziradkar R, Best TM, Quintero D, Paultre K. Nonsteroidal Anti-inflammatory and Corticosteroid Injections for Shoulder Impingement Syndrome: A Systematic Review and Meta-analysis. *Sports Health*. 2023;15(4):579-590. [(Find Online)](https://doi.org/10.1177/19417381221108726)
 
-                [^5]: Lewis JS. Rotator cuff tendinopathy/subacromial impingement syndrome: is it time for a new method of assessment? *Br J Sports Med*. 2009;43(4):259-264. [(Find Online)](https://bjsm.bmj.com/content/43/4/259)
+                [^5]: Lewis JS. Rotator cuff tendinopathy/subacromial impingement syndrome: is it time for a new method of assessment? *Br J Sports Med*. 2009;43(4):259-264. [(Find Online)](https://doi.org/10.1136/bjsm.2008.052183)
 
-                [^6]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. *J Bone Joint Surg Am*. 1972;54(1):41-50. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5054450/)
+                [^6]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. *J Bone Joint Surg Am*. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2611,21 +2611,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Rosenbaum P, Paneth N, Leviton A, et al. A report: the definition and classification of cerebral palsy April 2006. *Dev Med Child Neurol Suppl*. 2007;109:8-14. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17370477/)
+                [^1]: Rosenbaum P, Paneth N, Leviton A, et al. A report: the definition and classification of cerebral palsy April 2006. *Dev Med Child Neurol Suppl*. 2007;109:8-14. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2007.tb12610.x)
 
-                [^2]: Palisano R, Rosenbaum P, Walter S, Russell D, Wood E, Galuppi B. Development and reliability of a system to classify gross motor function in children with cerebral palsy. *Dev Med Child Neurol*. 1997;39(4):214-23. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/9183258/)
+                [^2]: Palisano R, Rosenbaum P, Walter S, Russell D, Wood E, Galuppi B. Development and reliability of a system to classify gross motor function in children with cerebral palsy. *Dev Med Child Neurol*. 1997;39(4):214-23. [(Find Online)](https://doi.org/10.1111/j.1469-8749.1997.tb07414.x)
 
-                [^3]: Novak I, Morgan C, Fahey M, et al. State of the evidence traffic lights 2019: systematic review of interventions for preventing and treating children with cerebral palsy. *Curr Neurol Neurosci Rep*. 2020;20(2):3. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32086598/)
+                [^3]: Novak I, Morgan C, Fahey M, et al. State of the evidence traffic lights 2019: systematic review of interventions for preventing and treating children with cerebral palsy. *Curr Neurol Neurosci Rep*. 2020;20(2):3. [(Find Online)](https://doi.org/10.1007/s11910-020-1022-z)
 
-                [^4]: Masrour M, Zare A, Presedo A, Nabian MH. Intrathecal baclofen efficacy for managing motor function and spasticity severity in patients with cerebral palsy: a systematic review and meta-analysis. *BMC Neurol*. 2024;24(1):143. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38664627/)
+                [^4]: Masrour M, Zare A, Presedo A, Nabian MH. Intrathecal baclofen efficacy for managing motor function and spasticity severity in patients with cerebral palsy: a systematic review and meta-analysis. *BMC Neurol*. 2024;24(1):143. [(Find Online)](https://doi.org/10.1186/s12883-024-03647-7)
 
-                [^5]: Strobl W, Theologis T, Brunner R, et al. Best clinical practice in botulinum toxin treatment for children with cerebral palsy. *Toxins*. 2015;7(5):1629-48. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/25969944/)
+                [^5]: Strobl W, Theologis T, Brunner R, et al. Best clinical practice in botulinum toxin treatment for children with cerebral palsy. *Toxins*. 2015;7(5):1629-48. [(Find Online)](https://doi.org/10.3390/toxins7051629)
 
-                [^6]: Graham HK, Rosenbaum P, Paneth N, et al. Cerebral palsy. *Nat Rev Dis Primers*. 2016;2:15082. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27188686/)
+                [^6]: Graham HK, Rosenbaum P, Paneth N, et al. Cerebral palsy. *Nat Rev Dis Primers*. 2016;2:15082. [(Find Online)](https://doi.org/10.1038/nrdp.2015.82)
 
-                [^7]: Surveillance of Cerebral Palsy in Europe. Prevalence and characteristics of children with cerebral palsy in Europe. *Dev Med Child Neurol*. 2002;44(9):633-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12227618/)
+                [^7]: Surveillance of Cerebral Palsy in Europe. Prevalence and characteristics of children with cerebral palsy in Europe. *Dev Med Child Neurol*. 2002;44(9):633-40. [(Find Online)](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9F0B521B05BB3C3CA7A4C7487360FAEA/S0012162201002675a.pdf/prevalence-and-characteristics-of-children-with-cerebral-palsy-in-europe.pdf)
 
-                [^8]: Himpens E, Van den Broeck C, Oostra A, Calders P, Vanhaesebrouck P. Prevalence, type, distribution, and severity of cerebral palsy in relation to gestational age: a meta-analytic review. *Dev Med Child Neurol*. 2008;50(5):334-40. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/18355333/)
+                [^8]: Himpens E, Van den Broeck C, Oostra A, Calders P, Vanhaesebrouck P. Prevalence, type, distribution, and severity of cerebral palsy in relation to gestational age: a meta-analytic review. *Dev Med Child Neurol*. 2008;50(5):334-40. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2008.02047.x)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2768,19 +2768,19 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Harden RN, Bruehl S, Perez RSGM, et al. Validation of proposed diagnostic criteria (the "Budapest Criteria") for Complex Regional Pain Syndrome. *Pain*. 2010;150(2):268-274. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2914607/)
+                [^1]: Harden RN, Bruehl S, Perez RSGM, et al. Validation of proposed diagnostic criteria (the "Budapest Criteria") for Complex Regional Pain Syndrome. *Pain*. 2010;150(2):268-274. [(Find Online)](https://doi.org/10.1016/j.pain.2010.04.030)
 
-                [^2]: Abd-Elsayed A, Stark CW, Topoluk N, et al. A brief review of complex regional pain syndrome and current management. *Ann Med*. 2024;56(1):2334398. [(Find Online)](https://www.tandfonline.com/doi/full/10.1080/07853890.2024.2334398)
+                [^2]: Abd-Elsayed A, Stark CW, Topoluk N, et al. A brief review of complex regional pain syndrome and current management. *Ann Med*. 2024;56(1):2334398. [(Find Online)](https://doi.org/10.1080/07853890.2024.2334398)
 
-                [^3]: Donati D, Boccolari P, Giorgi F, et al. Breaking the Cycle of Pain: The Role of Graded Motor Imagery and Mirror Therapy in Complex Regional Pain Syndrome. *Biomedicines*. 2024;12(9):2140. [(Find Online)](https://www.mdpi.com/2227-9059/12/9/2140)
+                [^3]: Donati D, Boccolari P, Giorgi F, et al. Breaking the Cycle of Pain: The Role of Graded Motor Imagery and Mirror Therapy in Complex Regional Pain Syndrome. *Biomedicines*. 2024;12(9):2140. [(Find Online)](https://doi.org/10.3390/biomedicines12092140)
 
-                [^4]: Moseley GL. Graded motor imagery is effective for long-standing complex regional pain syndrome: a randomised controlled trial. *Pain*. 2004;108(1-2):192-198. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15109523/)
+                [^4]: Moseley GL. Graded motor imagery is effective for long-standing complex regional pain syndrome: a randomised controlled trial. *Pain*. 2004;108(1-2):192-198. [(Find Online)](https://doi.org/10.1016/j.pain.2004.01.006)
 
-                [^5]: Tran DQ, Duong S, Bertini P, Finlayson RJ. Treatment of complex regional pain syndrome: a review of the evidence. *Can J Anaesth*. 2010;57(2):149-166. [(Find Online)](https://link.springer.com/article/10.1007/s12630-009-9237-0)
+                [^5]: Tran DQ, Duong S, Bertini P, Finlayson RJ. Treatment of complex regional pain syndrome: a review of the evidence. *Can J Anaesth*. 2010;57(2):149-166. [(Find Online)](https://doi.org/10.1007/s12630-009-9237-0)
 
-                [^6]: Bruehl S. Complex regional pain syndrome. *BMJ*. 2015;351:h2730. [(Find Online)](https://www.bmj.com/content/351/bmj.h2730)
+                [^6]: Bruehl S. Complex regional pain syndrome. *BMJ*. 2015;351:h2730. [(Find Online)](https://doi.org/10.1136/bmj.h2730)
 
-                [^7]: Goebel A, Barker CH, Turner-Stokes L, et al. Complex regional pain syndrome in adults: UK guidelines for diagnosis, referral and management in primary and secondary care. *Pain Med*. 2012;13(9):1101-1121. [(Find Online)](https://academic.oup.com/painmedicine/article/13/9/1101/1866932)
+                [^7]: Goebel A, Barker CH, Turner-Stokes L, et al. Complex regional pain syndrome in adults: UK guidelines for diagnosis, referral and management in primary and secondary care. *Pain Med*. 2012;13(9):1101-1121. [(Find Online)](https://kclpure.kcl.ac.uk/portal/en/publications/complex-regional-pain-syndrome-in-adults-2nd-edition-uk-guideline)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2790,7 +2790,7 @@ class GeneratedContentProvider {
             keywords: ["CRPS", "complex regional pain syndrome", "reflex sympathetic dystrophy", "causalgia", "neuropathic pain", "Budapest criteria", "graded motor imagery", "mirror therapy"]
         ),
         MedicalContent(
-            title: "Pressure Injury Prevention and Management in Spinal Cord Injury",
+            title: "Pressure Injury Prevention and Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -2965,15 +2965,15 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: European Pressure Ulcer Advisory Panel, National Pressure Injury Advisory Panel, and Pan Pacific Pressure Injury Alliance. Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline. The International Guideline. 2019. [(Find Online)](https://www.epuap.org/pu-guidelines/)
 
-                [^2]: Garber SL, Rintala DH. Pressure ulcers in veterans with spinal cord injury: a retrospective study. J Rehabil Res Dev. 2003;40(5):433-441. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15080226/)
+                [^2]: Garber SL, Rintala DH. Pressure ulcers in veterans with spinal cord injury: a retrospective study. J Rehabil Res Dev. 2003;40(5):433-441. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15080228/)
 
-                [^3]: Regan MA, Teasell RW, Wolfe DL, et al. A systematic review of therapeutic interventions for pressure ulcers after spinal cord injury. Arch Phys Med Rehabil. 2009;90(2):213-231. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19236976/)
+                [^3]: Regan MA, Teasell RW, Wolfe DL, et al. A systematic review of therapeutic interventions for pressure ulcers after spinal cord injury. Arch Phys Med Rehabil. 2009;90(2):213-231. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.08.212)
 
-                [^4]: Houghton PE, Campbell KE. Canadian Best Practice Guidelines for the Prevention and Management of Pressure Ulcers in People With Spinal Cord Injury. A resource handbook for clinicians. 2013. [(Find Online)](https://onf.org/wp-content/uploads/2019/04/Pressure_Ulcers_Best_Practice_Guideline_Final_web4.pdf)
+                [^4]: Houghton PE, Campbell KE. Canadian Best Practice Guidelines for the Prevention and Management of Pressure Ulcers in People With Spinal Cord Injury. A resource handbook for clinicians. 2013. [(Find Online)](https://policycommons.net/artifacts/1200744/canadian-best-practice-guidelines-for-the-prevention-and-management-of-pressure-ulcers-in-people-with-spinal-cord-injury/1753863/)
 
-                [^5]: Delparte JJ, Scovil CY, Flett HM, et al. Determining Pressure Injury Risk on Admission to Inpatient Spinal Cord Injury Rehabilitation: A Comparison of the FIM, Spinal Cord Injury Pressure Ulcer Scale, and Braden Scale. Arch Phys Med Rehabil. 2019;100(8):1527-1536. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30831091/)
+                [^5]: Delparte JJ, Scovil CY, Flett HM, et al. Determining Pressure Injury Risk on Admission to Inpatient Spinal Cord Injury Rehabilitation: A Comparison of the FIM, Spinal Cord Injury Pressure Ulcer Scale, and Braden Scale. Arch Phys Med Rehabil. 2019;100(8):1527-1536. [(Find Online)](https://doi.org/10.1016/j.apmr.2019.04.004)
 
-                [^6]: Gould L, Abadir P, Brem H, et al. WHS guidelines for the treatment of pressure ulcers—2023 update. Wound Repair and Regeneration. 2024;32(1):6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/37975173/)
+                [^6]: Gould L, Abadir P, Brem H, et al. WHS guidelines for the treatment of pressure ulcers—2023 update. Wound Repair and Regeneration. 2024;32(1):6-18. [(Find Online)](https://doi.org/10.1111/wrr.13130)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -2983,7 +2983,7 @@ class GeneratedContentProvider {
             keywords: ["pressure injury", "pressure ulcer", "spinal cord injury", "wound care", "prevention", "management"]
         ),
         MedicalContent(
-            title: "Agitation and Aggression after Traumatic Brain Injury",
+            title: "Agitation and Aggression",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -3136,21 +3136,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Corrigan JD, Mysiw WJ, Gribble MW, et al. The Agitated Behavior Scale. *J Head Trauma Rehabil*. 1992;7(3):48-57. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27268000/)
+                [^1]: Corrigan JD, Mysiw WJ, Gribble MW, et al. The Agitated Behavior Scale. *J Head Trauma Rehabil*. 1992;7(3):48-57. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(96)90306-8/pdf)
 
-                [^2]: Phyland RK, Ponsford JL, Carrier SL, et al. Agitated Behaviors following Traumatic Brain Injury: A Systematic Review and Meta-Analysis of Prevalence by Post-Traumatic Amnesia Status, Hospital Setting, and Agitated Behavior Type. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/35419684/)
+                [^2]: Phyland RK, Ponsford JL, Carrier SL, et al. Agitated Behaviors following Traumatic Brain Injury: A Systematic Review and Meta-Analysis of Prevalence by Post-Traumatic Amnesia Status, Hospital Setting, and Agitated Behavior Type. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://www.liebertpub.com/doi/pdf/10.1089/neu.2021.0257?casa_token=2da4rVwugbIAAAAA%3AvpSY1cj58QJphtht7Tn9jVW5oPxigIPBQhErbpfD8Fhyip6OIc7LC8ZhcuwT5CAQA1L2X4oBvFLPYzTc)
 
-                [^3]: Carrier SL, Ponsford J, Phyland RK, et al. Effectiveness of Non-Pharmacological Interventions for Agitation during Post-Traumatic Amnesia following Traumatic Brain Injury: A Systematic Review. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/35419684/)
+                [^3]: Carrier SL, Ponsford J, Phyland RK, et al. Effectiveness of Non-Pharmacological Interventions for Agitation during Post-Traumatic Amnesia following Traumatic Brain Injury: A Systematic Review. *Neuropsychol Rev*. 2023;33(2):374-392. [(Find Online)](https://link.springer.com/content/pdf/10.1007/s11065-022-09544-5.pdf)
 
-                [^4]: Hart S, Lannon M, Chen A, et al. Beta blockers in traumatic brain injury: a systematic review and meta-analysis. *Trauma Surg Acute Care Open*. 2023;8(1):e001051. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10230935/)
+                [^4]: Hart S, Lannon M, Chen A, et al. Beta blockers in traumatic brain injury: a systematic review and meta-analysis. *Trauma Surg Acute Care Open*. 2023;8(1):e001051. [(Find Online)](https://tsaco.bmj.com/content/tsaco/8/1/e001051.full.pdf)
 
-                [^5]: Al-Hassani A, Aldawood A, Alsaeed D, et al. Systemic and cerebro-cardiac biomarkers following traumatic brain injury: an interim analysis of randomized controlled clinical trial of early administration of beta blockers. *Sci Rep*. 2024;14(1):16689. [(Find Online)](https://www.nature.com/articles/s41598-024-67146-y)
+                [^5]: Al-Hassani A, Aldawood A, Alsaeed D, et al. Systemic and cerebro-cardiac biomarkers following traumatic brain injury: an interim analysis of randomized controlled clinical trial of early administration of beta blockers. *Sci Rep*. 2024;14(1):16689. [(Find Online)](https://www.nature.com/articles/s41598-024-70470-y.pdf)
 
-                [^6]: Luauté J, Plantier D, Wiart L, et al. Care management of the agitation or aggressiveness crisis in patients with TBI: Systematic review of the literature and practice recommendations. *Ann Phys Rehabil Med*. 2016;59(1):58-67. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/26704230/)
+                [^6]: Luauté J, Plantier D, Wiart L, et al. Care management of the agitation or aggressiveness crisis in patients with TBI: Systematic review of the literature and practice recommendations. *Ann Phys Rehabil Med*. 2016;59(1):58-67. [(Find Online)](https://doi.org/10.1016/j.rehab.2015.11.001)
 
-                [^7]: Bogner JA, Corrigan JD, Stange M, et al. Rating scale analysis of the Agitated Behavior Scale. *J Head Trauma Rehabil*. 2001;16(1):74-85. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11277850/)
+                [^7]: Bogner JA, Corrigan JD, Stange M, et al. Rating scale analysis of the Agitated Behavior Scale. *J Head Trauma Rehabil*. 2001;16(1):74-85. [(Find Online)](https://journals.lww.com/headtraumarehab/fulltext/1999/02000/reliability_of_the_agitated_behavior_scale.12.aspx?casa_token=LGR3dJU1nr0AAAAA:nuqwBHGYXXtTvt71ZI4H8G6fFT8C2QFEFrOHCQmziKXXxXJlLpRIbl7HKaZkyeHuszPFdr3FMPBds6wR1OCuwglutQ)
 
-                [^8]: McKay A, Trevena-Peters J, Ponsford J, et al. The use of atypical antipsychotics for managing agitation after traumatic brain injury. *J Head Trauma Rehabil*. 2021;36(2):149-155. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32769826/)
+                [^8]: McKay A, Trevena-Peters J, Ponsford J, et al. The use of atypical antipsychotics for managing agitation after traumatic brain injury. *J Head Trauma Rehabil*. 2021;36(2):149-155. [(Find Online)](https://journals.lww.com/headtraumarehab/fulltext/2021/05000/The_Use_of_Atypical_Antipsychotics_for_Managing.2.aspx?context=FeaturedArticles&collectionId=1&casa_token=10YmlatYwZoAAAAA:vD0Fys7q3vbb_y090m1zGg9cE1uiOu7n2z-_SSavfMwdzAU6OtAus3ZrjN-PyAHeYAA7x7PYrzs09yY0iiXsVi_nUg)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -3307,14 +3307,14 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Zhang W, et al. Pathophysiology and Management Strategies for Post-Stroke Spasticity: An Update Review. International Journal of Molecular Sciences. 2025;26(1):406. [(Find Online)](https://www.mdpi.com/1422-0067/26/1/406)
-                [^2]: Li S, Francisco GE, Rymer WZ. A New Definition of Poststroke Spasticity and the Interference of Spasticity With Motor Recovery From Acute to Chronic Stages. Neurorehabilitation and Neural Repair. 2021;35(7):601-610. [(Find Online)](https://journals.sagepub.com/doi/10.1177/15459683211011214)
-                [^3]: Li S, Francisco GE. New insights into the pathophysiology of post-stroke spasticity. Frontiers in Human Neuroscience. 2015;9:192. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fnhum.2015.00192/full)
-                [^4]: Lundström E, et al. The effectiveness of early interventions for post-stroke spasticity: a systematic review. Disability and Rehabilitation. 2024;46(13):2884-2896. [(Find Online)](https://www.tandfonline.com/doi/full/10.1080/09638288.2023.2226866)
-                [^5]: Suputtitada A, et al. A modified scoping review of interventions for global post stroke spasticity. Toxicology and Applied Pharmacology. 2025;485:116856. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S0041008X24000541)
-                [^6]: Rosales RL, et al. Botulinum toxin A injection for post-stroke upper limb spasticity and rehabilitation practices from centers across Asian countries. Frontiers in Neurology. 2024;15:1335365. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fneur.2024.1335365/full)
-                [^7]: Wang H, et al. Efficacy and Optimal Dose of Botulinum Toxin A in Post-Stroke Lower Extremity Spasticity: A Systematic Review and Meta-Analysis. Toxins. 2021;13(6):428. [(Find Online)](https://www.mdpi.com/2072-6651/13/6/428)
-                [^8]: Francisco GE, McGuire JR. Poststroke Spasticity Management. Stroke. 2012;43(11):3132-3136. [(Find Online)](https://www.ahajournals.org/doi/10.1161/STROKEAHA.111.639831)
+                [^1]: Zhang W, et al. Pathophysiology and Management Strategies for Post-Stroke Spasticity: An Update Review. International Journal of Molecular Sciences. 2025;26(1):406. [(Find Online)](https://doi.org/10.3390/ijms26010406)
+                [^2]: Li S, Francisco GE, Rymer WZ. A New Definition of Poststroke Spasticity and the Interference of Spasticity With Motor Recovery From Acute to Chronic Stages. Neurorehabilitation and Neural Repair. 2021;35(7):601-610. [(Find Online)](https://doi.org/10.1177/15459683211011214)
+                [^3]: Li S, Francisco GE. New insights into the pathophysiology of post-stroke spasticity. Frontiers in Human Neuroscience. 2015;9:192. [(Find Online)](https://doi.org/10.3389/fnhum.2015.00192)
+                [^4]: Lundström E, et al. The effectiveness of early interventions for post-stroke spasticity: a systematic review. Disability and Rehabilitation. 2024;46(13):2884-2896. [(Find Online)](https://doi.org/10.1080/09638288.2024.2363963)
+                [^5]: Suputtitada A, et al. A modified scoping review of interventions for global post stroke spasticity. Toxicology and Applied Pharmacology. 2025;485:116856. [(Find Online)](https://doi.org/10.1016/j.toxicon.2025.108311)
+                [^6]: Rosales RL, et al. Botulinum toxin A injection for post-stroke upper limb spasticity and rehabilitation practices from centers across Asian countries. Frontiers in Neurology. 2024;15:1335365. [(Find Online)](https://doi.org/10.3389/fneur.2024.1335365)
+                [^7]: Wang H, et al. Efficacy and Optimal Dose of Botulinum Toxin A in Post-Stroke Lower Extremity Spasticity: A Systematic Review and Meta-Analysis. Toxins. 2021;13(6):428. [(Find Online)](https://doi.org/10.3390/toxins13060428)
+                [^8]: Francisco GE, McGuire JR. Poststroke Spasticity Management. Stroke. 2012;43(11):3132-3136. [(Find Online)](https://doi.org/10.1161/STROKEAHA.111.639831)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -3324,7 +3324,7 @@ class GeneratedContentProvider {
             keywords: ["post-stroke spasticity", "upper motor neuron syndrome", "botulinum toxin", "reticulospinal hyperexcitability", "velocity-dependent muscle tone"]
         ),
         MedicalContent(
-            title: "Phantom Limb Pain and Residual Limb Pain: A Comprehensive Rehabilitation Guide",
+            title: "Phantom Limb Pain and Residual Limb Pain",
             subtitle: nil,
             contentType: .guide,
             category: "Amputee Care",
@@ -3460,17 +3460,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hsu E, Cohen SP. Postamputation pain: epidemiology, mechanisms, and treatment. *J Pain Res*. 2013;6:121-136. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575088/)
+                [^1]: Hsu E, Cohen SP. Postamputation pain: epidemiology, mechanisms, and treatment. *J Pain Res*. 2013;6:121-136. [(Find Online)](https://doi.org/10.2147/jpr.s32299)
 
-                [^2]: Alviar MJ, Hale T, Lim-Dungca M. Pharmacologic interventions for treating phantom limb pain. *Cochrane Database Syst Rev*. 2016;(10):CD006380. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006380.pub3/full)
+                [^2]: Alviar MJ, Hale T, Lim-Dungca M. Pharmacologic interventions for treating phantom limb pain. *Cochrane Database Syst Rev*. 2016;(10):CD006380. [(Find Online)](https://doi.org/10.1002/14651858.CD006380.pub3)
 
-                [^3]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Front Pain Res*. 2024;5:1425544. [(Find Online)](https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2024.1425544/full)
+                [^3]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Front Pain Res*. 2024;5:1425544. [(Find Online)](https://doi.org/10.3389/fpain.2024.1425544)
 
-                [^4]: Griffin SC, Alphonso AL, Tung M, et al. Characteristics of phantom limb pain in U.S. civilians and service members. *Scand J Pain*. 2021;22(1):125-132. [(Find Online)](https://www.degruyter.com/document/doi/10.1515/sjpain-2021-0049/html)
+                [^4]: Griffin SC, Alphonso AL, Tung M, et al. Characteristics of phantom limb pain in U.S. civilians and service members. *Scand J Pain*. 2021;22(1):125-132. [(Find Online)](https://doi.org/10.1515/sjpain-2021-0139)
 
-                [^5]: Limakatso K, McGowan E, Ortiz-Catalan M. Evaluating mirror therapy protocols in phantom limb pain clinical trials: a scoping review. *J Pain Res*. 2025;18:619-629. [(Find Online)](https://www.dovepress.com/evaluating-mirror-therapy-protocols-in-phantom-limb-pain-clinical-tri-peer-reviewed-fulltext-article-JPR)
+                [^5]: Limakatso K, McGowan E, Ortiz-Catalan M. Evaluating mirror therapy protocols in phantom limb pain clinical trials: a scoping review. *J Pain Res*. 2025;18:619-629. [(Find Online)](https://doi.org/10.2147/jpr.s502541)
 
-                [^6]: Guémann M, Olié E, Raquin L, et al. Effect of mirror therapy in the treatment of phantom limb pain in amputees: a systematic review of randomized placebo-controlled trials does not find any evidence of efficacy. *Eur J Pain*. 2023;27(1):3-13. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ejp.2035)
+                [^6]: Guémann M, Olié E, Raquin L, et al. Effect of mirror therapy in the treatment of phantom limb pain in amputees: a systematic review of randomized placebo-controlled trials does not find any evidence of efficacy. *Eur J Pain*. 2023;27(1):3-13. [(Find Online)](https://doi.org/10.1002/ejp.2035)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -3673,21 +3673,21 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Schneider HJ, Kreitschmann-Andermahr I, Ghigo E, Stalla GK, Agha A. Hypothalamopituitary dysfunction following traumatic brain injury and aneurysmal subarachnoid hemorrhage: a systematic review. *JAMA*. 2007;298(12):1429-1438. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/208816)
+                [^1]: Schneider HJ, Kreitschmann-Andermahr I, Ghigo E, Stalla GK, Agha A. Hypothalamopituitary dysfunction following traumatic brain injury and aneurysmal subarachnoid hemorrhage: a systematic review. *JAMA*. 2007;298(12):1429-1438. [(Find Online)](https://doi.org/10.1001/jama.298.12.1429)
 
-                [^2]: Klose M, Feldt-Rasmussen U. Hypopituitarism in traumatic brain injury--a critical review. *J Clin Endocrinol Metab*. 2015;100(12):4355-4364. [(Find Online)](https://academic.oup.com/jcem/article/100/12/4355/2536351)
+                [^2]: Klose M, Feldt-Rasmussen U. Hypopituitarism in traumatic brain injury--a critical review. *J Clin Endocrinol Metab*. 2015;100(12):4355-4364. [(Find Online)](https://doi.org/10.3390/jcm4071480)
 
-                [^3]: Quinn M, Agha A. Post-Traumatic Hypopituitarism—Who Should Be Screened, When, and How? *Front Endocrinol*. 2018;9:8. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fendo.2018.00008/full)
+                [^3]: Quinn M, Agha A. Post-Traumatic Hypopituitarism—Who Should Be Screened, When, and How? *Front Endocrinol*. 2018;9:8. [(Find Online)](https://doi.org/10.3389/fendo.2018.00008)
 
-                [^4]: Emelifeonwu JA, Flower H, Loan JJ, McGivern K, Andrews PJD. Prevalence of Anterior Pituitary Dysfunction Twelve Months or More following Traumatic Brain Injury in Adults: A Systematic Review and Meta-Analysis. *J Neurotrauma*. 2019;36(5):740-753. [(Find Online)](https://www.liebertpub.com/doi/10.1089/neu.2018.5998)
+                [^4]: Emelifeonwu JA, Flower H, Loan JJ, McGivern K, Andrews PJD. Prevalence of Anterior Pituitary Dysfunction Twelve Months or More following Traumatic Brain Injury in Adults: A Systematic Review and Meta-Analysis. *J Neurotrauma*. 2019;36(5):740-753. [(Find Online)](https://doi.org/10.1089/neu.2018.6349)
 
-                [^5]: Ghigo E, Masel B, Aimaretti G, et al. Consensus guidelines on screening for hypopituitarism following traumatic brain injury. *Brain Inj*. 2005;19(9):711-724. [(Find Online)](https://www.tandfonline.com/doi/abs/10.1080/02699050400025315)
+                [^5]: Ghigo E, Masel B, Aimaretti G, et al. Consensus guidelines on screening for hypopituitarism following traumatic brain injury. *Brain Inj*. 2005;19(9):711-724. [(Find Online)](https://doi.org/10.1080/02699050400025315)
 
-                [^6]: Fleseriu M, Hashim IA, Karavitaki N, et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2016;101(11):3888-3921. [(Find Online)](https://academic.oup.com/jcem/article/101/11/3888/2764886)
+                [^6]: Fleseriu M, Hashim IA, Karavitaki N, et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2016;101(11):3888-3921. [(Find Online)](https://doi.org/10.1210/jc.2016-2118)
 
-                [^7]: Urban RJ, Harris P, Caben-Miroff J. The role of the endocrine system in the rehabilitation of patients with traumatic brain injury. *J Head Trauma Rehabil*. 2001;16(4):325-336. [(Find Online)](https://journals.lww.com/headtraumarehab/Abstract/2001/08000/The_Role_of_the_Endocrine_System_in_the.2.aspx)
+                [^7]: Urban RJ, Harris P, Caben-Miroff J. The role of the endocrine system in the rehabilitation of patients with traumatic brain injury. *J Head Trauma Rehabil*. 2001;16(4):325-336. [(Find Online)](https://doi.org/10.1007/s12028-022-01672-3)
 
-                [^8]: Aimaretti G, Ambrosio MR, Benvenga S, et al. Hypopituitarism and growth hormone deficiency after traumatic brain injury. *Growth Horm IGF Res*. 2004;14 Suppl A:S114-117. [(Find Online)](https://www.sciencedirect.com/science/article/abs/pii/S1096637404000279)
+                [^8]: Aimaretti G, Ambrosio MR, Benvenga S, et al. Hypopituitarism and growth hormone deficiency after traumatic brain injury. *Growth Horm IGF Res*. 2004;14 Suppl A:S114-117. [(Find Online)](https://doi.org/10.1016/j.ghir.2004.03.025)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -3833,17 +3833,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Chen, X., Gan, Y., Au, N.P.B., Ma, C.H.E. Current understanding of the molecular mechanisms of chemotherapy-induced peripheral neuropathy. *Front Mol Neurosci*. 2024;17:1345811. [(Find Online)](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2024.1345811/full)
+                [^1]: Chen, X., Gan, Y., Au, N.P.B., Ma, C.H.E. Current understanding of the molecular mechanisms of chemotherapy-induced peripheral neuropathy. *Front Mol Neurosci*. 2024;17:1345811. [(Find Online)](https://doi.org/10.3389/fnmol.2024.1345811)
 
-                [^2]: Dorsey SG, Kleckner IR, Barton D, et al. Chemotherapy-induced peripheral neuropathy: mechanisms and therapeutic avenues. *Neurochem Res*. 2022;47(1):116-129. [(Find Online)](https://link.springer.com/article/10.1007/s11064-021-03361-7)
+                [^2]: Dorsey SG, Kleckner IR, Barton D, et al. Chemotherapy-induced peripheral neuropathy: mechanisms and therapeutic avenues. *Neurochem Res*. 2022;47(1):116-129. [(Find Online)](https://doi.org/10.1007/s13311-021-01142-2)
 
-                [^3]: Loprinzi CL, Lacchetti C, Bleeker J, et al. Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Clinical Practice Guideline Update. *J Clin Oncol*. 2020;38(28):3325-3348. [(Find Online)](https://ascopubs.org/doi/10.1200/JCO.20.01399)
+                [^3]: Loprinzi CL, Lacchetti C, Bleeker J, et al. Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Clinical Practice Guideline Update. *J Clin Oncol*. 2020;38(28):3325-3348. [(Find Online)](https://doi.org/10.1200/JCO.20.01399)
 
-                [^4]: Smith EM, Pang H, Cirrincione C, et al. Effect of duloxetine on pain, function, and quality of life among patients with chemotherapy-induced painful peripheral neuropathy: a randomized clinical trial. *JAMA*. 2013;309(13):1359-1367. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/1674245)
+                [^4]: Smith EM, Pang H, Cirrincione C, et al. Effect of duloxetine on pain, function, and quality of life among patients with chemotherapy-induced painful peripheral neuropathy: a randomized clinical trial. *JAMA*. 2013;309(13):1359-1367. [(Find Online)](https://doi.org/10.1001/jama.2013.2813)
 
-                [^5]: Kober KM, Mazor M, Abrams G, et al. Assessing chemotherapy-induced peripheral neuropathy with patient reported outcome measures: a systematic review of measurement properties. *Support Care Cancer*. 2022;30(11):8977-8993. [(Find Online)](https://link.springer.com/article/10.1007/s00520-022-07302-0)
+                [^5]: Kober KM, Mazor M, Abrams G, et al. Assessing chemotherapy-induced peripheral neuropathy with patient reported outcome measures: a systematic review of measurement properties. *Support Care Cancer*. 2022;30(11):8977-8993. [(Find Online)](https://doi.org/10.1007/s11136-022-03154-7)
 
-                [^6]: Tamburin S, Park SB, Schenone A, et al. Rehabilitation, exercise, and related non-pharmacological interventions for chemotherapy-induced peripheral neurotoxicity: systematic review and evidence-based recommendations. *J Peripher Nerv Syst*. 2022;27(1):24-44. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1111/jns.12479)
+                [^6]: Tamburin S, Park SB, Schenone A, et al. Rehabilitation, exercise, and related non-pharmacological interventions for chemotherapy-induced peripheral neurotoxicity: systematic review and evidence-based recommendations. *J Peripher Nerv Syst*. 2022;27(1):24-44. [(Find Online)](https://doi.org/10.1016/j.critrevonc.2021.103575)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -4009,17 +4009,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Martino R, Foley N, Bhogal S, et al. Dysphagia after stroke: incidence, diagnosis, and pulmonary complications. *Stroke*. 2005;36(12):2756-2763. [(Find Online)](https://www.ahajournals.org/doi/10.1161/01.STR.0000190056.76543.eb)
+                [^1]: Martino R, Foley N, Bhogal S, et al. Dysphagia after stroke: incidence, diagnosis, and pulmonary complications. *Stroke*. 2005;36(12):2756-2763. [(Find Online)](https://doi.org/10.1161/01.STR.0000190056.76543.eb)
 
-                [^2]: Bath PM, Lee HS, Everton LF. Swallowing therapy for dysphagia in acute and subacute stroke. *Cochrane Database Syst Rev*. 2018;10:CD000323. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000323.pub3/full)
+                [^2]: Bath PM, Lee HS, Everton LF. Swallowing therapy for dysphagia in acute and subacute stroke. *Cochrane Database Syst Rev*. 2018;10:CD000323. [(Find Online)](https://doi.org/10.1002/14651858.CD000323.pub3)
 
-                [^3]: Crary MA, Mann GD, Groher ME. Initial psychometric assessment of a functional oral intake scale for dysphagia in stroke patients. *Arch Phys Med Rehabil*. 2005;86(8):1516-1520. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(05)00308-9/fulltext)
+                [^3]: Crary MA, Mann GD, Groher ME. Initial psychometric assessment of a functional oral intake scale for dysphagia in stroke patients. *Arch Phys Med Rehabil*. 2005;86(8):1516-1520. [(Find Online)](https://doi.org/10.1016/j.apmr.2004.11.049)
 
-                [^4]: Labeit B, Claus I, Roehm S, et al. Dysphagia after stroke: research advances in treatment interventions. *Lancet Neurol*. 2024;23(4):418-428. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(24)00048-4/fulltext)
+                [^4]: Labeit B, Claus I, Roehm S, et al. Dysphagia after stroke: research advances in treatment interventions. *Lancet Neurol*. 2024;23(4):418-428. [(Find Online)](https://doi.org/10.1016/s1474-4422(24)00053-x)
 
-                [^5]: Suntrup-Krueger S, Ringmaier C, Muhle P, et al. Randomized trial of transcranial direct current stimulation for poststroke dysphagia. *Ann Neurol*. 2018;83(2):328-340. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ana.25151)
+                [^5]: Suntrup-Krueger S, Ringmaier C, Muhle P, et al. Randomized trial of transcranial direct current stimulation for poststroke dysphagia. *Ann Neurol*. 2018;83(2):328-340. [(Find Online)](https://doi.org/10.1002/ana.25151)
 
-                [^6]: Elsharkawi I, Ramadan M, توفيق M, et al. Health factors associated with development and severity of poststroke dysphagia: an epidemiological investigation. *J Am Heart Assoc*. 2024;13(5):e033922. [(Find Online)](https://www.ahajournals.org/doi/10.1161/JAHA.123.033922)
+                [^6]: Elsharkawi I, Ramadan M, et al. Health factors associated with development and severity of poststroke dysphagia: an epidemiological investigation. *J Am Heart Assoc*. 2024;13(5):e033922. [(Find Online)](https://doi.org/10.1161/JAHA.123.033922)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -4160,17 +4160,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Atroshi I, Flondell M, Hofer M, Ranstam J. Methylprednisolone injections for the carpal tunnel syndrome: a randomized, placebo-controlled trial. Ann Intern Med. 2013;159(5):309-317. [(Find Online)](https://www.acpjournals.org/doi/10.7326/0003-4819-159-5-201309030-00004)
+                [^1]: Atroshi I, Flondell M, Hofer M, Ranstam J. Methylprednisolone injections for the carpal tunnel syndrome: a randomized, placebo-controlled trial. Ann Intern Med. 2013;159(5):309-317. [(Find Online)](https://doi.org/10.7326/0003-4819-159-5-201309030-00004)
 
-                [^2]: Dahlin LB, Zimmerman M, Calcagni M, et al. Carpal tunnel syndrome. Nat Rev Dis Primers. 2024;10(1):37. [(Find Online)](https://www.nature.com/articles/s41572-024-00521-1)
+                [^2]: Dahlin LB, Zimmerman M, Calcagni M, et al. Carpal tunnel syndrome. Nat Rev Dis Primers. 2024;10(1):37. [(Find Online)](https://doi.org/10.1038/s41572-024-00521-1)
 
-                [^3]: Bland JD. A neurophysiological grading scale for carpal tunnel syndrome. Muscle Nerve. 2000;23(8):1280-1283. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/1097-4598(200008)23:8%3C1280::AID-MUS20%3E3.0.CO;2-Y)
+                [^3]: Bland JD. A neurophysiological grading scale for carpal tunnel syndrome. Muscle Nerve. 2000;23(8):1280-1283. [(Find Online)](https://doi.org/10.1002/1097-4598(200008)23:8<1280::AID-MUS20>3.0.CO;2-Y)
 
-                [^4]: Gerritsen AA, de Vet HC, Scholten RJ, et al. Splinting vs surgery in the treatment of carpal tunnel syndrome: a randomized controlled trial. JAMA. 2002;288(10):1245-1251. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/195294)
+                [^4]: Gerritsen AA, de Vet HC, Scholten RJ, et al. Splinting vs surgery in the treatment of carpal tunnel syndrome: a randomized controlled trial. JAMA. 2002;288(10):1245-1251. [(Find Online)](https://doi.org/10.1001/jama.288.10.1245)
 
-                [^5]: Chang MH, Chiang HT, Lee SS, et al. Oral drug of choice in carpal tunnel syndrome. Neurology. 1998;51(2):390-393. [(Find Online)](https://www.neurology.org/doi/10.1212/WNL.51.2.390)
+                [^5]: Chang MH, Chiang HT, Lee SS, et al. Oral drug of choice in carpal tunnel syndrome. Neurology. 1998;51(2):390-393. [(Find Online)](https://doi.org/10.1212/WNL.51.2.390)
 
-                [^6]: Gay RE, Amadio PC, Johnson JC. Comparative responsiveness of the disabilities of the arm, shoulder, and hand, the carpal tunnel questionnaire, and the SF-36 to clinical change after carpal tunnel release. J Hand Surg Am. 2003;28(2):250-254. [(Find Online)](https://www.jhandsurg.org/article/S0363-5023(02)00046-3/fulltext)
+                [^6]: Gay RE, Amadio PC, Johnson JC. Comparative responsiveness of the disabilities of the arm, shoulder, and hand, the carpal tunnel questionnaire, and the SF-36 to clinical change after carpal tunnel release. J Hand Surg Am. 2003;28(2):250-254. [(Find Online)](https://doi.org/10.1053/jhsu.2003.50043)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -4180,7 +4180,7 @@ class GeneratedContentProvider {
             keywords: ["median nerve entrapment", "carpal tunnel", "neuropathy", "nerve compression"]
         ),
         MedicalContent(
-            title: "Disorders of Consciousness after Traumatic Brain Injury",
+            title: "Disorders of Consciousness",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -4345,19 +4345,19 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Giacino JT, Katz DI, Schiff ND, et al. Practice guideline update recommendations summary: Disorders of consciousness. *Neurology*. 2018;91(10):450-460. [(Find Online)](https://www.neurology.org/doi/10.1212/WNL.0000000000005926)
+                [^1]: Giacino JT, Katz DI, Schiff ND, et al. Practice guideline update recommendations summary: Disorders of consciousness. *Neurology*. 2018;91(10):450-460. [(Find Online)](https://doi.org/10.1212/WNL.0000000000005926)
 
-                [^2]: Giacino JT, Whyte J, Bagiella E, et al. Placebo-controlled trial of amantadine for severe traumatic brain injury. *N Engl J Med*. 2012;366(9):819-826. [(Find Online)](https://www.nejm.org/doi/full/10.1056/NEJMoa1102609)
+                [^2]: Giacino JT, Whyte J, Bagiella E, et al. Placebo-controlled trial of amantadine for severe traumatic brain injury. *N Engl J Med*. 2012;366(9):819-826. [(Find Online)](https://doi.org/10.1056/NEJMoa1102609)
 
-                [^3]: Seel RT, Sherer M, Whyte J, et al. Assessment scales for disorders of consciousness: evidence-based recommendations for clinical practice and research. *Arch Phys Med Rehabil*. 2010;91(12):1795-1813. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(10)00602-5/fulltext)
+                [^3]: Seel RT, Sherer M, Whyte J, et al. Assessment scales for disorders of consciousness: evidence-based recommendations for clinical practice and research. *Arch Phys Med Rehabil*. 2010;91(12):1795-1813. [(Find Online)](https://doi.org/10.1016/j.apmr.2010.07.218)
 
-                [^4]: Thibaut A, Bodien YG, Laureys S, Giacino JT. Minimally conscious state "plus": diagnostic criteria and relation to functional recovery. *J Neurol*. 2020;267(5):1245-1254. [(Find Online)](https://link.springer.com/article/10.1007/s00415-019-09628-y)
+                [^4]: Thibaut A, Bodien YG, Laureys S, Giacino JT. Minimally conscious state "plus": diagnostic criteria and relation to functional recovery. *J Neurol*. 2020;267(5):1245-1254. [(Find Online)](https://doi.org/10.1007/s00415-019-09628-y)
 
-                [^5]: American Congress of Rehabilitation Medicine. Recommendations for use of amantadine in patients with disorders of consciousness. *Arch Phys Med Rehabil*. 2012;93(2):183-189. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(11)00881-2/fulltext)
+                [^5]: American Congress of Rehabilitation Medicine. Recommendations for use of amantadine in patients with disorders of consciousness. *Arch Phys Med Rehabil*. 2012;93(2):183-189. [(Find Online)](https://doi.org/10.1016/j.pmr.2023.06.023)
 
-                [^6]: Dekundy A, Pichler G, El Badry R, et al. Amantadine for traumatic brain injury—supporting evidence and mode of action. *Biomedicines*. 2024;12(7):1558. [(Find Online)](https://www.mdpi.com/2227-9059/12/7/1558)
+                [^6]: Dekundy A, Pichler G, El Badry R, et al. Amantadine for traumatic brain injury—supporting evidence and mode of action. *Biomedicines*. 2024;12(7):1558. [(Find Online)](https://doi.org/10.3390/biomedicines12071558)
 
-                [^7]: Schnakers C, Vanhaudenhuyse A, Giacino J, et al. Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. *BMC Neurol*. 2009;9:35. [(Find Online)](https://bmcneurol.biomedcentral.com/articles/10.1186/1471-2377-9-35)
+                [^7]: Schnakers C, Vanhaudenhuyse A, Giacino J, et al. Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. *BMC Neurol*. 2009;9:35. [(Find Online)](https://doi.org/10.1186/1471-2377-9-35)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -4677,13 +4677,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Granger CV, Hamilton BB, Keith RA, Zielezny M, Sherwin FS. Advances in functional assessment for medical rehabilitation. *Top Geriatr Rehabil*. 1986;1(3):59-74. [(Find Online)](https://journals.lww.com/topicsingeriatricrehabilitation/abstract/1986/04000/advances_in_functional_assessment_for_medical.7.aspx)
+                [^1]: Granger CV, Hamilton BB, Keith RA, Zielezny M, Sherwin FS. Advances in functional assessment for medical rehabilitation. *Top Geriatr Rehabil*. 1986;1(3):59-74. [(Find Online)](https://doi.org/10.1097/00013614-198604000-00007)
 
                 [^2]: Keith RA, Granger CV, Hamilton BB, Sherwin FS. The functional independence measure: a new tool for rehabilitation. *Adv Clin Rehabil*. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
 
-                [^3]: Beninato M, Gill-Body KM, Salles S, et al. Determination of the minimal clinically important difference in the FIM instrument in patients with stroke. *Arch Phys Med Rehabil*. 2006;87(1):32-39. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(05)01262-5/fulltext)
+                [^3]: Beninato M, Gill-Body KM, Salles S, et al. Determination of the minimal clinically important difference in the FIM instrument in patients with stroke. *Arch Phys Med Rehabil*. 2006;87(1):32-39. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.08.130)
 
-                [^4]: Ottenbacher KJ, Hsu Y, Granger CV, Fiedler RC. The reliability of the functional independence measure: a quantitative review. *Arch Phys Med Rehabil*. 1996;77(12):1226-1232. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(96)90184-7/fulltext)
+                [^4]: Ottenbacher KJ, Hsu Y, Granger CV, Fiedler RC. The reliability of the functional independence measure: a quantitative review. *Arch Phys Med Rehabil*. 1996;77(12):1226-1232. [(Find Online)](https://doi.org/10.1016/S0003-9993(96)90184-7)
 
                 [^5]: Uniform Data System for Medical Rehabilitation. Guide for the Uniform Data Set for Medical Rehabilitation. Version 5.1. UDSMR; 1997. [(Find Online)](https://www.udsmr.org/)
                 """,
@@ -4819,13 +4819,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. *Am J Respir Crit Care Med*. 2002;166(1):111-117. [(Find Online)](https://www.atsjournals.org/doi/full/10.1164/ajrccm.166.1.at1102)
+                [^1]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. *Am J Respir Crit Care Med*. 2002;166(1):111-117. [(Find Online)](https://doi.org/10.1164/ajrccm.166.1.at1102)
 
-                [^2]: Fulk GD, He Y. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. *J Neurol Phys Ther*. 2018;42(4):235-240. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30095736/)
+                [^2]: Fulk GD, He Y. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. *J Neurol Phys Ther*. 2018;42(4):235-240. [(Find Online)](https://doi.org/10.1097/NPT.0000000000000236)
 
-                [^3]: Bohannon RW, Crouch R. Minimal clinically important difference for change in 6-minute walk test distance of adults with pathology: a systematic review. *Clin Rehabil*. 2017;31(9):1131-1141. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27803089/)
+                [^3]: Bohannon RW, Crouch R. Minimal clinically important difference for change in 6-minute walk test distance of adults with pathology: a systematic review. *Clin Rehabil*. 2017;31(9):1131-1141. [(Find Online)](https://doi.org/10.1111/jep.12629)
 
-                [^4]: Kubo H, Kanai M, Nozoe M, et al. Reference value of 6-minute walk distance in patients with sub-acute stroke. *Top Stroke Rehabil*. 2020;27(2):146-153. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/31526147/)
+                [^4]: Kubo H, Kanai M, Nozoe M, et al. Reference value of 6-minute walk distance in patients with sub-acute stroke. *Top Stroke Rehabil*. 2020;27(2):146-153. [(Find Online)](https://doi.org/10.1080/10749357.2019.1704372)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -4951,19 +4951,19 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. *Phys Ther*. 1987;67(2):206-207. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3809245/)
+                [^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. *Phys Ther*. 1987;67(2):206-207. [(Find Online)](https://doi.org/10.1093/ptj/67.2.206)
 
-                [^2]: Ansari NN, Naghdi S, Moammeri H, Jalaie S. The Modified Modified Ashworth Scale (MMAS) for the assessment of muscle spasticity. *J Rehabil Med*. 2006;38(5):327-328. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16931463/)
+                [^2]: Ansari NN, Naghdi S, Moammeri H, Jalaie S. The Modified Modified Ashworth Scale (MMAS) for the assessment of muscle spasticity. *J Rehabil Med*. 2006;38(5):327-328. [(Find Online)](https://doi.org/10.1080/09593980600724188)
 
-                [^3]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. *Clin Rehabil*. 1999;13(5):373-383. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10498344/)
+                [^3]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. *Clin Rehabil*. 1999;13(5):373-383. [(Find Online)](https://doi.org/10.1191/026921599677595404)
 
-                [^4]: Blackburn M, van Vliet P, Mockett SP. Reliability of measurements obtained with the modified Ashworth scale in the lower extremities of people with stroke. *Phys Ther*. 2002;82(1):25-34. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11784275/)
+                [^4]: Blackburn M, van Vliet P, Mockett SP. Reliability of measurements obtained with the modified Ashworth scale in the lower extremities of people with stroke. *Phys Ther*. 2002;82(1):25-34. [(Find Online)](https://doi.org/10.1093/ptj/82.1.25)
 
-                [^5]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16250194/)
+                [^5]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://doi.org/10.1191/0269215505cr889oa)
 
                 [^6]: Li F, Wu Y, Li X. Test-retest reliability and inter-rater reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in hemiplegic patients with stroke. *Eur J Phys Rehabil Med*. 2014;50(1):9-15. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24309501/)
 
-                [^7]: Nair KP, Marsden J. The management of spasticity in adults. *BMJ*. 2014;349:g4737. [(Find Online)](https://www.bmj.com/content/349/bmj.g4737)
+                [^7]: Nair KP, Marsden J. The management of spasticity in adults. *BMJ*. 2014;349:g4737. [(Find Online)](https://doi.org/10.1136/bmj.g4737)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5080,15 +5080,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Sokal PA, Norris R, Maddox TW, Oldershaw RA. The diagnostic accuracy of clinical tests for anterior cruciate ligament tears are comparable but the Lachman test has been previously overestimated: a systematic review and meta-analysis. *Knee Surg Sports Traumatol Arthrosc*. 2022;30(10):3287-3303. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/34978580/)
+                [^1]: Sokal PA, Norris R, Maddox TW, Oldershaw RA. The diagnostic accuracy of clinical tests for anterior cruciate ligament tears are comparable but the Lachman test has been previously overestimated: a systematic review and meta-analysis. *Knee Surg Sports Traumatol Arthrosc*. 2022;30(10):3287-3303. [(Find Online)](https://doi.org/10.1007/s00167-022-06898-4)
 
-                [^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. *J Orthop Sports Phys Ther*. 2006;36(5):267-288. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16715828/)
+                [^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. *J Orthop Sports Phys Ther*. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
 
-                [^3]: Wetzler A, Ruzzi S, Keller R, Patel A, Chaudhry Y, Wetzler M. The Stabilized Lachman's Test: A Highly Sensitive, Specific and Accurate Test to Diagnose Acute ACL Tears. *Journal of Orthopaedic Experience & Innovation*. 2024;5(2). [(Find Online)](https://journaloei.com/volume-5-issue-2/#the-stabilized-lachmans-test-a-highly-sensitive-specific-and-accurate-test-to-diagnose-acute-acl-tears)
+                [^3]: Wetzler A, Ruzzi S, Keller R, Patel A, Chaudhry Y, Wetzler M. The Stabilized Lachman's Test: A Highly Sensitive, Specific and Accurate Test to Diagnose Acute ACL Tears. *Journal of Orthopaedic Experience & Innovation*. 2024;5(2). [(Find Online)](https://doi.org/10.60118/001c.94221)
 
-                [^4]: Mulligan EP, Harwell JL, Robertson WJ. Reliability and diagnostic accuracy of the Lachman test performed in a prone position. *J Orthop Sports Phys Ther*. 2011;41(10):749-757. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21979553/)
+                [^4]: Mulligan EP, Harwell JL, Robertson WJ. Reliability and diagnostic accuracy of the Lachman test performed in a prone position. *J Orthop Sports Phys Ther*. 2011;41(10):749-757. [(Find Online)](https://doi.org/10.2519/jospt.2011.3761)
 
-                [^5]: Coffey R, Bordoni B. Lachman Test. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK554476/)
+                [^5]: Coffey R, Bordoni B. Lachman Test. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK554415/)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5237,11 +5237,11 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: Preston DC, Shapiro BE. Electromyography and Neuromuscular Disorders: Clinical-Electrophysiologic Correlations. 4th ed. Elsevier; 2021. [(Find Online)](https://www.elsevier.com/books/electromyography-and-neuromuscular-disorders/preston/978-0-323-66180-5)
 
-                [^2]: Dumitru D, Amato AA, Zwarts MJ. Electrodiagnostic Medicine. 2nd ed. Hanley & Belfus; 2002. [(Find Online)](https://www.worldcat.org/title/electrodiagnostic-medicine/oclc/48053277)
+                [^2]: Dumitru D, Amato AA, Zwarts MJ. Electrodiagnostic Medicine. 2nd ed. Hanley & Belfus; 2002. [(Find Online)](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68684363)
 
                 [^3]: Katirji B, Kaminski HJ, Ruff RL. Neuromuscular Disorders in Clinical Practice. 2nd ed. Springer; 2014. [(Find Online)](https://link.springer.com/book/10.1007/978-1-4614-6567-6)
 
-                [^4]: Chen S, Andary M, Buschbacher R, et al. Electrodiagnostic reference values for upper and lower limb nerve conduction studies in adult populations. *Muscle Nerve*. 2016;54(3):371-377. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/26659868/)
+                [^4]: Chen S, Andary M, Buschbacher R, et al. Electrodiagnostic reference values for upper and lower limb nerve conduction studies in adult populations. *Muscle Nerve*. 2016;54(3):371-377. [(Find Online)](https://doi.org/10.1002/mus.25203)
 
                 [^5]: Rutkove SB. Introduction to volume conduction. In: Blum AS, Rutkove SB, eds. The Clinical Neurophysiology Primer. Humana Press; 2007:43-53. [(Find Online)](https://link.springer.com/chapter/10.1007/978-1-59745-271-7_4)
                 """,
@@ -5371,11 +5371,11 @@ class GeneratedContentProvider {
 
                 [^2]: Lin K, Wroten M. Ranchos Los Amigos. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022. Available from: https://www.ncbi.nlm.nih.gov/books/NBK448151/ [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK448151/)
 
-                [^3]: Flannery J, Abraham I. Psychometric properties of a cognitive functioning scale for patients with traumatic brain injury. *Western Journal of Nursing Research*. 1993;15(4):465-482. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/8342342/)
+                [^3]: Flannery J, Abraham I. Psychometric properties of a cognitive functioning scale for patients with traumatic brain injury. *Western Journal of Nursing Research*. 1993;15(4):465-482. [(Find Online)](https://psycnet.apa.org/doi/10.1177/019394599301500406)
 
                 [^4]: Gouvier W, Blanton P, LaPorte K, Nepomuceno C. Reliability and validity of the disability rating scale and the levels of cognitive functioning scale in monitoring recovery from severe head injury. *Archives of Physical Medicine and Rehabilitation*. 1987;68:94-97. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3813863/)
 
-                [^5]: Whyte J, Kunz R. Rancho Los Amigos Scale. In: Kreutzer JS, DeLuca J, Caplan B, editors. Encyclopedia of Clinical Neuropsychology. Springer; 2018. [(Find Online)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-57111-9_177)
+                [^5]: Whyte J, Kunz R. Rancho Los Amigos Scale. In: Kreutzer JS, DeLuca J, Caplan B, editors. Encyclopedia of Clinical Neuropsychology. Springer; 2018. [(Find Online)](https://link.springer.com/rwe/10.1007/978-3-319-57111-9_67)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5506,11 +5506,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. *J Am Geriatr Soc*. 1991;39(2):142-148. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1991946/)
+                [^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. *J Am Geriatr Soc*. 1991;39(2):142-148. [(Find Online)](https://doi.org/10.1111/j.1532-5415.1991.tb01616.x)
 
-                [^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis. *BMC Geriatrics*. 2014;14(1):14. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24484314/)
+                [^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis. *BMC Geriatrics*. 2014;14(1):14. [(Find Online)](https://doi.org/10.1186/1471-2318-14-14)
 
-                [^3]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up and Go Test. *Phys Ther*. 2000;80(9):896-903. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10960937/)
+                [^3]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up and Go Test. *Phys Ther*. 2000;80(9):896-903. [(Find Online)](https://doi.org/10.1093/ptj/80.9.896)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5623,13 +5623,13 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 [^1]: Tinel J. Le signe du "fourmillement" dans les lésions des nerfs périphériques. *Presse Med*. 1915;23:388-389. [(Find Online)](https://gallica.bnf.fr/ark:/12148/bpt6k5654280m/f388.item)
 
-                [^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://www.cureus.com/articles/177843-sensitivity-and-specificity-of-examination-maneuvers-for-carpal-tunnel-syndrome-a-meta-analysis)
+                [^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://doi.org/10.7759/cureus.42383)
 
-                [^3]: Dabbagh A, MacDermid JC, Yong J, et al. Diagnostic test accuracy of provocative maneuvers for the diagnosis of carpal tunnel syndrome: a systematic review and meta-analysis. *Phys Ther*. 2023;103(6):pzad029. [(Find Online)](https://academic.oup.com/ptj/article/103/6/pzad029/7074329)
+                [^3]: Dabbagh A, MacDermid JC, Yong J, et al. Diagnostic test accuracy of provocative maneuvers for the diagnosis of carpal tunnel syndrome: a systematic review and meta-analysis. *Phys Ther*. 2023;103(6):pzad029. [(Find Online)](https://doi.org/10.1093/ptj/pzad029)
 
-                [^4]: Seror P. Tinel's sign in the diagnosis of carpal tunnel syndrome. *J Hand Surg Br*. 1987;12(3):364-365. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3325607/)
+                [^4]: Seror P. Tinel's sign in the diagnosis of carpal tunnel syndrome. *J Hand Surg Br*. 1987;12(3):364-365. [(Find Online)](https://doi.org/10.1016/0266-7681_87_90190-2)
 
-                [^5]: Stewart JD, Eisen A. Tinel's sign and the carpal tunnel syndrome. *Br Med J*. 1978;2(6145):1125-1126. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1608187/)
+                [^5]: Stewart JD, Eisen A. Tinel's sign and the carpal tunnel syndrome. *Br Med J*. 1978;2(6145):1125-1126. [(Find Online)](https://doi.org/10.1136/bmj.2.6145.1125-a)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5739,15 +5739,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. *J Bone Joint Surg Am*. 1966;48(2):211-228. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5902118/)
+                [^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. *J Bone Joint Surg Am*. 1966;48(2):211-228. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5934271/)
 
-                [^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10440459/)
+                [^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://doi.org/10.7759/cureus.42383)
 
-                [^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. *J Hand Ther*. 2004;17(2):309-319. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15162113/)
+                [^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. *J Hand Ther*. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
 
-                [^4]: Almudallal A, Haq A, Poudel S, et al. A timed Phalen's test predicts abnormal electrophysiology in carpal tunnel syndrome. *Muscle Nerve*. 2021;63(3):398-402. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33368363/)
+                [^4]: Almudallal A, Haq A, Poudel S, et al. A timed Phalen's test predicts abnormal electrophysiology in carpal tunnel syndrome. *Muscle Nerve*. 2021;63(3):398-402. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8035481/)
 
-                [^5]: Bruske J, Bednarski M, Grzelec H, Zyluk A. The usefulness of the Phalen test and the Hoffmann-Tinel sign in the diagnosis of carpal tunnel syndrome. *Acta Orthop Belg*. 2002;68(2):141-145. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12051001/)
+                [^5]: Bruske J, Bednarski M, Grzelec H, Zyluk A. The usefulness of the Phalen test and the Hoffmann-Tinel sign in the diagnosis of carpal tunnel syndrome. *Acta Orthop Belg*. 2002;68(2):141-145. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12050999/)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5882,19 +5882,19 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. *Eur J Neurol*. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/10581998/)
+                [^1]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. *Eur J Neurol*. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://doi.org/10.1111/j.1468-1331.1999.tb00031.x)
 
-                [^2]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. *Disabil Rehabil*. 2006;28(15):899-907. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16861197/)
+                [^2]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. *Disabil Rehabil*. 2006;28(15):899-907. [(Find Online)](https://doi.org/10.1080/09638280500404305)
 
-                [^3]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. *Clin Rehabil*. 2006;20(2):173-182. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16541938/)
+                [^3]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. *Clin Rehabil*. 2006;20(2):173-182. [(Find Online)](https://doi.org/10.1191/0269215506cr922oa)
 
-                [^4]: Shu X, McConaghy C, Knight A. Validity and reliability of the Modified Tardieu Scale as a spasticity outcome measure of the upper limbs in adults with neurological conditions: a systematic review and narrative analysis. *BMJ Open*. 2021;11(12):e050711. [(Find Online)](https://bmjopen.bmj.com/content/11/12/e050711)
+                [^4]: Shu X, McConaghy C, Knight A. Validity and reliability of the Modified Tardieu Scale as a spasticity outcome measure of the upper limbs in adults with neurological conditions: a systematic review and narrative analysis. *BMJ Open*. 2021;11(12):e050711. [(Find Online)](https://doi.org/10.1136/bmjopen-2021-050711)
 
-                [^5]: Akpinar P, Atici A, Ozkan FU, et al. Reliability of the Modified Ashworth Scale and Modified Tardieu Scale in patients with spinal cord injuries. *Spinal Cord*. 2017;55(10):944-949. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/28485385/)
+                [^5]: Akpinar P, Atici A, Ozkan FU, et al. Reliability of the Modified Ashworth Scale and Modified Tardieu Scale in patients with spinal cord injuries. *Spinal Cord*. 2017;55(10):944-949. [(Find Online)](https://doi.org/10.1038/sc.2017.48)
 
-                [^6]: Gracies JM, Burke K, Clegg NJ, et al. Reliability of the Tardieu Scale for assessing spasticity in children with cerebral palsy. *Arch Phys Med Rehabil*. 2010;91(3):421-428. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/20298834/)
+                [^6]: Gracies JM, Burke K, Clegg NJ, et al. Reliability of the Tardieu Scale for assessing spasticity in children with cerebral palsy. *Arch Phys Med Rehabil*. 2010;91(3):421-428. [(Find Online)](https://doi.org/10.1016/j.apmr.2009.11.017)
 
-                [^7]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16250194/)
+                [^7]: Mehrholz J, Wagner K, Meissner D, et al. Reliability of the Modified Tardieu Scale and the Modified Ashworth Scale in adult patients with severe brain injury: a comparison study. *Clin Rehabil*. 2005;19(7):751-759. [(Find Online)](https://doi.org/10.1191/0269215505cr889oa)
                 """,
                 parsedContent: [],
                 sectionType: .references,

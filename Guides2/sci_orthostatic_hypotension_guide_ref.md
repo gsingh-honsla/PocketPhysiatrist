@@ -91,16 +91,16 @@ Clinical symptoms result primarily from cerebral hypoperfusion (insufficient blo
 
 [^1]: Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. *Clin Auton Res*. 2011;21(2):69-72. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/21431947/)
 
-[^2]: Illman A, Stiller K, Williams M. The prevalence of orthostatic hypotension during physiotherapy treatment in patients with an acute spinal cord injury. *Spinal Cord*. 2000;38(12):741-747. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11175372/)
+[^2]: Illman A, Stiller K, Williams M. The prevalence of orthostatic hypotension during physiotherapy treatment in patients with an acute spinal cord injury. *Spinal Cord*. 2000;38(12):741-747. [(Find Online)](https://doi.org/10.1038/sj.sc.3101089)
 
 [^3]: Claydon VE, Krassioukov AV. Orthostatic hypotension and autonomic pathways after spinal cord injury. *J Neurotrauma*. 2006;23(12):1713-1725. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/17184183/)
 
 [^4]: Krassioukov A, Eng JJ, Warburton DE, Teasell R. A systematic review of the management of orthostatic hypotension after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(5):876-885. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19406310/)
 
-[^5]: Wecht JM, Weir JP, Huang V, et al. Treatment of orthostatic hypotension during acute inpatient rehabilitation after spinal cord injury: usual care vs. anti-hypotensive therapy. *Am J Hypertens*. 2024;37(8):554-560. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38652661/)
+[^5]: Wecht JM, Weir JP, Huang V, et al. Treatment of orthostatic hypotension during acute inpatient rehabilitation after spinal cord injury: usual care vs. anti-hypotensive therapy. *Am J Hypertens*. 2024;37(8):554-560. [(Find Online)](https://doi.org/10.1093/ajh/hpae057)
 
-[^6]: Nightingale TE, Zheng MMZ, Sachdeva R, Phillips AA, Krassioukov AV. Diverse cognitive impairment after spinal cord injury is associated with orthostatic hypotension symptom burden. *J Neurotrauma*. 2019;36(15):2373-2380. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30924705/)
+[^6]: Nightingale TE, Zheng MMZ, Sachdeva R, Phillips AA, Krassioukov AV. Diverse cognitive impairment after spinal cord injury is associated with orthostatic hypotension symptom burden. *J Neurotrauma*. 2019;36(15):2373-2380. [(Find Online)](https://doi.org/10.1016/j.physbeh.2019.112742)
 
-[^7]: Gillis DJ, Wouda M, Hjeltnes N. Non-pharmacological management of orthostatic hypotension after spinal cord injury: a critical review of the literature. *Spinal Cord*. 2008;46(10):652-659. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/18542096/)
+[^7]: Gillis DJ, Wouda M, Hjeltnes N. Non-pharmacological management of orthostatic hypotension after spinal cord injury: a critical review of the literature. *Spinal Cord*. 2008;46(10):652-659. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK76415/)
 
 [^8]: Kaufmann H, Freeman R, Biaggioni I, et al. Droxidopa for neurogenic orthostatic hypotension: a randomized, placebo-controlled, phase 3 trial. *Neurology*. 2014;83(4):328-335. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24944260/)

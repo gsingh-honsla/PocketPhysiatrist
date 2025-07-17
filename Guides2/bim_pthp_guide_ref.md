@@ -157,18 +157,18 @@ All patients with moderate and severe TBI should have assessment of adrenal, thy
 
 ## References
 
-[^1]: Schneider HJ, Kreitschmann-Andermahr I, Ghigo E, Stalla GK, Agha A. Hypothalamopituitary dysfunction following traumatic brain injury and aneurysmal subarachnoid hemorrhage: a systematic review. *JAMA*. 2007;298(12):1429-1438. [(Find Online)](https://jamanetwork.com/journals/jama/fullarticle/208816)
+[^1]: Schneider HJ, Kreitschmann-Andermahr I, Ghigo E, Stalla GK, Agha A. Hypothalamopituitary dysfunction following traumatic brain injury and aneurysmal subarachnoid hemorrhage: a systematic review. *JAMA*. 2007;298(12):1429-1438. [(Find Online)](https://doi.org/10.1001/jama.298.12.1429)
 
-[^2]: Klose M, Feldt-Rasmussen U. Hypopituitarism in traumatic brain injury--a critical review. *J Clin Endocrinol Metab*. 2015;100(12):4355-4364. [(Find Online)](https://academic.oup.com/jcem/article/100/12/4355/2536351)
+[^2]: Klose M, Feldt-Rasmussen U. Hypopituitarism in traumatic brain injury--a critical review. *J Clin Endocrinol Metab*. 2015;100(12):4355-4364. [(Find Online)](https://doi.org/10.3390/jcm4071480)
 
-[^3]: Quinn M, Agha A. Post-Traumatic Hypopituitarism—Who Should Be Screened, When, and How? *Front Endocrinol*. 2018;9:8. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fendo.2018.00008/full)
+[^3]: Quinn M, Agha A. Post-Traumatic Hypopituitarism—Who Should Be Screened, When, and How? *Front Endocrinol*. 2018;9:8. [(Find Online)](https://doi.org/10.3389/fendo.2018.00008)
 
-[^4]: Emelifeonwu JA, Flower H, Loan JJ, McGivern K, Andrews PJD. Prevalence of Anterior Pituitary Dysfunction Twelve Months or More following Traumatic Brain Injury in Adults: A Systematic Review and Meta-Analysis. *J Neurotrauma*. 2019;36(5):740-753. [(Find Online)](https://www.liebertpub.com/doi/10.1089/neu.2018.5998)
+[^4]: Emelifeonwu JA, Flower H, Loan JJ, McGivern K, Andrews PJD. Prevalence of Anterior Pituitary Dysfunction Twelve Months or More following Traumatic Brain Injury in Adults: A Systematic Review and Meta-Analysis. *J Neurotrauma*. 2019;36(5):740-753. [(Find Online)](https://doi.org/10.1089/neu.2018.6349)
 
-[^5]: Ghigo E, Masel B, Aimaretti G, et al. Consensus guidelines on screening for hypopituitarism following traumatic brain injury. *Brain Inj*. 2005;19(9):711-724. [(Find Online)](https://www.tandfonline.com/doi/abs/10.1080/02699050400025315)
+[^5]: Ghigo E, Masel B, Aimaretti G, et al. Consensus guidelines on screening for hypopituitarism following traumatic brain injury. *Brain Inj*. 2005;19(9):711-724. [(Find Online)](https://doi.org/10.1080/02699050400025315)
 
-[^6]: Fleseriu M, Hashim IA, Karavitaki N, et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2016;101(11):3888-3921. [(Find Online)](https://academic.oup.com/jcem/article/101/11/3888/2764886)
+[^6]: Fleseriu M, Hashim IA, Karavitaki N, et al. Hormonal Replacement in Hypopituitarism in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab*. 2016;101(11):3888-3921. [(Find Online)](https://doi.org/10.1210/jc.2016-2118)
 
-[^7]: Urban RJ, Harris P, Caben-Miroff J. The role of the endocrine system in the rehabilitation of patients with traumatic brain injury. *J Head Trauma Rehabil*. 2001;16(4):325-336. [(Find Online)](https://journals.lww.com/headtraumarehab/Abstract/2001/08000/The_Role_of_the_Endocrine_System_in_the.2.aspx)
+[^7]: Urban RJ, Harris P, Caben-Miroff J. The role of the endocrine system in the rehabilitation of patients with traumatic brain injury. *J Head Trauma Rehabil*. 2001;16(4):325-336. [(Find Online)](https://doi.org/10.1007/s12028-022-01672-3)
 
-[^8]: Aimaretti G, Ambrosio MR, Benvenga S, et al. Hypopituitarism and growth hormone deficiency after traumatic brain injury. *Growth Horm IGF Res*. 2004;14 Suppl A:S114-117. [(Find Online)](https://www.sciencedirect.com/science/article/abs/pii/S1096637404000279)
+[^8]: Aimaretti G, Ambrosio MR, Benvenga S, et al. Hypopituitarism and growth hormone deficiency after traumatic brain injury. *Growth Horm IGF Res*. 2004;14 Suppl A:S114-117. [(Find Online)](https://doi.org/10.1016/j.ghir.2004.03.025)

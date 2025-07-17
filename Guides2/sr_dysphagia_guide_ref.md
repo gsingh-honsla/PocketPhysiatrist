@@ -120,14 +120,14 @@ The primary clinical concern is aspiration - the entry of food, liquid, or saliv
 
 ## References
 
-[^1]: Martino R, Foley N, Bhogal S, et al. Dysphagia after stroke: incidence, diagnosis, and pulmonary complications. *Stroke*. 2005;36(12):2756-2763. [(Find Online)](https://www.ahajournals.org/doi/10.1161/01.STR.0000190056.76543.eb)
+[^1]: Martino R, Foley N, Bhogal S, et al. Dysphagia after stroke: incidence, diagnosis, and pulmonary complications. *Stroke*. 2005;36(12):2756-2763. [(Find Online)](https://doi.org/10.1161/01.STR.0000190056.76543.eb)
 
-[^2]: Bath PM, Lee HS, Everton LF. Swallowing therapy for dysphagia in acute and subacute stroke. *Cochrane Database Syst Rev*. 2018;10:CD000323. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000323.pub3/full)
+[^2]: Bath PM, Lee HS, Everton LF. Swallowing therapy for dysphagia in acute and subacute stroke. *Cochrane Database Syst Rev*. 2018;10:CD000323. [(Find Online)](https://doi.org/10.1002/14651858.CD000323.pub3)
 
-[^3]: Crary MA, Mann GD, Groher ME. Initial psychometric assessment of a functional oral intake scale for dysphagia in stroke patients. *Arch Phys Med Rehabil*. 2005;86(8):1516-1520. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(05)00308-9/fulltext)
+[^3]: Crary MA, Mann GD, Groher ME. Initial psychometric assessment of a functional oral intake scale for dysphagia in stroke patients. *Arch Phys Med Rehabil*. 2005;86(8):1516-1520. [(Find Online)](https://doi.org/10.1016/j.apmr.2004.11.049)
 
-[^4]: Labeit B, Claus I, Roehm S, et al. Dysphagia after stroke: research advances in treatment interventions. *Lancet Neurol*. 2024;23(4):418-428. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(24)00048-4/fulltext)
+[^4]: Labeit B, Claus I, Roehm S, et al. Dysphagia after stroke: research advances in treatment interventions. *Lancet Neurol*. 2024;23(4):418-428. [(Find Online)](https://doi.org/10.1016/s1474-4422(24)00053-x)
 
-[^5]: Suntrup-Krueger S, Ringmaier C, Muhle P, et al. Randomized trial of transcranial direct current stimulation for poststroke dysphagia. *Ann Neurol*. 2018;83(2):328-340. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ana.25151)
+[^5]: Suntrup-Krueger S, Ringmaier C, Muhle P, et al. Randomized trial of transcranial direct current stimulation for poststroke dysphagia. *Ann Neurol*. 2018;83(2):328-340. [(Find Online)](https://doi.org/10.1002/ana.25151)
 
-[^6]: Elsharkawi I, Ramadan M, توفيق M, et al. Health factors associated with development and severity of poststroke dysphagia: an epidemiological investigation. *J Am Heart Assoc*. 2024;13(5):e033922. [(Find Online)](https://www.ahajournals.org/doi/10.1161/JAHA.123.033922)
+[^6]: Elsharkawi I, Ramadan M, et al. Health factors associated with development and severity of poststroke dysphagia: an epidemiological investigation. *J Am Heart Assoc*. 2024;13(5):e033922. [(Find Online)](https://doi.org/10.1161/JAHA.123.033922)

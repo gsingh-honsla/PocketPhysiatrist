@@ -94,10 +94,10 @@ The 6MWT is clinically indicated for assessing functional exercise capacity in p
 
 ## References
 
-[^1]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. *Am J Respir Crit Care Med*. 2002;166(1):111-117. [(Find Online)](https://www.atsjournals.org/doi/full/10.1164/ajrccm.166.1.at1102)
+[^1]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. *Am J Respir Crit Care Med*. 2002;166(1):111-117. [(Find Online)](https://doi.org/10.1164/ajrccm.166.1.at1102)
 
-[^2]: Fulk GD, He Y. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. *J Neurol Phys Ther*. 2018;42(4):235-240. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/30095736/)
+[^2]: Fulk GD, He Y. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. *J Neurol Phys Ther*. 2018;42(4):235-240. [(Find Online)](https://doi.org/10.1097/NPT.0000000000000236)
 
-[^3]: Bohannon RW, Crouch R. Minimal clinically important difference for change in 6-minute walk test distance of adults with pathology: a systematic review. *Clin Rehabil*. 2017;31(9):1131-1141. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/27803089/)
+[^3]: Bohannon RW, Crouch R. Minimal clinically important difference for change in 6-minute walk test distance of adults with pathology: a systematic review. *Clin Rehabil*. 2017;31(9):1131-1141. [(Find Online)](https://doi.org/10.1111/jep.12629)
 
-[^4]: Kubo H, Kanai M, Nozoe M, et al. Reference value of 6-minute walk distance in patients with sub-acute stroke. *Top Stroke Rehabil*. 2020;27(2):146-153. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/31526147/)
+[^4]: Kubo H, Kanai M, Nozoe M, et al. Reference value of 6-minute walk distance in patients with sub-acute stroke. *Top Stroke Rehabil*. 2020;27(2):146-153. [(Find Online)](https://doi.org/10.1080/10749357.2019.1704372)

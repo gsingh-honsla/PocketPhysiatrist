@@ -100,12 +100,12 @@ DMD affects approximately 1 in 3,500-5,000 male births due to its X-linked inher
 
 ## References
 
-[^1]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 1: diagnosis, and neuromuscular, rehabilitation, endocrine, and gastrointestinal and nutritional management. *Lancet Neurol*. 2018;17(3):251-267. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30024-3/fulltext)
+[^1]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 1: diagnosis, and neuromuscular, rehabilitation, endocrine, and gastrointestinal and nutritional management. *Lancet Neurol*. 2018;17(3):251-267. [(Find Online)](https://doi.org/10.1016/S1474-4422(18)30024-3)
 
-[^2]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 2: respiratory, cardiac, bone health, and orthopaedic management. *Lancet Neurol*. 2018;17(4):347-361. [(Find Online)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30025-5/fulltext)
+[^2]: Birnkrant DJ, Bushby K, Bann CM, et al. Diagnosis and management of Duchenne muscular dystrophy, part 2: respiratory, cardiac, bone health, and orthopaedic management. *Lancet Neurol*. 2018;17(4):347-361. [(Find Online)](https://doi.org/10.1016/S1474-4422(18)30025-5)
 
-[^3]: Hoffman EP, Brown RH Jr, Kunkel LM. Dystrophin: the protein product of the Duchenne muscular dystrophy locus. *Cell*. 1987;51(6):919-928. [(Find Online)](https://www.cell.com/cell/pdf/0092-8674(87)90579-4.pdf)
+[^3]: Hoffman EP, Brown RH Jr, Kunkel LM. Dystrophin: the protein product of the Duchenne muscular dystrophy locus. *Cell*. 1987;51(6):919-928. [(Find Online)](https://doi.org/10.1016/0092-8674(87)90579-4)
 
-[^4]: McDonald CM, Henricson EK, Abresch RT, et al. The 6-minute walk test and other clinical endpoints in duchenne muscular dystrophy: reliability, concurrent validity, and minimal clinically important differences from a multicenter study. *Muscle Nerve*. 2013;48(3):357-368. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/mus.23905)
+[^4]: McDonald CM, Henricson EK, Abresch RT, et al. The 6-minute walk test and other clinical endpoints in duchenne muscular dystrophy: reliability, concurrent validity, and minimal clinically important differences from a multicenter study. *Muscle Nerve*. 2013;48(3):357-368. [(Find Online)](https://doi.org/10.1002/mus.23905)
 
-[^5]: Mercuri E, Bönnemann CG, Muntoni F. Muscular dystrophies. *Lancet*. 2019;394(10213):2025-2038. [(Find Online)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32910-1/fulltext)
+[^5]: Mercuri E, Bönnemann CG, Muntoni F. Muscular dystrophies. *Lancet*. 2019;394(10213):2025-2038. [(Find Online)](https://doi.org/10.1016/S0140-6736(19)32910-1)

@@ -109,14 +109,14 @@ The NBDS is a validated 47-point self-report questionnaire assessing background 
 
 ## References
 
-[^1]: Rodriguez GM, Gater DR. Neurogenic Bowel and Management after Spinal Cord Injury: A Narrative Review. *J Pers Med*. 2022;12(7):1141. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9324990/)
+[^1]: Rodriguez GM, Gater DR. Neurogenic Bowel and Management after Spinal Cord Injury: A Narrative Review. *J Pers Med*. 2022;12(7):1141. [(Find Online)](https://doi.org/10.3390/jpm12071141)
 
-[^2]: Krassioukov A, Eng JJ, Warburton DE, et al. Neurogenic bowel management after spinal cord injury: a systematic review of the evidence. *Spinal Cord*. 2010;48(10):718-733. [(Find Online)](https://www.nature.com/articles/sc201014)
+[^2]: Krassioukov A, Eng JJ, Warburton DE, et al. Neurogenic bowel management after spinal cord injury: a systematic review of the evidence. *Spinal Cord*. 2010;48(10):718-733. [(Find Online)](https://doi.org/10.1038/sc.2010.14)
 
-[^3]: Emmanuel A, Krogh K, Bazzocchi G, et al. Consensus review of best practice of transanal irrigation in adults. *Spinal Cord*. 2013;51:732-738. [(Find Online)](https://www.nature.com/articles/sc2013123)
+[^3]: Emmanuel A, Krogh K, Bazzocchi G, et al. Consensus review of best practice of transanal irrigation in adults. *Spinal Cord*. 2013;51:732-738. [(Find Online)](https://dx.doi.org/10.1038/sc.2013.86)
 
-[^4]: Krogh K, Christensen P, Sabroe S, Laurberg S. Neurogenic bowel dysfunction score. *Spinal Cord*. 2006;44:625-631. [(Find Online)](https://www.nature.com/articles/3101887)
+[^4]: Krogh K, Christensen P, Sabroe S, Laurberg S. Neurogenic bowel dysfunction score. *Spinal Cord*. 2006;44:625-631. [(Find Online)](https://doi.org/10.1038/sj.sc.3101887)
 
-[^5]: Durney P, Stillman M, Montero W, Goetz L. A Primary Care Provider's Guide to Neurogenic Bowel Dysfunction in Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(3):172-176. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7530347/)
+[^5]: Durney P, Stillman M, Montero W, Goetz L. A Primary Care Provider's Guide to Neurogenic Bowel Dysfunction in Spinal Cord Injury. *Top Spinal Cord Inj Rehabil*. 2020;26(3):172-176. [(Find Online)](https://doi.org/10.46292/sci2603-172)
 
-[^6]: Johns J, Krogh K, Rodriguez GM, et al. Management of Neurogenic Bowel Dysfunction in Adults after Spinal Cord Injury: Clinical Practice Guideline for Health Care Providers. *Top Spinal Cord Inj Rehabil*. 2021;27(2):75-151. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8152171/)
+[^6]: Johns J, Krogh K, Rodriguez GM, et al. Management of Neurogenic Bowel Dysfunction in Adults after Spinal Cord Injury: Clinical Practice Guideline for Health Care Providers. *Top Spinal Cord Inj Rehabil*. 2021;27(2):75-151. [(Find Online)](https://doi.org/10.1080/10790268.2021.1883385)

@@ -70,12 +70,12 @@ Based on recent meta-analyses, Phalen's test demonstrates a median sensitivity o
 
 ## References
 
-[^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. *J Bone Joint Surg Am*. 1966;48(2):211-228. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5902118/)
+[^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. *J Bone Joint Surg Am*. 1966;48(2):211-228. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5934271/)
 
-[^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10440459/)
+[^2]: Ozdag Y, Hu Y, Hayes DS, et al. Sensitivity and specificity of examination maneuvers for carpal tunnel syndrome: a meta-analysis. *Cureus*. 2023;15(7):e42383. [(Find Online)](https://doi.org/10.7759/cureus.42383)
 
-[^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. *J Hand Ther*. 2004;17(2):309-319. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/15162113/)
+[^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. *J Hand Ther*. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
 
-[^4]: Almudallal A, Haq A, Poudel S, et al. A timed Phalen's test predicts abnormal electrophysiology in carpal tunnel syndrome. *Muscle Nerve*. 2021;63(3):398-402. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33368363/)
+[^4]: Almudallal A, Haq A, Poudel S, et al. A timed Phalen's test predicts abnormal electrophysiology in carpal tunnel syndrome. *Muscle Nerve*. 2021;63(3):398-402. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8035481/)
 
-[^5]: Bruske J, Bednarski M, Grzelec H, Zyluk A. The usefulness of the Phalen test and the Hoffmann-Tinel sign in the diagnosis of carpal tunnel syndrome. *Acta Orthop Belg*. 2002;68(2):141-145. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12051001/)
+[^5]: Bruske J, Bednarski M, Grzelec H, Zyluk A. The usefulness of the Phalen test and the Hoffmann-Tinel sign in the diagnosis of carpal tunnel syndrome. *Acta Orthop Belg*. 2002;68(2):141-145. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12050999/)

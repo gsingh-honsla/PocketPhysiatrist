@@ -7,9 +7,31 @@
 
 import Foundation
 
+// MARK: - Data Structures
+struct ProcessedContent {
+    let title: String
+    let contentType: ContentType
+    let category: String
+    let abbreviation: String?
+    let keywords: [String]
+    let overview: String
+    let sections: [ProcessedSection]
+}
+
+struct ProcessedSection {
+    let title: String
+    let content: String
+    let orderIndex: Int
+}
+
+enum ContentType: String {
+    case guide = "guide"
+    case assessment = "assessment"
+}
+
 // MARK: - Main Processing Function
 func processMarkdownFiles() {
-    print("🔄 Processing markdown files...")
+    print("� FProcessing markdown files...")
     
     let fileManager = FileManager.default
     let currentDirectory = fileManager.currentDirectoryPath
@@ -40,36 +62,21 @@ func processMarkdownFiles() {
         }
     }
     
-    // Only process original guides if no enhanced versions exist
-    if guides2Files.isEmpty {
-        let guidesPath = "\(currentDirectory)/Guides"
-        let guideFiles = findMarkdownFiles(in: guidesPath, fileManager: fileManager)
-        print("📖 Found \(guideFiles.count) original guide files (fallback)")
-        
-        for file in guideFiles {
-            if let content = processMarkdownFile(at: file, contentType: .guide) {
-                allContent.append(content)
-                print("✅ Processed original guide: \(content.title)")
-            }
-        }
-    }
-    
-    // Only process original assessments if no enhanced versions exist
-    if assessments2Files.isEmpty {
-        let assessmentsPath = "\(currentDirectory)/Assessment Tools"
-        let assessmentFiles = findMarkdownFiles(in: assessmentsPath, fileManager: fileManager)
-        print("📋 Found \(assessmentFiles.count) original assessment files (fallback)")
-        
-        for file in assessmentFiles {
-            if let content = processMarkdownFile(at: file, contentType: .assessment) {
-                allContent.append(content)
-                print("✅ Processed original assessment: \(content.title)")
-            }
-        }
-    }
-    
     // Generate Swift file
     generateSwiftFile(with: allContent)
+    
+    // Count citations for reporting
+    let totalCitations = allContent.reduce(0) { total, content in
+        let contentText = content.overview + content.sections.map { $0.content }.joined()
+        let citationCount = contentText.components(separatedBy: "[(Find Online)]").count - 1
+        return total + citationCount
+    }
+    
+    print("\n🏁 Content processing complete!")
+    print("📱 Rebuild your app to use the updated content")
+    print("📊 Total items: \(allContent.count)")
+    print("🔗 Total citations: \(totalCitations)")
+    print("📚 Enhanced content ready for production use")
     
     print("🎉 Successfully processed \(allContent.count) content items!")
 }
@@ -425,284 +432,5 @@ func escapeMultilineString(_ string: String) -> String {
         .replacingOccurrences(of: "\"\"\"", with: "\\\"\\\"\\\"")
 }
 
-// MARK: - Data Structures
-struct ProcessedContent {
-    let title: String
-    let contentType: ContentType
-    let category: String
-    let abbreviation: String?
-    let keywords: [String]
-    let overview: String
-    let sections: [ProcessedSection]
-}
-
-struct ProcessedSection {
-    let title: String
-    let content: String
-    let orderIndex: Int
-}
-
-enum ContentType: String {
-    case guide = "guide"
-    case assessment = "assessment"
-}
-
 // MARK: - Main Execution
 processMarkdownFiles()
-/
-/ MARK: - Content Generation Functions
-func generateSwiftContent(from processedContent: [ProcessedContent]) -> String {
-    var swiftCode = """
-//
-//  GeneratedContent.swift
-//  PocketPhysiatrist
-//
-//  Auto-generated from markdown files - DO NOT EDIT MANUALLY
-//
-
-import Foundation
-
-class GeneratedContentProvider {
-    static func getAllContent() -> [MedicalContent] {
-        return [
-
-"""
-    
-    for (index, content) in processedContent.enumerated() {
-        swiftCode += generateMedicalContentCode(for: content)
-        if index < processedContent.count - 1 {
-            swiftCode += ","
-        }
-        swiftCode += "\n"
-    }
-    
-    swiftCode += """
-        ]
-    }
-}
-"""
-    
-    return swiftCode
-}
-
-func generateMedicalContentCode(for content: ProcessedContent) -> String {
-    let sectionsCode = content.sections.map { section in
-        return """
-            ContentSection(
-                title: "\(escapeSwiftString(section.title))",
-                rawMarkdown: \"\"\"
-                \(section.content)
-                \"\"\",
-                parsedContent: [],
-                sectionType: .pathophysiology,
-                orderIndex: \(section.orderIndex)
-            )"""
-    }.joined(separator: ",\n            ")
-    
-    let keywordsCode = content.keywords.map { "\"\($0)\"" }.joined(separator: ", ")
-    
-    return """
-        MedicalContent(
-            title: "\(escapeSwiftString(content.title))",
-            subtitle: nil,
-            contentType: .\(content.contentType.rawValue),
-            category: "\(escapeSwiftString(content.category))",
-            abbreviation: \(content.abbreviation != nil ? "\"\(content.abbreviation!)\"" : "nil"),
-            overview: \"\"\"
-            \(content.overview)
-            \"\"\",
-            sections: [
-            \(sectionsCode)
-            ],
-            keywords: [\(keywordsCode)]
-        )"""
-}
-
-func escapeSwiftString(_ string: String) -> String {
-    return string
-        .replacingOccurrences(of: "\\", with: "\\\\")
-        .replacingOccurrences(of: "\"", with: "\\\"")
-        .replacingOccurrences(of: "\n", with: "\\n")
-        .replacingOccurrences(of: "\r", with: "\\r")
-        .replacingOccurrences(of: "\t", with: "\\t")
-}
-
-// MARK: - File Processing Functions
-func findMarkdownFiles(in directory: String, fileManager: FileManager) -> [String] {
-    guard fileManager.fileExists(atPath: directory) else {
-        print("⚠️ Directory not found: \(directory)")
-        return []
-    }
-    
-    do {
-        let files = try fileManager.contentsOfDirectory(atPath: directory)
-        return files
-            .filter { $0.hasSuffix(".md") }
-            .map { "\(directory)/\($0)" }
-    } catch {
-        print("❌ Error reading directory \(directory): \(error)")
-        return []
-    }
-}
-
-func processMarkdownFile(at path: String, contentType: ContentType) -> ProcessedContent? {
-    do {
-        let content = try String(contentsOfFile: path, encoding: .utf8)
-        return parseMarkdownContent(content, contentType: contentType, filename: path)
-    } catch {
-        print("❌ Error reading file \(path): \(error)")
-        return nil
-    }
-}
-
-func parseMarkdownContent(_ content: String, contentType: ContentType, filename: String) -> ProcessedContent? {
-    let lines = content.components(separatedBy: .newlines)
-    
-    // Extract title (first # heading)
-    guard let titleLine = lines.first(where: { $0.hasPrefix("# ") }) else {
-        print("⚠️ No title found in \(filename)")
-        return nil
-    }
-    
-    let title = String(titleLine.dropFirst(2)).trimmingCharacters(in: .whitespaces)
-    
-    // Extract overview (first paragraph after title)
-    var overview = ""
-    var foundTitle = false
-    for line in lines {
-        if line.hasPrefix("# ") {
-            foundTitle = true
-            continue
-        }
-        if foundTitle && !line.trimmingCharacters(in: .whitespaces).isEmpty {
-            overview = line.trimmingCharacters(in: .whitespaces)
-            break
-        }
-    }
-    
-    // Simple category extraction from filename
-    let category = extractCategory(from: filename, contentType: contentType)
-    
-    // Extract sections (## headings)
-    var sections: [ProcessedSection] = []
-    var currentSection: String?
-    var currentContent: [String] = []
-    var sectionIndex = 0
-    
-    for line in lines {
-        if line.hasPrefix("## ") {
-            // Save previous section
-            if let sectionTitle = currentSection, !currentContent.isEmpty {
-                let sectionContent = currentContent.joined(separator: "\n")
-                sections.append(ProcessedSection(
-                    title: sectionTitle,
-                    content: sectionContent,
-                    orderIndex: sectionIndex
-                ))
-                sectionIndex += 1
-            }
-            
-            // Start new section
-            currentSection = String(line.dropFirst(3)).trimmingCharacters(in: .whitespaces)
-            currentContent = []
-        } else if currentSection != nil {
-            currentContent.append(line)
-        }
-    }
-    
-    // Save last section
-    if let sectionTitle = currentSection, !currentContent.isEmpty {
-        let sectionContent = currentContent.joined(separator: "\n")
-        sections.append(ProcessedSection(
-            title: sectionTitle,
-            content: sectionContent,
-            orderIndex: sectionIndex
-        ))
-    }
-    
-    return ProcessedContent(
-        title: title,
-        contentType: contentType,
-        category: category,
-        abbreviation: nil,
-        keywords: extractKeywords(from: content),
-        overview: overview,
-        sections: sections
-    )
-}
-
-func extractCategory(from filename: String, contentType: ContentType) -> String {
-    let basename = (filename as NSString).lastPathComponent
-    let nameWithoutExtension = (basename as NSString).deletingPathExtension
-    
-    // Simple category mapping
-    if contentType == .assessment {
-        return "Assessment Tools"
-    } else {
-        return "Clinical Guides"
-    }
-}
-
-func extractKeywords(from content: String) -> [String] {
-    // Simple keyword extraction - could be enhanced
-    let lowercased = content.lowercased()
-    var keywords: [String] = []
-    
-    // Common medical terms
-    let medicalTerms = ["assessment", "rehabilitation", "therapy", "treatment", "diagnosis", "clinical", "patient", "medical"]
-    
-    for term in medicalTerms {
-        if lowercased.contains(term) {
-            keywords.append(term)
-        }
-    }
-    
-    return Array(Set(keywords)) // Remove duplicates
-}
-
-// MARK: - Main Execution Completion
-print("\n🔄 Generating Swift content...")
-
-// Generate the Swift file
-let swiftContent = generateSwiftContent(from: allContent)
-let outputPath = "PocketPhysiatrist/Data/GeneratedContent.swift"
-
-do {
-    try swiftContent.write(toFile: outputPath, atomically: true, encoding: .utf8)
-    print("✅ Generated \(outputPath) with \(allContent.count) content items")
-} catch {
-    print("❌ Error writing Swift file: \(error)")
-    exit(1)
-}
-
-// Count citations for reporting
-let totalCitations = allContent.reduce(0) { total, content in
-    let contentText = content.overview + content.sections.map { $0.content }.joined()
-    let citationCount = contentText.components(separatedBy: "[(Find Online)]").count - 1
-    return total + citationCount
-}
-
-print("\n🏁 Content processing complete!")
-print("📱 Rebuild your app to use the updated content")
-print("📊 Total items: \(allContent.count)")
-print("🔗 Total citations: \(totalCitations)")
-print("📚 Enhanced content ready for production use")
-
-// Auto-update content version
-print("\n🔄 Updating content version...")
-let updateVersionScript = "Scripts/UpdateContentVersion.swift"
-if FileManager.default.fileExists(atPath: updateVersionScript) {
-    let task = Process()
-    task.launchPath = "/usr/bin/swift"
-    task.arguments = [updateVersionScript]
-    task.launch()
-    task.waitUntilExit()
-    
-    if task.terminationStatus == 0 {
-        print("✅ Content version updated automatically")
-    } else {
-        print("⚠️ Could not auto-update version, update manually")
-    }
-} else {
-    print("⚠️ Version update script not found, update version manually")
-}

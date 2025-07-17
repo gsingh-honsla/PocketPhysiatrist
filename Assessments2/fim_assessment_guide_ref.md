@@ -105,12 +105,12 @@ The FIM is used extensively in inpatient rehabilitation facilities to track func
 
 ## References
 
-[^1]: Granger CV, Hamilton BB, Keith RA, Zielezny M, Sherwin FS. Advances in functional assessment for medical rehabilitation. *Top Geriatr Rehabil*. 1986;1(3):59-74. [(Find Online)](https://journals.lww.com/topicsingeriatricrehabilitation/abstract/1986/04000/advances_in_functional_assessment_for_medical.7.aspx)
+[^1]: Granger CV, Hamilton BB, Keith RA, Zielezny M, Sherwin FS. Advances in functional assessment for medical rehabilitation. *Top Geriatr Rehabil*. 1986;1(3):59-74. [(Find Online)](https://doi.org/10.1097/00013614-198604000-00007)
 
 [^2]: Keith RA, Granger CV, Hamilton BB, Sherwin FS. The functional independence measure: a new tool for rehabilitation. *Adv Clin Rehabil*. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
 
-[^3]: Beninato M, Gill-Body KM, Salles S, et al. Determination of the minimal clinically important difference in the FIM instrument in patients with stroke. *Arch Phys Med Rehabil*. 2006;87(1):32-39. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(05)01262-5/fulltext)
+[^3]: Beninato M, Gill-Body KM, Salles S, et al. Determination of the minimal clinically important difference in the FIM instrument in patients with stroke. *Arch Phys Med Rehabil*. 2006;87(1):32-39. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.08.130)
 
-[^4]: Ottenbacher KJ, Hsu Y, Granger CV, Fiedler RC. The reliability of the functional independence measure: a quantitative review. *Arch Phys Med Rehabil*. 1996;77(12):1226-1232. [(Find Online)](https://www.archives-pmr.org/article/S0003-9993(96)90184-7/fulltext)
+[^4]: Ottenbacher KJ, Hsu Y, Granger CV, Fiedler RC. The reliability of the functional independence measure: a quantitative review. *Arch Phys Med Rehabil*. 1996;77(12):1226-1232. [(Find Online)](https://doi.org/10.1016/S0003-9993(96)90184-7)
 
 [^5]: Uniform Data System for Medical Rehabilitation. Guide for the Uniform Data Set for Medical Rehabilitation. Version 5.1. UDSMR; 1997. [(Find Online)](https://www.udsmr.org/)

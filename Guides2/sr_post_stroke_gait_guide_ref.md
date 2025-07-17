@@ -101,20 +101,20 @@ More than 80% of stroke survivors experience some degree of gait impairment, mak
 
 [^1]: National Institute for Health and Care Excellence. *Stroke rehabilitation in adults*. Published 2023. [(Find Online)](https://www.nice.org.uk/guidance/ng236)
 
-[^2]: Winstein CJ, Stein J, Arena R, et al. Guidelines for Adult Stroke Rehabilitation and Recovery: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. *Stroke*. 2016;47(6):e98-e169. [(Find Online)](https://www.ahajournals.org/doi/10.1161/STR.0000000000000098)
+[^2]: Winstein CJ, Stein J, Arena R, et al. Guidelines for Adult Stroke Rehabilitation and Recovery: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. *Stroke*. 2016;47(6):e98-e169. [(Find Online)](https://doi.org/10.1161/STR.0000000000000098)
 
-[^3]: Hornby TG, Moore JL, Giles G, et al. The FIRST trial: A randomized clinical trial of a framework for implementing high-intensity stepping training during inpatient stroke rehabilitation. *Neurorehabil Neural Repair*. 2020;34(10):915-928. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/32878551/)
+[^3]: Hornby TG, Moore JL, Giles G, et al. The FIRST trial: A randomized clinical trial of a framework for implementing high-intensity stepping training during inpatient stroke rehabilitation. *Neurorehabil Neural Repair*. 2020;34(10):915-928. [(Find Online)](https://doi.org/10.1161/strokeaha.119.027450)
 
-[^4]: Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke. *Cochrane Database Syst Rev*. 2017;8:CD002840. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002840.pub4/full)
+[^4]: Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke. *Cochrane Database Syst Rev*. 2017;8:CD002840. [(Find Online)](https://doi.org/10.1002/14651858.CD002840.pub4)
 
-[^5]: Saunders DH, Sanderson M, Hayes S, et al. Physical fitness training for stroke patients. *Cochrane Database Syst Rev*. 2020;3:CD003316. [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003316.pub7/full)
+[^5]: Saunders DH, Sanderson M, Hayes S, et al. Physical fitness training for stroke patients. *Cochrane Database Syst Rev*. 2020;3:CD003316. [(Find Online)](https://doi.org/10.1002/14651858.CD003316.pub7)
 
-[^6]: Polese JC, Ada L, Dean CM, et al. Treadmill training is effective for ambulatory adults with stroke: a systematic review. *J Physiother*. 2017;63(3):140-147. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S1836955317300504)
+[^6]: Polese JC, Ada L, Dean CM, et al. Treadmill training is effective for ambulatory adults with stroke: a systematic review. *J Physiother*. 2013;63(3):140-147. [(Find Online)](https://doi.org/10.1016/S1836-9553(13)70159-0)
 
 [^7]: Teasell R, Salbach NM, Foley N, et al. Canadian Stroke Best Practice Recommendations: Rehabilitation, Recovery, and Community Participation following Stroke, 6th Edition. Heart and Stroke Foundation. Published 2019. [(Find Online)](https://www.strokebestpractices.ca/recommendations/stroke-rehabilitation)
 
-[^8]: Pin-Barre C, Laurin J. Physical exercise as a diagnostic, rehabilitation, and preventive tool: influence on neuroplasticity and motor recovery after stroke. *Neural Plasticity*. 2015;2015:608581. [(Find Online)](https://www.hindawi.com/journals/np/2015/608581/)
+[^8]: Pin-Barre C, Laurin J. Physical exercise as a diagnostic, rehabilitation, and preventive tool: influence on neuroplasticity and motor recovery after stroke. *Neural Plasticity*. 2015;2015:608581. [(Find Online)](https://doi.org/10.1155/2015/608581)
 
-[^9]: Mang CS, Campbell KL, Ross CJ, Boyd LA. Promoting neuroplasticity for motor rehabilitation after stroke: considering the effects of aerobic exercise and genetic variation on brain-derived neurotrophic factor. *Physical Therapy*. 2013;93(12):1707-16. [(Find Online)](https://academic.oup.com/ptj/article/93/12/1707/2735362)
+[^9]: Mang CS, Campbell KL, Ross CJ, Boyd LA. Promoting neuroplasticity for motor rehabilitation after stroke: considering the effects of aerobic exercise and genetic variation on brain-derived neurotrophic factor. *Physical Therapy*. 2013;93(12):1707-16. [(Find Online)](https://doi.org/10.2522/ptj.20130053)
 
-[^10]: Li X, He Y, Wang D, Rezaei MJ. Stroke rehabilitation: from diagnosis to therapy. *Front Neurol*. 2024;15:1402729. [(Find Online)](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1402729/full)
+[^10]: Li X, He Y, Wang D, Rezaei MJ. Stroke rehabilitation: from diagnosis to therapy. *Front Neurol*. 2024;15:1402729. [(Find Online)](https://doi.org/10.3389/fneur.2024.1402729)

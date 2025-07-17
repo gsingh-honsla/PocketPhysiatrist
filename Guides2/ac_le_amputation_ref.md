@@ -135,18 +135,18 @@ The K-level system describes functional abilities of persons after lower-limb am
 
 ## References
 
-[^1]: Department of Veterans Affairs/Department of Defense. Clinical Practice Guidelines for the Rehabilitation of Lower Limb Amputation: An Update from the Department of Veterans Affairs and the Department of Defense. *Archives of Physical Medicine and Rehabilitation*, 2019;100(8):1583-1589. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/31419214/)
+[^1]: Department of Veterans Affairs/Department of Defense. Clinical Practice Guidelines for the Rehabilitation of Lower Limb Amputation: An Update from the Department of Veterans Affairs and the Department of Defense. *Archives of Physical Medicine and Rehabilitation*, 2019;100(8):1583-1589. [(Find Online)](https://doi.org/10.1097/phm.0000000000001213)
 
 [^2]: Molina CS, Faulk JB. Lower Extremity Amputation. *StatPearls*, 2025. Available from: https://www.ncbi.nlm.nih.gov/books/NBK546594/ [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK546594/)
 
 [^3]: Balk EM, Gazula A, Markozannes G, et al. Lower Limb Prostheses: Measurement Instruments, Comparison of Component Effects by Subgroups, and Long-Term Outcomes. *Agency for Healthcare Research and Quality (US)*, 2018. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK531523/)
 
-[^4]: Dillon MP, Major MJ, Kaluf B, Balasanov Y, Fatone S. Predict the Medicare Functional Classification Level (K-level) using the Amputee Mobility Predictor in people with unilateral transfemoral and transtibial amputation: A pilot study. *Prosthetics and Orthotics International*, 2018;42(2):191-197. [(Find Online)](https://journals.sagepub.com/doi/full/10.1177/0309364617706748)
+[^4]: Dillon MP, Major MJ, Kaluf B, Balasanov Y, Fatone S. Predict the Medicare Functional Classification Level (K-level) using the Amputee Mobility Predictor in people with unilateral transfemoral and transtibial amputation: A pilot study. *Prosthetics and Orthotics International*, 2018;42(2):191-197. [(Find Online)](https://doi.org/10.1177/0309364617706748)
 
-[^5]: Ephraim PL, Wegener ST, MacKenzie EJ, Dillingham TR, Pezzin LE. Phantom pain, residual limb pain, and back pain in amputees: results of a national survey. *Archives of Physical Medicine and Rehabilitation*, 2005;86(10):1910-1919. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/16213230/)
+[^5]: Ephraim PL, Wegener ST, MacKenzie EJ, Dillingham TR, Pezzin LE. Phantom pain, residual limb pain, and back pain in amputees: results of a national survey. *Archives of Physical Medicine and Rehabilitation*, 2005;86(10):1910-1919. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.03.031)
 
-[^6]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Frontiers in Pain Research*, 2024;5:1425544. [(Find Online)](https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2024.1425544/full)
+[^6]: Ishigami S, Boctor C. Epidemiology and risk factors for phantom limb pain. *Frontiers in Pain Research*, 2024;5:1425544. [(Find Online)](https://doi.org/10.3389/fpain.2024.1425544)
 
-[^7]: Erlenwein J, Diers M, Ernst J, Schulz F, Petzke F. Clinical updates on phantom limb pain. *Pain Reports*, 2021;6(1):e888. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/33490849/)
+[^7]: Erlenwein J, Diers M, Ernst J, Schulz F, Petzke F. Clinical updates on phantom limb pain. *Pain Reports*, 2021;6(1):e888. [(Find Online)](https://doi.org/10.1097/PR9.0000000000000888)
 
-[^8]: Esquenazi A, DiGiacomo R. Rehabilitation of the patient with a lower-limb amputation. *Journal of the American Podiatric Medical Association*, 2001;91(1):13-22. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/11196327/)
+[^8]: Esquenazi A, DiGiacomo R. Rehabilitation of the patient with a lower-limb amputation. *Journal of the American Podiatric Medical Association*, 2001;91(1):13-22. [(Find Online)](https://doi.org/10.7547/87507315-91-1-13)

@@ -105,11 +105,11 @@ The clinical presentation is characterized by velocity-dependent increased muscl
 
 ## References
 
-[^1]: Zhang W, et al. Pathophysiology and Management Strategies for Post-Stroke Spasticity: An Update Review. International Journal of Molecular Sciences. 2025;26(1):406. [(Find Online)](https://www.mdpi.com/1422-0067/26/1/406)
-[^2]: Li S, Francisco GE, Rymer WZ. A New Definition of Poststroke Spasticity and the Interference of Spasticity With Motor Recovery From Acute to Chronic Stages. Neurorehabilitation and Neural Repair. 2021;35(7):601-610. [(Find Online)](https://journals.sagepub.com/doi/10.1177/15459683211011214)
-[^3]: Li S, Francisco GE. New insights into the pathophysiology of post-stroke spasticity. Frontiers in Human Neuroscience. 2015;9:192. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fnhum.2015.00192/full)
-[^4]: Lundström E, et al. The effectiveness of early interventions for post-stroke spasticity: a systematic review. Disability and Rehabilitation. 2024;46(13):2884-2896. [(Find Online)](https://www.tandfonline.com/doi/full/10.1080/09638288.2023.2226866)
-[^5]: Suputtitada A, et al. A modified scoping review of interventions for global post stroke spasticity. Toxicology and Applied Pharmacology. 2025;485:116856. [(Find Online)](https://www.sciencedirect.com/science/article/pii/S0041008X24000541)
-[^6]: Rosales RL, et al. Botulinum toxin A injection for post-stroke upper limb spasticity and rehabilitation practices from centers across Asian countries. Frontiers in Neurology. 2024;15:1335365. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fneur.2024.1335365/full)
-[^7]: Wang H, et al. Efficacy and Optimal Dose of Botulinum Toxin A in Post-Stroke Lower Extremity Spasticity: A Systematic Review and Meta-Analysis. Toxins. 2021;13(6):428. [(Find Online)](https://www.mdpi.com/2072-6651/13/6/428)
-[^8]: Francisco GE, McGuire JR. Poststroke Spasticity Management. Stroke. 2012;43(11):3132-3136. [(Find Online)](https://www.ahajournals.org/doi/10.1161/STROKEAHA.111.639831)
+[^1]: Zhang W, et al. Pathophysiology and Management Strategies for Post-Stroke Spasticity: An Update Review. International Journal of Molecular Sciences. 2025;26(1):406. [(Find Online)](https://doi.org/10.3390/ijms26010406)
+[^2]: Li S, Francisco GE, Rymer WZ. A New Definition of Poststroke Spasticity and the Interference of Spasticity With Motor Recovery From Acute to Chronic Stages. Neurorehabilitation and Neural Repair. 2021;35(7):601-610. [(Find Online)](https://doi.org/10.1177/15459683211011214)
+[^3]: Li S, Francisco GE. New insights into the pathophysiology of post-stroke spasticity. Frontiers in Human Neuroscience. 2015;9:192. [(Find Online)](https://doi.org/10.3389/fnhum.2015.00192)
+[^4]: Lundström E, et al. The effectiveness of early interventions for post-stroke spasticity: a systematic review. Disability and Rehabilitation. 2024;46(13):2884-2896. [(Find Online)](https://doi.org/10.1080/09638288.2024.2363963)
+[^5]: Suputtitada A, et al. A modified scoping review of interventions for global post stroke spasticity. Toxicology and Applied Pharmacology. 2025;485:116856. [(Find Online)](https://doi.org/10.1016/j.toxicon.2025.108311)
+[^6]: Rosales RL, et al. Botulinum toxin A injection for post-stroke upper limb spasticity and rehabilitation practices from centers across Asian countries. Frontiers in Neurology. 2024;15:1335365. [(Find Online)](https://doi.org/10.3389/fneur.2024.1335365)
+[^7]: Wang H, et al. Efficacy and Optimal Dose of Botulinum Toxin A in Post-Stroke Lower Extremity Spasticity: A Systematic Review and Meta-Analysis. Toxins. 2021;13(6):428. [(Find Online)](https://doi.org/10.3390/toxins13060428)
+[^8]: Francisco GE, McGuire JR. Poststroke Spasticity Management. Stroke. 2012;43(11):3132-3136. [(Find Online)](https://doi.org/10.1161/STROKEAHA.111.639831)

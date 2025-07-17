@@ -101,18 +101,18 @@ The clinical presentation is defined by a sudden, significant increase in blood 
 
 ## References
 
-[^1]: Krassioukov A, Warburton DE, Teasell R, et al. A systematic review of the management of autonomic dysreflexia after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(4):682-695. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19345789/)
+[^1]: Krassioukov A, Warburton DE, Teasell R, et al. A systematic review of the management of autonomic dysreflexia after spinal cord injury. *Arch Phys Med Rehabil*. 2009;90(4):682-695. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.10.017)
 
-[^2]: Eldahan KC, Rabchevsky AG. Autonomic dysreflexia after spinal cord injury: systemic pathophysiology and methods of management. *Auton Neurosci*. 2017;209:59-70. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/28506502/)
+[^2]: Eldahan KC, Rabchevsky AG. Autonomic dysreflexia after spinal cord injury: systemic pathophysiology and methods of management. *Auton Neurosci*. 2017;209:59-70. [(Find Online)](https://doi.org/10.1016/j.autneu.2017.05.002)
 
 [^3]: Allen KJ, Leslie SW. Autonomic Dysreflexia. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK482434/)
 
 [^4]: Clinical Practice Guideline Development for Autonomic Dysreflexia in Spinal Cord Injury. *Spinal Cord*. 2023. [(Find Online)](https://www.nature.com/sc/)
 
-[^5]: Krassioukov A, Warburton DE, Teasell R, et al. A Systematic Review of the Management of Autonomic Dysreflexia Following Spinal Cord Injury. *Arch Phys Med Rehabil*. 2009. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/19345789/)
+[^5]: Krassioukov A, Warburton DE, Teasell R, et al. A Systematic Review of the Management of Autonomic Dysreflexia Following Spinal Cord Injury. *Arch Phys Med Rehabil*. 2009. [(Find Online)](https://doi.org/10.1016/j.apmr.2008.10.017)
 
 [^6]: Consortium for Spinal Cord Medicine. Acute Management of Autonomic Dysreflexia: Individuals with Spinal Cord Injury Presenting to Health Care Facilities. 2001. [(Find Online)](https://www.pva.org/research-resources/clinical-practice-guidelines/)
 
-[^7]: Kirby AK, Pancholi S, Anderson Z, et al. Time and frequency domain analysis of physiological features during autonomic dysreflexia after spinal cord injury. *Front Neurosci*. 2023;17:1210815. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/37638318/)
+[^7]: Kirby AK, Pancholi S, Anderson Z, et al. Time and frequency domain analysis of physiological features during autonomic dysreflexia after spinal cord injury. *Front Neurosci*. 2023;17:1210815. [(Find Online)](https://doi.org/10.3389/fnins.2023.1210815)
 
-[^8]: Calderón-Juárez M, Miller T, Samejima S, et al. Heart Rate Variability-Based Prediction of Autonomic Dysreflexia After Spinal Cord Injury. *J Neurotrauma*. 2024;41(9-10):1172-1180. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/38185869/)
+[^8]: Calderón-Juárez M, Miller T, Samejima S, et al. Heart Rate Variability-Based Prediction of Autonomic Dysreflexia After Spinal Cord Injury. *J Neurotrauma*. 2024;41(9-10):1172-1180. [(Find Online)](https://doi.org/10.1089/neu.2023.0583)

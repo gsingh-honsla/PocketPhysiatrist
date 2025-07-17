@@ -97,14 +97,14 @@ The clinical presentation typically includes insidious onset of anterolateral sh
 
 ## References
 
-[^1]: Garving C, Jakob S, Bauer I, Nadjar R, Brunner UH. Impingement Syndrome of the Shoulder. *Dtsch Arztebl Int*. 2017;114(45):765-776. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729225/)
+[^1]: Garving C, Jakob S, Bauer I, Nadjar R, Brunner UH. Impingement Syndrome of the Shoulder. *Dtsch Arztebl Int*. 2017;114(45):765-776. [(Find Online)](https://doi.org/10.3238/arztebl.2017.0765)
 
-[^2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. *Br J Sports Med*. 2012;46(14):964-978. [(Find Online)](https://bjsm.bmj.com/content/46/14/964)
+[^2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. *Br J Sports Med*. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
 
-[^3]: Dong W, Goost H, Lin XB, et al. Treatments for shoulder impingement syndrome: a PRISMA systematic review and network meta-analysis. *Medicine (Baltimore)*. 2015;94(10):e510. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602475/)
+[^3]: Dong W, Goost H, Lin XB, et al. Treatments for shoulder impingement syndrome: a PRISMA systematic review and network meta-analysis. *Medicine (Baltimore)*. 2015;94(10):e510. [(Find Online)](https://doi.org/10.1097/MD.0000000000000510)
 
-[^4]: Ziradkar R, Best TM, Quintero D, Paultre K. Nonsteroidal Anti-inflammatory and Corticosteroid Injections for Shoulder Impingement Syndrome: A Systematic Review and Meta-analysis. *Sports Health*. 2023;15(4):579-590. [(Find Online)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10293538/)
+[^4]: Ziradkar R, Best TM, Quintero D, Paultre K. Nonsteroidal Anti-inflammatory and Corticosteroid Injections for Shoulder Impingement Syndrome: A Systematic Review and Meta-analysis. *Sports Health*. 2023;15(4):579-590. [(Find Online)](https://doi.org/10.1177/19417381221108726)
 
-[^5]: Lewis JS. Rotator cuff tendinopathy/subacromial impingement syndrome: is it time for a new method of assessment? *Br J Sports Med*. 2009;43(4):259-264. [(Find Online)](https://bjsm.bmj.com/content/43/4/259)
+[^5]: Lewis JS. Rotator cuff tendinopathy/subacromial impingement syndrome: is it time for a new method of assessment? *Br J Sports Med*. 2009;43(4):259-264. [(Find Online)](https://doi.org/10.1136/bjsm.2008.052183)
 
-[^6]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. *J Bone Joint Surg Am*. 1972;54(1):41-50. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/5054450/)
+[^6]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. *J Bone Joint Surg Am*. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)

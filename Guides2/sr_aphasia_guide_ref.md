@@ -104,12 +104,12 @@ Aphasia presents as a disorder of language, not intellect, though cognitive defi
 
 ## References
 
-[^1]: Hillis, A. E. (2007). Aphasia: progress in the last quarter of a century. *Neurology*, 69(2), 200-213. [(Find Online)](https://n.neurology.org/content/69/2/200)
+[^1]: Hillis, A. E. (2007). Aphasia: progress in the last quarter of a century. *Neurology*, 69(2), 200-213. [(Find Online)](https://doi.org/10.1212/01.wnl.0000265600.69385.6f)
 
-[^2]: Brady, M. C., Kelly, H., Godwin, J., Enderby, P., & Campbell, P. (2016). Speech and language therapy for aphasia following stroke. *Cochrane Database of Systematic Reviews*, (6). [(Find Online)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000425.pub4/full)
+[^2]: Brady, M. C., Kelly, H., Godwin, J., Enderby, P., & Campbell, P. (2016). Speech and language therapy for aphasia following stroke. *Cochrane Database of Systematic Reviews*, (6). [(Find Online)](https://doi.org/10.1002/14651858.CD000425.pub4)
 
-[^3]: Fridriksson, J., Yourganov, G., Bonilha, L., Basilakos, A., Den Ouden, D. B., & Rorden, C. (2016). Revealing the dual streams of speech processing. *Proceedings of the National Academy of Sciences*, 113(52), 15108-15113. [(Find Online)](https://www.pnas.org/doi/10.1073/pnas.1614038114)
+[^3]: Fridriksson, J., Yourganov, G., Bonilha, L., Basilakos, A., Den Ouden, D. B., & Rorden, C. (2016). Revealing the dual streams of speech processing. *Proceedings of the National Academy of Sciences*, 113(52), 15108-15113. [(Find Online)](https://doi.org/10.1073/pnas.1614038114)
 
-[^4]: Berthier, M. L., Green, C., Lara, J. P., Higueras, C., Barbancho, M. A., Dávila, G., & Pulvermüller, F. (2009). Memantine and constraint-induced aphasia therapy in chronic poststroke aphasia. *Annals of Neurology*, 65(5), 577-585. [(Find Online)](https://onlinelibrary.wiley.com/doi/10.1002/ana.21597)
+[^4]: Berthier, M. L., Green, C., Lara, J. P., Higueras, C., Barbancho, M. A., Dávila, G., & Pulvermüller, F. (2009). Memantine and constraint-induced aphasia therapy in chronic poststroke aphasia. *Annals of Neurology*, 65(5), 577-585. [(Find Online)](https://doi.org/10.1002/ana.21597)
 
-[^5]: Kiran, S., & Thompson, C. K. (2019). Neuroplasticity of language networks in aphasia: advances, updates, and future challenges. *Frontiers in Neurology*, 10, 295. [(Find Online)](https://www.frontiersin.org/articles/10.3389/fneur.2019.00295/full)
+[^5]: Kiran, S., & Thompson, C. K. (2019). Neuroplasticity of language networks in aphasia: advances, updates, and future challenges. *Frontiers in Neurology*, 10, 295. [(Find Online)](https://doi.org/10.3389/fneur.2019.00295)
