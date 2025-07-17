@@ -560,29 +560,124 @@ struct FormattedTextView: View {
     }
     
     private func parseInlineFormatting(_ text: String) -> AttributedString {
-        var result = AttributedString(text)
+        // Clean up reference formatting first
+        var cleanedText = text
         
-        // Handle bold text (**text**)
+        // Remove colons after reference numbers (e.g., [^1]: becomes [^1])
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\^(\\d+)\\]:",
+            with: "[^$1]",
+            options: .regularExpression
+        )
+        
+        // Remove any text after "Find Online" links (keep only the link itself)
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\(Find Online\\)\\]\\((https?://[^\\)]+)\\)[^\\n]*",
+            with: "[(Find Online)]($1)",
+            options: .regularExpression
+        )
+        
+        // Parse all patterns from the cleaned text
+        var linkReplacements: [(range: Range<String.Index>, url: URL)] = []
+        var citationReplacements: [(range: Range<String.Index>, number: String)] = []
+        var boldReplacements: [(range: Range<String.Index>, text: String)] = []
+        
+        // Find all reference links first
+        let referenceLinkPattern = "\\[\\(Find Online\\)\\]\\((https?://[^\\)]+)\\)"
+        if let referenceLinkRegex = try? NSRegularExpression(pattern: referenceLinkPattern, options: []) {
+            let matches = referenceLinkRegex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: cleanedText.count))
+            
+            for match in matches {
+                if let urlRange = Range(match.range(at: 1), in: cleanedText),
+                   let fullRange = Range(match.range, in: cleanedText),
+                   let url = URL(string: String(cleanedText[urlRange])) {
+                    linkReplacements.append((range: fullRange, url: url))
+                }
+            }
+        }
+        
+        // Find all citations
+        let citationPattern = "\\[\\^(\\d+)\\]"
+        if let citationRegex = try? NSRegularExpression(pattern: citationPattern, options: []) {
+            let matches = citationRegex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: cleanedText.count))
+            
+            for match in matches {
+                if let numberRange = Range(match.range(at: 1), in: cleanedText),
+                   let fullRange = Range(match.range, in: cleanedText) {
+                    let number = String(cleanedText[numberRange])
+                    citationReplacements.append((range: fullRange, number: number))
+                }
+            }
+        }
+        
+        // Find all bold text
         let boldPattern = "\\*\\*(.*?)\\*\\*"
         if let boldRegex = try? NSRegularExpression(pattern: boldPattern, options: []) {
-            let nsString = text as NSString
-            let matches = boldRegex.matches(in: text, options: [], range: NSRange(location: 0, length: nsString.length))
+            let matches = boldRegex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: cleanedText.count))
             
-            // Process matches in reverse order to maintain string indices
-            for match in matches.reversed() {
-                if let contentRange = Range(match.range(at: 1), in: text) {
-                    let boldText = String(text[contentRange])
-                    
-                    if let attributedRange = Range(match.range, in: result) {
+            for match in matches {
+                if let contentRange = Range(match.range(at: 1), in: cleanedText),
+                   let fullRange = Range(match.range, in: cleanedText) {
+                    let boldText = String(cleanedText[contentRange])
+                    boldReplacements.append((range: fullRange, text: boldText))
+                }
+            }
+        }
+        
+        // Now build the AttributedString with all formatting
+        var result = AttributedString(cleanedText)
+        
+        // Apply replacements in reverse order to maintain indices
+        let allReplacements: [(String, Range<String.Index>, URL?, String?)] = 
+            linkReplacements.map { ("link", $0.range, $0.url, nil) } +
+            citationReplacements.map { ("citation", $0.range, nil, $0.number) } +
+            boldReplacements.map { ("bold", $0.range, nil, $0.text) }
+        
+        let sortedReplacements = allReplacements.sorted(by: { $0.1.lowerBound > $1.1.lowerBound })
+        
+        for (type, range, url, text) in sortedReplacements {
+            if let attributedRange = Range(range, in: result) {
+                switch type {
+                case "link":
+                    if let url = url {
+                        var linkAttributedString = AttributedString("Find Online")
+                        linkAttributedString.link = url
+                        linkAttributedString.foregroundColor = .blue
+                        linkAttributedString.underlineStyle = .single
+                        result.replaceSubrange(attributedRange, with: linkAttributedString)
+                    }
+                case "citation":
+                    if let number = text {
+                        let superscriptNumber = convertToSuperscript(number)
+                        var superscriptAttributedString = AttributedString(superscriptNumber)
+                        superscriptAttributedString.font = .caption
+                        superscriptAttributedString.baselineOffset = 6
+                        superscriptAttributedString.foregroundColor = .blue
+                        result.replaceSubrange(attributedRange, with: superscriptAttributedString)
+                    }
+                case "bold":
+                    if let boldText = text {
                         var boldAttributedString = AttributedString(boldText)
                         boldAttributedString.font = .body.bold()
                         result.replaceSubrange(attributedRange, with: boldAttributedString)
                     }
+                default:
+                    break
                 }
             }
         }
         
         return result
+    }
+    
+    // Helper function to convert numbers to Unicode superscript characters
+    private func convertToSuperscript(_ number: String) -> String {
+        let superscriptMap: [Character: Character] = [
+            "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
+            "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹"
+        ]
+        
+        return String(number.compactMap { superscriptMap[$0] ?? $0 })
     }
     
     private func fontForHeadingLevel(_ level: Int) -> Font {

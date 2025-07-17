@@ -18,6 +18,36 @@
             endingLineNumber = "20"
             landmarkName = "parseMarkdownFile(at:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DE6E9A7-7B8C-40AA-AD15-4A5A35881106 - f38b584639dc436b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketPhysiatrist.TemplateAwareMarkdownParser.parseMarkdownFile(at: Swift.String) throws -&gt; PocketPhysiatrist.MedicalContent"
+                  moduleName = "PocketPhysiatrist.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timon/Documents/PocketPhysiatrist/PocketPhysiatrist/Data/MarkdownParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+               <Location
+                  uuid = "7DE6E9A7-7B8C-40AA-AD15-4A5A35881106 - f38b584639dc436b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketPhysiatrist.TemplateAwareMarkdownParser.parseMarkdownFile(at: Swift.String) throws -&gt; PocketPhysiatrist.MedicalContent"
+                  moduleName = "PocketPhysiatrist.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timon/Documents/PocketPhysiatrist/PocketPhysiatrist/Data/MarkdownParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

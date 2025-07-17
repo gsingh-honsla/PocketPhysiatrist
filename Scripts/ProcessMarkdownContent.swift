@@ -7,41 +7,76 @@
 
 import Foundation
 
+// MARK: - Data Structures
+struct ProcessedContent {
+    let title: String
+    let contentType: ContentType
+    let category: String
+    let abbreviation: String?
+    let keywords: [String]
+    let overview: String
+    let sections: [ProcessedSection]
+}
+
+struct ProcessedSection {
+    let title: String
+    let content: String
+    let orderIndex: Int
+}
+
+enum ContentType: String {
+    case guide = "guide"
+    case assessment = "assessment"
+}
+
 // MARK: - Main Processing Function
 func processMarkdownFiles() {
-    print("🔄 Processing markdown files...")
+    print("� FProcessing markdown files...")
     
     let fileManager = FileManager.default
     let currentDirectory = fileManager.currentDirectoryPath
     
     var allContent: [ProcessedContent] = []
     
-    // Process guides
-    let guidesPath = "\(currentDirectory)/Guides"
-    let guideFiles = findMarkdownFiles(in: guidesPath, fileManager: fileManager)
-    print("📖 Found \(guideFiles.count) guide files")
+    // Process enhanced guides from Guides2 folder (with citations) - PRIORITY
+    let guides2Path = "\(currentDirectory)/Guides2"
+    let guides2Files = findMarkdownFiles(in: guides2Path, fileManager: fileManager)
+    print("📖 Found \(guides2Files.count) enhanced guide files in Guides2")
     
-    for file in guideFiles {
+    for file in guides2Files {
         if let content = processMarkdownFile(at: file, contentType: .guide) {
             allContent.append(content)
-            print("✅ Processed guide: \(content.title)")
+            print("✅ Processed enhanced guide: \(content.title)")
         }
     }
     
-    // Process assessments
-    let assessmentsPath = "\(currentDirectory)/Assessment Tools"
-    let assessmentFiles = findMarkdownFiles(in: assessmentsPath, fileManager: fileManager)
-    print("📋 Found \(assessmentFiles.count) assessment files")
+    // Process enhanced assessments from Assessments2 folder (with citations) - PRIORITY
+    let assessments2Path = "\(currentDirectory)/Assessments2"
+    let assessments2Files = findMarkdownFiles(in: assessments2Path, fileManager: fileManager)
+    print("📋 Found \(assessments2Files.count) enhanced assessment files in Assessments2")
     
-    for file in assessmentFiles {
+    for file in assessments2Files {
         if let content = processMarkdownFile(at: file, contentType: .assessment) {
             allContent.append(content)
-            print("✅ Processed assessment: \(content.title)")
+            print("✅ Processed enhanced assessment: \(content.title)")
         }
     }
     
     // Generate Swift file
     generateSwiftFile(with: allContent)
+    
+    // Count citations for reporting
+    let totalCitations = allContent.reduce(0) { total, content in
+        let contentText = content.overview + content.sections.map { $0.content }.joined()
+        let citationCount = contentText.components(separatedBy: "[(Find Online)]").count - 1
+        return total + citationCount
+    }
+    
+    print("\n🏁 Content processing complete!")
+    print("📱 Rebuild your app to use the updated content")
+    print("📊 Total items: \(allContent.count)")
+    print("🔗 Total citations: \(totalCitations)")
+    print("📚 Enhanced content ready for production use")
     
     print("🎉 Successfully processed \(allContent.count) content items!")
 }
@@ -395,28 +430,6 @@ func escapeMultilineString(_ string: String) -> String {
     return string
         .replacingOccurrences(of: "\\", with: "\\\\")
         .replacingOccurrences(of: "\"\"\"", with: "\\\"\\\"\\\"")
-}
-
-// MARK: - Data Structures
-struct ProcessedContent {
-    let title: String
-    let contentType: ContentType
-    let category: String
-    let abbreviation: String?
-    let keywords: [String]
-    let overview: String
-    let sections: [ProcessedSection]
-}
-
-struct ProcessedSection {
-    let title: String
-    let content: String
-    let orderIndex: Int
-}
-
-enum ContentType: String {
-    case guide = "guide"
-    case assessment = "assessment"
 }
 
 // MARK: - Main Execution

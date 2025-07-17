@@ -33,6 +33,24 @@ class ContentProcessor {
             }
         }
         
+        // Process guides from Guides2 folder (enhanced content with citations)
+        let guides2Files = findMarkdownFiles(in: "Guides2")
+        print("📖 Found \(guides2Files.count) enhanced guide files in Guides2")
+        
+        for file in guides2Files {
+            do {
+                let fileName = URL(fileURLWithPath: file).lastPathComponent
+                print("🔄 Processing enhanced guide file: \(fileName)")
+                
+                let content = try parser.parseMarkdownFile(at: file)
+                allContent.append(content)
+                print("✅ Processed enhanced guide: \(content.title)")
+            } catch {
+                print("❌ Failed to process enhanced guide \(URL(fileURLWithPath: file).lastPathComponent): \(error)")
+                // Continue processing other files
+            }
+        }
+        
         // Process assessments
         let assessmentFiles = findMarkdownFiles(in: "Assessment Tools")
         print("📋 Found \(assessmentFiles.count) assessment files")
@@ -47,6 +65,24 @@ class ContentProcessor {
                 print("✅ Processed assessment: \(content.title)")
             } catch {
                 print("❌ Failed to process assessment \(URL(fileURLWithPath: file).lastPathComponent): \(error)")
+                // Continue processing other files
+            }
+        }
+        
+        // Process assessments from Assessments2 folder (enhanced content with citations)
+        let assessments2Files = findMarkdownFiles(in: "Assessments2")
+        print("📋 Found \(assessments2Files.count) enhanced assessment files in Assessments2")
+        
+        for file in assessments2Files {
+            do {
+                let fileName = URL(fileURLWithPath: file).lastPathComponent
+                print("🔄 Processing enhanced assessment file: \(fileName)")
+                
+                let content = try parser.parseMarkdownFile(at: file)
+                allContent.append(content)
+                print("✅ Processed enhanced assessment: \(content.title)")
+            } catch {
+                print("❌ Failed to process enhanced assessment \(URL(fileURLWithPath: file).lastPathComponent): \(error)")
                 // Continue processing other files
             }
         }
@@ -130,6 +166,57 @@ class ContentProcessor {
                 "pr_myelomeningocele_guide.md",
                 "cr_cipn_guide.md"
             ]
+        case "Guides2":
+            return [
+                "ac_intro.md",
+                "ac_le_amputation_ref.md",
+                "ac_phantom_limb_ref.md",
+                "ac_upper_extremity_amputation_ref.md",
+                "bim_agitation_guide_ref.md",
+                "bim_doc_guide_ref.md",
+                "bim_intro.md",
+                "bim_pte_guide_ref.md",
+                "bim_pth_guide_ref.md",
+                "bim_pthp_guide_ref.md",
+                "cipn_guide_ref.md",
+                "cr_intro.md",
+                "msm_cts_guide_ref.md",
+                "msm_intro.md",
+                "msm_lbp_guide_ref.md",
+                "msm_shoulder_impingement_guide_ref.md",
+                "pm_crps_guide_ref.md",
+                "pm_intro.md",
+                "pm_myofascial_pain_guide_ref.md",
+                "pr_bpbp_guide_ref.md",
+                "pr_cerebral_palsy_guide_ref.md",
+                "pr_dmd_guide_ref.md",
+                "pr_intro.md",
+                "pr_myelomeningocele_ref.md",
+                "sci_autonomic_dysreflexia_guide_ref.md",
+                "sci_intro.md",
+                "sci_neurogenic_bladder_guide_ref.md",
+                "sci_neurogenic_bowel_guide_ref.md",
+                "sci_orthostatic_hypotension_guide_ref.md",
+                "sci_pressure_injury_guide_ref.md",
+                "sr_aphasia_guide_ref.md",
+                "sr_dysphagia_guide_ref.md",
+                "sr_intro.md",
+                "sr_post_stroke_gait_guide_ref.md",
+                "sr_pss_guide_ref.md"
+            ]
+        case "Assessments2":
+            return [
+                "6mwt_guide_ref.md",
+                "fim_assessment_guide_ref.md",
+                "lachman_test_guide_ref.md",
+                "modified_ashworth_scale_ref.md",
+                "mts_assessment_guide_ref.md",
+                "ncs_emg_ref.md",
+                "phalens_test_ref.md",
+                "rancho-los-amigos-ref.md",
+                "tinels_sign_ref.md",
+                "tug_assessment_ref.md"
+            ]
         case "Assessment Tools":
             return [
                 "tug_assessment_guide.md",
@@ -203,6 +290,23 @@ class ContentProcessor {
                    !fileName.contains("TEMPLATE") &&
                    !fileName.contains("CLAUDE") &&
                    !isAssessmentFile // Exclude assessment files
+                   
+        case "Guides2":
+            // Include enhanced guide files with citations from Guides2 folder
+            return fileName.hasSuffix(".md") &&
+                   !fileName.contains("intro") &&
+                   !fileName.contains("template") &&
+                   !fileName.contains("TEMPLATE") &&
+                   !fileName.contains("CLAUDE") &&
+                   !isAssessmentFile // Exclude assessment files
+                   
+        case "Assessments2":
+            // Include enhanced assessment files with citations from Assessments2 folder
+            return fileName.hasSuffix(".md") &&
+                   !fileName.contains("intro") &&
+                   !fileName.contains("template") &&
+                   !fileName.contains("TEMPLATE") &&
+                   !fileName.contains("CLAUDE")
                    
         case "Assessment Tools":
             // Include assessment files
