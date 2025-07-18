@@ -135,3 +135,26 @@ Content items have an `isFavorite` boolean property that can be toggled in the d
 - **PocketPhysiatristUITests**: UI automation tests
 
 The app uses standard Xcode testing infrastructure with separate test targets for unit and UI tests.
+# Recent Updates (2025-07-18)
+
+## Fixed Major Issues
+1. **Build Error Fix**: Resolved missing FullScreenTableView by creating FullScreenImageView with pinch-to-zoom functionality
+2. **Table Styling**: Fixed black backgrounds in table cells - now uses system colors (systemGray5 for headers, systemBackground for content)
+3. **Spacing Overhaul**: 
+   - Tables: 24pt bottom padding
+   - Headings: 16pt top, 8pt bottom padding  
+   - Paragraphs/Lists: 8pt bottom padding
+   - Increased table cell padding to 10pt vertical, 12pt horizontal
+   - Main section spacing increased to 24pt
+4. **Citation Removal**: Removed [^1] style citations from all headings including table headers and section titles
+
+## Key Files Modified
+- ContentDetailView.swift (spacing, citations)
+- MobileOptimizedTableView.swift (colors, spacing)
+
+## Current State
+- App builds successfully
+- All spacing issues resolved
+- Clean heading display without citations
+- iOS-native styling throughout
+

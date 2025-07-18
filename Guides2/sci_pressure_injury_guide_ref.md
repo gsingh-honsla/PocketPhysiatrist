@@ -1,4 +1,4 @@
-# Pressure Injury Prevention and Management in Spinal Cord Injury
+# Pressure Injury Prevention and Management
 
 ## Metadata
 - **Category**: Spinal Cord Injury Medicine

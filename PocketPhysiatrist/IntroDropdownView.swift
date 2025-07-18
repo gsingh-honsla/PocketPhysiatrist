@@ -25,65 +25,39 @@ struct IntroContent: Identifiable {
 class IntroContentLoader: ObservableObject {
     @Published private var contentCache: [String: IntroContent] = [:]
     
-    // Category to file path mapping based on existing structure
-    private let categoryToFilePath: [String: String] = [
-        "Spinal Cord Injury Medicine": "sci_intro",
-        "Brain Injury Medicine": "bim_intro", 
-        "Stroke Rehabilitation": "sr_intro",
-        "Pediatric Rehabilitation": "pr_intro",
-        "Musculoskeletal and Sports Medicine": "msm_intro",
-        "Pain Medicine": "pm_intro",
-        "Cancer Rehabilitation": "cr_intro",
-        "Amputee Care": "ac_intro"
-    ]
-    
     func loadIntroContent(for category: String) async -> IntroContent {
         // Check cache first
         if let cached = contentCache[category], cached.isLoaded {
             return cached
         }
         
-        // Load from file
-        guard let fileName = categoryToFilePath[category] else {
+        // Load from generated content
+        let allContent = GeneratedContentProvider.getAllContent()
+        
+        // Find the intro content for this category
+        if let introContent = allContent.first(where: { 
+            $0.contentType == .intro && $0.category == category 
+        }) {
+            let content = introContent.overview
+            let introContentItem = IntroContent(category: category, content: content, isLoaded: true)
+            
+            await MainActor.run {
+                contentCache[category] = introContentItem
+            }
+            
+            return introContentItem
+        } else {
+            // No intro content found for this category
             let emptyContent = IntroContent(category: category, content: "", isLoaded: true)
             await MainActor.run {
                 contentCache[category] = emptyContent
             }
             return emptyContent
         }
-        
-        do {
-            let content = try await loadMarkdownFile(fileName: fileName)
-            let introContent = IntroContent(category: category, content: content, isLoaded: true)
-            
-            await MainActor.run {
-                contentCache[category] = introContent
-            }
-            
-            return introContent
-        } catch {
-            print("Failed to load intro content for \(category): \(error)")
-            let emptyContent = IntroContent(category: category, content: "", isLoaded: true)
-            await MainActor.run {
-                contentCache[category] = emptyContent
-            }
-            return emptyContent
-        }
-    }
-    
-    private func loadMarkdownFile(fileName: String) async throws -> String {
-        guard let bundlePath = Bundle.main.path(forResource: fileName, ofType: "md") else {
-            throw IntroContentError.fileNotFound
-        }
-        
-        return try String(contentsOfFile: bundlePath, encoding: .utf8)
     }
 }
 
-enum IntroContentError: Error {
-    case fileNotFound
-    case loadingFailed
-}
+
 
 // MARK: - Main Intro Dropdown Component
 struct IntroDropdownView: View {

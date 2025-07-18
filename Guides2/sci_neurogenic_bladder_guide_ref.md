@@ -1,4 +1,4 @@
-# Neurogenic Bladder Management in Spinal Cord Injury
+# Neurogenic Bladder Management
 
 ## Metadata
 - **Category**: Spinal Cord Injury Medicine

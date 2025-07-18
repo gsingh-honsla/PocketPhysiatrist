@@ -1,4 +1,4 @@
-# Autonomic Dysreflexia in Spinal Cord Injury
+# Autonomic Dysreflexia
 
 ## Metadata
 - **Category**: Spinal Cord Injury Medicine

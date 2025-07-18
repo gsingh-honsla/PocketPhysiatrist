@@ -294,7 +294,6 @@ class ContentProcessor {
         case "Guides2":
             // Include enhanced guide files with citations from Guides2 folder
             return fileName.hasSuffix(".md") &&
-                   !fileName.contains("intro") &&
                    !fileName.contains("template") &&
                    !fileName.contains("TEMPLATE") &&
                    !fileName.contains("CLAUDE") &&
@@ -303,7 +302,6 @@ class ContentProcessor {
         case "Assessments2":
             // Include enhanced assessment files with citations from Assessments2 folder
             return fileName.hasSuffix(".md") &&
-                   !fileName.contains("intro") &&
                    !fileName.contains("template") &&
                    !fileName.contains("TEMPLATE") &&
                    !fileName.contains("CLAUDE")

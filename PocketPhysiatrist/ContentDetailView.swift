@@ -16,7 +16,7 @@ struct ContentDetailView: View {
     var body: some View {
         ScrollViewReader { proxy in
             ScrollView {
-                LazyVStack(alignment: .leading, spacing: 20) {
+                LazyVStack(alignment: .leading, spacing: 24) {
                     // Enhanced header with title and metadata
                     ContentHeaderView(content: content)
                         .background(
@@ -122,6 +122,8 @@ struct MetadataCardView: View {
             return .blue
         case .assessment:
             return .green
+        case .intro:
+            return .purple
         }
     }
 }
@@ -235,8 +237,10 @@ struct TemplateSectionView: View {
                 FormattedTextView(text: section.rawMarkdown)
             } else if !section.displayBlocks.isEmpty {
                 // Fallback to content blocks if available
-                ForEach(section.displayBlocks, id: \.id) { block in
-                    ContentBlockView(block: block)
+                VStack(alignment: .leading, spacing: 16) {
+                    ForEach(section.displayBlocks, id: \.id) { block in
+                        ContentBlockView(block: block)
+                    }
                 }
             }
         }
@@ -251,6 +255,15 @@ struct TemplateSectionView: View {
 struct SectionHeaderView: View {
     let section: ContentSection
     
+    private var cleanTitle: String {
+        // Remove citation references like [^1], [^2], etc.
+        section.title.replacingOccurrences(
+            of: "\\[\\^\\d+\\]",
+            with: "",
+            options: .regularExpression
+        )
+    }
+    
     var body: some View {
         HStack(spacing: 12) {
             Image(systemName: sectionIcon)
@@ -258,7 +271,7 @@ struct SectionHeaderView: View {
                 .font(.title3)
                 .frame(width: 24, height: 24)
             
-            Text(section.title)
+            Text(cleanTitle)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(.primary)
@@ -333,23 +346,30 @@ struct ContentBlockView: View {
             FormattedTextView(text: block.content)
                 .font(.body)
                 .lineSpacing(6)
+                .padding(.bottom, 8)
             
         case .heading:
             HeadingView(block: block)
+                .padding(.top, 16)
             
         case .bulletList:
             if let items = block.listItems {
                 BulletListView(items: items)
+                    .padding(.bottom, 8)
             }
             
         case .numberedList:
             if let items = block.listItems {
                 NumberedListView(items: items)
+                    .padding(.bottom, 8)
             }
             
         case .table:
             if let rows = block.tableRows {
-                EnhancedTableView(rows: rows)
+                // Convert table rows back to markdown format for MobileOptimizedTableView
+                let tableContent = convertTableRowsToMarkdown(rows)
+                MobileOptimizedTableView(tableContent: tableContent)
+                    .padding(.bottom, 24)
             }
             
         case .codeBlock:
@@ -365,12 +385,33 @@ struct ContentBlockView: View {
     }
 }
 
+// MARK: - Table Conversion Helper
+func convertTableRowsToMarkdown(_ rows: [TableRow]) -> String {
+    var markdownLines: [String] = []
+    
+    for (index, row) in rows.enumerated() {
+        // Convert each row to markdown format
+        let cells = row.cells.map { $0.content }
+        let markdownRow = "| " + cells.joined(separator: " | ") + " |"
+        markdownLines.append(markdownRow)
+        
+        // Add separator line after header row
+        if index == 0 {
+            let separatorCells = Array(repeating: "---", count: cells.count)
+            let separatorRow = "| " + separatorCells.joined(separator: " | ") + " |"
+            markdownLines.append(separatorRow)
+        }
+    }
+    
+    return markdownLines.joined(separator: "\n")
+}
+
 // MARK: - Formatted Text View
 struct FormattedTextView: View {
     let text: String
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 16) {
             ForEach(parseMarkdownContent(text), id: \.id) { element in
                 renderMarkdownElement(element)
             }
@@ -406,8 +447,8 @@ struct FormattedTextView: View {
                 }
             }
             
-            // Handle tables
-            if trimmed.contains("|") && !trimmed.isEmpty {
+            // Handle tables with improved detection
+            if trimmed.contains("|") && !trimmed.isEmpty && !isTableSeparator(trimmed) {
                 // Finish current elements except table
                 if !currentParagraph.isEmpty {
                     let content = currentParagraph.joined(separator: "\n")
@@ -421,10 +462,13 @@ struct FormattedTextView: View {
                     inList = false
                 }
                 
-                if !isTableSeparator(trimmed) {
-                    tableRows.append(line)
-                    inTable = true
-                }
+                tableRows.append(line)
+                inTable = true
+                continue
+            }
+            
+            // Skip table separator lines
+            if isTableSeparator(trimmed) {
                 continue
             }
             
@@ -517,17 +561,25 @@ struct FormattedTextView: View {
         switch element.type {
         case .heading:
             let level = Int(element.metadata?["level"] ?? "3") ?? 3
-            Text(element.content)
+            let cleanContent = element.content.replacingOccurrences(
+                of: "\\[\\^\\d+\\]",
+                with: "",
+                options: .regularExpression
+            )
+            
+            Text(cleanContent)
                 .font(fontForHeadingLevel(level))
                 .fontWeight(.semibold)
                 .foregroundColor(.primary)
-                .padding(.top, 8)
+                .padding(.top, 20)
+                .padding(.bottom, 8)
                 
         case .paragraph:
             Text(parseInlineFormatting(element.content))
                 .font(.body)
                 .lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
+                .padding(.bottom, 8)
                 
         case .bulletList:
             VStack(alignment: .leading, spacing: 6) {
@@ -549,9 +601,11 @@ struct FormattedTextView: View {
                     }
                 }
             }
+            .padding(.bottom, 8)
             
         case .table:
-            TableImageView(tableContent: element.content)
+            MobileOptimizedTableView(tableContent: element.content)
+                .padding(.bottom, 24)
         }
     }
     
@@ -710,25 +764,38 @@ enum MarkdownElementType {
 
 // MARK: - Table Image Generator
 class TableImageGenerator {
-    // Simple in-memory cache for generated table images
+    // Persistent disk cache for generated table images
     private static var imageCache: [String: UIImage] = [:]
     private static let cacheQueue = DispatchQueue(label: "table.image.cache", attributes: .concurrent)
+    private static let cacheDirectory: URL = {
+        let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let cacheDir = documentsPath.appendingPathComponent("TableImageCache")
+        try? FileManager.default.createDirectory(at: cacheDir, withIntermediateDirectories: true)
+        return cacheDir
+    }()
     
     static func generateImage(from tableContent: String) async -> UIImage? {
         // Create a cache key from the table content
         let cacheKey = tableContent.hash.description
         
-        // Check cache first
+        // Check memory cache first
         if let cachedImage = await getCachedImage(for: cacheKey) {
             return cachedImage
         }
         
-        // Generate new image if not cached
+        // Check disk cache
+        if let diskImage = await loadImageFromDisk(for: cacheKey) {
+            await cacheImage(diskImage, for: cacheKey) // Also cache in memory
+            return diskImage
+        }
+        
+        // Generate new image if not cached anywhere
         let image = await generateNewImage(from: tableContent)
         
-        // Cache the generated image
+        // Cache the generated image both in memory and on disk
         if let image = image {
             await cacheImage(image, for: cacheKey)
+            await saveImageToDisk(image, for: cacheKey)
         }
         
         return image
@@ -759,23 +826,85 @@ class TableImageGenerator {
         }
     }
     
-    private static func generateNewImage(from tableContent: String) async -> UIImage? {
+    private static func loadImageFromDisk(for key: String) async -> UIImage? {
         return await withCheckedContinuation { continuation in
-            DispatchQueue.main.async {
-                // Parse table content first to ensure we have valid data
-                let rows = parseTableRowsForSizing(tableContent)
-                guard !rows.isEmpty else {
-                    print("TableImageGenerator: No table rows found in content")
+            DispatchQueue.global(qos: .utility).async {
+                let fileURL = cacheDirectory.appendingPathComponent("\(key).png")
+                
+                guard FileManager.default.fileExists(atPath: fileURL.path),
+                      let imageData = try? Data(contentsOf: fileURL),
+                      let image = UIImage(data: imageData) else {
                     continuation.resume(returning: nil)
                     return
                 }
                 
-                print("TableImageGenerator: Found \(rows.count) rows with \(rows.first?.count ?? 0) columns")
+                print("TableImageGenerator: Loaded image from disk cache for key: \(key)")
+                continuation.resume(returning: image)
+            }
+        }
+    }
+    
+    private static func saveImageToDisk(_ image: UIImage, for key: String) async {
+        await withCheckedContinuation { continuation in
+            DispatchQueue.global(qos: .utility).async {
+                let fileURL = cacheDirectory.appendingPathComponent("\(key).png")
                 
-                // Create a simple UIView-based table instead of SwiftUI
+                guard let imageData = image.pngData() else {
+                    print("TableImageGenerator: Failed to convert image to PNG data")
+                    continuation.resume()
+                    return
+                }
+                
+                do {
+                    try imageData.write(to: fileURL)
+                    print("TableImageGenerator: Saved image to disk cache for key: \(key)")
+                } catch {
+                    print("TableImageGenerator: Failed to save image to disk: \(error)")
+                }
+                
+                continuation.resume()
+            }
+        }
+    }
+    
+    private static func generateNewImage(from tableContent: String) async -> UIImage? {
+        return await withCheckedContinuation { continuation in
+            DispatchQueue.main.async {
+                print("TableImageGenerator: Starting standardized image generation")
+                
+                // Parse table content with standardized processing
+                let rows = parseTableRowsForSizing(tableContent)
+                guard !rows.isEmpty else {
+                    print("TableImageGenerator: ERROR - No table rows found")
+                    print("TableImageGenerator: Content preview: '\(String(tableContent.prefix(200)))...'")
+                    continuation.resume(returning: nil)
+                    return
+                }
+                
+                print("TableImageGenerator: Standardized table - \(rows.count) rows, \(rows.first?.count ?? 0) columns")
+                
+                // Validate content
+                let hasContent = rows.contains { row in
+                    row.contains { cell in
+                        !cell.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                    }
+                }
+                
+                if !hasContent {
+                    print("TableImageGenerator: ERROR - All table cells are empty after standardization")
+                    continuation.resume(returning: nil)
+                    return
+                }
+                
+                // Create standardized table image
                 let image = createTableImage(from: rows)
                 
-                print("TableImageGenerator: Generated image of size \(image?.size ?? .zero)")
+                if let image = image {
+                    print("TableImageGenerator: ✅ Generated standardized table image (\(Int(image.size.width))x\(Int(image.size.height)))")
+                } else {
+                    print("TableImageGenerator: ❌ Failed to create standardized table image")
+                }
+                
                 continuation.resume(returning: image)
             }
         }
@@ -784,19 +913,22 @@ class TableImageGenerator {
     private static func createTableImage(from rows: [[String]]) -> UIImage? {
         guard !rows.isEmpty else { return nil }
         
-        let cellPadding: CGFloat = 16
+        // Standardized table configuration - optimized for mobile display
+        let cellPadding: CGFloat = 12
         let borderWidth: CGFloat = 1
         let cornerRadius: CGFloat = 8
-        let minRowHeight: CGFloat = 50
+        let minRowHeight: CGFloat = 44
+        let minColumnWidth: CGFloat = 80
+        let maxColumnWidth: CGFloat = 200 // Reduced for better mobile display
         
-        // Calculate cell sizes with better text measurement
+        // Calculate cell sizes with standardized measurements
         var columnWidths: [CGFloat] = []
         var rowHeights: [CGFloat] = []
         let maxColumns = rows.max(by: { $0.count < $1.count })?.count ?? 0
         
-        // First pass: calculate column widths
+        // First pass: calculate column widths with standardized sizing
         for columnIndex in 0..<maxColumns {
-            var maxWidth: CGFloat = 120 // Better minimum width
+            var maxWidth: CGFloat = minColumnWidth
             
             for row in rows {
                 if columnIndex < row.count {
@@ -816,7 +948,7 @@ class TableImageGenerator {
                 }
             }
             
-            columnWidths.append(min(maxWidth, 350)) // Increased max width
+            columnWidths.append(min(maxWidth, maxColumnWidth))
         }
         
         // Second pass: calculate row heights based on text content
@@ -873,11 +1005,25 @@ class TableImageGenerator {
                 let rowHeight = rowHeights[rowIndex]
                 var currentX: CGFloat = borderWidth
                 
-                // Fill header row background
+                // Fill header row background with rounded top corners
                 if rowIndex == 0 {
-                    cgContext.setFillColor(UIColor.systemGray6.cgColor)
+                    cgContext.setFillColor(UIColor.black.cgColor)
                     let headerRect = CGRect(x: borderWidth, y: currentY, width: totalWidth - borderWidth * 2, height: rowHeight)
-                    cgContext.fill(headerRect)
+                    
+                    // Create path with rounded top corners only
+                    let headerPath = UIBezierPath()
+                    headerPath.move(to: CGPoint(x: headerRect.minX, y: headerRect.maxY))
+                    headerPath.addLine(to: CGPoint(x: headerRect.minX, y: headerRect.minY + cornerRadius))
+                    headerPath.addArc(withCenter: CGPoint(x: headerRect.minX + cornerRadius, y: headerRect.minY + cornerRadius),
+                                     radius: cornerRadius, startAngle: .pi, endAngle: 3 * .pi / 2, clockwise: true)
+                    headerPath.addLine(to: CGPoint(x: headerRect.maxX - cornerRadius, y: headerRect.minY))
+                    headerPath.addArc(withCenter: CGPoint(x: headerRect.maxX - cornerRadius, y: headerRect.minY + cornerRadius),
+                                     radius: cornerRadius, startAngle: 3 * .pi / 2, endAngle: 0, clockwise: true)
+                    headerPath.addLine(to: CGPoint(x: headerRect.maxX, y: headerRect.maxY))
+                    headerPath.close()
+                    
+                    cgContext.addPath(headerPath.cgPath)
+                    cgContext.fillPath()
                 }
                 
                 for (columnIndex, cellText) in row.enumerated() {
@@ -895,7 +1041,7 @@ class TableImageGenerator {
                         
                         // Draw text with proper wrapping
                         let font = rowIndex == 0 ? UIFont.boldSystemFont(ofSize: 16) : UIFont.systemFont(ofSize: 14)
-                        let textColor = UIColor.label
+                        let textColor = rowIndex == 0 ? UIColor.white : UIColor.black // White for headers, black for data
                         
                         let textRect = CGRect(
                             x: currentX + cellPadding,
@@ -937,13 +1083,17 @@ class TableImageGenerator {
         let lines = content.components(separatedBy: .newlines)
         var rows: [[String]] = []
         
-        print("TableImageGenerator: Parsing table content:")
-        print("Raw content: \(content)")
-        print("Lines: \(lines)")
+        print("TableImageGenerator: Parsing standardized table content")
         
         for line in lines {
             let trimmed = line.trimmingCharacters(in: .whitespaces)
-            if trimmed.contains("|") && !isTableSeparatorForSizing(trimmed) {
+            
+            // Skip empty lines and separator lines
+            if trimmed.isEmpty || isTableSeparatorForSizing(trimmed) {
+                continue
+            }
+            
+            if trimmed.contains("|") {
                 var cells = trimmed.components(separatedBy: "|")
                     .map { $0.trimmingCharacters(in: .whitespaces) }
                 
@@ -955,20 +1105,97 @@ class TableImageGenerator {
                     cells.removeLast()
                 }
                 
-                if !cells.isEmpty {
-                    print("TableImageGenerator: Parsed row: \(cells)")
-                    rows.append(cells)
+                // Standardize cell content
+                let processedCells = cells.map { cell in
+                    let cleanedCell = standardizeCellContent(cell)
+                    return cleanedCell.isEmpty ? " " : cleanedCell
+                }
+                
+                if !processedCells.isEmpty {
+                    rows.append(processedCells)
                 }
             }
         }
         
-        print("TableImageGenerator: Final parsed rows: \(rows)")
+        // Ensure all rows have the same number of columns
+        if let maxColumns = rows.max(by: { $0.count < $1.count })?.count {
+            rows = rows.map { row in
+                var standardizedRow = row
+                while standardizedRow.count < maxColumns {
+                    standardizedRow.append(" ")
+                }
+                return standardizedRow
+            }
+        }
+        
+        print("TableImageGenerator: Parsed \(rows.count) standardized rows")
         return rows
     }
     
     private static func isTableSeparatorForSizing(_ line: String) -> Bool {
         return line.contains("|") && line.contains("-") && 
                line.trimmingCharacters(in: CharacterSet(charactersIn: "|-: ")).isEmpty
+    }
+    
+    private static func removeCitationsFromText(_ text: String) -> String {
+        var cleanedText = text
+        
+        // Remove citation references like [^1], [^2], etc.
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\^\\d+\\]",
+            with: "",
+            options: .regularExpression
+        )
+        
+        // Remove "Find Online" links like [(Find Online)](https://...)
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\(Find Online\\)\\]\\([^\\)]+\\)",
+            with: "",
+            options: .regularExpression
+        )
+        
+        // Clean up any extra whitespace that might be left
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\s+",
+            with: " ",
+            options: .regularExpression
+        )
+        
+        return cleanedText.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    private static func standardizeCellContent(_ text: String) -> String {
+        var cleanedText = text
+        
+        // Remove citation references
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\^\\d+\\]",
+            with: "",
+            options: .regularExpression
+        )
+        
+        // Remove "Find Online" links
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\(Find Online\\)\\]\\([^\\)]+\\)",
+            with: "",
+            options: .regularExpression
+        )
+        
+        // Remove markdown bold formatting
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\*\\*(.*?)\\*\\*",
+            with: "$1",
+            options: .regularExpression
+        )
+        
+        // Clean up extra whitespace
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\s+",
+            with: " ",
+            options: .regularExpression
+        )
+        
+        return cleanedText.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
 
@@ -977,17 +1204,18 @@ struct TableImageView: View {
     let tableContent: String
     @State private var tableImage: UIImage?
     @State private var showingFullScreen = false
-    @State private var isGeneratingImage = false
+    @State private var isLoading = false
     
     var body: some View {
         Group {
             if let image = tableImage {
                 VStack(spacing: 8) {
-                    // Image preview with tap gesture
+                    // Image preview with tap gesture - always show full table zoomed out
                     Image(uiImage: image)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(maxHeight: 200)
+                        .frame(maxWidth: .infinity)
+                        .frame(maxHeight: min(300, calculateOptimalPreviewHeight(for: image)))
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                         .overlay(
                             RoundedRectangle(cornerRadius: 12)
@@ -1009,14 +1237,14 @@ struct TableImageView: View {
                     }
                 }
                 .fullScreenCover(isPresented: $showingFullScreen) {
-                    FullScreenTableView(image: image)
+                    FullScreenImageView(image: image)
                 }
-            } else if isGeneratingImage {
+            } else if isLoading {
                 // Loading state
                 VStack(spacing: 12) {
                     ProgressView()
                         .scaleEffect(1.2)
-                    Text("Generating table image...")
+                    Text("Loading table...")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -1025,234 +1253,152 @@ struct TableImageView: View {
                 .background(Color(.systemGray6))
                 .clipShape(RoundedRectangle(cornerRadius: 12))
             } else {
-                // Fallback to regular table view while image generates
-                SimpleTableView(content: tableContent)
+                // Show error message if image loading failed
+                VStack(spacing: 12) {
+                    Image(systemName: "exclamationmark.triangle")
+                        .foregroundColor(.orange)
+                        .font(.title2)
+                    Text("Unable to display table")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    Text("Table image not found")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                }
+                .frame(height: 100)
+                .frame(maxWidth: .infinity)
+                .background(Color(.systemGray6))
+                .clipShape(RoundedRectangle(cornerRadius: 12))
             }
         }
         .onAppear {
-            generateTableImage()
+            loadPreGeneratedTableImage()
         }
     }
     
-    private func generateTableImage() {
-        guard tableImage == nil && !isGeneratingImage else { return }
+    private func loadPreGeneratedTableImage() {
+        guard tableImage == nil && !isLoading else { return }
         
-        print("TableImageView: Starting image generation for table content: \(String(tableContent.prefix(100)))...")
-        isGeneratingImage = true
+        print("TableImageView: Loading pregenerated table image for content: \(String(tableContent.prefix(100)))...")
+        isLoading = true
+        
+        // Try to load pregenerated image first
+        if let preGeneratedImage = PreGeneratedTableRegistry.getTableImage(for: tableContent) {
+            print("TableImageView: Successfully loaded pregenerated table image")
+            self.tableImage = preGeneratedImage
+            self.isLoading = false
+            return
+        }
+        
+        // Fallback to runtime generation if pregenerated image not found
+        print("TableImageView: Pregenerated image not found, falling back to runtime generation")
         Task {
             let image = await TableImageGenerator.generateImage(from: tableContent)
             await MainActor.run {
                 if let image = image {
-                    print("TableImageView: Successfully generated image of size \(image.size)")
+                    print("TableImageView: Successfully generated image at runtime of size \(image.size)")
                     self.tableImage = image
                 } else {
-                    print("TableImageView: Failed to generate image - will show regular table view")
-                    // Don't set tableImage, so it will fall back to SimpleTableView
+                    print("TableImageView: Failed to generate image at runtime")
+                    print("TableImageView: Table content that failed: '\(tableContent)'")
                 }
-                self.isGeneratingImage = false
+                self.isLoading = false
             }
         }
     }
+    
+    private func calculateOptimalPreviewHeight(for image: UIImage) -> CGFloat {
+        // Calculate the height needed to show the full table width-wise
+        let screenWidth = UIScreen.main.bounds.width - 40 // Account for padding
+        let imageAspectRatio = image.size.height / image.size.width
+        let calculatedHeight = screenWidth * imageAspectRatio
+        
+        // Return a reasonable height that shows the full table but isn't too tall
+        return min(calculatedHeight, 400) // Cap at 400 points max
+    }
 }
 
-// MARK: - Full-Screen Table View
-struct FullScreenTableView: View {
+// MARK: - Full Screen Image View
+struct FullScreenImageView: View {
     let image: UIImage
     @Environment(\.dismiss) private var dismiss
+    @State private var scale: CGFloat = 1.0
+    @State private var lastScale: CGFloat = 1.0
+    @State private var offset: CGSize = .zero
+    @State private var lastOffset: CGSize = .zero
+    
+    private let minScale: CGFloat = 0.5
+    private let maxScale: CGFloat = 5.0
     
     var body: some View {
         NavigationStack {
-            ZoomableImageView(image: image)
-                .background(Color.white)
-                .navigationTitle("Table View")
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbar {
-                    ToolbarItemGroup(placement: .navigationBarTrailing) {
-                        // Close button
-                        Button("Done") {
-                            dismiss()
-                        }
-                    }
-                }
-        }
-    }
-}
-
-// MARK: - Zoomable Image View (UIKit-based)
-struct ZoomableImageView: UIViewRepresentable {
-    let image: UIImage
-    
-    func makeUIView(context: Context) -> UIScrollView {
-        let scrollView = UIScrollView()
-        let imageView = UIImageView(image: image)
-        
-        // Configure scroll view
-        scrollView.delegate = context.coordinator
-        scrollView.minimumZoomScale = 0.1
-        scrollView.maximumZoomScale = 5.0
-        scrollView.showsVerticalScrollIndicator = false
-        scrollView.showsHorizontalScrollIndicator = false
-        scrollView.backgroundColor = UIColor.white
-        
-        // Configure image view
-        imageView.contentMode = .scaleAspectFit
-        imageView.isUserInteractionEnabled = true
-        
-        // Add image view to scroll view
-        scrollView.addSubview(imageView)
-        
-        // Store image view reference
-        context.coordinator.imageView = imageView
-        context.coordinator.scrollView = scrollView
-        
-        return scrollView
-    }
-    
-    func updateUIView(_ scrollView: UIScrollView, context: Context) {
-        // Update layout when view bounds change
-        DispatchQueue.main.async {
-            context.coordinator.updateLayout()
-        }
-    }
-    
-    func makeCoordinator() -> Coordinator {
-        Coordinator()
-    }
-    
-    class Coordinator: NSObject, UIScrollViewDelegate {
-        var imageView: UIImageView?
-        var scrollView: UIScrollView?
-        
-        func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-            return imageView
-        }
-        
-        func scrollViewDidZoom(_ scrollView: UIScrollView) {
-            centerImage()
-        }
-        
-        func updateLayout() {
-            guard let scrollView = scrollView,
-                  let imageView = imageView,
-                  let image = imageView.image else { return }
-            
-            let scrollViewSize = scrollView.bounds.size
-            let imageSize = image.size
-            
-            // Calculate the scale to fit the image in the scroll view
-            let widthScale = scrollViewSize.width / imageSize.width
-            let heightScale = scrollViewSize.height / imageSize.height
-            let minScale = min(widthScale, heightScale)
-            
-            // Set zoom scales
-            scrollView.minimumZoomScale = min(minScale, 1.0)
-            scrollView.maximumZoomScale = max(3.0, minScale * 3.0)
-            
-            // Set initial zoom to fit
-            scrollView.zoomScale = minScale
-            
-            // Set image view frame
-            imageView.frame = CGRect(origin: .zero, size: imageSize)
-            scrollView.contentSize = imageSize
-            
-            // Center the image
-            centerImage()
-        }
-        
-        private func centerImage() {
-            guard let scrollView = scrollView,
-                  let imageView = imageView else { return }
-            
-            let scrollViewSize = scrollView.bounds.size
-            let imageViewSize = imageView.frame.size
-            
-            let horizontalPadding = max(0, (scrollViewSize.width - imageViewSize.width) / 2)
-            let verticalPadding = max(0, (scrollViewSize.height - imageViewSize.height) / 2)
-            
-            scrollView.contentInset = UIEdgeInsets(
-                top: verticalPadding,
-                left: horizontalPadding,
-                bottom: verticalPadding,
-                right: horizontalPadding
-            )
-        }
-    }
-}
-
-// MARK: - Simple Table View
-struct SimpleTableView: View {
-    let content: String
-    
-    var body: some View {
-        let rows = parseTableRows(content)
-        
-        if !rows.isEmpty {
-            ScrollView(.horizontal, showsIndicators: false) {
-                VStack(spacing: 0) {
-                    ForEach(Array(rows.enumerated()), id: \.offset) { index, row in
-                        HStack(spacing: 0) {
-                            ForEach(Array(row.enumerated()), id: \.offset) { cellIndex, cell in
-                                VStack(alignment: .leading, spacing: 4) {
-                                    Text(cell.trimmingCharacters(in: .whitespaces))
-                                        .font(index == 0 ? .subheadline.bold() : .body)
-                                        .foregroundColor(index == 0 ? .primary : .primary)
-                                        .multilineTextAlignment(.leading)
-                                        .fixedSize(horizontal: false, vertical: true)
-                                }
-                                .padding(.vertical, 12)
-                                .padding(.horizontal, 12)
-                                .frame(minWidth: 100, alignment: .leading)
-                                .background(index == 0 ? Color(.systemGray6) : Color(.systemBackground))
-                                
-                                if cellIndex < row.count - 1 {
-                                    Rectangle()
-                                        .fill(Color(.systemGray4))
-                                        .frame(width: 1)
+            GeometryReader { geometry in
+                ZStack {
+                    Color.black
+                        .ignoresSafeArea()
+                    
+                    Image(uiImage: image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .scaleEffect(scale)
+                        .offset(offset)
+                        .gesture(
+                            SimultaneousGesture(
+                                MagnificationGesture()
+                                    .onChanged { value in
+                                        let delta = value / lastScale
+                                        lastScale = value
+                                        let newScale = scale * delta
+                                        
+                                        // Apply scale limits
+                                        scale = min(max(newScale, minScale), maxScale)
+                                    }
+                                    .onEnded { _ in
+                                        lastScale = 1.0
+                                        
+                                        // Animate back to bounds if needed
+                                        withAnimation(.easeInOut(duration: 0.2)) {
+                                            if scale < 1.0 {
+                                                scale = 1.0
+                                                offset = .zero
+                                            }
+                                        }
+                                    },
+                                DragGesture()
+                                    .onChanged { value in
+                                        offset = CGSize(
+                                            width: lastOffset.width + value.translation.width,
+                                            height: lastOffset.height + value.translation.height
+                                        )
+                                    }
+                                    .onEnded { _ in
+                                        lastOffset = offset
+                                    }
+                            )
+                        )
+                        .onTapGesture(count: 2) {
+                            withAnimation(.easeInOut(duration: 0.3)) {
+                                if scale > 1.0 {
+                                    scale = 1.0
+                                    offset = .zero
+                                    lastOffset = .zero
+                                } else {
+                                    scale = 2.0
                                 }
                             }
                         }
-                        
-                        if index < rows.count - 1 {
-                            Rectangle()
-                                .fill(Color(.systemGray4))
-                                .frame(height: 1)
-                        }
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") {
+                        dismiss()
                     }
-                }
-                .background(Color(.systemBackground))
-                .clipShape(RoundedRectangle(cornerRadius: 8))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(Color(.systemGray4), lineWidth: 1)
-                )
-            }
-            .shadow(color: Color.black.opacity(0.05), radius: 2, x: 0, y: 1)
-        }
-    }
-    
-    private func parseTableRows(_ content: String) -> [[String]] {
-        let lines = content.components(separatedBy: .newlines)
-        var rows: [[String]] = []
-        
-        for line in lines {
-            let trimmed = line.trimmingCharacters(in: .whitespaces)
-            if trimmed.contains("|") && !isTableSeparator(trimmed) {
-                let cells = trimmed.components(separatedBy: "|")
-                    .map { $0.trimmingCharacters(in: .whitespaces) }
-                    .filter { !$0.isEmpty }
-                
-                if !cells.isEmpty {
-                    rows.append(cells)
+                    .fontWeight(.medium)
                 }
             }
         }
-        
-        return rows
-    }
-    
-    private func isTableSeparator(_ line: String) -> Bool {
-        return line.contains("|") && line.contains("-") && 
-               line.trimmingCharacters(in: CharacterSet(charactersIn: "|-: ")).isEmpty
     }
 }
 
@@ -1263,13 +1409,14 @@ struct HeadingView: View {
     var body: some View {
         let levelString = block.metadata["level"] ?? "3"
         let level = Int(levelString) ?? 3
-        let cleanText = block.content.replacingOccurrences(of: "^#+\\s*", with: "", options: .regularExpression)
+        let cleanText = block.content
+            .replacingOccurrences(of: "^#+\\s*", with: "", options: .regularExpression)
+            .replacingOccurrences(of: "\\[\\^\\d+\\]", with: "", options: .regularExpression)
         
         Text(cleanText)
             .font(fontForLevel(level))
             .fontWeight(.semibold)
             .foregroundColor(.primary)
-            .padding(.vertical, 4)
     }
     
     private func fontForLevel(_ level: Int) -> Font {
