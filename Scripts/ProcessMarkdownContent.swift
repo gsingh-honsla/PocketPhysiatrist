@@ -27,6 +27,7 @@ struct ProcessedSection {
 enum ContentType: String {
     case guide = "guide"
     case assessment = "assessment"
+    case intro = "intro"
 }
 
 // MARK: - Main Processing Function
@@ -44,9 +45,13 @@ func processMarkdownFiles() {
     print("📖 Found \(guides2Files.count) enhanced guide files in Guides2")
     
     for file in guides2Files {
-        if let content = processMarkdownFile(at: file, contentType: .guide) {
+        let fileName = URL(fileURLWithPath: file).lastPathComponent
+        let contentType: ContentType = fileName.contains("intro") ? .intro : .guide
+        
+        if let content = processMarkdownFile(at: file, contentType: contentType) {
             allContent.append(content)
-            print("✅ Processed enhanced guide: \(content.title)")
+            let typeLabel = contentType == .intro ? "intro" : "enhanced guide"
+            print("✅ Processed \(typeLabel): \(content.title)")
         }
     }
     
@@ -102,7 +107,7 @@ func findMarkdownFiles(in directory: String, fileManager: FileManager) -> [Strin
                     // Recursively search subdirectories
                     let subFiles = findMarkdownFiles(in: fullPath, fileManager: fileManager)
                     markdownFiles.append(contentsOf: subFiles)
-                } else if item.hasSuffix(".md") && !item.contains("intro") && !item.contains("template") {
+                } else if item.hasSuffix(".md") && !item.contains("template") {
                     markdownFiles.append(fullPath)
                 }
             }
@@ -124,7 +129,7 @@ func processMarkdownFile(at path: String, contentType: ContentType) -> Processed
         let title = extractTitle(from: rawContent, fileName: fileName)
         
         // Extract metadata
-        let metadata = extractMetadata(from: rawContent)
+        let metadata = extractMetadata(from: rawContent, fileName: fileName, contentType: contentType)
         
         // Extract sections
         let sections = extractSections(from: rawContent, contentType: contentType)
@@ -167,12 +172,17 @@ func extractTitle(from content: String, fileName: String) -> String {
         .capitalized
 }
 
-func extractMetadata(from content: String) -> (category: String, abbreviation: String?, keywords: [String]) {
+func extractMetadata(from content: String, fileName: String, contentType: ContentType) -> (category: String, abbreviation: String?, keywords: [String]) {
     let lines = content.components(separatedBy: .newlines)
     var inMetadataSection = false
     var category = "General"
     var abbreviation: String?
     var keywords: [String] = []
+    
+    // For intro files, map filename to category
+    if contentType == .intro {
+        category = mapIntroFileToCategory(fileName: fileName)
+    }
     
     for line in lines {
         let trimmed = line.trimmingCharacters(in: .whitespaces)
@@ -202,6 +212,31 @@ func extractMetadata(from content: String) -> (category: String, abbreviation: S
     return (category, abbreviation, keywords)
 }
 
+func mapIntroFileToCategory(fileName: String) -> String {
+    let baseName = fileName.replacingOccurrences(of: ".md", with: "").lowercased()
+    
+    switch baseName {
+    case "sci_intro":
+        return "Spinal Cord Injury Medicine"
+    case "bim_intro":
+        return "Brain Injury Medicine"
+    case "sr_intro":
+        return "Stroke Rehabilitation"
+    case "pr_intro":
+        return "Pediatric Rehabilitation"
+    case "msm_intro":
+        return "Musculoskeletal and Sports Medicine"
+    case "pm_intro":
+        return "Pain Medicine"
+    case "cr_intro":
+        return "Cancer Rehabilitation"
+    case "ac_intro":
+        return "Amputee Care"
+    default:
+        return "General"
+    }
+}
+
 func extractValue(from line: String, after prefix: String) -> String {
     guard line.hasPrefix(prefix) else { return "" }
     let startIndex = line.index(line.startIndex, offsetBy: prefix.count)
@@ -209,6 +244,19 @@ func extractValue(from line: String, after prefix: String) -> String {
 }
 
 func extractSections(from content: String, contentType: ContentType) -> [ProcessedSection] {
+    // For intro files, treat the entire content as a single section
+    if contentType == .intro {
+        let cleanContent = content.trimmingCharacters(in: .whitespacesAndNewlines)
+        if !cleanContent.isEmpty {
+            return [ProcessedSection(
+                title: "Introduction",
+                content: cleanContent,
+                orderIndex: 0
+            )]
+        }
+        return []
+    }
+    
     let lines = content.components(separatedBy: .newlines)
     var sections: [ProcessedSection] = []
     var currentTitle: String?
@@ -256,6 +304,14 @@ func extractSections(from content: String, contentType: ContentType) -> [Process
 }
 
 func extractOverview(from sections: [ProcessedSection], contentType: ContentType) -> String {
+    // For intro files, use the entire content as overview
+    if contentType == .intro {
+        if let firstSection = sections.first {
+            return firstSection.content
+        }
+        return ""
+    }
+    
     // For guides, use pathophysiology section
     if contentType == .guide {
         if let pathophysiologySection = sections.first(where: { $0.title.lowercased().contains("pathophysiology") }) {
@@ -285,6 +341,8 @@ func extractFirstParagraph(from content: String) -> String {
     // Return the complete first paragraph without truncation
     return firstParagraph
 }
+
+
 
 // MARK: - Swift Code Generation
 func generateSwiftFile(with content: [ProcessedContent]) {
@@ -387,6 +445,11 @@ func generateContentItem(_ item: ProcessedContent) -> String {
 
 func mapSectionType(_ title: String, contentType: ContentType) -> String {
     let lowercaseTitle = title.lowercased()
+    
+    // For intro content, always use description
+    if contentType == .intro {
+        return "description"
+    }
     
     if lowercaseTitle.contains("purpose") || lowercaseTitle.contains("indication") {
         return "purpose"

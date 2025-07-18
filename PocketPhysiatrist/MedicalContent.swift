@@ -280,6 +280,7 @@ enum TemplateSectionType: String, CaseIterable, Codable {
 enum ContentType: String, CaseIterable, Codable {
     case guide = "guide"
     case assessment = "assessment"
+    case intro = "intro"
     
     // Legacy compatibility
     case category = "category"
@@ -305,6 +306,10 @@ enum ContentType: String, CaseIterable, Codable {
                 .relatedGuides,
                 .references
             ]
+        case .intro:
+            return [
+                .description
+            ]
         }
     }
     
@@ -314,6 +319,8 @@ enum ContentType: String, CaseIterable, Codable {
             return "Clinical Guide"
         case .assessment:
             return "Assessment Tool"
+        case .intro:
+            return "Specialty Introduction"
         }
     }
     
@@ -323,6 +330,8 @@ enum ContentType: String, CaseIterable, Codable {
             return "book.fill"
         case .assessment:
             return "checklist"
+        case .intro:
+            return "info.circle.fill"
         }
     }
 }

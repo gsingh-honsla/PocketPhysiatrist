@@ -11,7 +11,7 @@ class GeneratedContentProvider {
     static func getAllContent() -> [MedicalContent] {
         return [
         MedicalContent(
-            title: "Orthostatic Hypotension",
+            title: "Orthostatic Hypotension in Spinal Cord Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -319,7 +319,7 @@ class GeneratedContentProvider {
             keywords: ["upper extremity amputation", "prosthetics", "rehabilitation", "phantom limb pain", "residual limb pain"]
         ),
         MedicalContent(
-            title: "Autonomic Dysreflexia",
+            title: "Autonomic Dysreflexia in Spinal Cord Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -948,6 +948,32 @@ class GeneratedContentProvider {
             keywords: ["post-traumatic headache", "mild traumatic brain injury", "concussion", "secondary headache", "persistent headache"]
         ),
         MedicalContent(
+            title: "Bim Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Brain Injury Medicine",
+            abbreviation: nil,
+            overview: """
+            When you rotate through a brain injury medicine service, you'll encounter a diverse range of patients with acquired brain injuries, primarily traumatic brain injury (TBI) from motor vehicle accidents, falls, sports injuries, and assaults, as well as non-traumatic causes like stroke, anoxic brain injury, encephalitis, and brain tumors. You'll see patients across the severity spectrum—from mild concussions with post-concussive syndrome to severe TBI patients emerging from coma or minimally conscious states. Common presentations include cognitive impairments affecting memory, attention, and executive function; physical deficits like hemiparesis, ataxia, or spasticity; behavioral changes including agitation, disinhibition, or depression; and communication disorders such as aphasia or dysarthria. You'll also work with patients experiencing post-traumatic amnesia, seizure disorders, and various complications like heterotopic ossification or neurogenic bladder.
+
+            You should familiarize yourself with key assessment tools including the Glasgow Coma Scale for consciousness level, the Rancho Los Amigos Scale for cognitive recovery stages, the Functional Independence Measure (FIM) for tracking functional progress, and various neuropsychological screening tools. Remember that recovery from brain injury is often a long, non-linear process that can continue for years, so focus on functional improvements rather than just medical stability. Regarding disability etiquette, always speak directly to your patient rather than their caregiver, use person-first language ("person with a brain injury" rather than "brain-injured patient"), be patient with processing time and communication difficulties, and avoid making assumptions about cognitive capacity based on physical presentation or speech patterns. Recognize that some patients may have fluctuating awareness or memory issues, so introduce yourself each time and be prepared to repeat information as needed.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                When you rotate through a brain injury medicine service, you'll encounter a diverse range of patients with acquired brain injuries, primarily traumatic brain injury (TBI) from motor vehicle accidents, falls, sports injuries, and assaults, as well as non-traumatic causes like stroke, anoxic brain injury, encephalitis, and brain tumors. You'll see patients across the severity spectrum—from mild concussions with post-concussive syndrome to severe TBI patients emerging from coma or minimally conscious states. Common presentations include cognitive impairments affecting memory, attention, and executive function; physical deficits like hemiparesis, ataxia, or spasticity; behavioral changes including agitation, disinhibition, or depression; and communication disorders such as aphasia or dysarthria. You'll also work with patients experiencing post-traumatic amnesia, seizure disorders, and various complications like heterotopic ossification or neurogenic bladder.
+
+                You should familiarize yourself with key assessment tools including the Glasgow Coma Scale for consciousness level, the Rancho Los Amigos Scale for cognitive recovery stages, the Functional Independence Measure (FIM) for tracking functional progress, and various neuropsychological screening tools. Remember that recovery from brain injury is often a long, non-linear process that can continue for years, so focus on functional improvements rather than just medical stability. Regarding disability etiquette, always speak directly to your patient rather than their caregiver, use person-first language ("person with a brain injury" rather than "brain-injured patient"), be patient with processing time and communication difficulties, and avoid making assumptions about cognitive capacity based on physical presentation or speech patterns. Recognize that some patients may have fluctuating awareness or memory issues, so introduce yourself each time and be prepared to repeat information as needed.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
+        ),
+        MedicalContent(
             title: "Post-Traumatic Seizures and Epilepsy (PTE)",
             subtitle: nil,
             contentType: .guide,
@@ -1271,7 +1297,7 @@ class GeneratedContentProvider {
             keywords: ["aphasia", "stroke", "language disorders", "speech therapy", "communication", "neuroplasticity"]
         ),
         MedicalContent(
-            title: "Neurogenic Bladder Management",
+            title: "Neurogenic Bladder Management in Spinal Cord Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1787,7 +1813,7 @@ class GeneratedContentProvider {
             keywords: ["obstetric brachial plexus palsy", "Erb's palsy", "Klumpke's palsy", "nerve injury", "microsurgery"]
         ),
         MedicalContent(
-            title: "Neurogenic Bowel Management",
+            title: "Neurogenic Bowel Management in Spinal Cord Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1950,6 +1976,32 @@ class GeneratedContentProvider {
             )
             ],
             keywords: ["neurogenic bowel dysfunction", "spinal cord injury", "bowel management", "autonomic dysreflexia", "digital stimulation", "suppositories"]
+        ),
+        MedicalContent(
+            title: "Sr Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Stroke Rehabilitation",
+            abbreviation: nil,
+            overview: """
+            When rotating through a stroke rehabilitation service, you'll encounter patients across the full spectrum of stroke recovery, from acute inpatient settings to outpatient follow-up visits months or years post-stroke. The most common presentations include hemiparesis or hemiplegia (weakness or paralysis on one side of the body), aphasia (language difficulties), dysarthria (speech difficulties), dysphagia (swallowing problems), cognitive impairments affecting memory and executive function, visual field defects, and neglect syndromes where patients ignore one side of their body or environment. You'll also see secondary complications like spasticity, contractures, deep vein thrombosis, shoulder subluxation, and depression. Many patients will be using assistive devices such as wheelchairs, walkers, or ankle-foot orthoses, and some may have feeding tubes or require assistance with basic activities of daily living.
+
+            You'll become familiar with standardized assessment tools that are essential to stroke rehabilitation practice, including the National Institutes of Health Stroke Scale (NIHSS) for acute stroke severity, the Functional Independence Measure (FIM) for tracking functional improvements, the Modified Rankin Scale for overall disability, the Berg Balance Scale for fall risk assessment, and the Montreal Cognitive Assessment (MoCA) for cognitive screening. When interacting with stroke patients, speak directly to them rather than their caregivers, maintain eye contact, and be patient with communication difficulties without finishing their sentences or speaking louder unless they have hearing impairments. Remember that cognitive and communication deficits don't reflect intelligence, so avoid talking down to patients. Position yourself at their eye level if they're in a wheelchair, and always ask before moving or adjusting their assistive equipment. Be mindful that fatigue is common after stroke, so keep interactions focused and allow extra time for responses and movements.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                When rotating through a stroke rehabilitation service, you'll encounter patients across the full spectrum of stroke recovery, from acute inpatient settings to outpatient follow-up visits months or years post-stroke. The most common presentations include hemiparesis or hemiplegia (weakness or paralysis on one side of the body), aphasia (language difficulties), dysarthria (speech difficulties), dysphagia (swallowing problems), cognitive impairments affecting memory and executive function, visual field defects, and neglect syndromes where patients ignore one side of their body or environment. You'll also see secondary complications like spasticity, contractures, deep vein thrombosis, shoulder subluxation, and depression. Many patients will be using assistive devices such as wheelchairs, walkers, or ankle-foot orthoses, and some may have feeding tubes or require assistance with basic activities of daily living.
+
+                You'll become familiar with standardized assessment tools that are essential to stroke rehabilitation practice, including the National Institutes of Health Stroke Scale (NIHSS) for acute stroke severity, the Functional Independence Measure (FIM) for tracking functional improvements, the Modified Rankin Scale for overall disability, the Berg Balance Scale for fall risk assessment, and the Montreal Cognitive Assessment (MoCA) for cognitive screening. When interacting with stroke patients, speak directly to them rather than their caregivers, maintain eye contact, and be patient with communication difficulties without finishing their sentences or speaking louder unless they have hearing impairments. Remember that cognitive and communication deficits don't reflect intelligence, so avoid talking down to patients. Position yourself at their eye level if they're in a wheelchair, and always ask before moving or adjusting their assistive equipment. Be mindful that fatigue is common after stroke, so keep interactions focused and allow extra time for responses and movements.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
         ),
         MedicalContent(
             title: "Post-Stroke Motor Recovery and Gait Impairment",
@@ -2635,6 +2687,32 @@ class GeneratedContentProvider {
             keywords: ["cerebral palsy", "spasticity", "GMFCS", "intrathecal baclofen", "botulinum toxin", "pediatric rehabilitation"]
         ),
         MedicalContent(
+            title: "Cr Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Cancer Rehabilitation",
+            abbreviation: nil,
+            overview: """
+            When rotating through a cancer rehabilitation service, you'll encounter patients across the entire cancer continuum, from those newly diagnosed and preparing for treatment to long-term survivors managing chronic effects. Common presentations include cancer-related fatigue, chemotherapy-induced peripheral neuropathy, radiation-induced fibrosis and contractures, lymphedema, post-surgical complications (such as shoulder dysfunction after mastectomy or functional deficits following tumor resection), bone metastases requiring mobility aids, and deconditioning from prolonged bed rest or treatment side effects. You'll also see patients with brain tumors presenting with cognitive impairments, hemiparesis, or speech difficulties, as well as those dealing with pain syndromes, osteoporosis from hormone therapy, and cardiotoxicity-related exercise intolerance.
+
+            Familiarize yourself with key assessment tools including the Karnofsky Performance Status and ECOG scales for functional status, the Brief Fatigue Inventory, various neuropathy grading scales, and lymphedema measurement techniques. Keep bone metastases precautions in mind when prescribing therapy, and understand when to modify activities based on blood counts, particularly with thrombocytopenia or severe anemia. Regarding disability etiquette, approach each patient as a whole person rather than focusing solely on their cancer diagnosis, use person-first language ("person with cancer" rather than "cancer patient"), and recognize that many of these individuals are managing both visible and invisible disabilities. Be patient with cognitive processing delays, offer assistance without assuming it's needed, and understand that energy levels can fluctuate dramatically day to day. Most importantly, maintain hope and focus on maximizing function and quality of life, as rehabilitation can significantly impact outcomes even in advanced disease stages.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                When rotating through a cancer rehabilitation service, you'll encounter patients across the entire cancer continuum, from those newly diagnosed and preparing for treatment to long-term survivors managing chronic effects. Common presentations include cancer-related fatigue, chemotherapy-induced peripheral neuropathy, radiation-induced fibrosis and contractures, lymphedema, post-surgical complications (such as shoulder dysfunction after mastectomy or functional deficits following tumor resection), bone metastases requiring mobility aids, and deconditioning from prolonged bed rest or treatment side effects. You'll also see patients with brain tumors presenting with cognitive impairments, hemiparesis, or speech difficulties, as well as those dealing with pain syndromes, osteoporosis from hormone therapy, and cardiotoxicity-related exercise intolerance.
+
+                Familiarize yourself with key assessment tools including the Karnofsky Performance Status and ECOG scales for functional status, the Brief Fatigue Inventory, various neuropathy grading scales, and lymphedema measurement techniques. Keep bone metastases precautions in mind when prescribing therapy, and understand when to modify activities based on blood counts, particularly with thrombocytopenia or severe anemia. Regarding disability etiquette, approach each patient as a whole person rather than focusing solely on their cancer diagnosis, use person-first language ("person with cancer" rather than "cancer patient"), and recognize that many of these individuals are managing both visible and invisible disabilities. Be patient with cognitive processing delays, offer assistance without assuming it's needed, and understand that energy levels can fluctuate dramatically day to day. Most importantly, maintain hope and focus on maximizing function and quality of life, as rehabilitation can significantly impact outcomes even in advanced disease stages.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
+        ),
+        MedicalContent(
             title: "Complex Regional Pain Syndrome (CRPS)",
             subtitle: nil,
             contentType: .guide,
@@ -2790,7 +2868,33 @@ class GeneratedContentProvider {
             keywords: ["CRPS", "complex regional pain syndrome", "reflex sympathetic dystrophy", "causalgia", "neuropathic pain", "Budapest criteria", "graded motor imagery", "mirror therapy"]
         ),
         MedicalContent(
-            title: "Pressure Injury Prevention and Management",
+            title: "Msm Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Musculoskeletal and Sports Medicine",
+            abbreviation: nil,
+            overview: """
+            When you rotate on a musculoskeletal and sports medicine service in physical medicine and rehabilitation, you'll encounter a diverse range of conditions spanning acute sports injuries to chronic pain syndromes. Common presentations include tendinopathies, ligament sprains, muscle strains, overuse injuries, low back pain, neck pain, and post-surgical rehabilitation cases. You'll also see patients with chronic conditions like fibromyalgia, myofascial pain syndrome, and various arthritides. Many patients will present with functional limitations affecting their work, athletic performance, or activities of daily living, requiring comprehensive assessment of both impairment and disability.
+
+            Your clinical toolkit should include familiarity with functional outcome measures such as the Oswestry Disability Index for low back pain, DASH questionnaire for upper extremity conditions, and sport-specific return-to-play criteria. You'll need to understand musculoskeletal examination techniques, joint injections, and the principles of exercise prescription and activity modification. Regarding disability etiquette, remember that many patients on this service may not identify as having a disability despite functional limitations, so focus on their goals and capabilities rather than deficits. Use person-first language, avoid assumptions about what patients can or cannot do, and always ask before providing physical assistance. Many patients are highly motivated athletes or active individuals, so approach each case with respect for their expertise about their own bodies while providing evidence-based medical guidance for safe return to activity.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                When you rotate on a musculoskeletal and sports medicine service in physical medicine and rehabilitation, you'll encounter a diverse range of conditions spanning acute sports injuries to chronic pain syndromes. Common presentations include tendinopathies, ligament sprains, muscle strains, overuse injuries, low back pain, neck pain, and post-surgical rehabilitation cases. You'll also see patients with chronic conditions like fibromyalgia, myofascial pain syndrome, and various arthritides. Many patients will present with functional limitations affecting their work, athletic performance, or activities of daily living, requiring comprehensive assessment of both impairment and disability.
+
+                Your clinical toolkit should include familiarity with functional outcome measures such as the Oswestry Disability Index for low back pain, DASH questionnaire for upper extremity conditions, and sport-specific return-to-play criteria. You'll need to understand musculoskeletal examination techniques, joint injections, and the principles of exercise prescription and activity modification. Regarding disability etiquette, remember that many patients on this service may not identify as having a disability despite functional limitations, so focus on their goals and capabilities rather than deficits. Use person-first language, avoid assumptions about what patients can or cannot do, and always ask before providing physical assistance. Many patients are highly motivated athletes or active individuals, so approach each case with respect for their expertise about their own bodies while providing evidence-based medical guidance for safe return to activity.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
+        ),
+        MedicalContent(
+            title: "Pressure Injury Prevention and Management in Spinal Cord Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -2983,7 +3087,33 @@ class GeneratedContentProvider {
             keywords: ["pressure injury", "pressure ulcer", "spinal cord injury", "wound care", "prevention", "management"]
         ),
         MedicalContent(
-            title: "Agitation and Aggression",
+            title: "Pm Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Pain Medicine",
+            abbreviation: nil,
+            overview: """
+            During your rotation on a pain medicine service within physical medicine and rehabilitation, you'll encounter a diverse range of conditions that significantly impact patients' functional abilities and quality of life. Common presentations include chronic low back pain with radiculopathy, complex regional pain syndrome, fibromyalgia, post-stroke pain syndromes, spinal cord injury-related pain, and pain associated with amputation or prosthetic use. You'll also see patients with chronic headaches, myofascial pain disorders, and pain stemming from neurological conditions like multiple sclerosis or traumatic brain injury. These patients often have multifaceted pain experiences that require comprehensive assessment beyond simple pain scales.
+
+            You should familiarize yourself with assessment tools such as the Brief Pain Inventory, Oswestry Disability Index, and functional outcome measures like the FIM (Functional Independence Measure) or DASH (Disabilities of the Arm, Shoulder and Hand) questionnaire. Pay attention to how pain impacts activities of daily living, mobility, and participation in work or social roles. When interacting with patients, practice person-first language ("person with chronic pain" rather than "chronic pain patient"), maintain eye contact when speaking with wheelchair users rather than addressing their caregivers, and recognize that invisible disabilities are just as valid as visible ones. Many patients on this service have experienced dismissal of their pain in other healthcare settings, so approach each encounter with empathy, validate their experiences, and remember that effective pain management often requires interdisciplinary collaboration with physical therapy, occupational therapy, psychology, and social work.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                During your rotation on a pain medicine service within physical medicine and rehabilitation, you'll encounter a diverse range of conditions that significantly impact patients' functional abilities and quality of life. Common presentations include chronic low back pain with radiculopathy, complex regional pain syndrome, fibromyalgia, post-stroke pain syndromes, spinal cord injury-related pain, and pain associated with amputation or prosthetic use. You'll also see patients with chronic headaches, myofascial pain disorders, and pain stemming from neurological conditions like multiple sclerosis or traumatic brain injury. These patients often have multifaceted pain experiences that require comprehensive assessment beyond simple pain scales.
+
+                You should familiarize yourself with assessment tools such as the Brief Pain Inventory, Oswestry Disability Index, and functional outcome measures like the FIM (Functional Independence Measure) or DASH (Disabilities of the Arm, Shoulder and Hand) questionnaire. Pay attention to how pain impacts activities of daily living, mobility, and participation in work or social roles. When interacting with patients, practice person-first language ("person with chronic pain" rather than "chronic pain patient"), maintain eye contact when speaking with wheelchair users rather than addressing their caregivers, and recognize that invisible disabilities are just as valid as visible ones. Many patients on this service have experienced dismissal of their pain in other healthcare settings, so approach each encounter with empathy, validate their experiences, and remember that effective pain management often requires interdisciplinary collaboration with physical therapy, occupational therapy, psychology, and social work.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
+        ),
+        MedicalContent(
+            title: "Agitation and Aggression after Traumatic Brain Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -3324,7 +3454,7 @@ class GeneratedContentProvider {
             keywords: ["post-stroke spasticity", "upper motor neuron syndrome", "botulinum toxin", "reticulospinal hyperexcitability", "velocity-dependent muscle tone"]
         ),
         MedicalContent(
-            title: "Phantom Limb Pain and Residual Limb Pain",
+            title: "Phantom Limb Pain and Residual Limb Pain: A Comprehensive Rehabilitation Guide",
             subtitle: nil,
             contentType: .guide,
             category: "Amputee Care",
@@ -3478,6 +3608,32 @@ class GeneratedContentProvider {
             )
             ],
             keywords: ["phantom limb pain", "residual limb pain", "amputation", "neuropathic pain", "mirror therapy", "graded motor imagery"]
+        ),
+        MedicalContent(
+            title: "Pr Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Pediatric Rehabilitation",
+            abbreviation: nil,
+            overview: """
+            As a medical student or resident rotating on a pediatric rehabilitation service, you'll encounter a diverse range of conditions requiring specialized assessment and long-term management approaches. Common diagnoses include cerebral palsy (the most frequent condition you'll see), spina bifida, traumatic brain injuries, spinal cord injuries, muscular dystrophy, and developmental delays. You'll also work with children recovering from strokes, brain tumors, or other acquired neurological conditions. Expect to see patients across the developmental spectrum, from infants with early motor delays to adolescents managing chronic disabilities as they transition to adulthood.
+
+            Your assessment toolkit will need to include developmental screening measures like the Denver Developmental Screening Test, functional scales such as the Pediatric Evaluation of Disability Inventory (PEDI), the Gross Motor Function Classification System (GMFCS) for cerebral palsy, and various spasticity scales like the Modified Ashworth Scale. You'll learn to think beyond immediate medical management to consider how conditions impact a child's participation in school, play, and family life. Regarding disability etiquette, always speak directly to the child when age-appropriate rather than exclusively to caregivers, use person-first language ("child with cerebral palsy" rather than "cerebral palsy patient"), and remember that assistive devices like wheelchairs or communication boards are extensions of personal space—ask before touching or moving them. Approach each child as an individual with unique strengths and goals rather than focusing solely on deficits, and recognize that families are the experts on their child's needs and preferences.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                As a medical student or resident rotating on a pediatric rehabilitation service, you'll encounter a diverse range of conditions requiring specialized assessment and long-term management approaches. Common diagnoses include cerebral palsy (the most frequent condition you'll see), spina bifida, traumatic brain injuries, spinal cord injuries, muscular dystrophy, and developmental delays. You'll also work with children recovering from strokes, brain tumors, or other acquired neurological conditions. Expect to see patients across the developmental spectrum, from infants with early motor delays to adolescents managing chronic disabilities as they transition to adulthood.
+
+                Your assessment toolkit will need to include developmental screening measures like the Denver Developmental Screening Test, functional scales such as the Pediatric Evaluation of Disability Inventory (PEDI), the Gross Motor Function Classification System (GMFCS) for cerebral palsy, and various spasticity scales like the Modified Ashworth Scale. You'll learn to think beyond immediate medical management to consider how conditions impact a child's participation in school, play, and family life. Regarding disability etiquette, always speak directly to the child when age-appropriate rather than exclusively to caregivers, use person-first language ("child with cerebral palsy" rather than "cerebral palsy patient"), and remember that assistive devices like wheelchairs or communication boards are extensions of personal space—ask before touching or moving them. Approach each child as an individual with unique strengths and goals rather than focusing solely on deficits, and recognize that families are the experts on their child's needs and preferences.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
         ),
         MedicalContent(
             title: "Post-Traumatic Hypopituitarism",
@@ -3695,6 +3851,32 @@ class GeneratedContentProvider {
             )
             ],
             keywords: ["traumatic brain injury", "hypopituitarism", "growth hormone deficiency", "neuroendocrine dysfunction", "hormone replacement therapy"]
+        ),
+        MedicalContent(
+            title: "Sci Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Spinal Cord Injury Medicine",
+            abbreviation: nil,
+            overview: """
+            When you rotate through a spinal cord injury (SCI) service in physical medicine and rehabilitation, you'll encounter patients across the spectrum of neurological injury severity, from incomplete injuries with preserved sensation and motor function below the level of injury to complete injuries resulting in total loss of sensation and voluntary movement. You'll see both traumatic causes like motor vehicle accidents, falls, and sports injuries, as well as non-traumatic etiologies including tumors, infections, and vascular malformations. Common presentations include varying degrees of paralysis (paraplegia or tetraplegia), autonomic dysfunction manifesting as neurogenic bladder and bowel, temperature regulation issues, and orthostatic hypotension. You'll also manage secondary complications such as pressure injuries, spasticity, neuropathic pain, deep vein thrombosis, and respiratory compromise in higher-level injuries.
+
+            Your assessment toolkit will center around the International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI), which you'll use to determine neurological level and completeness of injury through systematic testing of key muscles and dermatomes. You'll also utilize functional outcome measures like the Spinal Cord Independence Measure (SCIM) and become familiar with assistive technology ranging from wheelchairs to environmental control units. Regarding disability etiquette, always speak directly to your patients rather than through caregivers, avoid leaning on or moving someone's wheelchair without permission, use person-first language ("person with a spinal cord injury" rather than "spinal cord patient"), and remember that many patients may have excellent cognitive function despite physical limitations. Approach each interaction with the understanding that adaptation and independence are primary goals, and avoid assumptions about quality of life or functional potential based solely on the level of injury.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                When you rotate through a spinal cord injury (SCI) service in physical medicine and rehabilitation, you'll encounter patients across the spectrum of neurological injury severity, from incomplete injuries with preserved sensation and motor function below the level of injury to complete injuries resulting in total loss of sensation and voluntary movement. You'll see both traumatic causes like motor vehicle accidents, falls, and sports injuries, as well as non-traumatic etiologies including tumors, infections, and vascular malformations. Common presentations include varying degrees of paralysis (paraplegia or tetraplegia), autonomic dysfunction manifesting as neurogenic bladder and bowel, temperature regulation issues, and orthostatic hypotension. You'll also manage secondary complications such as pressure injuries, spasticity, neuropathic pain, deep vein thrombosis, and respiratory compromise in higher-level injuries.
+
+                Your assessment toolkit will center around the International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI), which you'll use to determine neurological level and completeness of injury through systematic testing of key muscles and dermatomes. You'll also utilize functional outcome measures like the Spinal Cord Independence Measure (SCIM) and become familiar with assistive technology ranging from wheelchairs to environmental control units. Regarding disability etiquette, always speak directly to your patients rather than through caregivers, avoid leaning on or moving someone's wheelchair without permission, use person-first language ("person with a spinal cord injury" rather than "spinal cord patient"), and remember that many patients may have excellent cognitive function despite physical limitations. Approach each interaction with the understanding that adaptation and independence are primary goals, and avoid assumptions about quality of life or functional potential based solely on the level of injury.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
         ),
         MedicalContent(
             title: "Chemotherapy-Induced Peripheral Neuropathy (CIPN)",
@@ -4180,7 +4362,7 @@ class GeneratedContentProvider {
             keywords: ["median nerve entrapment", "carpal tunnel", "neuropathy", "nerve compression"]
         ),
         MedicalContent(
-            title: "Disorders of Consciousness",
+            title: "Disorders of Consciousness after Traumatic Brain Injury",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -4365,6 +4547,32 @@ class GeneratedContentProvider {
             )
             ],
             keywords: ["disorders of consciousness", "vegetative state", "minimally conscious state", "coma", "traumatic brain injury", "amantadine", "CRS-R"]
+        ),
+        MedicalContent(
+            title: "Ac Intro",
+            subtitle: nil,
+            contentType: .intro,
+            category: "Amputee Care",
+            abbreviation: nil,
+            overview: """
+            During your rotation on an amputee care service, you'll encounter patients across the full spectrum of limb loss, from recent traumatic amputations requiring acute rehabilitation to long-term amputees seeking prosthetic adjustments or managing secondary complications. Common presentations include post-surgical pain management, phantom limb pain, residual limb skin breakdown, contractures, and prosthetic fit issues. You'll also see patients dealing with associated conditions like heterotopic ossification, neuroma formation, and the psychological adjustment challenges that accompany limb loss. Many patients will present with comorbidities that contributed to their amputation, particularly diabetes and peripheral vascular disease, which require ongoing management alongside their rehabilitation needs.
+
+            Your assessment toolkit should include familiarity with standardized measures like the Prosthetic Evaluation Questionnaire (PEQ), the Trinity Amputation and Prosthesis Experience Scales (TAPES), and functional mobility assessments such as the Amputee Mobility Predictor (AMP). You'll need to understand prosthetic components and alignment principles, as well as residual limb assessment techniques for skin integrity, shape, and volume changes. Regarding disability etiquette, always ask before offering assistance, speak directly to the patient rather than through companions, and avoid making assumptions about their capabilities or limitations. Use person-first language ("person with an amputation" rather than "amputee"), and remember that many patients have adapted remarkably well to their limb loss—approach each encounter with respect for their expertise about their own body and needs while offering your clinical knowledge to support their goals.
+            """,
+            sections: [
+            ContentSection(
+                title: "Introduction",
+                rawMarkdown: """
+                During your rotation on an amputee care service, you'll encounter patients across the full spectrum of limb loss, from recent traumatic amputations requiring acute rehabilitation to long-term amputees seeking prosthetic adjustments or managing secondary complications. Common presentations include post-surgical pain management, phantom limb pain, residual limb skin breakdown, contractures, and prosthetic fit issues. You'll also see patients dealing with associated conditions like heterotopic ossification, neuroma formation, and the psychological adjustment challenges that accompany limb loss. Many patients will present with comorbidities that contributed to their amputation, particularly diabetes and peripheral vascular disease, which require ongoing management alongside their rehabilitation needs.
+
+                Your assessment toolkit should include familiarity with standardized measures like the Prosthetic Evaluation Questionnaire (PEQ), the Trinity Amputation and Prosthesis Experience Scales (TAPES), and functional mobility assessments such as the Amputee Mobility Predictor (AMP). You'll need to understand prosthetic components and alignment principles, as well as residual limb assessment techniques for skin integrity, shape, and volume changes. Regarding disability etiquette, always ask before offering assistance, speak directly to the patient rather than through companions, and avoid making assumptions about their capabilities or limitations. Use person-first language ("person with an amputation" rather than "amputee"), and remember that many patients have adapted remarkably well to their limb loss—approach each encounter with respect for their expertise about their own body and needs while offering your clinical knowledge to support their goals.
+                """,
+                parsedContent: [],
+                sectionType: .description,
+                orderIndex: 0
+            )
+            ],
+            keywords: []
         ),
         MedicalContent(
             title: "Myofascial Pain Syndrome & Trigger Point Injections",

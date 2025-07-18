@@ -373,6 +373,8 @@ struct SearchResultRow: View {
             return .blue
         case .assessment:
             return .green
+        case .intro:
+            return .purple
         }
     }
     
@@ -382,6 +384,8 @@ struct SearchResultRow: View {
             return .blue
         case .assessment:
             return .green
+        case .intro:
+            return .purple
         }
     }
     
@@ -724,6 +728,8 @@ struct FavoriteRowView: View {
             return .blue
         case .assessment:
             return .green
+        case .intro:
+            return .purple
         }
     }
     
