@@ -572,7 +572,7 @@ struct FavoritesView: View {
                                 }
                             }
                         }
-                        .padding(.horizontal, 8)
+                        .padding(.horizontal, 12)
                         .padding(.vertical, 16)
                         .background(Color(.secondarySystemGroupedBackground))
                         .clipShape(RoundedRectangle(cornerRadius: 12))

@@ -204,8 +204,8 @@ The app uses standard Xcode testing infrastructure with separate test targets fo
 
 ## UI/UX Optimizations (August 2025)
 1. **Margin Optimization for Content Display**:
-   - Reduced horizontal margins from 20pt to 8pt across all main views (ContentDetailView, BrowseView, ContentView)
-   - Provides 24pt additional width for medical content display
+   - Reduced horizontal margins from 20pt to 12pt across all main views (ContentDetailView, BrowseView, ContentView)
+   - Provides 16pt additional width for medical content display
    - Maintains iOS usability standards while maximizing content area
    - Updated ContentDetailView padding from 16pt to 12pt for consistency
 
@@ -232,7 +232,7 @@ The app uses standard Xcode testing infrastructure with separate test targets fo
 
 ## Current State
 - App uses production-optimized content loading with tight, content-focused UI
-- Maximum content display area through optimized 8pt margins
+- Maximum content display area through optimized 12pt margins
 - Enhanced mobile table experience with zoom functionality
 - Compact main page layout with 8pt section spacing
 - Structured content system with template-aware organization

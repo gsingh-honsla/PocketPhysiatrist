@@ -81,7 +81,7 @@ struct BrowseView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                             .shadow(color: Color.blue.opacity(0.3), radius: 4, x: 0, y: 2)
                         }
-                        .padding(.horizontal, 8)
+                        .padding(.horizontal, 12)
                         .accessibilityLabel("Send Feedback")
                         
                         Text("Help us improve PocketPhysiatrist")
@@ -92,7 +92,7 @@ struct BrowseView: View {
                     .padding(.top, 20)
                     .padding(.bottom, 30)
                 }
-                .padding(.horizontal, 8)
+                .padding(.horizontal, 12)
                 .padding(.vertical, 16)
             }
             .navigationTitle("Pocket Physiatrist")
@@ -511,7 +511,7 @@ struct CategoryDetailView: View {
                     .buttonStyle(PlainButtonStyle())
                 }
             }
-            .padding(.horizontal, 8)
+            .padding(.horizontal, 12)
             .padding(.vertical, 20)
         }
         .background(Color(.systemGroupedBackground))
