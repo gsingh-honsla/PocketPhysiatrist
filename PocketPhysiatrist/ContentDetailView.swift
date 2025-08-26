@@ -37,7 +37,7 @@ struct ContentDetailView: View {
                         TemplateSectionView(section: section)
                     }
                 }
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 8)
                 .padding(.bottom, 20)
             }
             .coordinateSpace(name: "scroll")
@@ -110,7 +110,7 @@ struct MetadataCardView: View {
             
             FavoriteButton(content: content)
         }
-        .padding(16)
+        .padding(12)
         .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
@@ -216,7 +216,7 @@ struct OverviewSectionView: View {
             
             FormattedTextView(text: overview)
         }
-        .padding(16)
+        .padding(12)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
@@ -244,7 +244,7 @@ struct TemplateSectionView: View {
                 }
             }
         }
-        .padding(16)
+        .padding(12)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
@@ -1527,7 +1527,7 @@ struct EnhancedTableView: View {
                                     .multilineTextAlignment(.leading)
                             }
                             .padding(.vertical, 16)
-                            .padding(.horizontal, 16)
+                            .padding(.horizontal, 8)
                             .frame(minWidth: 120, maxWidth: .infinity, alignment: .leading)
                             .background(cell.isHeader ? Color(.systemGray5) : Color(.systemBackground))
                             
@@ -1566,7 +1566,7 @@ struct CodeBlockView: View {
             Text(code)
                 .font(.system(.body, design: .monospaced))
                 .foregroundColor(.primary)
-                .padding(16)
+                .padding(12)
         }
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 12))

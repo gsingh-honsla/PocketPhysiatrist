@@ -65,7 +65,7 @@ struct BrowseView: View {
                                 .foregroundColor(.primary)
                         }
                     }
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 8)
                     .padding(.vertical, 16)
                     .background(
                         RoundedRectangle(cornerRadius: 12)
@@ -75,13 +75,13 @@ struct BrowseView: View {
                                     .stroke(Color.orange.opacity(0.3), lineWidth: 1)
                             )
                     )
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 8)
                     .padding(.top, 24)
                     
                     // Feedback Button at Bottom
                     VStack(spacing: 16) {
                         Divider()
-                            .padding(.horizontal, 16)
+                            .padding(.horizontal, 8)
                         
                         Button(action: {
                             showingFeedback = true
@@ -107,7 +107,7 @@ struct BrowseView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                             .shadow(color: Color.blue.opacity(0.3), radius: 4, x: 0, y: 2)
                         }
-                        .padding(.horizontal, 16)
+                        .padding(.horizontal, 8)
                         .accessibilityLabel("Send Feedback")
                         
                         Text("Help us improve PocketPhysiatrist")
@@ -118,7 +118,7 @@ struct BrowseView: View {
                     .padding(.top, 20)
                     .padding(.bottom, 30)
                 }
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 8)
                 .padding(.vertical, 16)
             }
             .navigationTitle("Pocket Physiatrist")
@@ -294,14 +294,14 @@ struct ContentTypeFolderSection: View {
                         .background(accentColor)
                         .clipShape(Capsule())
                 }
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 8)
                 .padding(.vertical, 18)
                 
                 // Subtle separator line
                 Rectangle()
                     .fill(Color(.separator).opacity(0.3))
                     .frame(height: 1)
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 8)
             }
             .background(
                 LinearGradient(
@@ -334,7 +334,7 @@ struct ContentTypeFolderSection: View {
                 }
                 .padding(.vertical, 40)
                 .frame(maxWidth: .infinity)
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 8)
             } else {
                 VStack(spacing: 8) {
                     ForEach(sortedCategories, id: \.self) { category in
@@ -352,7 +352,7 @@ struct ContentTypeFolderSection: View {
                         .buttonStyle(PlainButtonStyle())
                     }
                 }
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 8)
                 .padding(.top, 16)
                 .padding(.bottom, 20)
             }
@@ -436,7 +436,7 @@ struct CategoryFolderRow: View {
                 .font(.system(size: 14, weight: .medium))
                 .foregroundColor(accentColor.opacity(0.6))
         }
-        .padding(.horizontal, 16)
+        .padding(.horizontal, 8)
         .padding(.vertical, 16)
         .background(
             RoundedRectangle(cornerRadius: 14)
@@ -526,7 +526,7 @@ struct CategoryDetailView: View {
                                     .foregroundColor(accentColor.opacity(0.6))
                             }
                         }
-                        .padding(.horizontal, 16)
+                        .padding(.horizontal, 8)
                         .padding(.vertical, 16)
                         .background(
                             RoundedRectangle(cornerRadius: 12)
@@ -537,7 +537,7 @@ struct CategoryDetailView: View {
                     .buttonStyle(PlainButtonStyle())
                 }
             }
-            .padding(.horizontal, 16)
+            .padding(.horizontal, 8)
             .padding(.vertical, 20)
         }
         .background(Color(.systemGroupedBackground))
