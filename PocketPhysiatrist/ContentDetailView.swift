@@ -37,7 +37,7 @@ struct ContentDetailView: View {
                         TemplateSectionView(section: section)
                     }
                 }
-                .padding(.horizontal, 20)
+                .padding(.horizontal, 16)
                 .padding(.bottom, 20)
             }
             .coordinateSpace(name: "scroll")
@@ -110,7 +110,7 @@ struct MetadataCardView: View {
             
             FavoriteButton(content: content)
         }
-        .padding(20)
+        .padding(16)
         .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
@@ -216,7 +216,7 @@ struct OverviewSectionView: View {
             
             FormattedTextView(text: overview)
         }
-        .padding(20)
+        .padding(16)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
@@ -244,7 +244,7 @@ struct TemplateSectionView: View {
                 }
             }
         }
-        .padding(20)
+        .padding(16)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 2)
