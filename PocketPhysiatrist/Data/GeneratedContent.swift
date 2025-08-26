@@ -11,7 +11,7 @@ class GeneratedContentProvider {
     static func getAllContent() -> [MedicalContent] {
         return [
         MedicalContent(
-            title: "Orthostatic Hypotension in Spinal Cord Injury",
+            title: "Orthostatic Hypotension",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -319,7 +319,7 @@ class GeneratedContentProvider {
             keywords: ["upper extremity amputation", "prosthetics", "rehabilitation", "phantom limb pain", "residual limb pain"]
         ),
         MedicalContent(
-            title: "Autonomic Dysreflexia in Spinal Cord Injury",
+            title: "Autonomic Dysreflexia",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1297,7 +1297,7 @@ class GeneratedContentProvider {
             keywords: ["aphasia", "stroke", "language disorders", "speech therapy", "communication", "neuroplasticity"]
         ),
         MedicalContent(
-            title: "Neurogenic Bladder Management in Spinal Cord Injury",
+            title: "Neurogenic Bladder Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -1813,7 +1813,7 @@ class GeneratedContentProvider {
             keywords: ["obstetric brachial plexus palsy", "Erb's palsy", "Klumpke's palsy", "nerve injury", "microsurgery"]
         ),
         MedicalContent(
-            title: "Neurogenic Bowel Management in Spinal Cord Injury",
+            title: "Neurogenic Bowel Management",
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -2894,11 +2894,7 @@ class GeneratedContentProvider {
             keywords: []
         ),
         MedicalContent(
-<<<<<<< HEAD
             title: "Pressure Injury Prevention and Management",
-=======
-            title: "Pressure Injury Prevention and Management in Spinal Cord Injury",
->>>>>>> prod2
             subtitle: nil,
             contentType: .guide,
             category: "Spinal Cord Injury Medicine",
@@ -3117,11 +3113,7 @@ class GeneratedContentProvider {
             keywords: []
         ),
         MedicalContent(
-<<<<<<< HEAD
             title: "Agitation and Aggression",
-=======
-            title: "Agitation and Aggression after Traumatic Brain Injury",
->>>>>>> prod2
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
@@ -3462,7 +3454,7 @@ class GeneratedContentProvider {
             keywords: ["post-stroke spasticity", "upper motor neuron syndrome", "botulinum toxin", "reticulospinal hyperexcitability", "velocity-dependent muscle tone"]
         ),
         MedicalContent(
-            title: "Phantom Limb Pain and Residual Limb Pain: A Comprehensive Rehabilitation Guide",
+            title: "Phantom Limb Pain and Residual Limb Pain",
             subtitle: nil,
             contentType: .guide,
             category: "Amputee Care",
@@ -4370,7 +4362,7 @@ class GeneratedContentProvider {
             keywords: ["median nerve entrapment", "carpal tunnel", "neuropathy", "nerve compression"]
         ),
         MedicalContent(
-            title: "Disorders of Consciousness after Traumatic Brain Injury",
+            title: "Disorders of Consciousness",
             subtitle: nil,
             contentType: .guide,
             category: "Brain Injury Medicine",
