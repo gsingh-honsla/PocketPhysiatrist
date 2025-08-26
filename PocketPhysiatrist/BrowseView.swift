@@ -33,7 +33,7 @@ struct BrowseView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 20) {
+                LazyVStack(spacing: 8) {
                     // Guides Section
                     ContentTypeFolderSection(
                         title: "Guides",
