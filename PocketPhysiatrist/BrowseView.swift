@@ -51,32 +51,7 @@ struct BrowseView: View {
                         groupedContent: groupedAssessments,
                         accentColor: .green
                     )
-                    
-                    // Coming Soon Note
-                    VStack(spacing: 12) {
-                        HStack(spacing: 8) {
-                            Image(systemName: "sparkles")
-                                .foregroundColor(.orange)
-                                .font(.system(size: 16, weight: .medium))
-                            
-                            Text("More guides and assessments coming soon!")
-                                .font(.subheadline)
-                                .fontWeight(.medium)
-                                .foregroundColor(.primary)
-                        }
-                    }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 16)
-                    .background(
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Color.orange.opacity(0.1))
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .stroke(Color.orange.opacity(0.3), lineWidth: 1)
-                            )
-                    )
-                    .padding(.horizontal, 8)
-                    .padding(.top, 24)
+                    .padding(.bottom, 32)
                     
                     // Feedback Button at Bottom
                     VStack(spacing: 16) {
