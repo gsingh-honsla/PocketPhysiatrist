@@ -51,7 +51,6 @@ struct BrowseView: View {
                         groupedContent: groupedAssessments,
                         accentColor: .green
                     )
-                    .padding(.bottom, 32)
                     
                     // Feedback Button at Bottom
                     VStack(spacing: 16) {
