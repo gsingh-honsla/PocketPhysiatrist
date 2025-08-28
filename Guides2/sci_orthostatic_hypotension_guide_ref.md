@@ -1,7 +1,7 @@
 # Orthostatic Hypotension
 
 ## Metadata
-- **Category**: Spinal Cord Injury Medicine
+- **Category**: Spinal Cord Injury
 - **Keywords**: orthostatic hypotension, spinal cord injury, autonomic dysfunction, neurogenic hypotension
 
 ## Core Pathophysiology and Clinical Presentation

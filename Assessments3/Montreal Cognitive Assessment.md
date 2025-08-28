@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Cognitive & Behavioral Assessment
+Category: Cognitive & Behavioral
 
 Abbreviation: MoCA
 

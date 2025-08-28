@@ -1,7 +1,7 @@
 # Post-Traumatic Hypopituitarism
 
 ## Metadata
-- **Category**: Brain Injury Medicine
+- **Category**: Brain Injury
 - **Keywords**: traumatic brain injury, hypopituitarism, growth hormone deficiency, neuroendocrine dysfunction, hormone replacement therapy
 
 ## Core Pathophysiology and Clinical Presentation

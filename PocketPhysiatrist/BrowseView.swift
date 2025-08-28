@@ -24,10 +24,12 @@ struct BrowseView: View {
     // Group content by category
     var groupedGuides: [String: [MedicalContent]] {
         Dictionary(grouping: categorizedContent, by: { $0.category })
+            .mapValues { $0.sorted { $0.title < $1.title } }
     }
     
     var groupedAssessments: [String: [MedicalContent]] {
         Dictionary(grouping: assessmentContent, by: { $0.category })
+            .mapValues { $0.sorted { $0.title < $1.title } }
     }
     
     var body: some View {
@@ -165,7 +167,7 @@ struct ContentTypeSection: View {
                     GridItem(.flexible()),
                     GridItem(.flexible())
                 ], spacing: 12) {
-                    ForEach(content) { item in
+                    ForEach(content.sorted { $0.title < $1.title }) { item in
                         NavigationLink(destination: ContentDetailView(content: item)) {
                             ContentCard(content: item, accentColor: accentColor)
                         }
@@ -188,11 +190,11 @@ struct ContentTypeFolderSection: View {
     
     // Define the order for Guide categories (based on actual markdown file content)
     let guideCategories = [
-        "Spinal Cord Injury Medicine",
-        "Brain Injury Medicine",
+        "Spinal Cord Injury",
+        "Brain Injury",
         "Stroke Rehabilitation",
         "Pediatric Rehabilitation",
-        "Musculoskeletal and Sports Medicine",
+        "Musculoskeletal & Sports",
         "Pain Medicine",
         "Cancer Rehabilitation",
         "Amputee Care"
@@ -200,12 +202,15 @@ struct ContentTypeFolderSection: View {
     
     // Define the order for Assessment Tool categories (based on actual markdown file content)
     let assessmentCategories = [
-        "Balance & Mobility Assessment",
-        "Cognitive & Behavioral Assessment",
-        "Functional & Global Assessment",
-        "Musculoskeletal & Peripheral Nerve Examination",
+        "Balance & Mobility",
+        "Cognitive & Behavioral",
+        "Functional & Global",
+        "Shoulder & Upper Arm",
+        "Elbow, Wrist & Hand",
+        "Hip & Lower Extremity", 
+        "Spine & Nerve Root",
         "Procedural Skills & Principles",
-        "Spasticity & Tone Assessment"
+        "Spasticity & Tone"
     ]
     
     var sortedCategories: [String] {
@@ -335,15 +340,15 @@ struct CategoryFolderRow: View {
     // Icon mapping for different categories
     var categoryIcon: String {
         switch category {
-        case "Spinal Cord Injury Medicine":
+        case "Spinal Cord Injury":
             return "figure.stand"
-        case "Brain Injury Medicine":
+        case "Brain Injury":
             return "brain.head.profile"
         case "Stroke Rehabilitation":
             return "heart.text.square"
         case "Pediatric Rehabilitation":
             return "figure.2.and.child.holdinghands"
-        case "Musculoskeletal Medicine", "Musculoskeletal and Sports Medicine":
+        case "Musculoskeletal & Sports":
             return "figure.walk"
         case "Pain Medicine":
             return "bandage"
@@ -351,17 +356,23 @@ struct CategoryFolderRow: View {
             return "staroflife"
         case "Amputee Care":
             return "figure.roll"
-        case "Balance & Mobility Assessment":
+        case "Balance & Mobility":
             return "figure.walk.motion"
-        case "Cognitive & Behavioral Assessment":
+        case "Cognitive & Behavioral":
             return "brain"
-        case "Functional & Global Assessment":
+        case "Functional & Global":
             return "checklist"
-        case "Musculoskeletal & Peripheral Nerve Examination":
+        case "Shoulder & Upper Arm":
             return "figure.arms.open"
+        case "Elbow, Wrist & Hand":
+            return "hand.raised"
+        case "Hip & Lower Extremity":
+            return "figure.walk"
+        case "Spine & Nerve Root":
+            return "figure.stand"
         case "Procedural Skills & Principles":
             return "stethoscope"
-        case "Spasticity & Tone Assessment":
+        case "Spasticity & Tone":
             return "waveform.path.ecg"
         default:
             return "folder.fill"
@@ -453,11 +464,11 @@ struct CategoryDetailView: View {
     private var isGuideCategory: Bool {
         // Only show intro dropdown for guide categories, not assessment categories
         let guideCategories = [
-            "Spinal Cord Injury Medicine",
-            "Brain Injury Medicine", 
+            "Spinal Cord Injury",
+            "Brain Injury", 
             "Stroke Rehabilitation",
             "Pediatric Rehabilitation",
-            "Musculoskeletal and Sports Medicine",
+            "Musculoskeletal & Sports",
             "Pain Medicine",
             "Cancer Rehabilitation",
             "Amputee Care"
@@ -465,23 +476,36 @@ struct CategoryDetailView: View {
         return guideCategories.contains(category)
     }
     
+    // Helper function to map folder category names to intro content category names
+    private var introCategoryName: String {
+        switch category {
+        case "Spinal Cord Injury":
+            return "Spinal Cord Injury Medicine"
+        case "Brain Injury":
+            return "Brain Injury Medicine"
+        case "Musculoskeletal & Sports":
+            return "Musculoskeletal and Sports Medicine"
+        default:
+            return category
+        }
+    }
+    
     var body: some View {
         ScrollView {
-            LazyVStack(spacing: 12) {
+            LazyVStack(spacing: 8) {
                 // NEW: Intro Dropdown at the top for guide categories only
                 if isGuideCategory {
                     IntroDropdownView(
-                        category: category,
+                        category: introCategoryName,
                         accentColor: accentColor
                     )
-                    .padding(.top, 4)
                 }
                 
-                ForEach(content) { item in
+                ForEach(content.sorted { $0.title < $1.title }) { item in
                     NavigationLink(destination: ContentDetailView(content: item)) {
                         HStack(spacing: 16) {
                             // Content details - now using full width with fixed layout
-                            VStack(alignment: .leading, spacing: 6) {
+                            VStack(alignment: .leading, spacing: 4) {
                                 Text(item.title)
                                     .font(.headline)
                                     .fontWeight(.semibold)
@@ -499,7 +523,7 @@ struct CategoryDetailView: View {
                                         .multilineTextAlignment(.leading)
                                 }
                                 
-                                Spacer(minLength: 4)
+                                Spacer(minLength: 2)
                                 
                                 Text(cleanOverviewText(item.overview))
                                     .font(.body)
@@ -526,7 +550,7 @@ struct CategoryDetailView: View {
                                     .foregroundColor(accentColor.opacity(0.6))
                             }
                         }
-                        .frame(height: 120) // Fixed card height for consistency
+                        .frame(height: 100) // Fixed card height for consistency
                         .padding(12)
                         .background(
                             RoundedRectangle(cornerRadius: 12)
@@ -538,6 +562,7 @@ struct CategoryDetailView: View {
                 }
             }
             .padding(.horizontal, 12)
+            .padding(.top, 8)
         }
         .background(Color(.systemGroupedBackground))
         .navigationTitle("")

@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Functional & Global Assessment
+Category: Functional & Global
 
 Abbreviation: SCIM
 

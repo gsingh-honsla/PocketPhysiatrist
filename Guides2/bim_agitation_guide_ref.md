@@ -1,7 +1,7 @@
 # Agitation and Aggression
 
 ## Metadata
-- **Category**: Brain Injury Medicine
+- **Category**: Brain Injury
 - **Keywords**: post-traumatic agitation, aggression, behavioral sequelae, post-traumatic amnesia, TBI recovery
 
 ## Core Pathophysiology and Clinical Presentation

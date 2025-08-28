@@ -1,7 +1,7 @@
 # Neurogenic Bladder Management
 
 ## Metadata
-- **Category**: Spinal Cord Injury Medicine
+- **Category**: Spinal Cord Injury
 - **Keywords**: neurogenic bladder, spinal cord injury, urodynamics, detrusor hyperreflexia, intermittent catheterization
 
 ## Core Pathophysiology and Clinical Presentation

@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Balance & Mobility Assessment
+Category: Balance & Mobility
 
 Abbreviation: TUG
 

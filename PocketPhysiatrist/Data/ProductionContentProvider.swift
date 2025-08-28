@@ -9,17 +9,11 @@ import Foundation
 import SwiftData
 
 class ProductionContentProvider {
-    private static let contentVersion = "1.0.2" // Update this when content changes
+    private static let contentVersion = "1.0.3" // Updated for cleaned category names
     private static let versionKey = "PocketPhysiatrist_ContentVersion"
     
     /// Check if content needs to be loaded/updated
     static func needsContentUpdate(modelContext: ModelContext) -> Bool {
-        // TEMPORARY: Force reload all content for debugging
-        print("🔄 FORCE RELOAD: Always updating content for debugging")
-        return true
-        
-        // Original logic (commented out for now):
-        /*
         // Check stored version
         let storedVersion = UserDefaults.standard.string(forKey: versionKey)
         
@@ -29,12 +23,19 @@ class ProductionContentProvider {
             let existingContent = try modelContext.fetch(descriptor)
             
             // Need update if version changed or no content exists
-            return storedVersion != contentVersion || existingContent.isEmpty
+            let needsUpdate = storedVersion != contentVersion || existingContent.isEmpty
+            
+            if needsUpdate {
+                print("🔄 Content update needed - Stored: \(storedVersion ?? "none"), Current: \(contentVersion), Content count: \(existingContent.count)")
+            } else {
+                print("✅ Content is up-to-date - Version: \(contentVersion), Content count: \(existingContent.count)")
+            }
+            
+            return needsUpdate
         } catch {
             print("⚠️ Error checking existing content: \(error)")
             return true // Force update on error
         }
-        */
     }
     
     /// Fast content population for production

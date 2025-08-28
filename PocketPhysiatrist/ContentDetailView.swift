@@ -652,10 +652,10 @@ struct FormattedTextView: View {
         let isReferencesSection = text.range(of: "\\[\\^\\d+\\]:\\s*.+", options: .regularExpression) != nil
         
         if isReferencesSection {
-            // In References section: convert [^1]: to "1. " for proper numbered list
+            // In References section: convert [^1]: to "[1]:" for proper reference list
             cleanedText = cleanedText.replacingOccurrences(
                 of: "\\[\\^(\\d+)\\]:\\s*",
-                with: "$1. ",
+                with: "[$1]: ",
                 options: .regularExpression
             )
         } else {

@@ -1,7 +1,7 @@
 # Autonomic Dysreflexia
 
 ## Metadata
-- **Category**: Spinal Cord Injury Medicine
+- **Category**: Spinal Cord Injury
 - **Keywords**: autonomic dysreflexia, spinal cord injury, hypertensive crisis, sympathetic hyperreflexia, neurogenic bladder
 
 ## Core Pathophysiology and Clinical Presentation

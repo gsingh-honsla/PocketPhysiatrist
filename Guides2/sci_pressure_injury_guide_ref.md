@@ -1,7 +1,7 @@
 # Pressure Injury Prevention and Management
 
 ## Metadata
-- **Category**: Spinal Cord Injury Medicine
+- **Category**: Spinal Cord Injury
 - **Keywords**: pressure injury, pressure ulcer, spinal cord injury, wound care, prevention, management
 
 ## Core Pathophysiology and Clinical Presentation

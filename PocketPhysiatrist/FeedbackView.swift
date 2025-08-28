@@ -41,11 +41,11 @@ enum FeedbackCategory: String, CaseIterable, Identifiable {
     var emailSubject: String {
         switch self {
         case .bugReport:
-            return "PocketPhysiatrist - Bug Report"
+            return "Pocket Physiatrist - Bug Report"
         case .featureRequest:
-            return "PocketPhysiatrist - Feature Request"
+            return "Pocket Physiatrist - Feature Request"
         case .general:
-            return "PocketPhysiatrist - General Feedback"
+            return "Pocket Physiatrist - General Feedback"
         }
     }
     

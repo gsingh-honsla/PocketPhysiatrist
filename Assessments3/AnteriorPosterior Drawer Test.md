@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Musculoskeletal & Peripheral Nerve Examination
+Category: Hip & Lower Extremity
 
 Abbreviation: ADT/PDT
 

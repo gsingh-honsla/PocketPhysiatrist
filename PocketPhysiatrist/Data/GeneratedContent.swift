@@ -14,7 +14,7 @@ class GeneratedContentProvider {
             title: "Orthostatic Hypotension",
             subtitle: nil,
             contentType: .guide,
-            category: "Spinal Cord Injury Medicine",
+            category: "Spinal Cord Injury",
             abbreviation: nil,
             overview: """
             Orthostatic hypotension (OH) is a common and potentially debilitating form of cardiovascular dysfunction following spinal cord injury (SCI), defined as a drop in systolic blood pressure of at least 20 mmHg or diastolic blood pressure of at least 10 mmHg within three minutes of moving to an upright position[^1]. This condition is most prevalent and severe in individuals with complete lesions above the T6 neurological level, particularly during the acute phase of injury, with prevalence rates as high as 82% for tetraplegia versus 50% for paraplegia immediately post-SCI[^2].
@@ -322,7 +322,7 @@ class GeneratedContentProvider {
             title: "Autonomic Dysreflexia",
             subtitle: nil,
             contentType: .guide,
-            category: "Spinal Cord Injury Medicine",
+            category: "Spinal Cord Injury",
             abbreviation: nil,
             overview: """
             Autonomic dysreflexia (AD) is a potentially life-threatening syndrome characterized by an uncoordinated and exaggerated sympathetic nervous system response to a noxious stimulus below the level of a spinal cord injury (SCI). This medical emergency occurs in individuals with SCI at or above the sixth thoracic vertebra (T6), as this level is above the major splanchnic sympathetic outflow[^1]. The higher the level of the spinal cord injury, the greater the risk, with up to 90% of patients with cervical or high-thoracic spinal cord injury being susceptible[^3].
@@ -483,7 +483,7 @@ class GeneratedContentProvider {
             title: "Low Back Pain: A Diagnostic and Management Framework",
             subtitle: nil,
             contentType: .guide,
-            category: "Musculoskeletal and Sports Medicine",
+            category: "Musculoskeletal & Sports",
             abbreviation: nil,
             overview: """
             Low back pain (LBP) represents one of the most prevalent musculoskeletal conditions, affecting up to 80% of individuals at some point in their lifetime[^1]. The pathophysiology varies significantly depending on the underlying etiology. Non-specific LBP, which comprises approximately 85-90% of all cases, typically results from mechanical dysfunction involving the complex interplay of muscles, ligaments, facet joints, and intervertebral discs[^1]. The exact pain generator often cannot be identified, leading to the classification as "non-specific." Contributing factors include muscle strain, ligamentous sprain, facet joint dysfunction, and degenerative disc changes that may not correlate directly with symptom severity.
@@ -788,7 +788,7 @@ class GeneratedContentProvider {
             title: "Post-Traumatic Headache (PTH)",
             subtitle: nil,
             contentType: .guide,
-            category: "Brain Injury Medicine",
+            category: "Brain Injury",
             abbreviation: nil,
             overview: """
             Post-traumatic headache (PTH) is defined by the International Classification of Headache Disorders (ICHD-3) as a secondary headache that develops within seven days of a head and/or neck injury, or within seven days of regaining consciousness[^1]. It is the most common symptom reported after a mild TBI (concussion). When the headache persists for longer than three months, it is termed persistent post-traumatic headache.
@@ -977,7 +977,7 @@ class GeneratedContentProvider {
             title: "Post-Traumatic Seizures and Epilepsy (PTE)",
             subtitle: nil,
             contentType: .guide,
-            category: "Brain Injury Medicine",
+            category: "Brain Injury",
             abbreviation: nil,
             overview: """
             Post-traumatic seizures (PTS) represent a significant neurological complication following traumatic brain injury (TBI), affecting approximately 2-50% of patients depending on injury severity[^1]. The pathophysiology involves a complex cascade of events initiated by the primary brain injury, leading to secondary processes that create an epileptogenic environment. The initial trauma causes immediate neuronal cell loss, disruption of the blood-brain barrier, and release of excitatory neurotransmitters, particularly glutamate, which triggers excitotoxicity[^2].
@@ -1300,7 +1300,7 @@ class GeneratedContentProvider {
             title: "Neurogenic Bladder Management",
             subtitle: nil,
             contentType: .guide,
-            category: "Spinal Cord Injury Medicine",
+            category: "Spinal Cord Injury",
             abbreviation: nil,
             overview: """
             Neurogenic lower urinary tract dysfunction (NLUTD), commonly referred to as neurogenic bladder, represents the loss of normal bladder function resulting from interruption of complex neural pathways connecting the brain, spinal cord, and urinary bladder. It is one of the most significant and potentially life-threatening sequelae of spinal cord injury (SCI), affecting approximately 70-84% of patients with SCI[^1]. The clinical presentation is largely determined by the location of the spinal cord lesion relative to the sacral micturition center (S2-S4) and the completeness of the injury.
@@ -1816,7 +1816,7 @@ class GeneratedContentProvider {
             title: "Neurogenic Bowel Management",
             subtitle: nil,
             contentType: .guide,
-            category: "Spinal Cord Injury Medicine",
+            category: "Spinal Cord Injury",
             abbreviation: nil,
             overview: """
             Neurogenic bowel dysfunction (NBD) is an almost universal consequence of spinal cord injury (SCI), affecting over 95% of individuals with SCI[^1]. This condition results from the disruption of neural control over gastrointestinal and anorectal function, leading to profound constipation, fecal impaction, and a high risk of incontinence. The disruption significantly impacts quality of life, social integration, and independence, with as many as 60% of individuals reporting adverse effects on life activities due to irregular bowel movements, recurrent abdominal discomfort, constipation, and/or fecal incontinence[^1].
@@ -2344,7 +2344,7 @@ class GeneratedContentProvider {
             title: "Shoulder Impingement Syndrome",
             subtitle: nil,
             contentType: .guide,
-            category: "Musculoskeletal and Sports Medicine",
+            category: "Musculoskeletal & Sports",
             abbreviation: nil,
             overview: """
             Shoulder impingement syndrome represents a painful condition of the upper extremity resulting from structural narrowing of the subacromial space and subsequent compression of soft tissues. The subacromial space is anatomically defined by the humeral head inferiorly, and the acromion, coracoacromial ligament, and acromioclavicular joint superiorly. This space normally measures 1.0-1.5 cm in height and contains critical structures including the rotator cuff tendons (particularly the supraspinatus), the subacromial bursa, and portions of the long head of the biceps tendon.
@@ -2897,7 +2897,7 @@ class GeneratedContentProvider {
             title: "Pressure Injury Prevention and Management",
             subtitle: nil,
             contentType: .guide,
-            category: "Spinal Cord Injury Medicine",
+            category: "Spinal Cord Injury",
             abbreviation: nil,
             overview: """
             Pressure injuries in spinal cord injury represent a challenging problem for patients, their caregivers, and their physicians. They often lead to recurrent hospitalizations, multiple surgeries, and potentially devastating complications. A pressure injury is localized damage to the skin and underlying soft tissue, usually over a bony prominence, resulting from intense and/or prolonged pressure often combined with shear forces[^1]. Spinal cord injury (SCI) results in motor paralysis and sensory loss that places individuals at particularly high risk of pressure injuries. Over 85% of individuals with SCI experience at least one pressure injury in their lifetime, making them among the highest-risk populations[^2]. The incidence of pressure ulcers in the SCI population is 25–66%[^3].
@@ -3116,7 +3116,7 @@ class GeneratedContentProvider {
             title: "Agitation and Aggression",
             subtitle: nil,
             contentType: .guide,
-            category: "Brain Injury Medicine",
+            category: "Brain Injury",
             abbreviation: nil,
             overview: """
             Agitation and aggression are common and challenging behavioral sequelae following traumatic brain injury (TBI), with agitation representing a state of excessive motor activity, often non-purposeful, accompanied by internal restlessness and emotional distress, while aggression refers to hostile or violent behavior that can be verbal or physical. Recent meta-analyses demonstrate that agitation affects approximately 31-44% of hospitalized TBI patients, with prevalence rates being highest (44%) in patients experiencing post-traumatic amnesia (PTA)[^2].
@@ -3639,7 +3639,7 @@ class GeneratedContentProvider {
             title: "Post-Traumatic Hypopituitarism",
             subtitle: nil,
             contentType: .guide,
-            category: "Brain Injury Medicine",
+            category: "Brain Injury",
             abbreviation: nil,
             overview: """
             Post-traumatic hypopituitarism (PTHP) is an increasingly recognized but often underdiagnosed complication of traumatic brain injury (TBI), affecting approximately 33% of TBI patients[^1]. The pathophysiology involves damage to the hypothalamus and/or pituitary gland, which are particularly vulnerable to traumatic forces due to their anatomical location and delicate vascular supply. The injury mechanisms include direct mechanical damage from shear forces or skull base fractures, ischemic injury to the pituitary stalk or gland, and secondary cytotoxic processes triggered by trauma.
@@ -4214,7 +4214,7 @@ class GeneratedContentProvider {
             title: "Carpal Tunnel Syndrome",
             subtitle: nil,
             contentType: .guide,
-            category: "Musculoskeletal and Sports Medicine",
+            category: "Musculoskeletal & Sports",
             abbreviation: nil,
             overview: """
             Carpal tunnel syndrome (CTS) is the most common entrapment neuropathy, occurring when the median nerve is compressed as it traverses the carpal tunnel at the wrist. The carpal tunnel is a narrow osteofibrous passageway formed by the carpal bones inferiorly and the transverse carpal ligament (flexor retinaculum) superiorly, accommodating nine flexor tendons and the median nerve.
@@ -4365,7 +4365,7 @@ class GeneratedContentProvider {
             title: "Disorders of Consciousness",
             subtitle: nil,
             contentType: .guide,
-            category: "Brain Injury Medicine",
+            category: "Brain Injury",
             abbreviation: nil,
             overview: """
             Following severe traumatic brain injury (TBI), patients may experience profound alterations in consciousness that exist on a continuum of recovery. These disorders of consciousness (DOC) result from diffuse axonal injury, focal lesions affecting critical arousal networks, or a combination of both mechanisms. The ascending reticular activating system, extending from the upper medulla through the pons and midbrain to the thalamus and cortex, is primarily responsible for arousal and wakefulness. When these networks are disrupted by trauma, patients may demonstrate various levels of consciousness impairment.
@@ -4753,7 +4753,7 @@ class GeneratedContentProvider {
             title: "ASIA Impairment Scale (AIS)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "AIS",
             overview: """
             The primary purpose of the ASIA Impairment Scale is to classify the severity of sensory and motor impairment following a spinal cord injury.
@@ -4891,7 +4891,7 @@ class GeneratedContentProvider {
             title: "Hawkins-Kennedy Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Hawkins-Kennedy test is to identify impingement of the soft tissue structures (primarily the supraspinatus tendon and subacromial bursa) located between the humeral head and the coracoacromial arch.
@@ -5017,7 +5017,7 @@ class GeneratedContentProvider {
             title: "Oswestry Disability Index (ODI)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "ODI",
             overview: """
             The ODI is designed to measure the extent to which a person's functional ability is limited by pain. It assesses ten domains: pain intensity, personal care, lifting, walking, sitting, standing, sleeping, sex life, social life, and traveling.
@@ -5155,7 +5155,7 @@ class GeneratedContentProvider {
             title: "Anterior/Posterior Drawer Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "ADT/PDT",
             overview: """
             The primary purpose of the ADT is to detect excessive anterior translation of the tibia relative to the femur, indicative of an ACL sprain or rupture. The PDT is used to identify excessive posterior translation of the tibia relative to the femur, which suggests a PCL sprain or rupture.
@@ -5287,7 +5287,7 @@ class GeneratedContentProvider {
             title: "Phalen's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Phalen's test is to aid in the clinical diagnosis of carpal tunnel syndrome.
@@ -5410,7 +5410,7 @@ class GeneratedContentProvider {
             title: "McMurray's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "Not applicable",
             overview: """
             The primary purpose of McMurray's test is to detect the presence of a meniscal tear, which can cause knee pain, locking, or a sensation of instability. It is indicated in patients presenting with a history of a twisting injury to the knee, often with the foot planted, or in older individuals with degenerative knee changes who experience a sudden onset of knee pain and mechanical symptoms [^1]. The test aims to reproduce the patient's symptoms by compressing and rotating the meniscus.
@@ -5542,7 +5542,7 @@ class GeneratedContentProvider {
             title: "Ober's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Ober's test is to evaluate for restriction in the musculofascial structures of the lateral thigh, which may contribute to clinical syndromes such as greater trochanteric pain syndrome (GTPS) or iliotibial band syndrome (ITBS) [4].
@@ -5670,7 +5670,7 @@ class GeneratedContentProvider {
             title: "External Rotation Lag Sign",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "ERLS",
             overview: """
             The primary purpose of the ERLS is to diagnose full-thickness tears of the supraspinatus and infraspinatus tendons.
@@ -5801,7 +5801,7 @@ class GeneratedContentProvider {
             title: "Straight Leg Raise (SLR) Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "SLR",
             overview: """
             The primary purpose of the SLR test is to evaluate for lumbosacral radiculopathy, a condition where a nerve root in the lower back is compressed or irritated, leading to pain, numbness, or weakness that radiates down the leg.
@@ -5936,7 +5936,7 @@ class GeneratedContentProvider {
             title: "Empty Can (Jobe's) Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Empty Can Test is to identify weakness or pain in the supraspinatus muscle, which can be indicative of tendinopathy, partial-thickness, or full-thickness tears of the tendon [^3]. It is also used to help diagnose subacromial impingement syndrome, where the supraspinatus tendon becomes compressed in the subacromial space.
@@ -6069,7 +6069,7 @@ class GeneratedContentProvider {
             title: "Apprehension & Relocation Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "Apprehension & Relocation Test",
             overview: """
             This assessment is designed to detect the presence of anterior glenohumeral joint instability. It is a key diagnostic tool for patients who present with a history of shoulder subluxation or dislocation, or who report feelings of instability, particularly with overhead activities.
@@ -6195,7 +6195,7 @@ class GeneratedContentProvider {
             title: "Glasgow Coma Scale (GCS)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Cognitive & Behavioral Assessment",
+            category: "Cognitive & Behavioral",
             abbreviation: "GCS",
             overview: """
             The GCS is used to objectively describe the extent of impaired consciousness in patients with acute brain injury, regardless of the cause. It serves as a critical tool for initial assessment, guiding immediate management decisions such as airway protection, and for serial monitoring to detect neurological improvement or deterioration.
@@ -6347,7 +6347,7 @@ class GeneratedContentProvider {
             title: "Valgus/Varus Stress Test (Knee)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Valgus Stress Test is to assess the integrity of the medial collateral ligament (MCL), while the Varus Stress Test assesses the lateral collateral ligament (LCL).
@@ -6487,7 +6487,7 @@ class GeneratedContentProvider {
             title: "Anterior Drawer Test (Ankle)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "ADT",
             overview: """
             The primary purpose of the ADT is to detect mechanical instability of the talocrural joint, specifically due to a tear or laxity of the anterior talofibular ligament.
@@ -6617,7 +6617,7 @@ class GeneratedContentProvider {
             title: "Disabilities of the Arm, Shoulder and Hand (QuickDASH) Outcome Measure",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "QuickDASH",
             overview: """
             The primary purpose of the QuickDASH is to quantify a patient's self-reported difficulty in performing various upper extremity tasks, as well as the severity of their symptoms like pain and tingling.
@@ -6740,7 +6740,7 @@ class GeneratedContentProvider {
             title: "Montreal Cognitive Assessment",
             subtitle: nil,
             contentType: .assessment,
-            category: "Cognitive & Behavioral Assessment",
+            category: "Cognitive & Behavioral",
             abbreviation: "MoCA",
             overview: """
             The MoCA is designed to screen for the presence of cognitive dysfunction. It is a tool that helps identify individuals who may require a more thorough diagnostic workup for neurocognitive disorders.
@@ -6873,7 +6873,7 @@ class GeneratedContentProvider {
             title: "Speed's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "Speed's Test",
             overview: """
             The primary purpose of Speed's Test is to assess for pathology of the LHB tendon as it passes through the bicipital groove of the humerus.
@@ -6996,7 +6996,7 @@ class GeneratedContentProvider {
             title: "Spinal Cord Independence Measure (SCIM)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "SCIM",
             overview: """
             The primary purpose of the SCIM is to provide a detailed and accurate assessment of functional ability and degree of independence in individuals with spinal cord lesions. It is designed to be more sensitive than generic functional scales for this specific population.
@@ -7146,7 +7146,7 @@ class GeneratedContentProvider {
             title: "Talar Tilt Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "TTT",
             overview: """
             The primary purpose of the Talar Tilt Test is to assess for mechanical instability of the talocrural and subtalar joints by stressing the calcaneofibular and, to a lesser extent, the anterior talofibular ligaments.
@@ -7275,7 +7275,7 @@ class GeneratedContentProvider {
             title: "Valgus/Varus Stress Test (Elbow)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "N/A",
             overview: """
             The primary purpose of these tests is to detect laxity or instability of the medial (UCL) and lateral (LCL) collateral ligament complexes of the elbow.
@@ -7413,7 +7413,7 @@ class GeneratedContentProvider {
             title: "Yergason's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Yergason's Test is to assess the integrity of the long head of the biceps tendon and its stabilizing structures, particularly the transverse humeral ligament.
@@ -7538,7 +7538,7 @@ class GeneratedContentProvider {
             title: "Trendelenburg Sign",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Trendelenburg sign is to identify weakness in the hip abductor muscle group. This weakness can lead to significant gait deviations and is associated with various pathologies.
@@ -7657,7 +7657,7 @@ class GeneratedContentProvider {
             title: "Lachman's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Lachman's Test is to assess the integrity of the Anterior Cruciate Ligament.
@@ -7804,7 +7804,7 @@ class GeneratedContentProvider {
             title: "6-Minute Walk Test (6MWT)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Balance & Mobility Assessment",
+            category: "Balance & Mobility",
             abbreviation: "6MWT",
             overview: """
             The 6MWT assesses functional exercise capacity and endurance. It is a practical tool for quantifying a patient's ability to perform daily physical activities.
@@ -7953,7 +7953,7 @@ class GeneratedContentProvider {
             title: "FADIR Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "FADIR",
             overview: """
             The primary purpose of the FADIR test is to provoke the characteristic anterior groin pain associated with FAI syndrome.
@@ -8076,7 +8076,7 @@ class GeneratedContentProvider {
             title: "Rancho Los Amigos Scale",
             subtitle: nil,
             contentType: .assessment,
-            category: "Cognitive & Behavioral Assessment",
+            category: "Cognitive & Behavioral",
             abbreviation: "RLAS",
             overview: """
             The primary purpose of the RLAS is to assess and track the level of cognitive and behavioral functioning during recovery from a TBI. It is not intended to be a prognostic tool but rather a descriptive one that helps clinicians understand a patient's state, set appropriate functional goals, and design effective behavioral and cognitive interventions.
@@ -8223,7 +8223,7 @@ class GeneratedContentProvider {
             title: "Spurling's Maneuver",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "None",
             overview: """
             The primary purpose of Spurling's Maneuver is to aid in the diagnosis of cervical radiculopathy by reproducing the patient's symptoms of pain, numbness, or tingling that radiate into the upper extremity.
@@ -8348,7 +8348,7 @@ class GeneratedContentProvider {
             title: "Drop Arm Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "None",
             overview: """
             The primary purpose of the Drop Arm Test is to detect a large or massive tear of the supraspinatus tendon. It is indicated in patients presenting with shoulder pain, weakness, particularly with overhead activities, and a suspected rotator cuff injury.
@@ -8479,7 +8479,7 @@ class GeneratedContentProvider {
             title: "Fugl-Meyer Assessment (FMA)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "FMA",
             overview: """
             The primary purpose of the FMA is to quantify the severity of sensorimotor impairment and track motor recovery in individuals who have sustained a stroke. It provides a detailed profile of deficits in movement, sensation, and balance.
@@ -8632,7 +8632,7 @@ class GeneratedContentProvider {
             title: "K-Levels (Medicare Functional Classification Levels)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "K-Levels",
             overview: """
             The primary purpose of K-Level classification is to determine medical necessity and justify reimbursement for various prosthetic components for individuals with lower limb loss. Each level corresponds to a patient's potential functional ability, from non-ambulatory to high-level athletic activity.
@@ -8773,7 +8773,7 @@ class GeneratedContentProvider {
             title: "Bulbocavernosus Reflex (BCR)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "BCR",
             overview: """
             The primary purpose of the BCR assessment is to test the integrity of the sacral spinal cord segments S2-S4 and the pudendal nerve pathways.
@@ -8903,7 +8903,7 @@ class GeneratedContentProvider {
             title: "Durkan's Test (Carpal Compression)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "CCT",
             overview: """
             The assessment measures the response of the median nerve to direct pressure, aiming to elicit symptoms of compression neuropathy.
@@ -9031,7 +9031,7 @@ class GeneratedContentProvider {
             title: "Femoral Nerve Stretch Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "FNST",
             overview: """
             The primary purpose of the FNST is to assess for the presence of radiculopathy involving the L2, L3, and L4 spinal nerve roots.
@@ -9152,7 +9152,7 @@ class GeneratedContentProvider {
             title: "Amputee Mobility Predictor (AMP)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Balance & Mobility Assessment",
+            category: "Balance & Mobility",
             abbreviation: "AMP",
             overview: """
             The AMP is designed to quantitatively assess the determinants of ambulatory function in lower limb amputees. Its primary clinical application is to predict a patient's potential for mobility with a prosthesis and to assist in the objective assignment of a K-level.
@@ -9326,7 +9326,7 @@ class GeneratedContentProvider {
             title: "O'Brien's Test (Active Compression Test)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "N/A",
             overview: """
             The primary purpose of this assessment is to aid in the diagnosis of a SLAP tear. It is also used to identify symptomatic AC joint arthritis or sprain.
@@ -9449,7 +9449,7 @@ class GeneratedContentProvider {
             title: "Mill's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Mill's Test is to help differentiate the cause of lateral elbow pain. It is indicated when a patient presents with pain localized to the lateral epicondyle, often exacerbated by activities involving wrist extension, such as gripping, lifting, or repetitive forearm movements.
@@ -9565,7 +9565,7 @@ class GeneratedContentProvider {
             title: "Tinel's Sign (Wrist/Elbow)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "Tinel's",
             overview: """
             This assessment is used to detect focal nerve pathology, typically related to entrapment neuropathies. The primary purpose is to reproduce the patient's sensory symptoms to help localize a lesion to a specific peripheral nerve at a specific anatomical site.
@@ -9693,7 +9693,7 @@ class GeneratedContentProvider {
             title: "Gross Motor Function Measure (GMFM)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "GMFM",
             overview: """
             The primary purpose of the GMFM is to evaluate and quantify changes in gross motor function for children with cerebral palsy. Its clinical applications are broad, including developing individualized therapy goals, monitoring a child's progress over time, and assessing the effectiveness of various interventions such as physical therapy, orthotics, medications, and surgical procedures [^1].
@@ -9850,7 +9850,7 @@ class GeneratedContentProvider {
             title: "Timed Up and Go (TUG) Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Balance & Mobility Assessment",
+            category: "Balance & Mobility",
             abbreviation: "TUG",
             overview: """
             The primary purpose of the TUG test is to assess functional mobility, dynamic balance, and fall risk in adults.
@@ -9991,7 +9991,7 @@ class GeneratedContentProvider {
             title: "Finkelstein's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "Not applicable",
             overview: """
             The primary purpose of Finkelstein's test is to identify stenosing tenosynovitis of the first dorsal compartment of the wrist, commonly known as De Quervain's tenosynovitis.
@@ -10112,7 +10112,7 @@ class GeneratedContentProvider {
             title: "FABER (Patrick's) Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "FABER",
             overview: """
             The FABER test is a multi-purpose assessment tool that aims to reproduce a patient's symptoms to identify the anatomical source of their pain.
@@ -10250,7 +10250,7 @@ class GeneratedContentProvider {
             title: "Sulcus Sign",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Sulcus Sign is to detect pathologic inferior glenohumeral laxity by assessing the integrity of the superior glenohumeral ligament and the rotator interval capsule, which are primary static restraints to inferior translation [^2].
@@ -10384,7 +10384,7 @@ class GeneratedContentProvider {
             title: "Lift-Off Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "LOT",
             overview: """
             The primary purpose of the Lift-Off Test is to detect tears or significant weakness of the subscapularis muscle.
@@ -10503,7 +10503,7 @@ class GeneratedContentProvider {
             title: "Continuity Assessment Record and Evaluation (CARE) Tool",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "CARE",
             overview: """
             The CARE Tool's Section GG is designed to assess a patient's baseline functional status upon admission to a PAC setting and to quantify functional gains by discharge. It provides a standardized metric for self-care and mobility tasks.
@@ -10652,7 +10652,7 @@ class GeneratedContentProvider {
             title: "Thomas Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "None",
             overview: """
             The primary purpose of the Thomas Test is to detect hip flexion contracture and tightness of the one-joint (iliopsoas) and two-joint (rectus femoris) hip flexors.
@@ -10786,7 +10786,7 @@ class GeneratedContentProvider {
             title: "Berg Balance Scale (BBS)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Balance & Mobility Assessment",
+            category: "Balance & Mobility",
             abbreviation: "BBS",
             overview: """
             The primary purpose of the BBS is to objectively assess functional balance and fall risk.
@@ -10938,7 +10938,7 @@ class GeneratedContentProvider {
             title: "Golfer's Elbow Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "N/A",
             overview: """
             The primary purpose of the Golfer's Elbow Test is to aid in the diagnosis of medial epicondylalgia by reproducing pain through stretching or resisted contraction of the wrist flexor and pronator muscles.
@@ -11061,7 +11061,7 @@ class GeneratedContentProvider {
             title: "Tardieu Scale",
             subtitle: nil,
             contentType: .assessment,
-            category: "Spasticity & Tone Assessment",
+            category: "Spasticity & Tone",
             abbreviation: "MTS (for Modified Tardieu Scale)",
             overview: """
             The primary purpose of the Tardieu Scale is to measure spasticity by assessing a muscle's reaction to passive stretch at varying velocities.
@@ -11117,21 +11117,14 @@ class GeneratedContentProvider {
 
                 Quality of Muscle Reaction (X)
 
-                | Score | Description | Functional Meaning |
-
-                |-------|-------------|-------------------|
-
-                | 0 | No resistance throughout the course of the passive movement. | No spasticity detected at that velocity. |
-
-                | 1 | Slight resistance throughout the course of the passive movement, with no clear catch at a precise angle. | Minimal spasticity or hypertonia without a clear velocity-dependent catch. |
-
-                | 2 | Clear catch at a precise angle, interrupting the passive movement, followed by a release. | A distinct, velocity-dependent catch indicating spasticity. |
-
-                | 3 | Fatigable clonus (< 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates significant stretch reflex hyperexcitability. |
-
-                | 4 | Infatigable clonus (≥ 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates severe stretch reflex hyperexcitability. |
-
-                | 5 | Joint is immobile. | Severe contracture prevents movement. |
+                | Score | Description                                                  | Functional Meaning                                           |
+                | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+                | 0     | No resistance throughout the course of the passive movement. | No spasticity detected at that velocity.                     |
+                | 1     | Slight resistance throughout the course of the passive movement, with no clear catch at a precise angle. | Minimal spasticity or hypertonia without a clear velocity-dependent catch. |
+                | 2     | Clear catch at a precise angle, interrupting the passive movement, followed by a release. | A distinct, velocity-dependent catch indicating spasticity.  |
+                | 3     | Fatigable clonus (< 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates significant stretch reflex hyperexcitability.      |
+                | 4     | Infatigable clonus (≥ 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates severe stretch reflex hyperexcitability.           |
+                | 5     | Joint is immobile.                                           | Severe contracture prevents movement.                        |
 
                 Angle of Muscle Reaction (Y)
 
@@ -11219,7 +11212,7 @@ class GeneratedContentProvider {
             title: "Thompson Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Hip & Lower Extremity",
             abbreviation: "Not applicable",
             overview: """
             The Thompson test is indicated for any patient presenting with a history of a sudden, sharp pain in the posterior aspect of the lower leg, often described as a "pop" or the sensation of being kicked in the calf, which is suggestive of an Achilles tendon rupture. It is a key diagnostic tool in the outpatient clinic, emergency department, and sideline settings for athletes.
@@ -11339,7 +11332,7 @@ class GeneratedContentProvider {
             title: "Cozen's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Elbow, Wrist & Hand",
             abbreviation: "N/A",
             overview: """
             The primary purpose of Cozen's Test is to reproduce a patient's lateral elbow pain to help confirm a diagnosis of lateral epicondylitis.
@@ -11462,7 +11455,7 @@ class GeneratedContentProvider {
             title: "Crossed-Body Adduction Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "CBAT",
             overview: """
             The primary purpose of the Crossed-Body Adduction Test is to help identify acromioclavicular joint pathology, such as osteoarthritis, distal clavicle osteolysis, or ligamentous sprain.
@@ -11582,7 +11575,7 @@ class GeneratedContentProvider {
             title: "Neck Disability Index (NDI)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "NDI",
             overview: """
             The primary purpose of the NDI is to quantify a patient's perceived limitations in performing activities of daily living due to neck pain. It provides a standardized method to obtain a baseline measurement of functional disability, track changes over the course of treatment, and evaluate the effectiveness of interventions.
@@ -11711,7 +11704,7 @@ class GeneratedContentProvider {
             title: "Functional Independence Measure (FIM)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Functional & Global Assessment",
+            category: "Functional & Global",
             abbreviation: "FIM",
             overview: """
             The primary purpose of the FIM is to quantify the amount of assistance a person needs to perform basic life activities, effectively measuring the "burden of care." It is used to track changes in functional status over time, from admission to discharge and follow-up, within rehabilitation settings.
@@ -11853,7 +11846,7 @@ class GeneratedContentProvider {
             title: "Modified Ashworth Scale (MAS)",
             subtitle: nil,
             contentType: .assessment,
-            category: "Spasticity & Tone Assessment",
+            category: "Spasticity & Tone",
             abbreviation: "MAS",
             overview: """
             The primary purpose of the MAS is to assess the intensity of muscle tone by measuring the resistance to passive stretch.
@@ -11985,7 +11978,7 @@ class GeneratedContentProvider {
             title: "Adam's Forward Bend Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Spine & Nerve Root",
             abbreviation: "AFBT",
             overview: """
             The AFBT is designed to screen for the presence of a rotational deformity of the spine, which is a key component of structural scoliosis. It helps differentiate structural scoliosis from non-structural or functional scoliosis, as the rotational prominence in structural curves becomes more pronounced on forward bending, while functional curves tend to resolve or lessen in this position.
@@ -12115,7 +12108,7 @@ class GeneratedContentProvider {
             title: "Neer's Test",
             subtitle: nil,
             contentType: .assessment,
-            category: "Musculoskeletal & Peripheral Nerve Examination",
+            category: "Shoulder & Upper Arm",
             abbreviation: "Neer's Test",
             overview: """
             The primary purpose of the Neer's Test is to detect subacromial impingement, a common cause of shoulder pain.

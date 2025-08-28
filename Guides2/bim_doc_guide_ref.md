@@ -1,7 +1,7 @@
 # Disorders of Consciousness
 
 ## Metadata
-- **Category**: Brain Injury Medicine
+- **Category**: Brain Injury
 - **Keywords**: disorders of consciousness, vegetative state, minimally conscious state, coma, traumatic brain injury, amantadine, CRS-R
 
 ## Core Pathophysiology and Clinical Presentation

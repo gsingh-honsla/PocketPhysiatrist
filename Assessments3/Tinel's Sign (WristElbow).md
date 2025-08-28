@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Musculoskeletal & Peripheral Nerve Examination
+Category: Elbow, Wrist & Hand
 
 Abbreviation: Tinel's
 

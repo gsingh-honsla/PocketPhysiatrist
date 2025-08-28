@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Musculoskeletal & Peripheral Nerve Examination
+Category: Shoulder & Upper Arm
 
 Abbreviation: Apprehension & Relocation Test
 

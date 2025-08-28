@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Spasticity & Tone Assessment
+Category: Spasticity & Tone
 
 Abbreviation: MAS
 

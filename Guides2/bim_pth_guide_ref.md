@@ -1,7 +1,7 @@
 # Post-Traumatic Headache (PTH)
 
 ## Metadata
-- **Category**: Brain Injury Medicine
+- **Category**: Brain Injury
 - **Keywords**: post-traumatic headache, mild traumatic brain injury, concussion, secondary headache, persistent headache
 
 ## Core Pathophysiology and Clinical Presentation

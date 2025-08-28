@@ -1,7 +1,7 @@
 # Neurogenic Bowel Management
 
 ## Metadata
-- **Category**: Spinal Cord Injury Medicine
+- **Category**: Spinal Cord Injury
 - **Keywords**: neurogenic bowel dysfunction, spinal cord injury, bowel management, autonomic dysreflexia, digital stimulation, suppositories
 
 ## Core Pathophysiology and Clinical Presentation

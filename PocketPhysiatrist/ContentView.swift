@@ -499,6 +499,7 @@ struct FavoritesView: View {
     // Group favorites by category for better organization
     private var groupedFavorites: [String: [MedicalContent]] {
         Dictionary(grouping: filteredFavorites, by: { $0.category })
+            .mapValues { $0.sorted { $0.title < $1.title } }
     }
     
     private var sortedCategories: [String] {

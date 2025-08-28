@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Spasticity & Tone Assessment
+Category: Spasticity & Tone
 
 Abbreviation: MTS (for Modified Tardieu Scale)
 
@@ -53,21 +53,14 @@ The Tardieu Scale has two components: a qualitative grade for the quality of mus
 
 Quality of Muscle Reaction (X)
 
-| Score | Description | Functional Meaning |
-
-|-------|-------------|-------------------|
-
-| 0 | No resistance throughout the course of the passive movement. | No spasticity detected at that velocity. |
-
-| 1 | Slight resistance throughout the course of the passive movement, with no clear catch at a precise angle. | Minimal spasticity or hypertonia without a clear velocity-dependent catch. |
-
-| 2 | Clear catch at a precise angle, interrupting the passive movement, followed by a release. | A distinct, velocity-dependent catch indicating spasticity. |
-
-| 3 | Fatigable clonus (< 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates significant stretch reflex hyperexcitability. |
-
-| 4 | Infatigable clonus (≥ 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates severe stretch reflex hyperexcitability. |
-
-| 5 | Joint is immobile. | Severe contracture prevents movement. |
+| Score | Description                                                  | Functional Meaning                                           |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 0     | No resistance throughout the course of the passive movement. | No spasticity detected at that velocity.                     |
+| 1     | Slight resistance throughout the course of the passive movement, with no clear catch at a precise angle. | Minimal spasticity or hypertonia without a clear velocity-dependent catch. |
+| 2     | Clear catch at a precise angle, interrupting the passive movement, followed by a release. | A distinct, velocity-dependent catch indicating spasticity.  |
+| 3     | Fatigable clonus (< 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates significant stretch reflex hyperexcitability.      |
+| 4     | Infatigable clonus (≥ 10 seconds when maintaining pressure) occurring at a precise angle. | Indicates severe stretch reflex hyperexcitability.           |
+| 5     | Joint is immobile.                                           | Severe contracture prevents movement.                        |
 
 Angle of Muscle Reaction (Y)
 

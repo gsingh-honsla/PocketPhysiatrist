@@ -2,7 +2,7 @@
 
 ## **Metadata**
 
-Category: Musculoskeletal & Peripheral Nerve Examination
+Category: Spine & Nerve Root
 
 Abbreviation: FNST
 

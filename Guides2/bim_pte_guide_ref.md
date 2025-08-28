@@ -1,7 +1,7 @@
 # Post-Traumatic Seizures and Epilepsy (PTE)
 
 ## Metadata
-- **Category**: Brain Injury Medicine
+- **Category**: Brain Injury
 - **Keywords**: post-traumatic seizures, post-traumatic epilepsy, traumatic brain injury, epileptogenesis, antiepileptic drugs
 
 ## Core Pathophysiology and Clinical Presentation

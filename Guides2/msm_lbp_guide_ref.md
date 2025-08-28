@@ -1,7 +1,7 @@
 # Low Back Pain: A Diagnostic and Management Framework
 
 ## Metadata
-- **Category**: Musculoskeletal and Sports Medicine
+- **Category**: Musculoskeletal & Sports
 - **Keywords**: low back pain, lumbar radiculopathy, spinal stenosis, sciatica, non-specific back pain
 
 ## Core Pathophysiology and Clinical Presentation
