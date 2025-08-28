@@ -9,11 +9,17 @@ import Foundation
 import SwiftData
 
 class ProductionContentProvider {
-    private static let contentVersion = "1.0.1" // Update this when content changes
+    private static let contentVersion = "1.0.2" // Update this when content changes
     private static let versionKey = "PocketPhysiatrist_ContentVersion"
     
     /// Check if content needs to be loaded/updated
     static func needsContentUpdate(modelContext: ModelContext) -> Bool {
+        // TEMPORARY: Force reload all content for debugging
+        print("🔄 FORCE RELOAD: Always updating content for debugging")
+        return true
+        
+        // Original logic (commented out for now):
+        /*
         // Check stored version
         let storedVersion = UserDefaults.standard.string(forKey: versionKey)
         
@@ -28,6 +34,7 @@ class ProductionContentProvider {
             print("⚠️ Error checking existing content: \(error)")
             return true // Force update on error
         }
+        */
     }
     
     /// Fast content population for production
@@ -62,6 +69,12 @@ class ProductionContentProvider {
         // Load precompiled content
         let allContent = GeneratedContentProvider.getAllContent()
         print("📚 Loaded \(allContent.count) precompiled content items")
+        
+        // Debug: Count content by type
+        let guideCount = allContent.filter { $0.contentType == .guide }.count
+        let assessmentCount = allContent.filter { $0.contentType == .assessment }.count
+        let introCount = allContent.filter { $0.contentType == .intro }.count
+        print("📖 Guides: \(guideCount), 📋 Assessments: \(assessmentCount), ℹ️ Intros: \(introCount)")
         
         // Batch insert for better performance
         for content in allContent {

@@ -187,8 +187,8 @@ struct KeywordTagsView: View {
                         .font(.caption)
                         .fontWeight(.medium)
                         .foregroundColor(.blue)
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 4)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 6)
                         .background(Color.blue.opacity(0.1))
                         .clipShape(Capsule())
                 }
@@ -203,16 +203,32 @@ struct OverviewSectionView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack(spacing: 8) {
+            HStack(spacing: 12) {
                 Image(systemName: "doc.text")
-                    .foregroundColor(.blue)
+                    .foregroundColor(.indigo)
                     .font(.title3)
+                    .frame(width: 24, height: 24)
                 
                 Text("Overview")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(.primary)
+                
+                Spacer()
             }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [
+                        Color.indigo.opacity(0.08),
+                        Color.indigo.opacity(0.03)
+                    ]),
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 10))
             
             FormattedTextView(text: overview)
         }
@@ -256,12 +272,12 @@ struct SectionHeaderView: View {
     let section: ContentSection
     
     private var cleanTitle: String {
-        // Remove citation references like [^1], [^2], etc.
+        // Remove citation references like [^1], [^2], etc. and **bold** formatting
         section.title.replacingOccurrences(
             of: "\\[\\^\\d+\\]",
             with: "",
             options: .regularExpression
-        )
+        ).replacingOccurrences(of: "**", with: "")
     }
     
     var body: some View {
@@ -279,6 +295,19 @@ struct SectionHeaderView: View {
             
             Spacer()
         }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 10)
+        .background(
+            LinearGradient(
+                gradient: Gradient(colors: [
+                    sectionColor.opacity(0.08),
+                    sectionColor.opacity(0.03)
+                ]),
+                startPoint: .leading,
+                endPoint: .trailing
+            )
+        )
+        .clipShape(RoundedRectangle(cornerRadius: 10))
     }
     
     private var sectionIcon: String {
@@ -315,21 +344,21 @@ struct SectionHeaderView: View {
         case .signsSymptoms:
             return .orange
         case .diagnosticCriteria:
-            return .blue
-        case .management:
-            return .green
-        case .complications:
             return .red
-        case .relatedAssessments, .relatedGuides:
+        case .management:
             return .indigo
-        case .references:
+        case .complications:
+            return .pink
+        case .relatedAssessments, .relatedGuides:
             return .brown
+        case .references:
+            return .gray
         case .purpose:
-            return .blue
+            return .purple
         case .description:
-            return .teal
+            return .orange
         case .scoring:
-            return .mint
+            return .red
         case .clinicalPearls:
             return .yellow
         }
@@ -350,7 +379,7 @@ struct ContentBlockView: View {
             
         case .heading:
             HeadingView(block: block)
-                .padding(.top, 16)
+                .padding(.top, 12)
             
         case .bulletList:
             if let items = block.listItems {
@@ -438,7 +467,9 @@ struct FormattedTextView: View {
                 // Count the number of # characters
                 let hashCount = trimmed.prefix(while: { $0 == "#" }).count
                 if hashCount >= 1 && hashCount <= 6 {
-                    let heading = String(trimmed.dropFirst(hashCount + 1)) // +1 for the space
+                    var heading = String(trimmed.dropFirst(hashCount + 1)) // +1 for the space
+                    // Remove **bold** formatting from headings
+                    heading = heading.replacingOccurrences(of: "**", with: "")
                     var headingElement = MarkdownElement(id: UUID(), type: .heading, content: heading)
                     // Store the heading level for proper font sizing
                     headingElement.metadata = ["level": String(hashCount)]
@@ -571,7 +602,7 @@ struct FormattedTextView: View {
                 .font(fontForHeadingLevel(level))
                 .fontWeight(.semibold)
                 .foregroundColor(.primary)
-                .padding(.top, 20)
+                .padding(.top, 16)
                 .padding(.bottom, 8)
                 
         case .paragraph:
@@ -617,12 +648,78 @@ struct FormattedTextView: View {
         // Clean up reference formatting first
         var cleanedText = text
         
-        // Remove colons after reference numbers (e.g., [^1]: becomes [^1])
-        cleanedText = cleanedText.replacingOccurrences(
-            of: "\\[\\^(\\d+)\\]:",
-            with: "[^$1]",
-            options: .regularExpression
-        )
+        // Check if this appears to be a References section based on content pattern
+        let isReferencesSection = text.range(of: "\\[\\^\\d+\\]:\\s*.+", options: .regularExpression) != nil
+        
+        if isReferencesSection {
+            // In References section: convert [^1]: to "1. " for proper numbered list
+            cleanedText = cleanedText.replacingOccurrences(
+                of: "\\[\\^(\\d+)\\]:\\s*",
+                with: "$1. ",
+                options: .regularExpression
+            )
+        } else {
+            // In other sections: remove colons after reference numbers (e.g., [^1]: becomes [^1])
+            cleanedText = cleanedText.replacingOccurrences(
+                of: "\\[\\^(\\d+)\\]:",
+                with: "[^$1]",
+                options: .regularExpression
+            )
+        }
+        
+        // Move all citations to appear after punctuation marks (but not in References sections)
+        // This handles cases like "text [^1] more text [^2]." -> "text more text.[^1][^2]"
+        
+        if !isReferencesSection {
+            // Use NSRegularExpression for more complex replacements
+            if let regex = try? NSRegularExpression(pattern: "([^.!?;\\n]+?)([.!?;])", options: []) {
+            let nsString = cleanedText as NSString
+            let matches = regex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: nsString.length))
+            
+            var result = cleanedText
+            var offset = 0
+            
+            for match in matches {
+                let fullRange = match.range
+                let adjustedRange = NSRange(location: fullRange.location + offset, length: fullRange.length)
+                let sentence = (result as NSString).substring(with: adjustedRange)
+                
+                // Extract all citations from this sentence
+                let citationRegex = try! NSRegularExpression(pattern: "\\[\\^[^\\]]+\\]", options: [])
+                let citationMatches = citationRegex.matches(in: sentence, options: [], range: NSRange(location: 0, length: sentence.count))
+                
+                var citations: [String] = []
+                for citMatch in citationMatches.reversed() { // Reverse to maintain order when removing
+                    let citation = (sentence as NSString).substring(with: citMatch.range)
+                    citations.insert(citation, at: 0)
+                }
+                
+                if !citations.isEmpty {
+                    // Remove all citations from the sentence
+                    var cleanSentence = sentence
+                    for _ in citations {
+                        cleanSentence = cleanSentence.replacingOccurrences(
+                            of: "\\s*\\[\\^[^\\]]+\\]",
+                            with: "",
+                            options: .regularExpression
+                        )
+                    }
+                    
+                    // Find the punctuation at the end
+                    if let punctuation = cleanSentence.last, ".!?;".contains(punctuation) {
+                        let textPart = String(cleanSentence.dropLast()).trimmingCharacters(in: .whitespaces)
+                        let allCitations = citations.joined()
+                        let newSentence = textPart + String(punctuation) + allCitations
+                        
+                        result = (result as NSString).replacingCharacters(in: adjustedRange, with: newSentence)
+                        offset += newSentence.count - sentence.count
+                    }
+                }
+            }
+            
+            cleanedText = result
+            }
+        }
         
         // Remove any text after "Find Online" links (keep only the link itself)
         cleanedText = cleanedText.replacingOccurrences(
@@ -650,18 +747,33 @@ struct FormattedTextView: View {
             }
         }
         
-        // Find all citations
-        let citationPattern = "\\[\\^(\\d+)\\]"
-        if let citationRegex = try? NSRegularExpression(pattern: citationPattern, options: []) {
+        // Find all citations - unified pattern that handles both individual and combined formats
+        // Skip citation processing for References sections since they use numbered list format
+        if !isReferencesSection {
+            let citationPattern = "\\[\\^([\\d,\\s]+)\\]"
+            
+            if let citationRegex = try? NSRegularExpression(pattern: citationPattern, options: []) {
             let matches = citationRegex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: cleanedText.count))
             
             for match in matches {
-                if let numberRange = Range(match.range(at: 1), in: cleanedText),
+                if let numbersRange = Range(match.range(at: 1), in: cleanedText),
                    let fullRange = Range(match.range, in: cleanedText) {
-                    let number = String(cleanedText[numberRange])
-                    citationReplacements.append((range: fullRange, number: number))
+                    let numbersString = String(cleanedText[numbersRange])
+                    
+                    // Handle both individual and combined citations
+                    if numbersString.contains(",") {
+                        // Combined citation like "1, 2" -> "1, 2"
+                        let numbers = numbersString.split(separator: ",").map { $0.trimmingCharacters(in: .whitespaces) }
+                        let combinedNumbers = numbers.joined(separator: ", ")
+                        citationReplacements.append((range: fullRange, number: combinedNumbers))
+                    } else {
+                        // Individual citation like "1" -> "1"
+                        let number = numbersString.trimmingCharacters(in: .whitespaces)
+                        citationReplacements.append((range: fullRange, number: number))
+                    }
                 }
             }
+        }
         }
         
         // Find all bold text
@@ -728,7 +840,8 @@ struct FormattedTextView: View {
     private func convertToSuperscript(_ number: String) -> String {
         let superscriptMap: [Character: Character] = [
             "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
-            "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹"
+            "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹",
+            ",": "⸴", " ": " " // Preserve commas and spaces for combined citations
         ]
         
         return String(number.compactMap { superscriptMap[$0] ?? $0 })
@@ -1497,8 +1610,8 @@ struct ListItemView: View {
                             ListItemView(item: childItem, numbered: numbered)
                         }
                     }
-                    .padding(.leading, 16)
-                    .padding(.top, 4)
+                    .padding(.leading, 12)
+                    .padding(.top, 6)
                 }
             }
             
@@ -1526,8 +1639,8 @@ struct EnhancedTableView: View {
                                     .foregroundColor(cell.isHeader ? .primary : .primary)
                                     .multilineTextAlignment(.leading)
                             }
-                            .padding(.vertical, 16)
-                            .padding(.horizontal, 8)
+                            .padding(.vertical, 12)
+                            .padding(.horizontal, 12)
                             .frame(minWidth: 120, maxWidth: .infinity, alignment: .leading)
                             .background(cell.isHeader ? Color(.systemGray5) : Color(.systemBackground))
                             

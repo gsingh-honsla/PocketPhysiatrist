@@ -55,12 +55,12 @@ func processMarkdownFiles() {
         }
     }
     
-    // Process enhanced assessments from Assessments2 folder (with citations) - PRIORITY
-    let assessments2Path = "\(currentDirectory)/Assessments2"
-    let assessments2Files = findMarkdownFiles(in: assessments2Path, fileManager: fileManager)
-    print("📋 Found \(assessments2Files.count) enhanced assessment files in Assessments2")
+    // Process enhanced assessments from Assessments3 folder (with citations) - PRIORITY
+    let assessments3Path = "\(currentDirectory)/Assessments3"
+    let assessments3Files = findMarkdownFiles(in: assessments3Path, fileManager: fileManager)
+    print("📋 Found \(assessments3Files.count) enhanced assessment files in Assessments3")
     
-    for file in assessments2Files {
+    for file in assessments3Files {
         if let content = processMarkdownFile(at: file, contentType: .assessment) {
             allContent.append(content)
             print("✅ Processed enhanced assessment: \(content.title)")
@@ -160,7 +160,10 @@ func extractTitle(from content: String, fileName: String) -> String {
     for line in lines {
         let trimmed = line.trimmingCharacters(in: .whitespaces)
         if trimmed.hasPrefix("# ") {
-            return String(trimmed.dropFirst(2)).trimmingCharacters(in: .whitespaces)
+            var title = String(trimmed.dropFirst(2)).trimmingCharacters(in: .whitespaces)
+            // Remove **bold** formatting from titles
+            title = title.replacingOccurrences(of: "**", with: "")
+            return title
         }
     }
     
@@ -187,7 +190,7 @@ func extractMetadata(from content: String, fileName: String, contentType: Conten
     for line in lines {
         let trimmed = line.trimmingCharacters(in: .whitespaces)
         
-        if trimmed == "## Metadata" {
+        if trimmed == "## Metadata" || trimmed == "## **Metadata**" {
             inMetadataSection = true
             continue
         } else if trimmed.hasPrefix("## ") && inMetadataSection {
@@ -195,13 +198,24 @@ func extractMetadata(from content: String, fileName: String, contentType: Conten
         }
         
         if inMetadataSection {
+            // Handle both formats: "- **Category**:" and "Category:"
             if trimmed.hasPrefix("- **Category**:") {
                 category = extractValue(from: trimmed, after: "- **Category**:")
+            } else if trimmed.hasPrefix("Category:") {
+                category = extractValue(from: trimmed, after: "Category:")
             } else if trimmed.hasPrefix("- **Abbreviation**:") {
                 abbreviation = extractValue(from: trimmed, after: "- **Abbreviation**:")
                 if abbreviation?.isEmpty == true { abbreviation = nil }
+            } else if trimmed.hasPrefix("Abbreviation:") {
+                abbreviation = extractValue(from: trimmed, after: "Abbreviation:")
+                if abbreviation?.isEmpty == true { abbreviation = nil }
             } else if trimmed.hasPrefix("- **Keywords**:") {
                 let keywordsString = extractValue(from: trimmed, after: "- **Keywords**:")
+                keywords = keywordsString.components(separatedBy: ",")
+                    .map { $0.trimmingCharacters(in: .whitespaces) }
+                    .filter { !$0.isEmpty }
+            } else if trimmed.hasPrefix("Keywords:") {
+                let keywordsString = extractValue(from: trimmed, after: "Keywords:")
                 keywords = keywordsString.components(separatedBy: ",")
                     .map { $0.trimmingCharacters(in: .whitespaces) }
                     .filter { !$0.isEmpty }
@@ -262,6 +276,7 @@ func extractSections(from content: String, contentType: ContentType) -> [Process
     var currentTitle: String?
     var currentContent: [String] = []
     var orderIndex = 0
+    var overviewSectionProcessed = false  // Track if we've processed the first Overview section
     
     for line in lines {
         let trimmed = line.trimmingCharacters(in: .whitespaces)
@@ -271,17 +286,36 @@ func extractSections(from content: String, contentType: ContentType) -> [Process
             if let title = currentTitle, !currentContent.isEmpty, title != "Metadata" {
                 let sectionContent = currentContent.joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
                 if !sectionContent.isEmpty {
-                    sections.append(ProcessedSection(
-                        title: title,
-                        content: sectionContent,
-                        orderIndex: orderIndex
-                    ))
-                    orderIndex += 1
+                    // For assessments, handle Overview sections specially
+                    var shouldSkipSection = false
+                    var finalTitle = title
+                    if contentType == .assessment && title.lowercased() == "overview" {
+                        if !overviewSectionProcessed {
+                            // Skip the first Overview section (it will be used as main overview)
+                            overviewSectionProcessed = true
+                            shouldSkipSection = true
+                        } else {
+                            // Rename subsequent Overview sections to Introduction
+                            finalTitle = "Introduction"
+                        }
+                    }
+                    
+                    if !shouldSkipSection {
+                        sections.append(ProcessedSection(
+                            title: finalTitle,
+                            content: sectionContent,
+                            orderIndex: orderIndex
+                        ))
+                        orderIndex += 1
+                    }
                 }
             }
             
             // Start new section
-            currentTitle = String(trimmed.dropFirst(3)).trimmingCharacters(in: .whitespaces)
+            var sectionTitle = String(trimmed.dropFirst(3)).trimmingCharacters(in: .whitespaces)
+            // Remove **bold** formatting from section titles
+            sectionTitle = sectionTitle.replacingOccurrences(of: "**", with: "")
+            currentTitle = sectionTitle
             currentContent = []
         } else if currentTitle != nil && currentTitle != "Metadata" {
             currentContent.append(line)
@@ -292,11 +326,27 @@ func extractSections(from content: String, contentType: ContentType) -> [Process
     if let title = currentTitle, !currentContent.isEmpty, title != "Metadata" {
         let sectionContent = currentContent.joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
         if !sectionContent.isEmpty {
-            sections.append(ProcessedSection(
-                title: title,
-                content: sectionContent,
-                orderIndex: orderIndex
-            ))
+            // For assessments, handle Overview sections specially
+            var shouldSkipSection = false
+            var finalTitle = title
+            if contentType == .assessment && title.lowercased() == "overview" {
+                if !overviewSectionProcessed {
+                    // Skip the first Overview section (it will be used as main overview)
+                    overviewSectionProcessed = true
+                    shouldSkipSection = true
+                } else {
+                    // Rename subsequent Overview sections to Introduction
+                    finalTitle = "Introduction"
+                }
+            }
+            
+            if !shouldSkipSection {
+                sections.append(ProcessedSection(
+                    title: finalTitle,
+                    content: sectionContent,
+                    orderIndex: orderIndex
+                ))
+            }
         }
     }
     
@@ -319,10 +369,10 @@ func extractOverview(from sections: [ProcessedSection], contentType: ContentType
         }
     }
     
-    // For assessments, use purpose section
+    // For assessments, use overview section
     if contentType == .assessment {
-        if let purposeSection = sections.first(where: { $0.title.lowercased().contains("purpose") }) {
-            return extractFirstParagraph(from: purposeSection.content)
+        if let overviewSection = sections.first(where: { $0.title.lowercased().contains("overview") }) {
+            return overviewSection.content
         }
     }
     

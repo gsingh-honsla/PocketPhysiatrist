@@ -240,3 +240,44 @@ The app uses standard Xcode testing infrastructure with separate test targets fo
 - Clean, professional interface without promotional messaging
 - iOS-native styling throughout with proper accessibility support
 
+# Recent Updates (2025-08-28)
+
+## Content Display and Formatting Improvements
+1. **Section Title Formatting Fix**:
+   - Removed "**" bold formatting characters from displaying in section titles in Assessment tools
+   - Added automatic stripping of markdown bold formatting in ContentDetailView.swift:441
+   - Ensures clean, professional section title display throughout the app
+
+2. **Citation and Reference System Overhaul**:
+   - **In-text Citation Parsing**: Fixed in-text citations like `[^1, ^2]` to display as proper superscripts (¹⁻²)
+   - **Citation Positioning**: Modified citation logic to position superscripts after punctuation marks instead of before
+   - **References Section Formatting**: Updated Guides references to display as numbered lists (1., 2., 3.) instead of superscript citations
+   - **Unified Reference Format**: Standardized all Assessment tool references to match Guides formatting with square brackets around "Find Online" links: `[(Find Online)](url)`
+   - **Batch Processing**: Updated all 56 assessment markdown files in Assessments3/ directory using sed command automation
+
+3. **UI Consistency and Standardization**:
+   - **Padding Standardization**: Consolidated all horizontal padding values to consistent 12pt across entire app
+   - **BrowseView.swift**: Standardized ContentCard and component padding from mixed 16pt/20pt values to uniform 12pt
+   - **Visual Consistency**: Ensures uniform spacing and alignment throughout Browse, Search, and Favorites sections
+
+## Technical Implementation Details
+- **ContentDetailView.swift** enhanced with:
+  - Bold formatting removal: `heading.replacingOccurrences(of: "**", with: "")`
+  - Unified citation regex pattern: `\\[\\^([\\d,\\s]+)\\]`
+  - References section detection and numbered list conversion
+  - Complex sentence-level citation repositioning logic
+- **Assessment Content Migration**: All files moved from Assessments2/ to Assessments3/ with format standardization
+- **Build Process**: Content regenerated via Swift build script with successful compilation
+
+## Content Format Standards
+- **References**: Consistent `[(Find Online)](url)` format across all content types
+- **Citations**: Proper superscript display positioned after punctuation
+- **Section Titles**: Clean display without markdown formatting artifacts
+- **Padding**: Uniform 12pt horizontal margins for optimal content display on mobile devices
+
+## Quality Assurance
+- All changes tested with successful build completion
+- Content regeneration completed without errors
+- UI consistency verified across Browse, Assessment, and Guide sections
+- Citation parsing validated for both individual and combined reference formats
+

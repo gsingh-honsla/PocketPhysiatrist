@@ -191,7 +191,7 @@ struct DropdownHeaderView: View {
                     .accessibilityHidden(true) // Hide decorative chevron from VoiceOver
             }
         }
-        .padding(.horizontal, isLargeText ? 20 : 18)
+        .padding(.horizontal, 12)
         .padding(.vertical, isLargeText ? 20 : 16)
         .contentShape(Rectangle()) // Make entire area tappable
         .background(
@@ -216,7 +216,7 @@ struct IntroContentView: View {
             Rectangle()
                 .fill(Color(.separator).opacity(0.3))
                 .frame(height: 1)
-                .padding(.horizontal, 18)
+                .padding(.horizontal, 12)
             
             // Content area
             Group {
@@ -247,7 +247,7 @@ struct IntroContentView: View {
                                 .font(isLargeText ? .title3 : .body)
                                 .lineSpacing(isLargeText ? 8 : 4)
                         }
-                        .padding(.horizontal, isLargeText ? 22 : 18)
+                        .padding(.horizontal, 12)
                         .padding(.vertical, isLargeText ? 20 : 16)
                     }
                     .frame(maxHeight: isLargeText ? 400 : 300) // Responsive height limit

@@ -53,11 +53,7 @@ struct BrowseView: View {
                     )
                     
                     // Feedback Button at Bottom
-                    VStack(spacing: 16) {
-                        Divider()
-                            .padding(.horizontal, 8)
-                        
-                        Button(action: {
+                    Button(action: {
                             showingFeedback = true
                         }) {
                             HStack(spacing: 12) {
@@ -80,17 +76,11 @@ struct BrowseView: View {
                             )
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                             .shadow(color: Color.blue.opacity(0.3), radius: 4, x: 0, y: 2)
-                        }
-                        .padding(.horizontal, 12)
-                        .accessibilityLabel("Send Feedback")
-                        
-                        Text("Help us improve PocketPhysiatrist")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                            .multilineTextAlignment(.center)
                     }
+                    .padding(.horizontal, 12)
                     .padding(.top, 20)
-                    .padding(.bottom, 30)
+                    .padding(.bottom, 20)
+                    .accessibilityLabel("Send Feedback")
                 }
                 .padding(.horizontal, 12)
                 .padding(.vertical, 16)
@@ -146,7 +136,7 @@ struct ContentTypeSection: View {
                 Text("\(content.count)")
                     .font(.caption)
                     .foregroundColor(.secondary)
-                    .padding(.horizontal, 8)
+                    .padding(.horizontal, 12)
                     .padding(.vertical, 4)
                     .background(Color(.systemGray5))
                     .clipShape(Capsule())
@@ -169,7 +159,7 @@ struct ContentTypeSection: View {
                 }
                 .padding(.vertical, 32)
                 .frame(maxWidth: .infinity)
-                .padding()
+                .padding(12)
             } else {
                 LazyVGrid(columns: [
                     GridItem(.flexible()),
@@ -268,14 +258,14 @@ struct ContentTypeFolderSection: View {
                         .background(accentColor)
                         .clipShape(Capsule())
                 }
-                .padding(.horizontal, 8)
+                .padding(.horizontal, 12)
                 .padding(.vertical, 18)
                 
                 // Subtle separator line
                 Rectangle()
                     .fill(Color(.separator).opacity(0.3))
                     .frame(height: 1)
-                    .padding(.horizontal, 8)
+                    .padding(.horizontal, 12)
             }
             .background(
                 LinearGradient(
@@ -308,7 +298,7 @@ struct ContentTypeFolderSection: View {
                 }
                 .padding(.vertical, 40)
                 .frame(maxWidth: .infinity)
-                .padding(.horizontal, 8)
+                .padding(.horizontal, 12)
             } else {
                 VStack(spacing: 8) {
                     ForEach(sortedCategories, id: \.self) { category in
@@ -326,7 +316,7 @@ struct ContentTypeFolderSection: View {
                         .buttonStyle(PlainButtonStyle())
                     }
                 }
-                .padding(.horizontal, 8)
+                .padding(.horizontal, 12)
                 .padding(.top, 16)
                 .padding(.bottom, 20)
             }
@@ -410,8 +400,7 @@ struct CategoryFolderRow: View {
                 .font(.system(size: 14, weight: .medium))
                 .foregroundColor(accentColor.opacity(0.6))
         }
-        .padding(.horizontal, 8)
-        .padding(.vertical, 16)
+        .padding(12)
         .background(
             RoundedRectangle(cornerRadius: 14)
                 .fill(Color(.secondarySystemGroupedBackground))
@@ -428,6 +417,37 @@ struct CategoryDetailView: View {
     let category: String
     let content: [MedicalContent]
     let accentColor: Color
+    
+    // Helper function to clean overview text
+    private func cleanOverviewText(_ text: String) -> String {
+        var cleanedText = text
+        
+        // Remove markdown headers (###, ##, #)
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "#{1,6}\\s*",
+            with: "",
+            options: String.CompareOptions.regularExpression
+        )
+        
+        // Remove **bold** formatting
+        cleanedText = cleanedText.replacingOccurrences(of: "**", with: "")
+        
+        // Remove citation references like [^1], [^2], etc.
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\^\\d+\\]",
+            with: "",
+            options: String.CompareOptions.regularExpression
+        )
+        
+        // Clean up extra whitespace
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\s+",
+            with: " ",
+            options: String.CompareOptions.regularExpression
+        ).trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        return cleanedText
+    }
     
     // Check if this is a guide category (not assessment) to show intro dropdown
     private var isGuideCategory: Bool {
@@ -478,7 +498,7 @@ struct CategoryDetailView: View {
                                         .multilineTextAlignment(.leading)
                                 }
                                 
-                                Text(item.overview)
+                                Text(cleanOverviewText(item.overview))
                                     .font(.body)
                                     .foregroundColor(.secondary)
                                     .lineLimit(4)
@@ -500,8 +520,7 @@ struct CategoryDetailView: View {
                                     .foregroundColor(accentColor.opacity(0.6))
                             }
                         }
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 16)
+                        .padding(12)
                         .background(
                             RoundedRectangle(cornerRadius: 12)
                                 .fill(Color(.systemBackground))
@@ -511,8 +530,7 @@ struct CategoryDetailView: View {
                     .buttonStyle(PlainButtonStyle())
                 }
             }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 20)
+            .padding(12)
         }
         .background(Color(.systemGroupedBackground))
         .navigationTitle("")
@@ -533,6 +551,37 @@ struct CategoryDetailView: View {
 struct ContentCard: View {
     let content: MedicalContent
     let accentColor: Color
+    
+    // Helper function to clean overview text
+    private func cleanOverviewText(_ text: String) -> String {
+        var cleanedText = text
+        
+        // Remove markdown headers (###, ##, #)
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "#{1,6}\\s*",
+            with: "",
+            options: String.CompareOptions.regularExpression
+        )
+        
+        // Remove **bold** formatting
+        cleanedText = cleanedText.replacingOccurrences(of: "**", with: "")
+        
+        // Remove citation references like [^1], [^2], etc.
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\[\\^\\d+\\]",
+            with: "",
+            options: String.CompareOptions.regularExpression
+        )
+        
+        // Clean up extra whitespace
+        cleanedText = cleanedText.replacingOccurrences(
+            of: "\\s+",
+            with: " ",
+            options: String.CompareOptions.regularExpression
+        ).trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        return cleanedText
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -564,7 +613,7 @@ struct ContentCard: View {
                 }
             }
             
-            Text(content.overview)
+            Text(cleanOverviewText(content.overview))
                 .font(.caption)
                 .foregroundColor(.secondary)
                 .lineLimit(3)
@@ -588,7 +637,7 @@ struct ContentCard: View {
                     .foregroundColor(.secondary)
             }
         }
-        .padding(16)
+        .padding(12)
         .frame(height: 140)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12))

@@ -215,7 +215,7 @@ struct SearchView: View {
                                 .multilineTextAlignment(.center)
                         }
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 12)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if debouncedSearchText.isEmpty {
                     // Empty search state
@@ -238,7 +238,7 @@ struct SearchView: View {
                                 .fixedSize(horizontal: false, vertical: true)
                         }
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 12)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if searchResults.isEmpty {
                     // No results state with alternative suggestions
@@ -288,7 +288,7 @@ struct SearchView: View {
                             }
                         }
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 12)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else {
                     // Search results
@@ -577,7 +577,7 @@ struct FavoritesView: View {
                         .background(Color(.secondarySystemGroupedBackground))
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 12)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if filteredFavorites.isEmpty {
                     // No search results state
@@ -598,7 +598,7 @@ struct FavoritesView: View {
                                 .multilineTextAlignment(.center)
                         }
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 12)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else {
                     // Favorites list with improved organization
