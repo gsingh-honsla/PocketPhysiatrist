@@ -104,9 +104,16 @@ The Minimal Detectable Change (MDC), which represents a true change beyond measu
 ## **References**
 
 [^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. J Am Geriatr Soc. 1991;39(2):142-148. [(Find Online)](https://doi.org/10.1111/j.1532-5415.1991.tb01616.x)
+
 [^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta- analysis. BMC Geriatr. 2014;14:14. [(Find Online)](https://doi.org/10.1186/1471-2318-14-14)
+
 [^3]: Morris S, Morris ME, Iansek R. Reliability of measurements obtained with the Timed "Up & Go" test in people with Parkinson disease. Phys Ther. 2001;81(2):810-818. [(Find Online)](https://doi.org/10.1093/ptj/81.2.810)
+
 [^4]: Bischoff HP, Stähelin HB, Monsch AU, Iwarsson S, Theiler R, Krapp S, et al. Identifying a cut-off point for normal mobility: a comparison of the timed 'up and go' test in community-dwelling and institutionalised elderly women. Z Gerontol Geriatr. 2003;36(1):51-5. [(Find Online)](https://doi.org/10.1093/ageing/32.3.315)
+
 [^5]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up & Go Test. Phys Ther. 2000;80(9):896-903. [(Find Online)](https://doi.org/10.1093/ptj/80.9.896)
+
 [^6]: Flansbjer UB, Holmbäck AM, Downham D, Patten C, Lexell J. Reliability of gait performance tests in men and women with hemiparesis after stroke. J Rehabil Med. 2005;37(2):75-82. [(Find Online)](https://doi.org/10.1080/16501970410017215)
+
 [^7]: Hofheinz M, Mibs M, Gneveckow U, Schomer K. The Timed Up-and-Go Test with a dual task: a reliable and valid tool to identify fallers among community-dwelling seniors. Gerontology. 2016;62(5):506-513. [(Find Online)](https://doi.org/10.1177/2333721416637798)
+

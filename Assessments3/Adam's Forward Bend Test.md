@@ -97,6 +97,10 @@ The MCID has not been established, as this is a dichotomous (positive/negative) 
 ## **References**
 
 [^1]: Bunnell WP. Selective screening for scoliosis. Clin Orthop Relat Res. 2005;(434):40-45. [(Find Online)](https://doi.org/10.1097/01.blo.0000163242.92733.66)
+
 [^2]: Côté P, Kreitz BG, Cassidy JD, Dzus AK, Martel J. A study of the diagnostic accuracy and reliability of the Scoliometer and Adam's forward bend test. Spine (Phila Pa 1976). 1998;23(7):796-802. [(Find Online)](https://doi.org/10.1097/00007632-199804010-00011)
+
 [^3]: Fong DY, Lee CF, Cheung KM, et al. A meta-analysis of the clinical effectiveness of school scoliosis screening. Spine (Phila Pa 1976). 2010;35(10):1061-1071. [(Find Online)](https://doi.org/10.1097/brs.0b013e3181bcc835)
+
 [^4]: Horne JP, Flannery R, Usman S. Adolescent Idiopathic Scoliosis: Diagnosis and Management. Am Fam Physician. 2014;89(3):193-198. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24506121/)
+

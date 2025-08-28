@@ -105,7 +105,12 @@ The MCID has been established for the component motor and sensory scores of the 
 ## **References**
 
 [^1]: Maynard FM Jr, Bracken MB, Creasey G, et al. International Standards for Neurological and Functional Classification of Spinal Cord Injury. American Spinal Injury Association. Spinal Cord. 1997;35(5):266-274. [(Find Online)](https://doi.org/10.1038/sj.sc.3100432)
+
 [^2]: Kirshblum SC, Burns SP, Biering-Sorensen F, et al. International standards for neurological classification of spinal cord injury (revised 2011). J Spinal Cord Med. 2011;34(6):535-546. [(Find Online)](https://doi.org/10.1179/204577211x13207446293695)
+
 [^4]: Kirshblum S, Waring W 3rd. Updates for the International Standards for Neurological Classification of Spinal Cord Injury. Phys Med Rehabil Clin N Am. 2014;25(3):505-517. [(Find Online)](https://doi.org/10.1016/j.pmr.2014.04.001)
+
 [^5]: Rupp R, Biering-Sørensen F, Burns SP, et al. International Standards for Neurological Classification of Spinal Cord Injury: Revised 2019. Top Spinal Cord Inj Rehabil. 2021;27(2):1-22. [(Find Online)](https://doi.org/10.46292/sci2702-1)
+
 [^6]: Mulcahey MJ, Gaughan J, Chafetz RS, et al. Interrater reliability of the International Standards for Neurological Classification of Spinal Cord Injury in children. J Spinal Cord Med. 2008;31(3):304-311. [(Find Online)](https://doi.org/10.1016/j.apmr.2011.03.003)
+

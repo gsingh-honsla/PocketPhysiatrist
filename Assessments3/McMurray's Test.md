@@ -95,8 +95,14 @@ The MCID has not been established for this assessment, as it is a diagnostic man
 ## **References**
 
 [^1]: Solomon DH, Simel DL, Bates DW, Katz JN. The rational clinical examination. Does this patient have a torn meniscus or ligament of the knee? Value of the physical examination. JAMA. 2001;286(13):1610-1620. [(Find Online)](https://doi.org/10.1001/jama.286.13.1610)
+
 [^2]: McMurray TP. The semilunar cartilages. Br J Surg. 1942;29(116):407-414. [(Find Online)](https://doi.org/10.1002/bjs.18002911612)
+
 [^3]: Hegedus EJ, Cook C, Hasselblad V, Goode A, Mccrory DC. Physical examination tests for assessing a torn meniscus in the knee: a systematic review with meta-analysis. J Orthop Sports Phys Ther. 2007;37(9):541-550. [(Find Online)](https://doi.org/10.2519/jospt.2007.2560)
+
 [^4]: Maffulli N, Longo UG, Campi S, Denaro V. Meniscal tears. a review of the current evidence for treatment. J Bone Joint Surg Am. 2010;92(11):2209-2221. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24198542/)
+
 [^5]: Kim SJ, Hwang BY, Choi DH, Mei Y. McMurray's test is influenced by perimeniscal synovitis in degenerative meniscus tears. J Orthop Surg Res. 2024;19(1):168. [(Find Online)](https://doi.org/10.1186/s43019-024-00242-5)
+
 [^6]: Smith BE, Thacker D, Crewesmith A, Hall M. Special tests for assessing meniscal tears of the knee in adults. Cochrane Database Syst Rev. 2015;(1):CD009616. [(Find Online)](https://doi.org/10.1136/ebmed-2014-110160)
+

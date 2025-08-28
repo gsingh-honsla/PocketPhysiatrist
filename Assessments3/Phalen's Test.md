@@ -10,7 +10,7 @@ Keywords: Carpal Tunnel Syndrome, Median Nerve, Wrist Pain, Entrapment Neuropath
 
 ## **Overview**
 
-The Phalen's test, or Phalen's maneuver, is a provocative diagnostic test for carpal tunnel syndrome (CTS). It was first described by Dr. George S. Phalen in 1950 [^1]. The test aims to reproduce the symptoms of CTS by increasing the pressure within the carpal tunnel via sustained, maximal flexion of the wrist. This flexion compresses the median nerve against the transverse carpal ligament, which can elicit paresthesias in the nerve's sensory distribution in affected individuals. It is one of the most commonly performed clinical tests for CTS, often used alongside Tinel's sign and nerve conduction studies [^2].
+The Phalen's test, or Phalen's maneuver, is a provocative diagnostic test for carpal tunnel syndrome (CTS). It was first described by Dr. George S. Phalen in 1950 [1]. The test aims to reproduce the symptoms of CTS by increasing the pressure within the carpal tunnel via sustained, maximal flexion of the wrist. This flexion compresses the median nerve against the transverse carpal ligament, which can elicit paresthesias in the nerve's sensory distribution in affected individuals. It is one of the most commonly performed clinical tests for CTS, often used alongside Tinel's sign and nerve conduction studies [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of Phalen's test is to aid in the clinical diagnosis of carp
 
 This assessment is indicated for patients presenting with symptoms suggestive of median nerve compression at the wrist, including numbness, tingling, burning, or pain in the thumb, index finger, middle finger, and the radial half of the ring finger.
 
-The test has been most extensively validated in adult populations with suspected idiopathic carpal tunnel syndrome. Its diagnostic accuracy can vary significantly depending on the study population and the reference standard used (e.g., nerve conduction studies) [^3].
+The test has been most extensively validated in adult populations with suspected idiopathic carpal tunnel syndrome. Its diagnostic accuracy can vary significantly depending on the study population and the reference standard used (e.g., nerve conduction studies) [3].
 
 ## **Description of Assessment**
 
@@ -54,7 +54,7 @@ This assessment is scored as a dichotomous (positive/negative) result based on t
 
 ### **Interpretation Guidelines**
 
-A positive Phalen's test suggests compression of the median nerve at the carpal tunnel and increases the likelihood of a CTS diagnosis. However, its diagnostic utility must be considered in the context of the entire clinical picture. Systematic reviews have reported a wide range of sensitivity (10% to 91%) and specificity (33% to 86%) for the test [^3, ^4]. Due to this variability, the test is best used in combination with other clinical findings (e.g., Tinel's sign, Carpal Compression Test) and, when necessary, confirmed with electrodiagnostic studies.
+A positive Phalen's test suggests compression of the median nerve at the carpal tunnel and increases the likelihood of a CTS diagnosis. However, its diagnostic utility must be considered in the context of the entire clinical picture. Systematic reviews have reported a wide range of sensitivity (10% to 91%) and specificity (33% to 86%) for the test [3. Due to this variability, the test is best used in combination with other clinical findings (e.g., Tinel's sign, Carpal Compression Test) and, when necessary, confirmed with electrodiagnostic studies.
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -91,6 +91,9 @@ The MCID is not applicable to this assessment, as it is a provocative diagnostic
 
 ## **References**
 
-[^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. J Bone Joint Surg Am. 1966;48(2):211-228. [(Find Online)](https://doi.org/10.2106/00004623-196648020-00001)
-[^2]: American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. Published February 29, 2016. [(Find Online)](https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/cts-cpg_4-25-19.pdf)
-[^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+[1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. J Bone Joint Surg Am. 1966;48(2):211-228. [(Find Online)](https://doi.org/10.2106/00004623-196648020-00001)
+
+[2]: American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. Published February 29, 2016. [(Find Online)](https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/cts-cpg_4-25-19.pdf)
+
+[3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+

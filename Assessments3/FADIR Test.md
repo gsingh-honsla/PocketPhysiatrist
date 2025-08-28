@@ -10,7 +10,7 @@ Keywords: Hip, Impingement, Femoroacetabular Impingement, Hip Pain, Orthopedic T
 
 ## **Overview**
 
-The FADIR test is a physical examination maneuver used to assess for femoroacetabular impingement (FAI). FADIR is an acronym for the movements performed: **F**lexion, **AD**duction, and **I**nternal **R**otation. It is a provocative test designed to reproduce the patient's symptoms by creating mechanical contact between the femoral neck-head junction and the acetabular rim, a hallmark of FAI syndrome [^1]. Due to its high sensitivity, it is considered a primary screening tool for FAI in patients presenting with anterior hip or groin pain [^2].
+The FADIR test is a physical examination maneuver used to assess for femoroacetabular impingement (FAI). FADIR is an acronym for the movements performed: **F**lexion, **AD**duction, and **I**nternal **R**otation. It is a provocative test designed to reproduce the patient's symptoms by creating mechanical contact between the femoral neck-head junction and the acetabular rim, a hallmark of FAI syndrome [1]. Due to its high sensitivity, it is considered a primary screening tool for FAI in patients presenting with anterior hip or groin pain [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of the FADIR test is to provoke the characteristic anterior 
 
 It is indicated in the assessment of patients, particularly young and active individuals, who present with activity-related hip or groin pain, clicking, or a restricted range of motion.
 
-The test has been most extensively studied and validated in populations with suspected intra-articular hip pathology and FAI [^2, ^3].
+The test has been most extensively studied and validated in populations with suspected intra-articular hip pathology and FAI [2.
 
 ## **Description of Assessment**
 
@@ -54,10 +54,10 @@ This assessment is a dichotomous provocative test and does not use a numerical s
 
 ### **Interpretation Guidelines**
 
-A positive FADIR test is suggestive of underlying FAI syndrome, but it is not diagnostic on its own. The test has high sensitivity (often reported >90%) but low specificity [^2].
+A positive FADIR test is suggestive of underlying FAI syndrome, but it is not diagnostic on its own. The test has high sensitivity (often reported >90%) but low specificity [2].
 
 - **High Sensitivity**: A negative test is useful for ruling out FAI. If the FADIR test is negative, FAI is less likely to be the source of the patient's symptoms (SnNout - a sensitive test, when negative, rules out the disease).
-- **Low Specificity**: A positive test can occur in individuals without FAI and in those with other hip pathologies (e.g., labral tears, hip flexor tendonitis, osteoarthritis). Therefore, a positive result must be correlated with the patient's history, other physical exam findings, and confirmed with appropriate imaging (e.g., radiographs, MRI/MRA) [^3].
+- **Low Specificity**: A positive test can occur in individuals without FAI and in those with other hip pathologies (e.g., labral tears, hip flexor tendonitis, osteoarthritis). Therefore, a positive result must be correlated with the patient's history, other physical exam findings, and confirmed with appropriate imaging (e.g., radiographs, MRI/MRA) [3].
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -91,6 +91,9 @@ Not applicable. The FADIR test is a dichotomous provocative test, not a scaled o
 
 ## **References**
 
-[^1]: Ganz R, Parvizi J, Beck M, Leunig M, Nötzli H, Siebenrock KA. Femoroacetabular impingement: a cause for osteoarthritis of the hip. Clin Orthop Relat Res. 2003;(417):112-120. [(Find Online)](https://doi.org/10.1097/01.blo.0000096804.78689.c2)
-[^2]: Reiman MP, Goode AP, Cook CE, Hölmich P, Thorborg K. Diagnostic accuracy of clinical tests for the diagnosis of hip femoroacetabular impingement/labral tear: a systematic review with meta-analysis. Br J Sports Med. 2015;491(12):811. [(Find Online)](https://doi.org/10.1136/bjsports-2014-094302)
-[^3]: Philippon MJ, Maxwell RB, Johnston TL, Schenker M, Briggs KK. Clinical presentation of femoroacetabular impingement. Knee Surg Sports Traumatol Arthrosc. 2007;15(8):1041-1047. [(Find Online)](https://doi.org/10.1007/s00167-007-0348-2)
+[1]: Ganz R, Parvizi J, Beck M, Leunig M, Nötzli H, Siebenrock KA. Femoroacetabular impingement: a cause for osteoarthritis of the hip. Clin Orthop Relat Res. 2003;(417):112-120. [(Find Online)](https://doi.org/10.1097/01.blo.0000096804.78689.c2)
+
+[2]: Reiman MP, Goode AP, Cook CE, Hölmich P, Thorborg K. Diagnostic accuracy of clinical tests for the diagnosis of hip femoroacetabular impingement/labral tear: a systematic review with meta-analysis. Br J Sports Med. 2015;491(12):811. [(Find Online)](https://doi.org/10.1136/bjsports-2014-094302)
+
+[3]: Philippon MJ, Maxwell RB, Johnston TL, Schenker M, Briggs KK. Clinical presentation of femoroacetabular impingement. Knee Surg Sports Traumatol Arthrosc. 2007;15(8):1041-1047. [(Find Online)](https://doi.org/10.1007/s00167-007-0348-2)
+

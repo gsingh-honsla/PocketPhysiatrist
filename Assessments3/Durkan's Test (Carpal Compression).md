@@ -95,6 +95,10 @@ The MCID is not applicable for this diagnostic provocative test, as it yields a 
 ## **References**
 
 [^1]: Durkan JA. A new diagnostic test for carpal tunnel syndrome. J Bone Joint Surg Am. 1991;73(4):535-8. [(Find Online)](https://doi.org/10.2106/00004623-199173040-00009)
+
 [^2]: González Del Pino J, Delgado-Martínez AD, González González I, Lovic A. Value of the carpal compression test in the diagnosis of carpal tunnel syndrome. J Hand Surg Br. 1997;22(1):38-41. ([Find Online](https://doi.org/10.1016/s0266-7681(97)80012-5))
+
 [^3]: Durkan JA. The carpal-compression test. An instrumented device for diagnosing the carpal tunnel syndrome. Orthop Rev. 1994;23(6):522-5. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/8065809/)
+
 [^4]: Amirfeyz R, Clark D, Parsons B, et al. Clinical tests for carpal tunnel syndrome in contemporary practice. Arch Orthop Trauma Surg. 2011;131(4):471-474. [(Find Online)](https://doi.org/10.1007/s00402-010-1150-z)
+

@@ -101,6 +101,10 @@ The MCID is not applicable for this physical examination sign, as it is a graded
 ## **References**
 
 [^1]: Neer CS 2nd, Foster CR. Inferior capsular shift for involuntary inferior and multidirectional instability of the shoulder. A preliminary report. J Bone Joint Surg Am. 1980;62(6):897-908. [(Find Online)](https://doi.org/10.2106/00004623-198062060-00004)
+
 [^2]: Itoi E, Motzkin NE, Morrey BF, An KN. Stabilizing function of the long head of the biceps in the hanging arm position. J Shoulder Elbow Surg. 1994;3(3):135-42. ([Find Online](https://doi.org/10.1016/s1058-2746(09)80092-x))
+
 [^3]: Tzannes A, Murrell GA. Clinical examination of the unstable shoulder. Sports Med. 2002;32(7):447-57. [(Find Online)](https://doi.org/10.2165/00007256-200232070-00004)
+
 [^4]: Eshoj H, Ingwersen KG, Larsen CM, Kjaer BH, Juul-Kristensen B. The inter-tester reliability of clinical shoulder instability and laxity tests in subjects with and without self-reported shoulder problems. BMJ Open Sport Exerc Med. 2018;4(1):e000302. [(Find Online)](https://doi.org/10.1136/bmjopen-2017-018472)
+

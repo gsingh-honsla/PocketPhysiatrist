@@ -118,6 +118,10 @@ It is critical to note that these values are from a single pilot study in a spec
 ## **References**
 
 [^1]: Gage B, Deutsch A, Smith L, et al. The Development and Testing of the Continuity Assessment Record and Evaluation (CARE) Item Set: Final Report on the Development of the CARE Item Set. Volume 1 of 3. Report submitted to the Centers for Medicare & Medicaid Services. 2012. [(Find Online)](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Post-Acute-Care-Quality-Initiatives/Downloads/Continuity-Assessment-Record-and-Evaluation-CARE-Item-Set-Video-Reliability-Testing.pdf)
+
 [^2]: Centers for Medicare & Medicaid Services. Section GG: Functional Abilities and Goals. In: RAI (Resident Assessment Instrument) 3.0 User's Manual. Version 1.18.11. 2023. [(Find Online)](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/MDS30RAIManual)
+
 [^3]: American Occupational Therapy Association (AOTA). Section GG Medicare Functional Assessment. 2021. [(Find Online)](https://www.aota.org/-/media/corporate/files/practice/manage/documentation/section-gg-medicare-functional-assessment-form-all-elements.pdf)
+
 [^4]: Centers for Medicare & Medicaid Services. IRF-PAI Manual Version 4.2. 2024. [(Find Online)](https://www.cms.gov/medicare/quality/inpatient-rehabilitation-facility/irf-pai-and-irf-qrp-manual)
+

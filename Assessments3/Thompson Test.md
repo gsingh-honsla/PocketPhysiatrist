@@ -89,6 +89,10 @@ The MCID is not applicable for the Thompson test as it is a diagnostic maneuver 
 ## **References**
 
 [^1]: Thompson TC. A test for rupture of the tendo achillis. Acta Orthop Scand. 1962;32:461-5. [(Find Online)](https://doi.org/10.3109/17453676208989608)
+
 [^2]: Maffulli N. The clinical diagnosis of subcutaneous tear of the Achilles tendon. A prospective study in 174 patients. Am J Sports Med. 1998 Mar-Apr;26(2):266-70. [(Find Online)](https://doi.org/10.1177/03635465980260021801)
+
 [^3]: Reiman M, Burgi C, Strube E, Prue K, Wright A. The utility of the clinical examination in diagnosing and screening for Achilles tendon rupture: a systematic review. J Man Manip Ther. 2014;22(4):229-237. [(Find Online)](https://doi.org/10.4085/1062-6050-49.3.36)
+
 [^4]: Simmonds FA. The diagnosis of the ruptured Achilles tendon. Practitioner. 1957 Jul;179(1069):56-8. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/13453094/)
+

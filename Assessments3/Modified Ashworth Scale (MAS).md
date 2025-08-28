@@ -101,6 +101,10 @@ The MCID for the MAS in the stroke population has been estimated. For the upper 
 ## **References**
 
 [^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. Phys Ther. 1987;67(2):206-207. [(Find Online)](https://doi.org/10.1093/ptj/67.2.206)
+
 [^2]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. Clin Rehabil. 1999;13(5):373-383. [(Find Online)](https://doi.org/10.1191/026921599677595404)
+
 [^3]: Meseguer-Henarejos AB, Sánchez-Meca J, López-Pina JA, Carles-Hernández R. Inter- and intra-rater reliability of the Modified Ashworth Scale: a systematic review and meta-analysis. Eur J Phys Rehabil Med. 20181;54(4):576-590. [(Find Online)](https://doi.org/10.23736/s1973-9087.17.04796-7)
+
 [^4]: Chen CL, Chen CY, Chen HC, Wu CY, Lin KC, Hsieh YW. Responsiveness and minimal clinically important difference of Modified Ashworth Scale in patients with stroke. Eur J Phys Rehabil Med. 2019;55(6):754-760. [(Find Online)](https://doi.org/10.23736/s1973-9087.19.05545-x)
+

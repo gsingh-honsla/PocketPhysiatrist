@@ -109,6 +109,10 @@ The MCID for the total FIM score in the stroke population has been established a
 ## **References**
 
 [^1]: Granger CV, Hamilton BB, Keith RA, Linacre JM, Wright BD. The Functional Independence Measure: a new tool for rehabilitation.37 Adv Clin Rehabil. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
+
 [^2]: Linacre JM, Heinemann AW, Wright BD, Granger CV, Hamilton BB.38 The structure and stability of the Functional Independence Measure. Arch Phys Med Rehabil. 1994;75(2):127-132. ([Find Online](https://doi.org/10.1016/0003-9993(94)90384-0))
+
 [^3]: Dodds TA, Martin DP, Stolov WC, Deyo RA.39 A validation of the functional independence measurement and its performance among rehabilitation inpatients. Arch Phys Med Rehabil. 1993;74(5):531-536. ([Find Online](https://doi.org/10.1016/0003-9993(93)90119-u))
+
 [^4]: Beninato M, Gill-Body KM, Salles S, Stark PC, Black-Schaffer RM, Stein J. Determination of the minimal clinically important difference in the FIM score for patients with stroke.40 Arch Phys Med Rehabil. 2006;87(1):32-39. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.08.130)
+

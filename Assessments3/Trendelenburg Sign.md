@@ -90,4 +90,6 @@ The MCID is not applicable for this assessment, as it is a dichotomous (positive
 ## **References**
 
 [^1]: Hardcastle P, Nade S. The significance of the Trendelenburg test. J Bone Joint Surg Br. 1985;67(5):741-6. [(Find Online)](https://doi.org/10.1302/0301-620x.67b5.4055873)
+
 [^2]: Youdas JW, Madson TJ, Hollman JH. Usefulness of the Trendelenburg test for identification of patients with hip joint osteoarthritis. Physiother Theory Pract. 2010;26(3):186-94. [(Find Online)](https://doi.org/10.3109/09593980902750857)
+

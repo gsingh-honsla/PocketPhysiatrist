@@ -94,5 +94,8 @@ The MCID has not been established for Yergason's Test, as it is a provocative te
 To help you visualize the procedure, here is a helpful video demonstrating how to perform Yergason's Test.
 
 [^1]: Yergason RM. Supination sign. J Bone Joint Surg Am. 1931;13(1):160.
+
 [^2]: Holtby R, Razmjou H. Accuracy of the Speed's and Yergason's tests in detecting biceps pathology and SLAP lesions: comparison with arthroscopic findings. Arthroscopy. 2004;20(3):231-236. [(Find Online)](https://doi.org/10.1016/j.arthro.2004.01.008)
+
 [^3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+

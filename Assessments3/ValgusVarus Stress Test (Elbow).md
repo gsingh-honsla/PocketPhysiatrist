@@ -107,5 +107,8 @@ Not applicable. The Valgus/Varus Stress Test is a diagnostic physical examinatio
 ## **References**
 
 [^1]: O'Driscoll SW, Lawton RL, Smith AM. The "moving valgus stress test" for medial collateral ligament tears of the elbow. Am J Sports Med. 2005;33(2):231-239. [(Find Online)](https://doi.org/10.1177/0363546504267804)
+
 [^2]: Camp CL, Smith J, O'Driscoll SW. Posterolateral rotatory instability of the elbow: part I. Mechanism of injury and physical examination. J Am Acad Orthop Surg. 2017;25(3):197-207. [(Find Online)](https://doi.org/10.1016/j.eats.2016.10.016)
+
 [^3]: Nazarian LN, McShane JM, Ciccotti MG, O'Kane PL. Dynamic US of the elbow: ulnar collateral ligament and ulnar nerve. Radiographics. 2003;23(5):1173-1181. [(Find Online)](https://doi.org/10.1148/radiol.2271020288)
+

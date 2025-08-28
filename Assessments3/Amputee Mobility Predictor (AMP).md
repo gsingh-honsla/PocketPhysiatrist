@@ -10,9 +10,9 @@ Keywords: amputee, mobility, functional assessment, K-level, prosthesis
 
 ## **Overview**
 
-The Amputee Mobility Predictor (AMP) is a performance-based clinical assessment tool designed to measure the ambulatory potential of individuals with lower limb amputation. Developed by Gailey et al. in 2002, its primary purpose is to objectively assess mobility, balance, and gait both with a prosthesis (AMPPRO) and without a prosthesis (AMPnoPRO). The tool consists of 21 tasks that systematically increase in difficulty, evaluating a range of activities from static sitting balance to dynamic gait and stair negotiation. Its clinical significance lies in its ability to predict functional mobility, assist in determining the appropriate Medicare Functional Classification Level (K-level) for prosthetic prescription, and track functional changes throughout the rehabilitation process [^1].
+The Amputee Mobility Predictor (AMP) is a performance-based clinical assessment tool designed to measure the ambulatory potential of individuals with lower limb amputation. Developed by Gailey et al. in 2002, its primary purpose is to objectively assess mobility, balance, and gait both with a prosthesis (AMPPRO) and without a prosthesis (AMPnoPRO). The tool consists of 21 tasks that systematically increase in difficulty, evaluating a range of activities from static sitting balance to dynamic gait and stair negotiation. Its clinical significance lies in its ability to predict functional mobility, assist in determining the appropriate Medicare Functional Classification Level (K-level) for prosthetic prescription, and track functional changes throughout the rehabilitation process [1].
 
-The AMP demonstrates high interrater and intrarater reliability, as well as strong concurrent and predictive validity. It correlates well with other measures of mobility, such as the 6-Minute Walk Test, and can reliably distinguish between different K-levels [^1]. This makes it an essential instrument for clinicians to set realistic functional goals, justify prosthetic component selection, and guide rehabilitation plans for patients with lower limb loss.
+The AMP demonstrates high interrater and intrarater reliability, as well as strong concurrent and predictive validity. It correlates well with other measures of mobility, such as the 6-Minute Walk Test, and can reliably distinguish between different K-levels [1]. This makes it an essential instrument for clinicians to set realistic functional goals, justify prosthetic component selection, and guide rehabilitation plans for patients with lower limb loss.
 
 ## **Purpose and Clinical Indication**
 
@@ -20,7 +20,7 @@ The AMP is designed to quantitatively assess the determinants of ambulatory func
 
 This assessment should be used for individuals with unilateral or bilateral lower limb loss. The AMPnoPRO is particularly useful pre-prosthetic fitting to establish a baseline and predict future ambulatory capacity. The AMPPRO is used after a prosthesis has been fitted to assess function with the device and to monitor progress.
 
-The tool has been validated for use in a variety of clinical settings, including inpatient rehabilitation, outpatient physical therapy, and prosthetic clinics, for adult patients with lower limb amputations resulting from both vascular and non-vascular etiologies [^1, ^2].
+The tool has been validated for use in a variety of clinical settings, including inpatient rehabilitation, outpatient physical therapy, and prosthetic clinics, for adult patients with lower limb amputations resulting from both vascular and non-vascular etiologies [1.
 
 ## **Description of Assessment**
 
@@ -73,7 +73,7 @@ The tool has been validated for use in a variety of clinical settings, including
 
 ### **Scoring Scale**
 
-The Amputee Mobility Predictor is scored on an ordinal scale across 21 items. Each item is scored from 0-1, 0-2, or 0-5 depending on the task. The total possible score is 43 for the AMPnoPRO and 47 for the AMPPRO (item 8 is omitted for AMPnoPRO). A higher score indicates better mobility potential. A detailed scoring sheet should be used during administration [^2]. The general scoring principles are outlined below for illustrative purposes.
+The Amputee Mobility Predictor is scored on an ordinal scale across 21 items. Each item is scored from 0-1, 0-2, or 0-5 depending on the task. The total possible score is 43 for the AMPnoPRO and 47 for the AMPPRO (item 8 is omitted for AMPnoPRO). A higher score indicates better mobility potential. A detailed scoring sheet should be used during administration [2]. The general scoring principles are outlined below for illustrative purposes.
 
 | Score | Description                                                  | Functional Meaning                                           |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -84,7 +84,7 @@ The Amputee Mobility Predictor is scored on an ordinal scale across 21 items. Ea
 
 ### **Interpretation Guidelines**
 
-The total score is used to predict ambulatory potential and to help determine the patient's Medicare Functional Classification Level (K-level). The following score ranges provide a guideline for K-level classification [^1, ^3]:
+The total score is used to predict ambulatory potential and to help determine the patient's Medicare Functional Classification Level (K-level). The following score ranges provide a guideline for K-level classification [1:
 
 - **K0 Level:**
   - **AMPPRO:** 0-8
@@ -109,7 +109,7 @@ The total score is used to predict ambulatory potential and to help determine th
 
 ### **Minimal Clinically Important Difference (MCID)**
 
-The MCID has not been formally established for the Amputee Mobility Predictor. However, the Minimal Detectable Change (MDC90), which is the smallest change that can be considered a true change beyond measurement error, has been reported as 3.4 points for the AMPPRO [^3].
+The MCID has not been formally established for the Amputee Mobility Predictor. However, the Minimal Detectable Change (MDC90), which is the smallest change that can be considered a true change beyond measurement error, has been reported as 3.4 points for the AMPPRO [3].
 
 ## **Clinical Pearls, Contraindications, or Pitfalls**
 
@@ -144,6 +144,9 @@ The MCID has not been formally established for the Amputee Mobility Predictor. H
 
 ## **References**
 
-[^1]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the lower-limb amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
-[^2]: Geriatric Assessment Tool Kit. Amputee Mobility Predictor (AMP). University of Missouri. [(Find Online)](https://geriatrictoolkit.missouri.edu/Amputee-Mobility-Predictor-AMP.doc)
-[^3]: Resnik L, Borgia M. Reliability of outcome measures for people with lower-limb amputations: the 2-minute walk test and other measures of walking and balance. J Rehabil Res Dev. 2011;48(8):931-940. [(Find Online)](https://doi.org/10.2522/ptj.20100287)
+[1]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the lower-limb amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
+
+[2]: Geriatric Assessment Tool Kit. Amputee Mobility Predictor (AMP). University of Missouri. [(Find Online)](https://geriatrictoolkit.missouri.edu/Amputee-Mobility-Predictor-AMP.doc)
+
+[3]: Resnik L, Borgia M. Reliability of outcome measures for people with lower-limb amputations: the 2-minute walk test and other measures of walking and balance. J Rehabil Res Dev. 2011;48(8):931-940. [(Find Online)](https://doi.org/10.2522/ptj.20100287)
+

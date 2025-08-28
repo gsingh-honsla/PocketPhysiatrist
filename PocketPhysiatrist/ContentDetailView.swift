@@ -750,15 +750,22 @@ struct FormattedTextView: View {
         // Find all citations - unified pattern that handles both individual and combined formats
         // Skip citation processing for References sections since they use numbered list format
         if !isReferencesSection {
-            let citationPattern = "\\[\\^([\\d,\\s]+)\\]"
+            // Updated pattern to handle both [^1, 2] and [^1, ^2] formats
+            let citationPattern = "\\[\\^[\\d,\\s^]+\\]"
             
             if let citationRegex = try? NSRegularExpression(pattern: citationPattern, options: []) {
             let matches = citationRegex.matches(in: cleanedText, options: [], range: NSRange(location: 0, length: cleanedText.count))
             
             for match in matches {
-                if let numbersRange = Range(match.range(at: 1), in: cleanedText),
-                   let fullRange = Range(match.range, in: cleanedText) {
-                    let numbersString = String(cleanedText[numbersRange])
+                if let fullRange = Range(match.range, in: cleanedText) {
+                    let fullCitationString = String(cleanedText[fullRange])
+                    
+                    // Extract numbers from citation text, removing [, ], and ^ characters
+                    let numbersString = fullCitationString
+                        .replacingOccurrences(of: "[", with: "")
+                        .replacingOccurrences(of: "]", with: "")
+                        .replacingOccurrences(of: "^", with: "")
+                        .trimmingCharacters(in: .whitespaces)
                     
                     // Handle both individual and combined citations
                     if numbersString.contains(",") {

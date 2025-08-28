@@ -10,7 +10,7 @@ Keywords: SLAP tear, acromioclavicular joint, shoulder pain, labral tear, physic
 
 ## **Overview**
 
-O'Brien's Test, also known as the Active Compression Test, is a two-part physical examination maneuver used to detect superior labral anterior-posterior (SLAP) lesions and, secondarily, pathology of the acromioclavicular (AC) joint. It was first described by O'Brien et al. in 1998 as a sensitive test for identifying labral abnormalities [^1]. The test aims to elicit pain by creating tension on the superior labrum and bicep anchor via specific arm positioning and resisted muscle contraction, with pain location helping to differentiate the source of pathology.
+O'Brien's Test, also known as the Active Compression Test, is a two-part physical examination maneuver used to detect superior labral anterior-posterior (SLAP) lesions and, secondarily, pathology of the acromioclavicular (AC) joint. It was first described by O'Brien et al. in 1998 as a sensitive test for identifying labral abnormalities [1]. The test aims to elicit pain by creating tension on the superior labrum and bicep anchor via specific arm positioning and resisted muscle contraction, with pain location helping to differentiate the source of pathology.
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of this assessment is to aid in the diagnosis of a SLAP tear
 
 This test is indicated for patients presenting with shoulder pain, particularly when there is a suspicion of intra-articular pathology. It is commonly used in athletes (especially overhead athletes), individuals with a history of shoulder trauma (e.g., a fall on an outstretched arm), or those with vague, deep-seated shoulder pain accompanied by mechanical symptoms like clicking or popping.
 
-The test has been studied in various populations with shoulder pain undergoing arthroscopic surgery, which serves as the gold standard for diagnosis [^2, ^3].
+The test has been studied in various populations with shoulder pain undergoing arthroscopic surgery, which serves as the gold standard for diagnosis [2.
 
 ## **Description of Assessment**
 
@@ -55,7 +55,7 @@ This test does not use a numerical scale; it is interpreted as positive or negat
 - **Positive for AC Joint Pathology**: A positive test with pain localized specifically over the AC joint is suggestive of AC joint pathology.
 - **Negative Test**: No pain is produced in the first position, or the pain remains unchanged between the two positions.
 
-The diagnostic accuracy of O'Brien's test is variable. A meta-analysis reported a sensitivity of 67% and specificity of 37% for SLAP lesions, indicating that while it may help in screening, it has poor specificity and should not be used in isolation to diagnose a SLAP tear [^2]. Its utility for AC joint pathology is generally considered to be better.
+The diagnostic accuracy of O'Brien's test is variable. A meta-analysis reported a sensitivity of 67% and specificity of 37% for SLAP lesions, indicating that while it may help in screening, it has poor specificity and should not be used in isolation to diagnose a SLAP tear [2]. Its utility for AC joint pathology is generally considered to be better.
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -91,6 +91,9 @@ The MCID is not applicable for a diagnostic special test like O'Brien's Test.
 
 ## **References**
 
-[^1]: O'Brien SJ, Pagnani MJ, Fealy S, McGlynn SR, Wilson JB. The active compression test: a new and effective test for diagnosing labral tears and acromioclavicular joint abnormality. Am J Sports Med. 1998;26(5):610-613. [(Find Online)](https://doi.org/10.1177/03635465980260050201)
-[^2]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
-[^3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+[1]: O'Brien SJ, Pagnani MJ, Fealy S, McGlynn SR, Wilson JB. The active compression test: a new and effective test for diagnosing labral tears and acromioclavicular joint abnormality. Am J Sports Med. 1998;26(5):610-613. [(Find Online)](https://doi.org/10.1177/03635465980260050201)
+
+[2]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
+
+[3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+

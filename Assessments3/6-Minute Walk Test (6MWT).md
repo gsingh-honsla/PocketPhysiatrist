@@ -110,10 +110,18 @@ The MCID for the 6MWT varies significantly depending on the patient population.
 ## **References**
 
 [^1]: Holland AE, Spruit MA, Troosters T, et al. An official European Respiratory Society/American Thoracic Society technical standard: field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1428-1446. [(Find Online)](https://doi.org/10.1183/09031936.00150314)
+
 [^2]: Singh SJ, Puhan MA, Andrianopoulos V, et al. An official systematic review of the European Respiratory Society/American Thoracic Society: measurement properties of field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1447-1478. [(Find Online)](https://doi.org/10.1183/09031936.00150414)
+
 [^3]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med. 2002;166(1):111-117. [(Find Online)](https://doi.org/10.1164/ajrccm.166.1.at1102)
+
 [^4]: Solway S, Brooks D, Lacasse Y, Thomas S. A qualitative systematic overview of the measurement properties of functional walk tests used in the cardiorespiratory domain. Chest. 2001;119(1):256-270. [(Find Online)](https://doi.org/10.1378/chest.119.1.256)
+
 [^5]: Enright PL, Sherrill DL. Reference equations for the six-minute walk in healthy adults. Am J Respir Crit Care Med. 1998;158(5 Pt 1):1384-1387. [(Find Online)](https://doi.org/10.1164/ajrccm.158.5.9710086)
+
 [^6]: Cahalin LP, Pappagianopoulos P, Prevost S, et al. The relationship of the 6-min walk test to maximal oxygen consumption in patients with advanced heart failure: effect of medical therapy. J Cardiopulm Rehabil. 1995;15(4):316-322. [(Find Online)](https://doi.org/10.1378/chest.108.2.452)
+
 [^7]: Holland AE, Hill CJ, Rasekaba T, Lee A, Naughton MT, McDonald CF. Updating the minimal important difference for the 6-minute walk distance in patients with chronic obstructive pulmonary disease. Arch Phys Med Rehabil. 2010;91(2):221-225. [(Find Online)](https://doi.org/10.1016/j.apmr.2009.10.017)
+
 [^8]: Fulk GD, He Y, Herter TM, et al. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. J Neurol Phys Ther. 2018;42(4):235-240. [(Find Online)](https://doi.org/10.1097/npt.0000000000000236)
+

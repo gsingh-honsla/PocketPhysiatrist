@@ -118,10 +118,18 @@ For the **GMFM-88** total score in the cerebral palsy population, MCID values ha
 ## **References**
 
 [^1]: Russell DJ, Rosenbaum PL, Avery LM, Lane M. Gross Motor Function Measure (GMFM-66 & GMFM-88) User’s Manual. 2nd ed. Cambridge University Press; 2013. [(Find Online)](http://dx.doi.org/10.1016/j.ejpn.2003.11.003)
+
 [^2]: Rosenbaum PL, Walter SD, Hanna SE, et al. Prognosis for gross motor function in cerebral palsy: creation of motor development curves.39 JAMA. 2002;288(11):1357-1363. [(Find Online)](https://doi.org/10.1001/jama.288.11.1357)
+
 [^3]: CanChild. Gross Motor Function Measure (GMFM). CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/44-gross-motor-function-measure-gmfm)
+
 [^4]: CanChild. GMFM Scoring. CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/321-gmfm-scoring)
+
 [^5]: Ko J, Kim M. Reliability and validity of the gross motor function measure-88 in children with cerebral palsy. Phys Ther. 2013;93(8):1099-1107. [(Find Online)](https://doi.org/10.2522/ptj.20110374)
+
 [^6]: CanChild. GMFM Administration. CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/320-gmfm-administration)
+
 [^7]: Oeffinger D, Bagley A, Rogers S, et al. Outcome tools used for ambulatory children with cerebral palsy: responsiveness and minimum clinically important differences.40 Dev Med Child Neurol. 2008;50(12):918-925. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2008.03150.x)
+
 [^8]: Storm F, Petrarca M, Biffi E, et al. Minimum Clinically Important Difference of Gross Motor Function and Gait Endurance in Children with Motor Impairment: A Comparison of Distribution-Based Approaches. Biomed Res Int. 2020;2020:8101438. [(Find Online)](https://doi.org/10.1155/2020/2794036)
+

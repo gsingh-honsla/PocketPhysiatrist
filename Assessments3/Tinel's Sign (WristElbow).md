@@ -10,7 +10,7 @@ Keywords: Tinel's Sign, Carpal Tunnel Syndrome, Cubital Tunnel Syndrome, nerve e
 
 ## **Overview**
 
-Tinel's sign is a classic provocative physical examination maneuver used to elicit signs of nerve irritation or regeneration. It was described by French neurologist Jules Tinel and involves gently percussing over a nerve to elicit a sensation of tingling or "pins and needles" (paresthesia) in the cutaneous distribution of that nerve [^1]. A positive sign suggests the presence of a focal area of nerve irritation, which may be due to compression, entrapment, or early axonal regeneration following an injury. It is most commonly employed in the evaluation of suspected Carpal Tunnel Syndrome (median nerve at the wrist) and Cubital Tunnel Syndrome (ulnar nerve at the elbow) [^2].
+Tinel's sign is a classic provocative physical examination maneuver used to elicit signs of nerve irritation or regeneration. It was described by French neurologist Jules Tinel and involves gently percussing over a nerve to elicit a sensation of tingling or "pins and needles" (paresthesia) in the cutaneous distribution of that nerve [1]. A positive sign suggests the presence of a focal area of nerve irritation, which may be due to compression, entrapment, or early axonal regeneration following an injury. It is most commonly employed in the evaluation of suspected Carpal Tunnel Syndrome (median nerve at the wrist) and Cubital Tunnel Syndrome (ulnar nerve at the elbow) [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ This assessment is used to detect focal nerve pathology, typically related to en
 
 It is indicated when a patient presents with symptoms of numbness, tingling, or pain in a peripheral nerve distribution, particularly the median or ulnar nerves of the upper extremity.
 
-The test has been extensively studied in populations with suspected Carpal Tunnel Syndrome and Cubital Tunnel Syndrome, though its diagnostic accuracy can be variable [^3, ^4].
+The test has been extensively studied in populations with suspected Carpal Tunnel Syndrome and Cubital Tunnel Syndrome, though its diagnostic accuracy can be variable [3.
 
 ## **Description of Assessment**
 
@@ -57,7 +57,7 @@ A **negative test** is the absence of this radiating sensation. Localized pain a
 
 ### **Interpretation Guidelines**
 
-A positive Tinel's sign suggests focal nerve irritation or entrapment at the point of percussion. In the context of Carpal Tunnel Syndrome, a positive sign at the wrist supports the diagnosis, though its absence does not rule it out. The diagnostic utility is limited; for Carpal Tunnel Syndrome, sensitivity is low to moderate (23-67%) while specificity is generally higher (64-87%) [^3, ^5]. Similarly, for Cubital Tunnel Syndrome, sensitivity is variable but often low [^4].
+A positive Tinel's sign suggests focal nerve irritation or entrapment at the point of percussion. In the context of Carpal Tunnel Syndrome, a positive sign at the wrist supports the diagnosis, though its absence does not rule it out. The diagnostic utility is limited; for Carpal Tunnel Syndrome, sensitivity is low to moderate (23-67%) while specificity is generally higher (64-87%) [3. Similarly, for Cubital Tunnel Syndrome, sensitivity is variable but often low [4].
 
 Therefore, Tinel's sign should be interpreted in conjunction with the patient's history and other physical exam findings (e.g., Phalen's test, sensory mapping, motor strength). Electrodiagnostic studies remain the gold standard for confirmation.
 
@@ -94,7 +94,11 @@ The MCID is not applicable for this dichotomous (positive/negative) provocative 
 
 ## **References**
 
-[^2]: Valdes K, LaStayo P. The value of provocative tests for the wrist and elbow: a literature review. J Hand Ther. 2013;26(1):32-42; quiz 43. [(Find Online)](https://doi.org/10.1016/j.jht.2012.08.005)
-[^3]: D'Arcy CA, McGee S. The rational clinical examination. Does this patient have carpal tunnel syndrome? JAMA. 2000;283(23):3110-3117. [(Find Online)](https://doi.org/10.1001/jama.283.23.3110)
-[^4]: Beekman R, Schreuder AH, Rozeman CA, Koehler PJ, Uitdehaag BM. The diagnostic value of provocative tests in ulnar neuropathy at the elbow. J Hand Surg Br. 2004;29(4):365-369. [(Find Online)](https://doi.org/10.1136/jnnp.2009.180844)
-[^5]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+[2]: Valdes K, LaStayo P. The value of provocative tests for the wrist and elbow: a literature review. J Hand Ther. 2013;26(1):32-42; quiz 43. [(Find Online)](https://doi.org/10.1016/j.jht.2012.08.005)
+
+[3]: D'Arcy CA, McGee S. The rational clinical examination. Does this patient have carpal tunnel syndrome? JAMA. 2000;283(23):3110-3117. [(Find Online)](https://doi.org/10.1001/jama.283.23.3110)
+
+[4]: Beekman R, Schreuder AH, Rozeman CA, Koehler PJ, Uitdehaag BM. The diagnostic value of provocative tests in ulnar neuropathy at the elbow. J Hand Surg Br. 2004;29(4):365-369. [(Find Online)](https://doi.org/10.1136/jnnp.2009.180844)
+
+[5]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+

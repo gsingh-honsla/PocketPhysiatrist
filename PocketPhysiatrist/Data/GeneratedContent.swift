@@ -4871,9 +4871,13 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Maynard FM Jr, Bracken MB, Creasey G, et al. International Standards for Neurological and Functional Classification of Spinal Cord Injury. American Spinal Injury Association. Spinal Cord. 1997;35(5):266-274. [(Find Online)](https://doi.org/10.1038/sj.sc.3100432)
+
                 [^2]: Kirshblum SC, Burns SP, Biering-Sorensen F, et al. International standards for neurological classification of spinal cord injury (revised 2011). J Spinal Cord Med. 2011;34(6):535-546. [(Find Online)](https://doi.org/10.1179/204577211x13207446293695)
+
                 [^4]: Kirshblum S, Waring W 3rd. Updates for the International Standards for Neurological Classification of Spinal Cord Injury. Phys Med Rehabil Clin N Am. 2014;25(3):505-517. [(Find Online)](https://doi.org/10.1016/j.pmr.2014.04.001)
+
                 [^5]: Rupp R, Biering-Sørensen F, Burns SP, et al. International Standards for Neurological Classification of Spinal Cord Injury: Revised 2019. Top Spinal Cord Inj Rehabil. 2021;27(2):1-22. [(Find Online)](https://doi.org/10.46292/sci2702-1)
+
                 [^6]: Mulcahey MJ, Gaughan J, Chafetz RS, et al. Interrater reliability of the International Standards for Neurological Classification of Spinal Cord Injury in children. J Spinal Cord Med. 2008;31(3):304-311. [(Find Online)](https://doi.org/10.1016/j.apmr.2011.03.003)
                 """,
                 parsedContent: [],
@@ -4900,7 +4904,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated for patients presenting with anterolateral shoulder pain, particularly pain that is exacerbated by overhead activities. It is a key component of the physical examination for suspected subacromial pain syndrome or rotator cuff pathology.
 
-                The test has been validated in various populations with shoulder pain, including athletes and the general adult population suspected of having subacromial impingement syndrome [^3].
+                The test has been validated in various populations with shoulder pain, including athletes and the general adult population suspected of having subacromial impingement syndrome [3].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -4946,7 +4950,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                A positive Hawkins-Kennedy test suggests compression and inflammation of the structures in the subacromial space, consistent with subacromial impingement syndrome. It has a reported sensitivity ranging from 72% to 92%, but a lower specificity (25% to 62%) [^2, ^4].
+                A positive Hawkins-Kennedy test suggests compression and inflammation of the structures in the subacromial space, consistent with subacromial impingement syndrome. It has a reported sensitivity ranging from 72% to 92%, but a lower specificity (25% to 62%) [2.
 
                 - **Clinical Significance**: Due to its high sensitivity, a negative test is useful for ruling out subacromial impingement. A positive test, given the low specificity, should be interpreted in conjunction with other clinical findings and special tests (e.g., Neer sign, painful arc test).
                 - **Treatment Planning**: A positive test, as part of a cluster of findings, helps confirm a diagnosis of subacromial impingement and guides treatment towards conservative management, including physical therapy focusing on rotator cuff strengthening, scapular stabilization, and activity modification.
@@ -4964,7 +4968,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Clinical Pearls**
 
-                - The test is most valuable when used as part of a cluster of tests. When combined with a positive painful arc sign and a positive infraspinatus muscle test, the positive likelihood ratio for any type of impingement increases significantly [^4].
+                - The test is most valuable when used as part of a cluster of tests. When combined with a positive painful arc sign and a positive infraspinatus muscle test, the positive likelihood ratio for any type of impingement increases significantly [4].
                 - Ensure the patient is relaxed to avoid muscle guarding, which can produce a false-negative or limit the range of motion.
                 - Pain located posteriorly may suggest internal impingement, a different pathology often seen in overhead athletes, rather than classic subacromial impingement.
 
@@ -4994,10 +4998,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hawkins RJ, Kennedy JC. Impingement syndrome in athletes. Am J Sports Med. 1980;8(3):151-158. [(Find Online)](https://doi.org/10.1177/036354658000800302)
-                [^2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of single tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
-                [^3]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
-                [^4]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of physical examination for rotator cuff tears: an evidence-based meta-analysis. J Bone Joint Surg Am. 2005;87(11):2580-2588. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
+                [1]: Hawkins RJ, Kennedy JC. Impingement syndrome in athletes. Am J Sports Med. 1980;8(3):151-158. [(Find Online)](https://doi.org/10.1177/036354658000800302)
+
+                [2]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of single tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+
+                [3]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+
+                [4]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of physical examination for rotator cuff tears: an evidence-based meta-analysis. J Bone Joint Surg Am. 2005;87(11):2580-2588. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5023,7 +5030,7 @@ class GeneratedContentProvider {
 
                 The primary clinical indication for using the ODI is to quantify the impact of low back pain on a patient's ability to perform activities of daily living. It is used to establish a baseline of disability, track patient progress throughout a course of treatment, and provide an objective measure of treatment outcomes.
 
-                The ODI has been validated for use in a wide range of patient populations with acute and chronic low back pain, both with and without radiculopathy. It is utilized across various settings, including primary care, physical therapy, spine surgery clinics, and clinical research [^2, ^3].
+                The ODI has been validated for use in a wide range of patient populations with acute and chronic low back pain, both with and without radiculopathy. It is utilized across various settings, including primary care, physical therapy, spine surgery clinics, and clinical research [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5074,7 +5081,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                The calculated percentage score is used to classify the patient's level of disability [^2]:
+                The calculated percentage score is used to classify the patient's level of disability [2]:
 
                 - **0% – 20% (Minimal disability)**: The patient can manage most daily activities. Treatment is typically conservative and may include advice on posture, lifting, and exercise.
                 - **21% – 40% (Moderate disability)**: The patient experiences more pain and difficulty with activities like sitting, lifting, and standing. Travel and social life may be impacted. Conservative management is usually indicated.
@@ -5086,7 +5093,7 @@ class GeneratedContentProvider {
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
-                The MCID represents the smallest change in the score that a patient would perceive as beneficial. For the ODI in patients with low back pain, the MCID is widely accepted to be a change of 10 to 15 percentage points [^4, ^5]. A reduction of this magnitude suggests a clinically significant improvement in the patient's functional status.
+                The MCID represents the smallest change in the score that a patient would perceive as beneficial. For the ODI in patients with low back pain, the MCID is widely accepted to be a change of 10 to 15 percentage points [4. A reduction of this magnitude suggests a clinically significant improvement in the patient's functional status.
                 """,
                 parsedContent: [],
                 sectionType: .scoring,
@@ -5097,10 +5104,10 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Clinical Pearls**
 
-                - The ODI is more sensitive for patients with moderate to severe disability. For patients with mild disability, the Roland-Morris Disability Questionnaire (RMDQ) may be more appropriate [^4].
+                - The ODI is more sensitive for patients with moderate to severe disability. For patients with mild disability, the Roland-Morris Disability Questionnaire (RMDQ) may be more appropriate [4].
                 - If a patient marks two boxes in one section, the higher (more disabled) score should be taken.
-                - The "Sex Life" section is the most frequently skipped item. Omitting this section and adjusting the denominator is an accepted practice and does not invalidate the score [^2].
-                - An ODI score of <22% is considered a satisfactory symptom state for many patients post-intervention [^5].
+                - The "Sex Life" section is the most frequently skipped item. Omitting this section and adjusting the denominator is an accepted practice and does not invalidate the score [2].
+                - An ODI score of <22% is considered a satisfactory symptom state for many patients post-intervention [5].
 
                 ### **Contraindications**
 
@@ -5118,7 +5125,7 @@ class GeneratedContentProvider {
 
                 **Scoring Errors**: A common mistake is failing to adjust the denominator when a section is justifiably skipped (not applicable), which can artificially lower the disability score. The correct denominator should be the total number of sections answered multiplied by 5.
 
-                **Misinterpretation of High Scores**: Scores above 80% should be interpreted with caution. While they may indicate a severe, crippling condition, they can also suggest symptom exaggeration or the presence of non-organic factors (e.g., illness behavior, psychological distress) that require further assessment [^2].
+                **Misinterpretation of High Scores**: Scores above 80% should be interpreted with caution. While they may indicate a severe, crippling condition, they can also suggest symptom exaggeration or the presence of non-organic factors (e.g., illness behavior, psychological distress) that require further assessment [2].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5127,11 +5134,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Fairbank JCT, Couper J, Davies JB, O'Brien JP. The Oswestry low back pain disability questionnaire. Physiotherapy. 1980;66(8):271-273. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/6450426/)
-                [^2]: Fairbank JC, Pynsent PB. The Oswestry Disability Index. Spine (Phila Pa 1976). 2000;25(22):2940-2953. [(Find Online)](https://doi.org/10.1097/00007632-200011150-00017)
-                [^3]: Vianin M. Psychometric properties and clinical usefulness of the Oswestry Disability Index. J Chiropr Med. 2008;7(4):161-163. [(Find Online)](https://doi.org/10.1016/j.jcm.2008.07.001)
-                [^4]: Davidson M, Keating JL. A comparison of five low back disability questionnaires: reliability and responsiveness. Phys Ther. 2002;82(1):8-24. [(Find Online)](https://doi.org/10.1093/ptj/82.1.8)
-                [^5]: Ostelo RW, Deyo RA, Stratford P, et al. Interpreting change scores for pain and functional status in low back pain: towards international consensus. Spine (Phila Pa 1976). 2008;33(1):90-94. [(Find Online)](https://doi.org/10.1097/brs.0b013e31815e3a10)
+                [1]: Fairbank JCT, Couper J, Davies JB, O'Brien JP. The Oswestry low back pain disability questionnaire. Physiotherapy. 1980;66(8):271-273. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/6450426/)
+
+                [2]: Fairbank JC, Pynsent PB. The Oswestry Disability Index. Spine (Phila Pa 1976). 2000;25(22):2940-2953. [(Find Online)](https://doi.org/10.1097/00007632-200011150-00017)
+
+                [3]: Vianin M. Psychometric properties and clinical usefulness of the Oswestry Disability Index. J Chiropr Med. 2008;7(4):161-163. [(Find Online)](https://doi.org/10.1016/j.jcm.2008.07.001)
+
+                [4]: Davidson M, Keating JL. A comparison of five low back disability questionnaires: reliability and responsiveness. Phys Ther. 2002;82(1):8-24. [(Find Online)](https://doi.org/10.1093/ptj/82.1.8)
+
+                [5]: Ostelo RW, Deyo RA, Stratford P, et al. Interpreting change scores for pain and functional status in low back pain: towards international consensus. Spine (Phila Pa 1976). 2008;33(1):90-94. [(Find Online)](https://doi.org/10.1097/brs.0b013e31815e3a10)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5258,8 +5269,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Malanga GA, Andrus S, Bowen JE, Mautner K. Physical Examination of the Knee: A Review of the Original Test Description and Scientific Validity of Common Orthopedic Tests. Arch Phys Med Rehabil. 2003;84(4):592-603. [(Find Online)](https://doi.org/10.1053/apmr.2003.50026)
+
                 [^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. J Orthop Sports Phys Ther. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
+
                 [^3]: Slocum DB, Larson RL. Rotatory instability of the knee. Its pathogenesis and a clinical test to demonstrate its presence. J Bone Joint Surg Am. 1968;50(2):211-225. [(Find Online)](https://doi.org/10.2106/00004623-196850020-00001)
+
                 [^4]: Rubinstein RA Jr, Shelbourne KD, McCarroll JR, VanMeter CD, Rettig AC. The accuracy of the clinical examination in the setting of posterior cruciate ligament injuries. Am J Sports Med. 1994;22(4):550-557. [(Find Online)](https://doi.org/10.1177/036354659402200419)
                 """,
                 parsedContent: [],
@@ -5286,7 +5300,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated for patients presenting with symptoms suggestive of median nerve compression at the wrist, including numbness, tingling, burning, or pain in the thumb, index finger, middle finger, and the radial half of the ring finger.
 
-                The test has been most extensively validated in adult populations with suspected idiopathic carpal tunnel syndrome. Its diagnostic accuracy can vary significantly depending on the study population and the reference standard used (e.g., nerve conduction studies) [^3].
+                The test has been most extensively validated in adult populations with suspected idiopathic carpal tunnel syndrome. Its diagnostic accuracy can vary significantly depending on the study population and the reference standard used (e.g., nerve conduction studies) [3].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5332,7 +5346,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                A positive Phalen's test suggests compression of the median nerve at the carpal tunnel and increases the likelihood of a CTS diagnosis. However, its diagnostic utility must be considered in the context of the entire clinical picture. Systematic reviews have reported a wide range of sensitivity (10% to 91%) and specificity (33% to 86%) for the test [^3, ^4]. Due to this variability, the test is best used in combination with other clinical findings (e.g., Tinel's sign, Carpal Compression Test) and, when necessary, confirmed with electrodiagnostic studies.
+                A positive Phalen's test suggests compression of the median nerve at the carpal tunnel and increases the likelihood of a CTS diagnosis. However, its diagnostic utility must be considered in the context of the entire clinical picture. Systematic reviews have reported a wide range of sensitivity (10% to 91%) and specificity (33% to 86%) for the test [3. Due to this variability, the test is best used in combination with other clinical findings (e.g., Tinel's sign, Carpal Compression Test) and, when necessary, confirmed with electrodiagnostic studies.
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -5379,9 +5393,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. J Bone Joint Surg Am. 1966;48(2):211-228. [(Find Online)](https://doi.org/10.2106/00004623-196648020-00001)
-                [^2]: American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. Published February 29, 2016. [(Find Online)](https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/cts-cpg_4-25-19.pdf)
-                [^3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+                [1]: Phalen GS. The carpal-tunnel syndrome. Seventeen years' experience in diagnosis and treatment of six hundred fifty-four hands. J Bone Joint Surg Am. 1966;48(2):211-228. [(Find Online)](https://doi.org/10.2106/00004623-196648020-00001)
+
+                [2]: American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline. Published February 29, 2016. [(Find Online)](https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/cts-cpg_4-25-19.pdf)
+
+                [3]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5504,10 +5520,15 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Solomon DH, Simel DL, Bates DW, Katz JN. The rational clinical examination. Does this patient have a torn meniscus or ligament of the knee? Value of the physical examination. JAMA. 2001;286(13):1610-1620. [(Find Online)](https://doi.org/10.1001/jama.286.13.1610)
+
                 [^2]: McMurray TP. The semilunar cartilages. Br J Surg. 1942;29(116):407-414. [(Find Online)](https://doi.org/10.1002/bjs.18002911612)
+
                 [^3]: Hegedus EJ, Cook C, Hasselblad V, Goode A, Mccrory DC. Physical examination tests for assessing a torn meniscus in the knee: a systematic review with meta-analysis. J Orthop Sports Phys Ther. 2007;37(9):541-550. [(Find Online)](https://doi.org/10.2519/jospt.2007.2560)
+
                 [^4]: Maffulli N, Longo UG, Campi S, Denaro V. Meniscal tears. a review of the current evidence for treatment. J Bone Joint Surg Am. 2010;92(11):2209-2221. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24198542/)
+
                 [^5]: Kim SJ, Hwang BY, Choi DH, Mei Y. McMurray's test is influenced by perimeniscal synovitis in degenerative meniscus tears. J Orthop Surg Res. 2024;19(1):168. [(Find Online)](https://doi.org/10.1186/s43019-024-00242-5)
+
                 [^6]: Smith BE, Thacker D, Crewesmith A, Hall M. Special tests for assessing meniscal tears of the knee in adults. Cochrane Database Syst Rev. 2015;(1):CD009616. [(Find Online)](https://doi.org/10.1136/ebmed-2014-110160)
                 """,
                 parsedContent: [],
@@ -5524,17 +5545,17 @@ class GeneratedContentProvider {
             category: "Musculoskeletal & Peripheral Nerve Examination",
             abbreviation: "N/A",
             overview: """
-            The primary purpose of Ober's test is to evaluate for restriction in the musculofascial structures of the lateral thigh, which may contribute to clinical syndromes such as greater trochanteric pain syndrome (GTPS) or iliotibial band syndrome (ITBS) [^4].
+            The primary purpose of Ober's test is to evaluate for restriction in the musculofascial structures of the lateral thigh, which may contribute to clinical syndromes such as greater trochanteric pain syndrome (GTPS) or iliotibial band syndrome (ITBS) [4].
             """,
             sections: [
             ContentSection(
                 title: "Purpose and Clinical Indication",
                 rawMarkdown: """
-                The primary purpose of Ober's test is to evaluate for restriction in the musculofascial structures of the lateral thigh, which may contribute to clinical syndromes such as greater trochanteric pain syndrome (GTPS) or iliotibial band syndrome (ITBS) [^4].
+                The primary purpose of Ober's test is to evaluate for restriction in the musculofascial structures of the lateral thigh, which may contribute to clinical syndromes such as greater trochanteric pain syndrome (GTPS) or iliotibial band syndrome (ITBS) [4].
 
                 This assessment is indicated for patients presenting with lateral hip, thigh, or knee pain, particularly when symptoms are exacerbated by activities like running or cycling. It helps the clinician to identify potential contributors to the patient's pathology, guiding subsequent treatment with manual therapy or therapeutic exercise.
 
-                The test is widely used in orthopedic and sports medicine settings for populations ranging from athletes to older adults with hip pathology [^1, ^4].
+                The test is widely used in orthopedic and sports medicine settings for populations ranging from athletes to older adults with hip pathology [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5562,7 +5583,7 @@ class GeneratedContentProvider {
                 1. **Patient Positioning**: Position the patient in side-lying with the painful side up. The bottom leg should be flexed at the hip and knee to flatten the lumbar lordosis and stabilize the pelvis.
                 2. **Examiner Stance**: Stand behind the patient.
                 3. **Pelvic Stabilization**: Place one hand firmly on the patient's iliac crest/greater trochanter to stabilize the pelvis and prevent it from moving during the test.
-                4. **Limb Positioning**: With the other hand, grasp the patient's distal leg or ankle. Passively abduct and extend the hip to align the IT band over the greater trochanter. The hip should be in slight extension to neutral, and the knee can be either flexed to 90 degrees (classic Ober's) or nearly extended (modified Ober's test) [^1].
+                4. **Limb Positioning**: With the other hand, grasp the patient's distal leg or ankle. Passively abduct and extend the hip to align the IT band over the greater trochanter. The hip should be in slight extension to neutral, and the knee can be either flexed to 90 degrees (classic Ober's) or nearly extended (modified Ober's test) [1].
                 5. **Adduction Phase**: While maintaining pelvic stabilization and slight hip extension, slowly lower (adduct) the upper leg toward the examination table. Allow gravity to pull the leg down.
                 6. **Observation**: Observe the degree of adduction. The test is complete when the leg stops adducting and the tension in the IT band/TFL is felt.
                 """,
@@ -5577,13 +5598,13 @@ class GeneratedContentProvider {
 
                 This assessment does not use a numerical scale. It is interpreted as "positive" or "negative" based on the final position of the limb.
 
-                A test is considered **positive** if the leg fails to adduct past the horizontal midline (i.e., remains abducted). This indicates tightness in the structures being tested, primarily the TFL and associated fascia [^4].
+                A test is considered **positive** if the leg fails to adduct past the horizontal midline (i.e., remains abducted). This indicates tightness in the structures being tested, primarily the TFL and associated fascia [4].
 
                 A test is considered **negative** if the leg adducts to the horizontal midline or below, towards the table. This suggests normal flexibility of the lateral thigh structures.
 
                 ### **Interpretation Guidelines**
 
-                - **Positive Test**: Traditionally interpreted as a shortened or contracted IT band. However, contemporary evidence suggests this is more indicative of TFL and/or gluteus medius/minimus muscular tightness or myofascial restriction [^2, ^3]. A positive finding can be correlated with symptoms of ITBS or GTPS, as increased tension in these structures can lead to compressive or frictional forces at the lateral femoral epicondyle or greater trochanter.
+                - **Positive Test**: Traditionally interpreted as a shortened or contracted IT band. However, contemporary evidence suggests this is more indicative of TFL and/or gluteus medius/minimus muscular tightness or myofascial restriction [2. A positive finding can be correlated with symptoms of ITBS or GTPS, as increased tension in these structures can lead to compressive or frictional forces at the lateral femoral epicondyle or greater trochanter.
                 - **Negative Test**: Indicates that significant restriction of the TFL/ITB complex is likely not a primary contributor to the patient's symptoms. Other potential sources of pain should be investigated.
 
                 ### **Minimal Clinically Important Difference (MCID)**
@@ -5630,10 +5651,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Fredericson M, Cookingham C, Chaudhari A, Dowdell B, Oestreicher N, Sahrmann S. Hip abductor weakness in distance runners with iliotibial band syndrome. Clin J Sport Med. 2000;10(3):169-175. [(Find Online)](https://doi.org/10.1097/00042752-200007000-00004)
-                [^2]: Willett GM, Keim SA, Shostrom VK, Lomneth CS. An anatomic investigation of the Ober test. Am J Sports Med. 2016;44(3):696-701. [(Find Online)](https://doi.org/10.1177/0363546515621762)
-                [^3]: Fairclough J, Hayashi K, Toumi H, et al. The functional anatomy of the iliotibial band during flexion and extension of the knee: implications for understanding iliotibial band syndrome. J Anat. 2006;208(3):309-316. [(Find Online)](https://doi.org/10.1111/j.1469-7580.2006.00531.x)
-                [^4]: Reese NB, Bandy WD. Joint Range of Motion and Muscle Length Testing. 2nd ed. Saunders; 2010. (Note: Chapter discussing Ober's Test, synthesis of clinical practice). [(Find Online)](https://www.abebooks.com/9781416058847/Joint-Range-Motion-Muscle-Length-1416058842/plp)
+                [1]: Fredericson M, Cookingham C, Chaudhari A, Dowdell B, Oestreicher N, Sahrmann S. Hip abductor weakness in distance runners with iliotibial band syndrome. Clin J Sport Med. 2000;10(3):169-175. [(Find Online)](https://doi.org/10.1097/00042752-200007000-00004)
+
+                [2]: Willett GM, Keim SA, Shostrom VK, Lomneth CS. An anatomic investigation of the Ober test. Am J Sports Med. 2016;44(3):696-701. [(Find Online)](https://doi.org/10.1177/0363546515621762)
+
+                [3]: Fairclough J, Hayashi K, Toumi H, et al. The functional anatomy of the iliotibial band during flexion and extension of the knee: implications for understanding iliotibial band syndrome. J Anat. 2006;208(3):309-316. [(Find Online)](https://doi.org/10.1111/j.1469-7580.2006.00531.x)
+
+                [4]: Reese NB, Bandy WD. Joint Range of Motion and Muscle Length Testing. 2nd ed. Saunders; 2010. (Note: Chapter discussing Ober's Test, synthesis of clinical practice). [(Find Online)](https://www.abebooks.com/9781416058847/Joint-Range-Motion-Muscle-Length-1416058842/plp)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5659,7 +5683,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated for patients presenting with shoulder pain, weakness, particularly with external rotation, or when a rotator cuff tear is suspected based on history and other examination findings.
 
-                The ERLS has been validated for use in adult patients with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [^1, ^2, ^4].
+                The ERLS has been validated for use in adult patients with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5685,9 +5709,9 @@ class GeneratedContentProvider {
                 ### **Procedure Steps**
 
                 1. **Positioning the Limb**: The examiner passively flexes the patient's elbow to 90 degrees and elevates the shoulder to 20 degrees in the scapular plane.
-                2. **Applying External Rotation**: While supporting the patient's elbow, the examiner passively rotates the shoulder to a position of near-maximal external rotation. It is recommended to back off approximately 5 degrees from the end-range to avoid influence from the elastic recoil of the joint capsule [^1].
+                2. **Applying External Rotation**: While supporting the patient's elbow, the examiner passively rotates the shoulder to a position of near-maximal external rotation. It is recommended to back off approximately 5 degrees from the end-range to avoid influence from the elastic recoil of the joint capsule [1].
                 3. **Observation**: The examiner releases the patient's wrist while continuing to support the elbow. The patient is instructed to actively hold the position.
-                4. **Recording the Lag**: A positive test occurs if the patient cannot maintain the position and the arm rotates internally. This "lag" is observed, and the angle of internal rotation drop can be estimated or measured in degrees [^2].
+                4. **Recording the Lag**: A positive test occurs if the patient cannot maintain the position and the arm rotates internally. This "lag" is observed, and the angle of internal rotation drop can be estimated or measured in degrees [2].
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -5705,9 +5729,9 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                - A positive ERLS is highly specific for a full-thickness tear of the supraspinatus and/or infraspinatus tendons [^2, ^4].
-                - A larger lag is associated with a more extensive tear. Castoldi et al. found that the lag increased from an average of 7 degrees for an isolated supraspinatus tendon rupture to 26 degrees when the tear extended into the teres minor [^2].
-                - Due to its high specificity, a positive test is very useful for "ruling in" a diagnosis of a full-thickness tear. However, its sensitivity can be variable, meaning a negative test does not definitively rule out a tear [^2, ^5].
+                - A positive ERLS is highly specific for a full-thickness tear of the supraspinatus and/or infraspinatus tendons [2.
+                - A larger lag is associated with a more extensive tear. Castoldi et al. found that the lag increased from an average of 7 degrees for an isolated supraspinatus tendon rupture to 26 degrees when the tear extended into the teres minor [2].
+                - Due to its high specificity, a positive test is very useful for "ruling in" a diagnosis of a full-thickness tear. However, its sensitivity can be variable, meaning a negative test does not definitively rule out a tear [2.
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -5724,8 +5748,8 @@ class GeneratedContentProvider {
 
                 - Always test the contralateral, asymptomatic side first to establish a baseline and check for patient understanding and tolerance.
                 - A small lag in a patient with hyperlaxity may be normal; comparison with the unaffected side is critical.
-                - The ERLS has been shown to be more specific than many other common shoulder examination tests (e.g., Jobe's test) for diagnosing a posterosuperior rotator cuff tear [^1].
-                - Hypertrophy of the teres minor muscle may compensate for a torn infraspinatus, potentially leading to a false-negative result [^6].
+                - The ERLS has been shown to be more specific than many other common shoulder examination tests (e.g., Jobe's test) for diagnosing a posterosuperior rotator cuff tear [1].
+                - Hypertrophy of the teres minor muscle may compensate for a torn infraspinatus, potentially leading to a false-negative result [6].
 
                 ### **Contraindications**
 
@@ -5737,7 +5761,7 @@ class GeneratedContentProvider {
                 **Relative contraindications**:
 
                 - Severe shoulder pain that prevents passive positioning.
-                - Significant adhesive capsulitis or other conditions causing a marked loss of passive external rotation, as this prevents proper positioning for the test [^1].
+                - Significant adhesive capsulitis or other conditions causing a marked loss of passive external rotation, as this prevents proper positioning for the test [1].
 
                 ### **Common Pitfalls**
 
@@ -5754,12 +5778,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hertel R, Ballmer FT, Lombert SM, Gerber C. Lag signs in the diagnosis of rotator cuff rupture. J Shoulder Elbow Surg. 1996;5(4):307-313. ([Find Online](https://doi.org/10.1016/s1058-2746(96)80058-9))
-                [^2]: Castoldi F, Blonna D, Hertel R. The external rotation lag sign revisited: accuracy for diagnosis of full thickness supraspinatus tear. J Shoulder Elbow Surg. 2009;18(5):769-773. ([Find Online](https://search.crossref.org/search/works?q=+Castoldi+F%2C+Blonna+D%2C+Hertel+R.+The+external+rotation+lag+sign+revisited%3A+accuracy+for+diagnosis+of+full+thickness+supraspinatus+tear.+J+Shoulder+Elbow+Surg.+2009%3B18(5)%3A769-773.+&from_ui=yes#:~:text=https%3A//doi.org/10.1016/j.jse.2008.11.007))
-                [^3]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
-                [^4]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
-                [^5]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
-                [^6]: Walch G, Boulahia A, Calderone S, Robinson AH. The 'dropping' and 'hornblower's' signs in evaluation of rotator-cuff tears. J Bone Joint Surg Br. 1998;80(4):624-628. [(Find Online)](https://doi.org/10.1302/0301-620x.80b4.0800624)
+                [1]: Hertel R, Ballmer FT, Lombert SM, Gerber C. Lag signs in the diagnosis of rotator cuff rupture. J Shoulder Elbow Surg. 1996;5(4):307-313. ([Find Online](https://doi.org/10.1016/s1058-2746(96)80058-9))
+
+                [2]: Castoldi F, Blonna D, Hertel R. The external rotation lag sign revisited: accuracy for diagnosis of full thickness supraspinatus tear. J Shoulder Elbow Surg. 2009;18(5):769-773. ([Find Online](https://search.crossref.org/search/works?q=+Castoldi+F%2C+Blonna+D%2C+Hertel+R.+The+external+rotation+lag+sign+revisited%3A+accuracy+for+diagnosis+of+full+thickness+supraspinatus+tear.+J+Shoulder+Elbow+Surg.+2009%3B18(5)%3A769-773.+&from_ui=yes#:~:text=https%3A//doi.org/10.1016/j.jse.2008.11.007))
+
+                [3]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
+
+                [4]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
+
+                [5]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+
+                [6]: Walch G, Boulahia A, Calderone S, Robinson AH. The 'dropping' and 'hornblower's' signs in evaluation of rotator-cuff tears. J Bone Joint Surg Br. 1998;80(4):624-628. [(Find Online)](https://doi.org/10.1302/0301-620x.80b4.0800624)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -5785,7 +5814,7 @@ class GeneratedContentProvider {
 
                 It is indicated for any patient presenting with low back pain accompanied by radiating symptoms into the buttock, posterior thigh, or lower leg (sciatica). It helps differentiate between radicular pain and other causes of back and leg pain, such as musculoskeletal strain, hip pathology, or sacroiliac joint dysfunction.
 
-                The SLR test has been validated primarily in populations with suspected lumbar disc herniation and sciatica. It is a standard component of the physical examination for low back pain in outpatient, inpatient, and emergency department settings [^2, ^3].
+                The SLR test has been validated primarily in populations with suspected lumbar disc herniation and sciatica. It is a standard component of the physical examination for low back pain in outpatient, inpatient, and emergency department settings [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -5821,7 +5850,7 @@ class GeneratedContentProvider {
                    - Neri's Sign: Ask the patient to actively flex their neck (bring chin to chest).
                      Reproduction of pain with these maneuvers increases the likelihood of a neural origin.
                 7. **Repeat on Affected Side**: Perform the same procedure on the symptomatic leg.
-                8. **Assess Crossed SLR (Fajersztajn sign)**: While testing the unaffected leg, note if the maneuver reproduces radicular pain in the *affected* leg. This is a positive Crossed SLR and is highly specific for a significant disc herniation [^3].
+                8. **Assess Crossed SLR (Fajersztajn sign)**: While testing the unaffected leg, note if the maneuver reproduces radicular pain in the *affected* leg. This is a positive Crossed SLR and is highly specific for a significant disc herniation [3].
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -5840,9 +5869,9 @@ class GeneratedContentProvider {
                 - **Negative SLR Test**: The test is negative if the examiner can raise the leg to 90 degrees (or to the point of hamstring tightness) without reproducing the patient's radicular symptoms.
                 - **Clinical Significance of Angle**:
                   - **0-30 degrees**: Pain in this range is less likely to be radicular. Consider acute spondylolisthesis, gluteal abscess, or a very large disc protrusion.
-                  - **30-70 degrees**: This is the classic range for a positive test, where lumbosacral nerve roots (L4-S1) are under maximum tension over a herniated disc [^1].
+                  - **30-70 degrees**: This is the classic range for a positive test, where lumbosacral nerve roots (L4-S1) are under maximum tension over a herniated disc [1].
                   - **>70 degrees**: Pain in this range is more likely mechanical, arising from the hamstrings, gluteus maximus, hip capsule, or sacroiliac joint.
-                - **Crossed SLR (Well-Leg Raise)**: Reproduction of pain in the symptomatic leg when the asymptomatic leg is raised is a highly specific (around 90%) but insensitive finding for nerve root compression, often indicating a large or centrally located disc herniation [^3].
+                - **Crossed SLR (Well-Leg Raise)**: Reproduction of pain in the symptomatic leg when the asymptomatic leg is raised is a highly specific (around 90%) but insensitive finding for nerve root compression, often indicating a large or centrally located disc herniation [3].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -5858,7 +5887,7 @@ class GeneratedContentProvider {
                 ### **Clinical Pearls**
 
                 - Always test the unaffected side first to establish a baseline and gain the patient's trust.
-                - A positive Crossed SLR is a powerful indicator of a significant disc herniation and has a high predictive value for the presence of a surgical lesion [^3].
+                - A positive Crossed SLR is a powerful indicator of a significant disc herniation and has a high predictive value for the presence of a surgical lesion [3].
                 - If hamstring tightness is a confounding factor, the Slump Test can be a useful alternative as it puts the neural structures on tension in a different manner.
                 - Reduced SLR range can also be seen in conditions other than disc herniation, such as spinal stenosis, intraspinal tumors, or inflammatory radiculopathy.
 
@@ -5890,9 +5919,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Rebain R, Baxter GD, McDonough S. A systematic review of the passive straight leg raising test as a diagnostic aid for low back pain (1989 to 2000). J Orthop Sports Phys Ther. 2002;32(1):8-18. [(Find Online)](https://doi.org/10.1097/00007632-200209010-00025)
-                [^2]: van der Windt DA, Simons E, Riphagen II, et al. Physical examination for lumbar radiculopathy due to disc herniation in patients with low-back pain. Cochrane Database Syst Rev. 2010;(2):CD007431. [(Find Online)](https://doi.org/10.1002/14651858.cd007431.pub2)
-                [^3]: Devillé WL, van der Windt DA, Dzaferagic A, Bezemer PD, Bouter LM. The test of Lasègue: systematic review of the accuracy in diagnosing herniated discs. Spine (Phila Pa 1976). 2000;25(9):1140-1147. [(Find Online)](https://doi.org/10.1097/00007632-200005010-00016)
+                [1]: Rebain R, Baxter GD, McDonough S. A systematic review of the passive straight leg raising test as a diagnostic aid for low back pain (1989 to 2000). J Orthop Sports Phys Ther. 2002;32(1):8-18. [(Find Online)](https://doi.org/10.1097/00007632-200209010-00025)
+
+                [2]: van der Windt DA, Simons E, Riphagen II, et al. Physical examination for lumbar radiculopathy due to disc herniation in patients with low-back pain. Cochrane Database Syst Rev. 2010;(2):CD007431. [(Find Online)](https://doi.org/10.1002/14651858.cd007431.pub2)
+
+                [3]: Devillé WL, van der Windt DA, Dzaferagic A, Bezemer PD, Bouter LM. The test of Lasègue: systematic review of the accuracy in diagnosing herniated discs. Spine (Phila Pa 1976). 2000;25(9):1140-1147. [(Find Online)](https://doi.org/10.1097/00007632-200005010-00016)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -6014,11 +6045,17 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Jobe FW, Moynes DR. Delineation of diagnostic criteria and a rehabilitation program for rotator cuff injuries. Am J Sports Med. 1982;10(6):336-339. [(Find Online)](https://doi.org/10.1177/036354658201000602)
+
                 [^2]: Boettcher CE, Ginn KA, Cathers I. The 'empty can' and 'full can' tests do not selectively activate supraspinatus. J Sci Med Sport. 2009;12(4):435-439. [(Find Online)](https://doi.org/10.1016/j.jsams.2008.09.005)
+
                 [^3]: Jain NB, Luz J, Higgins LD, et al. The Diagnostic Accuracy of Special Tests for Rotator Cuff Tear: The ROW Cohort Study. Am J Phys Med Rehabil. 2017;96(3):176-183. [(Find Online)](https://doi.org/10.1097/phm.0000000000000566)
+
                 [^4]: Hughes PC, Taylor NF, Green RA. Most clinical tests for subacromial impingement syndrome of the shoulder have poor diagnostic accuracy. J Orthop Sports Phys Ther. 2008;38(5):258-268. ([Find Online](https://doi.org/10.1016/s0004-9514(08)70022-9))
+
                 [^5]: Sgroi M, Loitsch T, Reichel H, Kappe T. Diagnostic Value of Clinical Tests for Supraspinatus Tendon Tears. Arthroscopy. 2018;34(8):2326-2333. [(Find Online)](https://doi.org/10.1016/j.arthro.2018.03.030)
+
                 [^6]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of clinical tests for the different degrees of subacromial impingement syndrome. J Bone Joint Surg Am. 2005;87(7):1446-1455. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
+
                 [^7]: Kelly BT, Kadrmas WR, Speer KP. The manual muscle examination for rotator cuff strength. An electromyographic investigation. Am J Sports Med. 1996;24(5):581-588. [(Find Online)](https://doi.org/10.1177/036354659602400504)
                 """,
                 parsedContent: [],
@@ -6138,9 +6175,13 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Lo IK, Nonweiler B, Woolfrey M, Litchfield R, Kirkley A. An evaluation of the apprehension, relocation, and surprise tests for anterior shoulder instability. Am J Sports Med. 2004;32(2):301-307. [(Find Online)](https://doi.org/10.1177/0095399703258690)
+
                 [^2]: Jobe FW, Kvitne RS. Shoulder pain in the overhand or throwing athlete. The relationship of anterior instability and rotator cuff impingement. Orthop Rev. 1989;18(9):963-975. ([Find Online](https://doi.org/10.1016/s0278-5919(20)30188-5))
+
                 [^3]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
+
                 [^4]: Farber AJ, Castillo R, Clopatofsky J, et al. Clinical diagnosis of anterior shoulder instability using a simple, combined physical examination test. Arthroscopy. 2006;22(12):1283-1289. [(Find Online)](https://doi.org/10.2106/jbjs.e.00594)
+
                 [^5]: Safran O, Milgrom C, Radeva-Petrova DR, Jaber S, Finestone A. Accuracy of the anterior apprehension test as a predictor of risk for redislocation after a first traumatic shoulder dislocation. Am J Sports Med. 2010;38(4):762-765. [(Find Online)](https://doi.org/10.1177/0363546509357610)
                 """,
                 parsedContent: [],
@@ -6167,7 +6208,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated for any patient presenting with an altered level of consciousness. It is a fundamental component of the neurological examination in the context of trauma, stroke, intracranial hemorrhage, and other acute neurological events.
 
-                The GCS has been validated in a wide range of patient populations, including adults and children over the age of 5, with traumatic and non-traumatic brain injuries. It is utilized across various settings, from pre-hospital emergency response to intensive care units [^1, ^3]. Modified versions, such as the Pediatric Glasgow Coma Scale (pGCS), exist for use in preverbal children [^3].
+                The GCS has been validated in a wide range of patient populations, including adults and children over the age of 5, with traumatic and non-traumatic brain injuries. It is utilized across various settings, from pre-hospital emergency response to intensive care units [1. Modified versions, such as the Pediatric Glasgow Coma Scale (pGCS), exist for use in preverbal children [3].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -6192,11 +6233,11 @@ class GeneratedContentProvider {
 
                 ### **Procedure Steps**
 
-                1. **Check**: Before assessment, identify and document any factors that may interfere with the evaluation, such as hearing loss, language barriers, intubation, sedation, or paralysis [^4].
+                1. **Check**: Before assessment, identify and document any factors that may interfere with the evaluation, such as hearing loss, language barriers, intubation, sedation, or paralysis [4].
                 2. **Observe**: Observe for any spontaneous eye opening, verbalization, or motor movements without stimulation.
                 3. **Stimulate**: If no spontaneous activity is observed, apply stimuli in a sequential manner:
                    - **Verbal Stimulus**: Speak to the patient in a normal, then loud voice.
-                   - **Physical Stimulus**: If there is no response to voice, apply a physical stimulus. This should be a standardized, central stimulus such as pressure on the supraorbital notch or a trapezius pinch. Peripheral stimulus (e.g., nail bed pressure) is used to assess for withdrawal or localizing responses [^1].
+                   - **Physical Stimulus**: If there is no response to voice, apply a physical stimulus. This should be a standardized, central stimulus such as pressure on the supraorbital notch or a trapezius pinch. Peripheral stimulus (e.g., nail bed pressure) is used to assess for withdrawal or localizing responses [1].
                 4. **Rate**: Assign a score for the best response observed in each of the three components (Eye, Verbal, and Motor). The best response is always recorded.
                 """,
                 parsedContent: [],
@@ -6236,11 +6277,11 @@ class GeneratedContentProvider {
                 - **Moderate Brain Injury**: GCS score of 9 to 12
                 - **Mild Brain Injury**: GCS score of 13 to 15
 
-                A decreasing GCS score indicates neurological deterioration and requires urgent reassessment and potential intervention. Conversely, an increasing score suggests neurological improvement. The individual component scores provide a more detailed clinical picture; for example, a decline in the motor score is particularly ominous [^5].
+                A decreasing GCS score indicates neurological deterioration and requires urgent reassessment and potential intervention. Conversely, an increasing score suggests neurological improvement. The individual component scores provide a more detailed clinical picture; for example, a decline in the motor score is particularly ominous [5].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
-                The concept of MCID is not traditionally applied to the GCS in the same way as it is for functional outcome measures. A change of a single point in the total GCS score, particularly a drop in the motor score, is often considered clinically significant and may trigger a change in management [^6]. However, a specific, universally accepted MCID value has not been established.
+                The concept of MCID is not traditionally applied to the GCS in the same way as it is for functional outcome measures. A change of a single point in the total GCS score, particularly a drop in the motor score, is often considered clinically significant and may trigger a change in management [6]. However, a specific, universally accepted MCID value has not been established.
                 """,
                 parsedContent: [],
                 sectionType: .scoring,
@@ -6251,7 +6292,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Clinical Pearls**
 
-                - The motor score is the single most significant component for predicting outcome [^5].
+                - The motor score is the single most significant component for predicting outcome [5].
                 - When assessing a patient with a language barrier, the verbal score may be untestable. Assess other components and document the reason for the untestable score (e.g., GCS E4 M6 Vt).
                 - Always record the best response elicited. If a patient obeys a command on one side but not the other (due to hemiparesis), the score is still 6 for motor.
                 - The trend of the GCS over time is often more informative than a single score.
@@ -6270,11 +6311,11 @@ class GeneratedContentProvider {
 
                 ### **Common Pitfalls**
 
-                **Inconsistent Stimulus**: Using different or non-standardized painful stimuli (e.g., sternal rub, which can cause bruising) can lead to variability in scores. Use of a standardized stimulus like supraorbital notch pressure is recommended [^1].
+                **Inconsistent Stimulus**: Using different or non-standardized painful stimuli (e.g., sternal rub, which can cause bruising) can lead to variability in scores. Use of a standardized stimulus like supraorbital notch pressure is recommended [1].
 
                 **Not Recording Individual Components**: Reporting only the total GCS score can be misleading. Two patients with a GCS of 7 could have very different clinical pictures (e.g., E1V1M5 vs. E2V2M3). Always document the individual component scores.
 
-                **Scoring Untestable Components**: Assigning a score of 1 to an untestable component (e.g., verbal response in an intubated patient) is incorrect and artificially lowers the total score. The component should be marked as "Not Testable" (NT) or with a specific modifier [^4].
+                **Scoring Untestable Components**: Assigning a score of 1 to an untestable component (e.g., verbal response in an intubated patient) is incorrect and artificially lowers the total score. The component should be marked as "Not Testable" (NT) or with a specific modifier [4].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -6283,12 +6324,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet.33 1974;2(7872):81-84. ([Find Online](https://doi.org/10.1016/s0140-6736(74)91639-0))
-                [^2]: Jain S, Iverson LM, Margetis K. Glasgow Coma Scale. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK513298/)
-                [^3]: Tatman A, Warren A, Williams A, Powell JE. Development of a new paediatric coma scale. Lancet.34 1997;350(9072):199. [(Find Online)](https://doi.org/10.1136/adc.77.6.519)
-                [^4]: Teasdale G, Allen D, Brennan P, McElhinney E, Mackinnon L. The Glasgow Coma Scale: an update after 40 years. Nurs Times. 2014;110(42):12-16. ([Find Online](https://doi.org/10.1016/s1474-4422(14)70120-6))
-                [^5]: Healey C, Osler TM, Rogers FB, et al. Improving the Glasgow Coma Scale score: motor score alone is a better predictor. J Trauma. 2003;54(4):671-678. [(Find Online)](https://doi.org/10.1097/01.ta.0000058130.30490.5d)
-                [^6]: Reith FC, Van den Brande R, Synnot A, Gruen R, Maas AI. The reliability of the Glasgow Coma Scale: a systematic review. Intensive Care Med. 2016;42(1):3-15. [(Find Online)](https://doi.org/10.1007/s00134-015-4124-3)
+                [1]: Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet.33 1974;2(7872):81-84. ([Find Online](https://doi.org/10.1016/s0140-6736(74)91639-0))
+
+                [2]: Jain S, Iverson LM, Margetis K. Glasgow Coma Scale. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK513298/)
+
+                [3]: Tatman A, Warren A, Williams A, Powell JE. Development of a new paediatric coma scale. Lancet.34 1997;350(9072):199. [(Find Online)](https://doi.org/10.1136/adc.77.6.519)
+
+                [4]: Teasdale G, Allen D, Brennan P, McElhinney E, Mackinnon L. The Glasgow Coma Scale: an update after 40 years. Nurs Times. 2014;110(42):12-16. ([Find Online](https://doi.org/10.1016/s1474-4422(14)70120-6))
+
+                [5]: Healey C, Osler TM, Rogers FB, et al. Improving the Glasgow Coma Scale score: motor score alone is a better predictor. J Trauma. 2003;54(4):671-678. [(Find Online)](https://doi.org/10.1097/01.ta.0000058130.30490.5d)
+
+                [6]: Reith FC, Van den Brande R, Synnot A, Gruen R, Maas AI. The reliability of the Glasgow Coma Scale: a systematic review. Intensive Care Med. 2016;42(1):3-15. [(Find Online)](https://doi.org/10.1007/s00134-015-4124-3)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -6415,12 +6461,19 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Logerstedt DS, Snyder-Mackler L, Ritter RC, Axe MJ. Knee stability and movement coordination impairments: knee ligament sprain. J Orthop Sports Phys Ther. 2010;40(4):A1-A37. [(Find Online)](https://doi.org/10.2519/jospt.2010.0303)
+
                 [^2]: LaPrade RF, Wentorf FA. Diagnosis and treatment of posterolateral knee injuries. Clin Orthop Relat Res. 2002;(402):110-121. [(Find Online)](https://doi.org/10.1097/00003086-200209000-00010)
+
                 [^3]: Phisitkul P, James SL, Wolf BR, Amendola A. MCL injuries of the knee: current concepts review. Iowa Orthop J. 2006;26:77-90. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1888587/)
+
                 [^4]: Müller W. The knee: form, function, and ligament reconstruction. Springer-Verlag; 1983. [(Find Online)](https://catalog.nlm.nih.gov/permalink/01NLM_INST/vdtut1/alma995671493406676)
+
                 [^5]: Hughston JC, Andrews JR, Cross MJ, Moschi A. Classification of knee ligament instabilities. Part I. The medial compartment and cruciate ligaments. J Bone Joint Surg Am. 1976;58(2):159-172. [(Find Online)](https://doi.org/10.2106/00004623-197658020-00001)
+
                 [^6]: LaPrade RF, Terry GC. Injuries to the posterolateral aspect of the knee. Association of anatomic injury patterns with clinical instability. Am J Sports Med. 1997;25(4):433-438. [(Find Online)](https://doi.org/10.1177/036354659702500403)
+
                 [^7]: Gollehon DL, Torzilli PA, Warren RF. The role of the posterolateral and cruciate ligaments in the stability of the human knee. A biomechanical study. J Bone Joint Surg Am. 1987;69(2):233-242. [(Find Online)](https://doi.org/10.2106/00004623-198769020-00010)
+
                 [^8]: LaPrade RF, Heikes C, Bakker AJ, Jakobsen RB. Correlation of valgus stress radiographs with medial knee ligament injuries: an in vitro biomechanical study. Am J Sports Med. 2009;37(10):2024-2030. [(Find Online)](https://doi.org/10.1177/0363546509349347)
                 """,
                 parsedContent: [],
@@ -6458,7 +6511,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Patient Preparation**
 
-                **Positioning**: The patient should be positioned in supine or sitting with the knee flexed to approximately 90 degrees to relax the gastrocnemius-soleus complex. The ankle should be positioned in slight plantar flexion (10-20 degrees) to specifically stress the ATFL [^4].
+                **Positioning**: The patient should be positioned in supine or sitting with the knee flexed to approximately 90 degrees to relax the gastrocnemius-soleus complex. The ankle should be positioned in slight plantar flexion (10-20 degrees) to specifically stress the ATFL [4].
 
                 **Environment**: A standard clinical examination room with a plinth or examination table is sufficient.
 
@@ -6475,7 +6528,7 @@ class GeneratedContentProvider {
                 1. **Stabilization**: The examiner uses one hand to stabilize the distal tibia and fibula just proximal to the ankle mortise.
                 2. **Grasp**: The examiner grasps the patient's calcaneus with the other hand, cupping the heel. The patient's foot rests on the examiner's forearm.
                 3. **Application of Force**: While maintaining about 10-20 degrees of ankle plantar flexion, the examiner gently but firmly pulls the calcaneus (and talus) anteriorly, creating an anteriorly directed translation force.
-                4. **Assessment**: The examiner assesses the amount of anterior translation of the talus and the quality of the end-feel. The test should always be performed on the uninjured ankle first to establish a baseline for comparison [^2].
+                4. **Assessment**: The examiner assesses the amount of anterior translation of the talus and the quality of the end-feel. The test should always be performed on the uninjured ankle first to establish a baseline for comparison [2].
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -6486,7 +6539,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Scoring Scale**
 
-                This assessment does not use a multi-item ordinal scale; rather, it relies on the clinical judgment of the examiner to determine the presence and degree of laxity. The result is typically documented as negative, or positive with a grade of laxity. The amount of anterior translation is compared to the contralateral side. A positive test is indicated by excessive anterior translation and/or a soft, mushy end-feel compared to the firm, ligamentous end-feel of the uninjured side [^1]. While a formal scoring table is not standard, laxity is often graded:
+                This assessment does not use a multi-item ordinal scale; rather, it relies on the clinical judgment of the examiner to determine the presence and degree of laxity. The result is typically documented as negative, or positive with a grade of laxity. The amount of anterior translation is compared to the contralateral side. A positive test is indicated by excessive anterior translation and/or a soft, mushy end-feel compared to the firm, ligamentous end-feel of the uninjured side [1]. While a formal scoring table is not standard, laxity is often graded:
 
                 - **Grade 0 (Negative):** No increased translation compared to the contralateral side; firm end-feel.
                 - **Grade 1 (Mild Positive):** Slight increase in anterior translation (2-5 mm) with a firm but softened end-feel.
@@ -6496,7 +6549,7 @@ class GeneratedContentProvider {
                 ### **Interpretation Guidelines**
 
                 - **Negative Test**: Suggests the ATFL is likely intact.
-                - **Positive Test**: Suggests a partial or complete rupture of the ATFL. The amount of translation can correlate with the severity of the ligamentous injury. When combined with a positive talar tilt test, it may indicate a combined injury to both the ATFL and the calcaneofibular ligament (CFL) [^3]. The presence of a "clunk" may also be appreciated as the talus subluxates and reduces.
+                - **Positive Test**: Suggests a partial or complete rupture of the ATFL. The amount of translation can correlate with the severity of the ligamentous injury. When combined with a positive talar tilt test, it may indicate a combined injury to both the ATFL and the calcaneofibular ligament (CFL) [3]. The presence of a "clunk" may also be appreciated as the talus subluxates and reduces.
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -6514,7 +6567,7 @@ class GeneratedContentProvider {
                 - Ensuring the patient's calf muscles are relaxed is critical for a valid test; flexing the knee helps achieve this.
                 - Performing the test on the uninjured side first provides a crucial baseline for what is "normal" for that individual, as some people have constitutional ligamentous laxity.
                 - Diagnostic accuracy improves when the test is performed 4-5 days after an acute injury, once acute swelling and pain have subsided, reducing muscle guarding.
-                - Combining the ADT with palpation for tenderness over the ATFL and observing for hematoma can increase diagnostic accuracy for a lateral ligament lesion to over 90% [^5].
+                - Combining the ADT with palpation for tenderness over the ATFL and observing for hematoma can increase diagnostic accuracy for a lateral ligament lesion to over 90% [5].
 
                 ### **Contraindications**
 
@@ -6543,11 +6596,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12937557/)
-                [^2]: Croy T, Koppenhaver S, Saliba S, Hertel J. Anterior talocrural joint laxity: diagnostic accuracy of the anterior drawer test of the ankle. J Orthop Sports Phys Ther. 2013;43(12):911-919. [(Find Online)](https://doi.org/10.2519/jospt.2013.4679)
-                [^3]: van Dijk CN, Lim LS, Bossuyt PM, Marti RK. Physical examination is sufficient for the diagnosis of sprained ankles. J Bone Joint Surg Br. 1996;78(6):958-962. [(Find Online)](https://doi.org/10.1302/0301-620x.78b6.0780958)
-                [^4]: Tohyama H, Yasuda K, Ohkoshi Y, Beynnon BD, Renstrom PA. Anterior drawer test for acute anterior talofibular ligament injuries of the ankle. How much load should be applied during the test? Am J Sports Med. 20031;31(2):226-232. [(Find Online)](https://doi.org/10.1177/03635465030310021201)
-                [^5]: Klenerman L. The management of sprained ankle. J Bone Joint Surg Br. 1998;80(1):11-12. [(Find Online)](https://doi.org/10.1302/0301-620x.80b1.0800011)
+                [1]: Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12937557/)
+
+                [2]: Croy T, Koppenhaver S, Saliba S, Hertel J. Anterior talocrural joint laxity: diagnostic accuracy of the anterior drawer test of the ankle. J Orthop Sports Phys Ther. 2013;43(12):911-919. [(Find Online)](https://doi.org/10.2519/jospt.2013.4679)
+
+                [3]: van Dijk CN, Lim LS, Bossuyt PM, Marti RK. Physical examination is sufficient for the diagnosis of sprained ankles. J Bone Joint Surg Br. 1996;78(6):958-962. [(Find Online)](https://doi.org/10.1302/0301-620x.78b6.0780958)
+
+                [4]: Tohyama H, Yasuda K, Ohkoshi Y, Beynnon BD, Renstrom PA. Anterior drawer test for acute anterior talofibular ligament injuries of the ankle. How much load should be applied during the test? Am J Sports Med. 20031;31(2):226-232. [(Find Online)](https://doi.org/10.1177/03635465030310021201)
+
+                [5]: Klenerman L. The management of sprained ankle. J Bone Joint Surg Br. 1998;80(1):11-12. [(Find Online)](https://doi.org/10.1302/0301-620x.80b1.0800011)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -6669,6 +6726,7 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Beaton DE, Wright JG, Katz JN; Upper Extremity Collaborative Group. Development of the QuickDASH: comparison of three item-reduction approaches. J Bone Joint Surg Am. 2005;87(5):1038-46. [(Find Online)](https://doi.org/10.2106/jbjs.d.02060)
+
                 [^2]: Franchignoni F, Vercelli S, Giordano A, Sartorio F, Bravini E, Ferriero G. Minimal clinically important difference of the disabilities of the arm, shoulder and hand outcome measure (DASH) and its shortened version (QuickDASH). J Orthop Sports Phys 2Ther. 2014;44(1):30-9. [(Find Online)](https://doi.org/10.2519/jospt.2014.4893)
                 """,
                 parsedContent: [],
@@ -6695,7 +6753,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated when there is a clinical suspicion of cognitive decline, particularly in its early stages. It is frequently used in geriatric and neurologic clinics to evaluate individuals with memory complaints or other cognitive symptoms.
 
-                The MoCA has been validated in numerous patient populations, including but not limited to: mild cognitive impairment, Alzheimer's disease, Parkinson's disease, Huntington's disease, stroke, traumatic brain injury, multiple sclerosis, and various other neurological and psychiatric conditions [^1, ^2].
+                The MoCA has been validated in numerous patient populations, including but not limited to: mild cognitive impairment, Alzheimer's disease, Parkinson's disease, Huntington's disease, stroke, traumatic brain injury, multiple sclerosis, and various other neurological and psychiatric conditions [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -6747,13 +6805,13 @@ class GeneratedContentProvider {
                 A total score is calculated by summing the points from each section.
 
                 - **Score ≥ 26**: Generally considered normal.
-                - **Score < 26**: Suggests the presence of cognitive impairment and warrants further investigation. This is the most commonly cited cut-off score for detecting MCI [^1].
+                - **Score < 26**: Suggests the presence of cognitive impairment and warrants further investigation. This is the most commonly cited cut-off score for detecting MCI [1].
 
                 Lower scores typically indicate a greater degree of cognitive impairment. The pattern of deficits across the different domains can provide clinical insights into the nature of the cognitive impairment (e.g., significant deficits in memory recall may suggest an amnestic MCI).
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
-                The MCID for the MoCA has been explored in different populations. In stroke survivors, an improvement of approximately 2 points has been suggested to represent a clinically meaningful change [^3]. This value can help clinicians and researchers interpret changes in cognitive function over time or in response to an intervention.
+                The MCID for the MoCA has been explored in different populations. In stroke survivors, an improvement of approximately 2 points has been suggested to represent a clinically meaningful change [3]. This value can help clinicians and researchers interpret changes in cognitive function over time or in response to an intervention.
                 """,
                 parsedContent: [],
                 sectionType: .scoring,
@@ -6798,9 +6856,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Nasreddine ZS, Phillips NA, Bédirian V, et al. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005;53(4):695-699. [(Find Online)](https://doi.org/10.1111/j.1532-5415.2005.53221.x)
-                [^2]: Julayanont P, Phillips N, Chertkow H, Nasreddine ZS. The Montreal Cognitive Assessment (MoCA): concept and clinical review. In: Larner AJ, ed. Cognitive Screening Instruments: A Practical Approach. Springer; 2013:111-152. [(Find Online)](https://doi.org/10.1007/978-1-4471-2452-8_6)
-                [^3]: Wong A, Nyenhuis D, Black SE, et al. The Montreal Cognitive Assessment 5-minute protocol is a brief, valid, and reliable screening tool for vascular cognitive impairment. Stroke. 2015;46(4):1059-1064. [(Find Online)](https://doi.org/10.1161/strokeaha.114.007253)
+                [1]: Nasreddine ZS, Phillips NA, Bédirian V, et al. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005;53(4):695-699. [(Find Online)](https://doi.org/10.1111/j.1532-5415.2005.53221.x)
+
+                [2]: Julayanont P, Phillips N, Chertkow H, Nasreddine ZS. The Montreal Cognitive Assessment (MoCA): concept and clinical review. In: Larner AJ, ed. Cognitive Screening Instruments: A Practical Approach. Springer; 2013:111-152. [(Find Online)](https://doi.org/10.1007/978-1-4471-2452-8_6)
+
+                [3]: Wong A, Nyenhuis D, Black SE, et al. The Montreal Cognitive Assessment 5-minute protocol is a brief, valid, and reliable screening tool for vascular cognitive impairment. Stroke. 2015;46(4):1059-1064. [(Find Online)](https://doi.org/10.1161/strokeaha.114.007253)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -6826,7 +6886,7 @@ class GeneratedContentProvider {
 
                 It is indicated for patients presenting with anterior shoulder pain, particularly when there is suspicion of bicipital tendinopathy or a SLAP lesion. The test aims to reproduce the patient's characteristic pain.
 
-                The test has been studied in various populations with shoulder pain, but systematic reviews have consistently shown it to have limited diagnostic accuracy, with generally low sensitivity and variable specificity for both LHB pathology and SLAP lesions [^1, ^3].
+                The test has been studied in various populations with shoulder pain, but systematic reviews have consistently shown it to have limited diagnostic accuracy, with generally low sensitivity and variable specificity for both LHB pathology and SLAP lesions [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -6871,8 +6931,8 @@ class GeneratedContentProvider {
                 ### **Interpretation Guidelines**
 
                 - **Positive Test**: Pain localized to the bicipital groove suggests inflammation or pathology of the long head of the biceps tendon (e.g., tendinopathy, tenosynovitis) or a SLAP lesion, particularly a Type II lesion.
-                - **Negative Test**: The absence of pain in the bicipital groove decreases the likelihood of significant LHB tendinopathy. However, due to the test's low sensitivity, a negative result does not definitively rule out the condition [^1].
-                - **Clinical Context**: The results of Speed's Test should be correlated with other clinical findings, including patient history, palpation, and other special tests (e.g., Yergason's Test, O'Brien's Test), as its standalone accuracy is insufficient for diagnosis [^2].
+                - **Negative Test**: The absence of pain in the bicipital groove decreases the likelihood of significant LHB tendinopathy. However, due to the test's low sensitivity, a negative result does not definitively rule out the condition [1].
+                - **Clinical Context**: The results of Speed's Test should be correlated with other clinical findings, including patient history, palpation, and other special tests (e.g., Yergason's Test, O'Brien's Test), as its standalone accuracy is insufficient for diagnosis [2].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -6919,9 +6979,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012 Nov;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
-                [^2]: Kibler WB, Sciascia AD, Hester P, Dome D, Jacobs C. Clinical utility of traditional and new tests in the diagnosis of biceps tendon injuries and superior labrum anterior and posterior lesions in the shoulder. Am J Sports Med. 2009 Sep;37(9):1840-7. [(Find Online)](https://doi.org/10.1177/0363546509332505)
-                [^3]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000 Jan;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+                [1]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012 Nov;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+
+                [2]: Kibler WB, Sciascia AD, Hester P, Dome D, Jacobs C. Clinical utility of traditional and new tests in the diagnosis of biceps tendon injuries and superior labrum anterior and posterior lesions in the shoulder. Am J Sports Med. 2009 Sep;37(9):1840-7. [(Find Online)](https://doi.org/10.1177/0363546509332505)
+
+                [3]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000 Jan;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -7066,8 +7128,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Catz A, Itzkovich M, Agranov E, Ring H, Tamir A. SCIM--spinal cord independence measure: a new disability scale for patients with spinal cord lesions.33 Spinal Cord. 1997;35(12):850-856. [(Find Online)](https://doi.org/10.1038/sj.sc.3100504)
+
                 [^2]: Catz A, Itzkovich M, Tesio L, et al. A multi-center international study on the Spinal Cord Independence Measure, version III: Rasch psychometric validation. Spinal Cord. 2007;45(4):275-291. [(Find Online)](https://doi.org/10.1038/sj.sc.3101960)
+
                 [^3]: Corallo V, Torre M, Scivoletto G, et al. What do spinal cord injury patients think of their improvement? A study of the minimal clinically important difference of the Spinal Cord Independence Measure III. Eur J Phys Rehabil Med. 2017;53(4):559-568. [(Find Online)](https://doi.org/10.23736/s1973-9087.17.04240-x)
+
                 [^4]: Anderson K, Aito S, Atkins M, et al.36 Functional recovery measures for spinal cord injury: an evidence-based review for clinical practice and research. J Spinal Cord Med. 2008;31(2):133-144. [(Find Online)](https://doi.org/10.1080/10790268.2008.11760704)
                 """,
                 parsedContent: [],
@@ -7190,9 +7255,13 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12937557/)
+
                 [^2]: Colville MR, Marder RA, Zarins B. Reconstruction of the lateral ankle ligaments. A biomechanical analysis. Am J Sports Med. 1992;20(5):594-600. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1443330/)
+
                 [^3]: van Dijk CN, Lim LS, Bossuyt PM, Marti RK. Physical examination is sufficient for the diagnosis of sprained ankles. J Bone Joint Surg Br. 1996;78(6):958-62. [(Find Online)](https://doi.org/10.1302/0301-620x.78b6.0780958)
+
                 [^4]: Al-Mohrej OA, Al-Kenani NS. Acute ankle sprain: conservative or surgical approach? EFORT Open Rev. 2016;1(2):34-44. [(Find Online)](https://doi.org/10.1302/2058-5241.1.000010)
+
                 [^5]: Phisitkul P, Chaichankul C, Sripinyo S, Tengtrakulcharoen P, Suarchawaratana S. Accuracy of anterior drawer and talar tilt tests in chronic lateral ankle instability: a cadaveric study. J Med Assoc Thai. 2009;92(8):1058-63. [(Find Online)](https://doi.org/10.3113/fai.2009.0690)
                 """,
                 parsedContent: [],
@@ -7328,7 +7397,9 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: O'Driscoll SW, Lawton RL, Smith AM. The "moving valgus stress test" for medial collateral ligament tears of the elbow. Am J Sports Med. 2005;33(2):231-239. [(Find Online)](https://doi.org/10.1177/0363546504267804)
+
                 [^2]: Camp CL, Smith J, O'Driscoll SW. Posterolateral rotatory instability of the elbow: part I. Mechanism of injury and physical examination. J Am Acad Orthop Surg. 2017;25(3):197-207. [(Find Online)](https://doi.org/10.1016/j.eats.2016.10.016)
+
                 [^3]: Nazarian LN, McShane JM, Ciccotti MG, O'Kane PL. Dynamic US of the elbow: ulnar collateral ligament and ulnar nerve. Radiographics. 2003;23(5):1173-1181. [(Find Online)](https://doi.org/10.1148/radiol.2271020288)
                 """,
                 parsedContent: [],
@@ -7451,7 +7522,9 @@ class GeneratedContentProvider {
                 To help you visualize the procedure, here is a helpful video demonstrating how to perform Yergason's Test.
 
                 [^1]: Yergason RM. Supination sign. J Bone Joint Surg Am. 1931;13(1):160.
+
                 [^2]: Holtby R, Razmjou H. Accuracy of the Speed's and Yergason's tests in detecting biceps pathology and SLAP lesions: comparison with arthroscopic findings. Arthroscopy. 2004;20(3):231-236. [(Find Online)](https://doi.org/10.1016/j.arthro.2004.01.008)
+
                 [^3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
                 """,
                 parsedContent: [],
@@ -7570,6 +7643,7 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Hardcastle P, Nade S. The significance of the Trendelenburg test. J Bone Joint Surg Br. 1985;67(5):741-6. [(Find Online)](https://doi.org/10.1302/0301-620x.67b5.4055873)
+
                 [^2]: Youdas JW, Madson TJ, Hollman JH. Usefulness of the Trendelenburg test for identification of patients with hip joint osteoarthritis. Physiother Theory Pract. 2010;26(3):186-94. [(Find Online)](https://doi.org/10.3109/09593980902750857)
                 """,
                 parsedContent: [],
@@ -7594,9 +7668,9 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 The primary purpose of Lachman's Test is to assess the integrity of the Anterior Cruciate Ligament.
 
-                This assessment is indicated when a patient presents with a history suggestive of an ACL injury, such as a non-contact pivoting or twisting injury to the knee, a sudden "pop" at the time of injury, subsequent knee swelling (effusion), and a feeling of instability or the knee "giving way" [^1].
+                This assessment is indicated when a patient presents with a history suggestive of an ACL injury, such as a non-contact pivoting or twisting injury to the knee, a sudden "pop" at the time of injury, subsequent knee swelling (effusion), and a feeling of instability or the knee "giving way" [1].
 
-                The test has been validated in a wide range of patient populations, from athletes to the general population, and is utilized in various clinical settings, including outpatient clinics, emergency departments, and sideline athletic evaluations [^4].
+                The test has been validated in a wide range of patient populations, from athletes to the general population, and is utilized in various clinical settings, including outpatient clinics, emergency departments, and sideline athletic evaluations [4].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -7607,7 +7681,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Patient Preparation**
 
-                **Positioning**: The patient should be positioned supine on the examination table, as relaxed as possible. The affected knee is flexed to approximately 20-30 degrees. The patient's leg should be in slight external rotation to relax the iliotibial band [^1].
+                **Positioning**: The patient should be positioned supine on the examination table, as relaxed as possible. The affected knee is flexed to approximately 20-30 degrees. The patient's leg should be in slight external rotation to relax the iliotibial band [1].
 
                 **Environment**: A standard clinical examination room is sufficient. The patient should be on a firm and stable surface.
 
@@ -7625,7 +7699,7 @@ class GeneratedContentProvider {
                 1. **Patient Positioning**: Ensure the patient is supine with the involved knee flexed to 20-30 degrees and muscles, particularly the hamstrings, are relaxed.
                 2. **Femur Stabilization**: The examiner places one hand (e.g., the outside hand) firmly on the distal femur, just above the patella, to stabilize it.
                 3. **Tibia Mobilization**: The examiner's other hand (e.g., the inside hand) grasps the proximal tibia from the medial side, with the thumb positioned on the tibial tuberosity.
-                4. **Anterior Force Application**: With the femur stabilized, the examiner applies a quick, firm, anteriorly directed force to the proximal tibia, attempting to translate it forward [^1, ^3].
+                4. **Anterior Force Application**: With the femur stabilized, the examiner applies a quick, firm, anteriorly directed force to the proximal tibia, attempting to translate it forward [1.
                 5. **Assess Translation and Endpoint**: The examiner assesses the amount of anterior tibial translation and, critically, the quality of the endpoint. The test is then repeated on the contralateral, uninjured knee to establish a baseline for comparison.
                 """,
                 parsedContent: [],
@@ -7647,19 +7721,19 @@ class GeneratedContentProvider {
 
                 | 2+ | 6-10 mm of anterior translation more than the contralateral side, with a soft or mushy endpoint. | Moderate laxity, suggestive of a complete ACL tear. |
 
-                | 3+ | >10 mm of anterior translation more than the contralateral side, with a soft or absent endpoint. | Severe laxity, indicating a complete ACL tear and likely injury to secondary restraints [^5]. |
+                | 3+ | >10 mm of anterior translation more than the contralateral side, with a soft or absent endpoint. | Severe laxity, indicating a complete ACL tear and likely injury to secondary restraints [5]. |
 
                 An endpoint modifier is also crucial for interpretation:
 
                 - **"A" Endpoint**: A firm, abrupt stop to translation, which is the normal finding.
-                - **"B" Endpoint**: A soft, mushy, or absent endpoint, which is pathological and indicative of ACL rupture [^6].
+                - **"B" Endpoint**: A soft, mushy, or absent endpoint, which is pathological and indicative of ACL rupture [6].
 
                 ### **Interpretation Guidelines**
 
                 - A **positive Lachman's test** is characterized by both increased anterior tibial translation and a soft or absent ("B") endpoint compared to the uninjured side.
-                - A Grade 2+ or 3+ laxity with a "B" endpoint is highly indicative of a complete ACL rupture [^5].
+                - A Grade 2+ or 3+ laxity with a "B" endpoint is highly indicative of a complete ACL rupture [5].
                 - A Grade 1+ laxity with a firm "A" endpoint may represent normal physiological laxity or a minor partial tear. Comparing to the contralateral side is essential.
-                - The absence of a firm endpoint is often more clinically significant than the absolute amount of translation and is a strong indicator of ACL incompetence [^6].
+                - The absence of a firm endpoint is often more clinically significant than the absolute amount of translation and is a strong indicator of ACL incompetence [6].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -7677,7 +7751,7 @@ class GeneratedContentProvider {
                 - Complete relaxation of the hamstring muscles is critical for an accurate test. If the hamstrings are tense, they can restrict anterior tibial translation and cause a false-negative result.
                 - For examiners with smaller hands or patients with large thighs, placing the examiner's own knee under the patient's thigh to support it can improve femur stabilization and leverage.
                 - Always perform the test on the uninjured knee first to understand the patient's baseline laxity and to build patient confidence.
-                - Performing the test shortly after an injury, before significant effusion and muscle guarding develop, can yield a more accurate result [^3].
+                - Performing the test shortly after an injury, before significant effusion and muscle guarding develop, can yield a more accurate result [3].
 
                 ### **Contraindications**
 
@@ -7696,9 +7770,9 @@ class GeneratedContentProvider {
 
                 **Inadequate Femur Stabilization**: Failure to firmly stabilize the femur can lead to movement of both the tibia and femur, giving a false impression of tibial translation.
 
-                **Insufficient Knee Flexion**: Performing the test in full extension can give a false-negative result because the screw-home mechanism and bony geometry provide stability. Performing it in too much flexion (>30 degrees) allows the posterior horns of the menisci to block translation, also leading to a false negative [^2].
+                **Insufficient Knee Flexion**: Performing the test in full extension can give a false-negative result because the screw-home mechanism and bony geometry provide stability. Performing it in too much flexion (>30 degrees) allows the posterior horns of the menisci to block translation, also leading to a false negative [2].
 
-                **Misinterpreting Endpoint**: Focusing solely on the amount of translation without appreciating the quality of the endpoint is a common error. A soft or absent endpoint is a key feature of a positive test [^6].
+                **Misinterpreting Endpoint**: Focusing solely on the amount of translation without appreciating the quality of the endpoint is a common error. A soft or absent endpoint is a key feature of a positive test [6].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -7707,12 +7781,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Logerstedt DS, Snyder-Mackler L, Ritter RC, Axe MJ; Orthopaedic Section of the American Physical Therapy Association. Knee stability and movement coordination impairments: knee ligament sprain. J Orthop Sports Phys Ther. 2010;40(4):A1-A37. [(Find Online)](https://doi.org/10.2519/jospt.2010.0303)
-                [^2]: Torg JS, Conrad W, Kalen V. Clinical diagnosis of anterior cruciate ligament instability in the athlete. Am J Sports Med. 1976;4(2):84-93. [(Find Online)](https://doi.org/10.1177/036354657600400206)
-                [^3]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. J Orthop Sports Phys Ther. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
-                [^4]: Gurtler R, Stine R, Torg JS. Lachman test evaluated. Quantification of a clinical observation. Clin Orthop Relat Res. 1987;(216):141-150. [(Find Online)](https://doi.org/10.1097/00003086-198703000-00022)
-                [^5]: Jonsson T, Althoff B, Peterson L, Renstrom P. Clinical diagnosis of ruptures of the anterior cruciate ligament: a comparative study of the Lachman test and the anterior drawer sign. Am J Sports Med. 1982;10(2):100-102. [(Find Online)](https://doi.org/10.1177/036354658201000207)
-                [^6]: Mulligan EP, McGuffie DQ, Axelrode G, Page P. The reliability and diagnostic accuracy of assessing the translation endpoint during the Lachman test. Int J Sports Phys Ther. 2015;10(1):52-61. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/25709863/)
+                [1]: Logerstedt DS, Snyder-Mackler L, Ritter RC, Axe MJ; Orthopaedic Section of the American Physical Therapy Association. Knee stability and movement coordination impairments: knee ligament sprain. J Orthop Sports Phys Ther. 2010;40(4):A1-A37. [(Find Online)](https://doi.org/10.2519/jospt.2010.0303)
+
+                [2]: Torg JS, Conrad W, Kalen V. Clinical diagnosis of anterior cruciate ligament instability in the athlete. Am J Sports Med. 1976;4(2):84-93. [(Find Online)](https://doi.org/10.1177/036354657600400206)
+
+                [3]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. J Orthop Sports Phys Ther. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
+
+                [4]: Gurtler R, Stine R, Torg JS. Lachman test evaluated. Quantification of a clinical observation. Clin Orthop Relat Res. 1987;(216):141-150. [(Find Online)](https://doi.org/10.1097/00003086-198703000-00022)
+
+                [5]: Jonsson T, Althoff B, Peterson L, Renstrom P. Clinical diagnosis of ruptures of the anterior cruciate ligament: a comparative study of the Lachman test and the anterior drawer sign. Am J Sports Med. 1982;10(2):100-102. [(Find Online)](https://doi.org/10.1177/036354658201000207)
+
+                [6]: Mulligan EP, McGuffie DQ, Axelrode G, Page P. The reliability and diagnostic accuracy of assessing the translation endpoint during the Lachman test. Int J Sports Phys Ther. 2015;10(1):52-61. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/25709863/)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -7848,12 +7927,19 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Holland AE, Spruit MA, Troosters T, et al. An official European Respiratory Society/American Thoracic Society technical standard: field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1428-1446. [(Find Online)](https://doi.org/10.1183/09031936.00150314)
+
                 [^2]: Singh SJ, Puhan MA, Andrianopoulos V, et al. An official systematic review of the European Respiratory Society/American Thoracic Society: measurement properties of field walking tests in chronic respiratory disease. Eur Respir J. 2014;44(6):1447-1478. [(Find Online)](https://doi.org/10.1183/09031936.00150414)
+
                 [^3]: ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med. 2002;166(1):111-117. [(Find Online)](https://doi.org/10.1164/ajrccm.166.1.at1102)
+
                 [^4]: Solway S, Brooks D, Lacasse Y, Thomas S. A qualitative systematic overview of the measurement properties of functional walk tests used in the cardiorespiratory domain. Chest. 2001;119(1):256-270. [(Find Online)](https://doi.org/10.1378/chest.119.1.256)
+
                 [^5]: Enright PL, Sherrill DL. Reference equations for the six-minute walk in healthy adults. Am J Respir Crit Care Med. 1998;158(5 Pt 1):1384-1387. [(Find Online)](https://doi.org/10.1164/ajrccm.158.5.9710086)
+
                 [^6]: Cahalin LP, Pappagianopoulos P, Prevost S, et al. The relationship of the 6-min walk test to maximal oxygen consumption in patients with advanced heart failure: effect of medical therapy. J Cardiopulm Rehabil. 1995;15(4):316-322. [(Find Online)](https://doi.org/10.1378/chest.108.2.452)
+
                 [^7]: Holland AE, Hill CJ, Rasekaba T, Lee A, Naughton MT, McDonald CF. Updating the minimal important difference for the 6-minute walk distance in patients with chronic obstructive pulmonary disease. Arch Phys Med Rehabil. 2010;91(2):221-225. [(Find Online)](https://doi.org/10.1016/j.apmr.2009.10.017)
+
                 [^8]: Fulk GD, He Y, Herter TM, et al. Minimal Clinically Important Difference of the 6-Minute Walk Test in People With Stroke. J Neurol Phys Ther. 2018;42(4):235-240. [(Find Online)](https://doi.org/10.1097/npt.0000000000000236)
                 """,
                 parsedContent: [],
@@ -7880,7 +7966,7 @@ class GeneratedContentProvider {
 
                 It is indicated in the assessment of patients, particularly young and active individuals, who present with activity-related hip or groin pain, clicking, or a restricted range of motion.
 
-                The test has been most extensively studied and validated in populations with suspected intra-articular hip pathology and FAI [^2, ^3].
+                The test has been most extensively studied and validated in populations with suspected intra-articular hip pathology and FAI [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -7926,10 +8012,10 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                A positive FADIR test is suggestive of underlying FAI syndrome, but it is not diagnostic on its own. The test has high sensitivity (often reported >90%) but low specificity [^2].
+                A positive FADIR test is suggestive of underlying FAI syndrome, but it is not diagnostic on its own. The test has high sensitivity (often reported >90%) but low specificity [2].
 
                 - **High Sensitivity**: A negative test is useful for ruling out FAI. If the FADIR test is negative, FAI is less likely to be the source of the patient's symptoms (SnNout - a sensitive test, when negative, rules out the disease).
-                - **Low Specificity**: A positive test can occur in individuals without FAI and in those with other hip pathologies (e.g., labral tears, hip flexor tendonitis, osteoarthritis). Therefore, a positive result must be correlated with the patient's history, other physical exam findings, and confirmed with appropriate imaging (e.g., radiographs, MRI/MRA) [^3].
+                - **Low Specificity**: A positive test can occur in individuals without FAI and in those with other hip pathologies (e.g., labral tears, hip flexor tendonitis, osteoarthritis). Therefore, a positive result must be correlated with the patient's history, other physical exam findings, and confirmed with appropriate imaging (e.g., radiographs, MRI/MRA) [3].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -7973,9 +8059,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Ganz R, Parvizi J, Beck M, Leunig M, Nötzli H, Siebenrock KA. Femoroacetabular impingement: a cause for osteoarthritis of the hip. Clin Orthop Relat Res. 2003;(417):112-120. [(Find Online)](https://doi.org/10.1097/01.blo.0000096804.78689.c2)
-                [^2]: Reiman MP, Goode AP, Cook CE, Hölmich P, Thorborg K. Diagnostic accuracy of clinical tests for the diagnosis of hip femoroacetabular impingement/labral tear: a systematic review with meta-analysis. Br J Sports Med. 2015;491(12):811. [(Find Online)](https://doi.org/10.1136/bjsports-2014-094302)
-                [^3]: Philippon MJ, Maxwell RB, Johnston TL, Schenker M, Briggs KK. Clinical presentation of femoroacetabular impingement. Knee Surg Sports Traumatol Arthrosc. 2007;15(8):1041-1047. [(Find Online)](https://doi.org/10.1007/s00167-007-0348-2)
+                [1]: Ganz R, Parvizi J, Beck M, Leunig M, Nötzli H, Siebenrock KA. Femoroacetabular impingement: a cause for osteoarthritis of the hip. Clin Orthop Relat Res. 2003;(417):112-120. [(Find Online)](https://doi.org/10.1097/01.blo.0000096804.78689.c2)
+
+                [2]: Reiman MP, Goode AP, Cook CE, Hölmich P, Thorborg K. Diagnostic accuracy of clinical tests for the diagnosis of hip femoroacetabular impingement/labral tear: a systematic review with meta-analysis. Br J Sports Med. 2015;491(12):811. [(Find Online)](https://doi.org/10.1136/bjsports-2014-094302)
+
+                [3]: Philippon MJ, Maxwell RB, Johnston TL, Schenker M, Briggs KK. Clinical presentation of femoroacetabular impingement. Knee Surg Sports Traumatol Arthrosc. 2007;15(8):1041-1047. [(Find Online)](https://doi.org/10.1007/s00167-007-0348-2)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -8121,6 +8209,7 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Gouvier WD, Blanton PD, LaPorte KK, Nepomuceno C. Reliability and validity of the Disability Rating Scale and the Levels of Cognitive Functioning Scale in monitoring recovery from severe head injury. Arch Phys Med Rehabil. 1987;68(3):158-62. [(Find Online)](https://doi.org/10.1097/00001199-198712000-00015)
+
                 [^2]: Whyte J, Nakase-Richardson R. Disorders of consciousness: outcomes, comorbidities, and care. Arch Phys Med Rehabil. 2013;94(10):1851-1854. [(Find Online)](https://doi.org/10.1016/j.apmr.2013.07.003)
                 """,
                 parsedContent: [],
@@ -8147,7 +8236,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated when a patient presents with neck pain accompanied by symptoms that suggest nerve root involvement, such as pain radiating down the arm in a dermatomal pattern, paresthesias, or subjective weakness.
 
-                The test has been validated primarily in adult populations presenting with suspected cervical radiculopathy in outpatient and specialty settings [^2, ^3].
+                The test has been validated primarily in adult populations presenting with suspected cervical radiculopathy in outpatient and specialty settings [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -8174,7 +8263,7 @@ class GeneratedContentProvider {
 
                 1. **Neutral Compression (Optional)**: While the patient is seated with their head in a neutral position, the examiner places a hand on top of the patient's head and applies a gentle downward axial pressure.
                 2. **Extension and Ipsilateral Rotation with Compression**: The examiner passively extends and rotates the patient's head toward the symptomatic side.
-                3. **Axial Compression**: With the head in this position, the examiner applies a gentle downward axial pressure to the top of the head. The test is immediately stopped if symptoms are reproduced [^1, ^4].
+                3. **Axial Compression**: With the head in this position, the examiner applies a gentle downward axial pressure to the top of the head. The test is immediately stopped if symptoms are reproduced [1.
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -8185,12 +8274,12 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Scoring Scale**
 
-                Spurling's Maneuver is a provocative test and does not have a numerical or ordinal scoring scale. The outcome is binary: positive or negative. A positive test is the reproduction of the patient's characteristic radicular pain, numbness, or tingling that radiates into the ipsilateral upper extremity, typically following a specific dermatomal distribution. Pain that is localized to the neck or shoulder is not considered a positive test [^1].
+                Spurling's Maneuver is a provocative test and does not have a numerical or ordinal scoring scale. The outcome is binary: positive or negative. A positive test is the reproduction of the patient's characteristic radicular pain, numbness, or tingling that radiates into the ipsilateral upper extremity, typically following a specific dermatomal distribution. Pain that is localized to the neck or shoulder is not considered a positive test [1].
 
                 ### **Interpretation Guidelines**
 
-                - **Positive Test**: The reproduction of radicular symptoms suggests compression or irritation of a cervical nerve root on the side to which the head is rotated. This can be caused by conditions such as a herniated disc, cervical spondylosis, or foraminal stenosis. A positive test has high specificity, making it useful in confirming a diagnosis of cervical radiculopathy [^2].
-                - **Negative Test**: The absence of radicular symptom reproduction does not rule out cervical radiculopathy due to the test's variable, and often low, sensitivity. Further clinical evaluation and diagnostic testing may be necessary if there is a high index of suspicion [^3].
+                - **Positive Test**: The reproduction of radicular symptoms suggests compression or irritation of a cervical nerve root on the side to which the head is rotated. This can be caused by conditions such as a herniated disc, cervical spondylosis, or foraminal stenosis. A positive test has high specificity, making it useful in confirming a diagnosis of cervical radiculopathy [2].
+                - **Negative Test**: The absence of radicular symptom reproduction does not rule out cervical radiculopathy due to the test's variable, and often low, sensitivity. Further clinical evaluation and diagnostic testing may be necessary if there is a high index of suspicion [3].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -8205,8 +8294,8 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Clinical Pearls**
 
-                - The test is most provocative, and therefore most useful in identifying true radiculopathy, when performed with the neck in extension combined with lateral bending/rotation to the affected side followed by axial compression [^4].
-                - A positive test can help to confirm a suspected diagnosis, but a negative test does not effectively rule it out. It should be used in conjunction with other clinical findings, such as the upper limb tension test and the cervical distraction test, to improve diagnostic accuracy [^5].
+                - The test is most provocative, and therefore most useful in identifying true radiculopathy, when performed with the neck in extension combined with lateral bending/rotation to the affected side followed by axial compression [4].
+                - A positive test can help to confirm a suspected diagnosis, but a negative test does not effectively rule it out. It should be used in conjunction with other clinical findings, such as the upper limb tension test and the cervical distraction test, to improve diagnostic accuracy [5].
                 - The presence of pain localized only to the neck during the maneuver may suggest cervical muscle spasm or facet joint pathology rather than radiculopathy.
 
                 ### **Contraindications**
@@ -8216,7 +8305,7 @@ class GeneratedContentProvider {
                 - Acute cervical spine trauma or suspected fracture
                 - Known cervical spine instability (e.g., from rheumatoid arthritis, atlantoaxial instability)
                 - Suspected spinal cord compression or myelopathy
-                - Vascular insufficiency or vertebrobasilar insufficiency [^1]
+                - Vascular insufficiency or vertebrobasilar insufficiency [1]
                 - Malignancy involving the cervical spine
 
                 **Relative contraindications**:
@@ -8238,11 +8327,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Spurling RG, Scoville WB. Lateral rupture of the cervical intervertebral discs: a common cause of shoulder and arm pain. Surg Gynecol Obstet. 1944;78:350-358.
-                [^2]: Tong HC, Haig AJ, Yamakawa K. The Spurling test and cervical radiculopathy. Spine (Phila Pa 1976). 2002;27(2):156-159. [(Find Online)](https://doi.org/10.1097/00007632-200201150-00007)
-                [^3]: Rubinstein SM, Pool JJ, van Tulder MW, Riphagen II, de Vet HC. A systematic review of the diagnostic accuracy of provocative tests of the neck for diagnosing cervical radiculopathy. Eur Spine J. 2007;16(3):307-319. [(Find Online)](https://doi.org/10.1007/s00586-006-0225-6)
-                [^4]: Wainner RS, Fritz JM, Irrgang JJ, Boninger ML, Delitto A, Allison S. Reliability and diagnostic accuracy of the clinical examination and patient self-report measures for cervical radiculopathy. Spine (Phila Pa 1976). 2003;28(1):52-62. [(Find Online)](https://doi.org/10.1097/00007632-200301010-00014)
-                [^5]: Thoomes EJ, van Geest S, van der Windt DA, Falla D, Verhagen AP, Koes BW, Vleggeert-Lankamp CL, Thoomes-de Graaf M. Value of physical tests in diagnosing cervical radiculopathy: a systematic review. Spine J. 2018;18(1):179-189. [(Find Online)](https://doi.org/10.1016/j.spinee.2017.08.241)
+                [1]: Spurling RG, Scoville WB. Lateral rupture of the cervical intervertebral discs: a common cause of shoulder and arm pain. Surg Gynecol Obstet. 1944;78:350-358.
+
+                [2]: Tong HC, Haig AJ, Yamakawa K. The Spurling test and cervical radiculopathy. Spine (Phila Pa 1976). 2002;27(2):156-159. [(Find Online)](https://doi.org/10.1097/00007632-200201150-00007)
+
+                [3]: Rubinstein SM, Pool JJ, van Tulder MW, Riphagen II, de Vet HC. A systematic review of the diagnostic accuracy of provocative tests of the neck for diagnosing cervical radiculopathy. Eur Spine J. 2007;16(3):307-319. [(Find Online)](https://doi.org/10.1007/s00586-006-0225-6)
+
+                [4]: Wainner RS, Fritz JM, Irrgang JJ, Boninger ML, Delitto A, Allison S. Reliability and diagnostic accuracy of the clinical examination and patient self-report measures for cervical radiculopathy. Spine (Phila Pa 1976). 2003;28(1):52-62. [(Find Online)](https://doi.org/10.1097/00007632-200301010-00014)
+
+                [5]: Thoomes EJ, van Geest S, van der Windt DA, Falla D, Verhagen AP, Koes BW, Vleggeert-Lankamp CL, Thoomes-de Graaf M. Value of physical tests in diagnosing cervical radiculopathy: a systematic review. Spine J. 2018;18(1):179-189. [(Find Online)](https://doi.org/10.1016/j.spinee.2017.08.241)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -8364,10 +8457,15 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
+
                 [^2]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of clinical tests for the different degrees of subacromial impingement syndrome. J Bone Joint Surg Am. 2005;87(7):1446-1455. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
+
                 [^3]: Jain NB, Wilcox III RB, Katz JN, Higgins LD. Clinical examination of the rotator cuff. PM R. 2013;5(1):45-56. [(Find Online)](https://doi.org/10.1016/j.pmrj.2012.08.019)
+
                 [^4]: Hughes PC, Taylor NF, Green RA. Most clinical tests for diagnosing rotator cuff pathology performed in the sitting position are weak. Arch Phys Med Rehabil. 2014;95(11):2072-2080. ([Find Online](https://doi.org/10.1016/s0004-9514(08)70022-9))
+
                 [^5]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
+
                 [^6]: Lizarazo J, Ahumada J, Gonzalez-Jaramillo N, et al. Diagnostic accuracy of clinical tests after subacromial lidocaine injection and ultrasonography for evaluating supraspinatus tendon disorder. Orthop Rev (Pavia). 2024;16:12108. [(Find Online)](https://doi.org/10.5397/cise.2024.00738)
                 """,
                 parsedContent: [],
@@ -8510,11 +8608,17 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Fugl-Meyer AR, Jääskö L, Leyman I, Olsson S, Steglind S. The post-stroke hemiplegic patient. 1. a method for evaluation of physical performance. Scand J Rehabil Med. 1975;7(1):13-31. [(Find Online)](https://doi.org/10.2340/1650197771331)
+
                 [^2]: Gladstone DJ, Danells CJ, Black SE. The Fugl-Meyer assessment of motor recovery after stroke: a critical review of its measurement properties. Neurorehabil Neural Repair. 2002;16(3):232-240. [(Find Online)](https://doi.org/10.1177/154596802401105171)
+
                 [^3]: See J, Dodakian L, Chou C, et al. A standardized approach to the Fugl-Meyer assessment and its implications for clinical trials. Neurorehabil Neural Repair. 2013;27(8):732-741. [(Find Online)](https://doi.org/10.1177/1545968313491000)
+
                 [^4]: Sullivan KJ, Tilson JK, Cen SY, et al. Fugl-Meyer assessment of sensorimotor function after stroke: standardized training procedure for clinical practice and clinical trials. Stroke. 2011;42(2):427-432. [(Find Online)](https://doi.org/10.1161/strokeaha.110.592766)
+
                 [^5]: Duncan PW, Goldstein LB, Matchar D, Divine GW, Feussner J. Measurement of motor recovery after stroke. Outcome assessment and sample size requirements. Stroke. 1992;23(8):1084-1089. [(Find Online)](https://doi.org/10.1161/01.str.23.8.1084)
+
                 [^6]: Arya KN, Verma R, Garg RK. Estimating the minimal clinically important difference of an upper extremity recovery measure in subacute stroke patients. Top Stroke Rehabil. 2011;18 Suppl 1:599-610. [(Find Online)](https://doi.org/10.1310/tsr18s01-599)
+
                 [^7]: Page SJ, Fulk GD, Boyne P. Clinically important differences for the upper-extremity Fugl-Meyer scale in people with minimal to moderate impairment due to chronic stroke. Phys Ther. 2012;92(6):791-798. [(Find Online)](https://doi.org/10.2522/ptj.20110009)
                 """,
                 parsedContent: [],
@@ -8651,8 +8755,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Centers for Medicare & Medicaid Services. Lower Limb Prosthetic Workgroup Consensus Document. 2017. [(Find Online)](https://www.cms.gov/Medicare/Coverage/DeterminationProcess/downloads/LLP_Consensus_Document.pdf)
+
                 [^2]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
+
                 [^3]: Physio-pedia. Amputee Mobility Predictor. Physiopedia. [(Find Online)](https://www.physio-pedia.com/Amputee_Mobility_Predictor)
+
                 [^4]: Centers for Medicare & Medicaid Services. Local Coverage Determination (LCD) for Lower Limb Prostheses (L33787). [(Find Online)](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33787)
                 """,
                 parsedContent: [],
@@ -8778,8 +8885,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Prévinaire JG. The importance of the bulbocavernosus reflex. Spinal Cord Ser Cases. 2018;4:8. [(Find Online)](https://doi.org/10.1038/s41394-017-0012-0)
+
                 [^2]: Ko HY, Ditunno JF Jr, Graziani V, Little JW. The pattern of reflex recovery during spinal shock. Spinal Cord. 1999;37(6):402-409. [(Find Online)](https://doi.org/10.1038/sj.sc.3100840)
+
                 [^3]: American Spinal Injury Association. International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI) Manual. 2019. [(Find Online)](https://asia-spinalinjury.org/international-standards-neurological-classification-sci-isncsci-worksheet/)
+
                 [^4]: Blaivas JG, Zayed AA, Labib KB. The bulbocavernosus reflex in urology: a prospective study of 299 patients. J Urol. 1981;126(2):197-199. ([Find Online](https://doi.org/10.1016/s0022-5347(17)54445-6))
                 """,
                 parsedContent: [],
@@ -8903,8 +9013,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Durkan JA. A new diagnostic test for carpal tunnel syndrome. J Bone Joint Surg Am. 1991;73(4):535-8. [(Find Online)](https://doi.org/10.2106/00004623-199173040-00009)
+
                 [^2]: González Del Pino J, Delgado-Martínez AD, González González I, Lovic A. Value of the carpal compression test in the diagnosis of carpal tunnel syndrome. J Hand Surg Br. 1997;22(1):38-41. ([Find Online](https://doi.org/10.1016/s0266-7681(97)80012-5))
+
                 [^3]: Durkan JA. The carpal-compression test. An instrumented device for diagnosing the carpal tunnel syndrome. Orthop Rev. 1994;23(6):522-5. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/8065809/)
+
                 [^4]: Amirfeyz R, Clark D, Parsons B, et al. Clinical tests for carpal tunnel syndrome in contemporary practice. Arch Orthop Trauma Surg. 2011;131(4):471-474. [(Find Online)](https://doi.org/10.1007/s00402-010-1150-z)
                 """,
                 parsedContent: [],
@@ -9025,6 +9138,7 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Dutton M. Dutton's Orthopaedic Examination, Evaluation, and Intervention. 5th ed. McGraw-Hill Education; 2020. [(Find Online)](https://accessphysiotherapy.mhmedical.com/book.aspx?bookid=2707)
+
                 [^2]: Suri P, Rainville J, Katz JN, et al. The accuracy of the physical examination for the diagnosis of midlumbar and low lumbar nerve root impingement. Spine (Phila Pa 1976). 2011;36(1):63-73. [(Find Online)](https://doi.org/10.1097/brs.0b013e3181c953cc)
                 """,
                 parsedContent: [],
@@ -9051,7 +9165,7 @@ class GeneratedContentProvider {
 
                 This assessment should be used for individuals with unilateral or bilateral lower limb loss. The AMPnoPRO is particularly useful pre-prosthetic fitting to establish a baseline and predict future ambulatory capacity. The AMPPRO is used after a prosthesis has been fitted to assess function with the device and to monitor progress.
 
-                The tool has been validated for use in a variety of clinical settings, including inpatient rehabilitation, outpatient physical therapy, and prosthetic clinics, for adult patients with lower limb amputations resulting from both vascular and non-vascular etiologies [^1, ^2].
+                The tool has been validated for use in a variety of clinical settings, including inpatient rehabilitation, outpatient physical therapy, and prosthetic clinics, for adult patients with lower limb amputations resulting from both vascular and non-vascular etiologies [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9114,7 +9228,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Scoring Scale**
 
-                The Amputee Mobility Predictor is scored on an ordinal scale across 21 items. Each item is scored from 0-1, 0-2, or 0-5 depending on the task. The total possible score is 43 for the AMPnoPRO and 47 for the AMPPRO (item 8 is omitted for AMPnoPRO). A higher score indicates better mobility potential. A detailed scoring sheet should be used during administration [^2]. The general scoring principles are outlined below for illustrative purposes.
+                The Amputee Mobility Predictor is scored on an ordinal scale across 21 items. Each item is scored from 0-1, 0-2, or 0-5 depending on the task. The total possible score is 43 for the AMPnoPRO and 47 for the AMPPRO (item 8 is omitted for AMPnoPRO). A higher score indicates better mobility potential. A detailed scoring sheet should be used during administration [2]. The general scoring principles are outlined below for illustrative purposes.
 
                 | Score | Description                                                  | Functional Meaning                                           |
                 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -9125,7 +9239,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                The total score is used to predict ambulatory potential and to help determine the patient's Medicare Functional Classification Level (K-level). The following score ranges provide a guideline for K-level classification [^1, ^3]:
+                The total score is used to predict ambulatory potential and to help determine the patient's Medicare Functional Classification Level (K-level). The following score ranges provide a guideline for K-level classification [1:
 
                 - **K0 Level:**
                   - **AMPPRO:** 0-8
@@ -9150,7 +9264,7 @@ class GeneratedContentProvider {
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
-                The MCID has not been formally established for the Amputee Mobility Predictor. However, the Minimal Detectable Change (MDC90), which is the smallest change that can be considered a true change beyond measurement error, has been reported as 3.4 points for the AMPPRO [^3].
+                The MCID has not been formally established for the Amputee Mobility Predictor. However, the Minimal Detectable Change (MDC90), which is the smallest change that can be considered a true change beyond measurement error, has been reported as 3.4 points for the AMPPRO [3].
                 """,
                 parsedContent: [],
                 sectionType: .scoring,
@@ -9195,9 +9309,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the lower-limb amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
-                [^2]: Geriatric Assessment Tool Kit. Amputee Mobility Predictor (AMP). University of Missouri. [(Find Online)](https://geriatrictoolkit.missouri.edu/Amputee-Mobility-Predictor-AMP.doc)
-                [^3]: Resnik L, Borgia M. Reliability of outcome measures for people with lower-limb amputations: the 2-minute walk test and other measures of walking and balance. J Rehabil Res Dev. 2011;48(8):931-940. [(Find Online)](https://doi.org/10.2522/ptj.20100287)
+                [1]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the lower-limb amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
+
+                [2]: Geriatric Assessment Tool Kit. Amputee Mobility Predictor (AMP). University of Missouri. [(Find Online)](https://geriatrictoolkit.missouri.edu/Amputee-Mobility-Predictor-AMP.doc)
+
+                [3]: Resnik L, Borgia M. Reliability of outcome measures for people with lower-limb amputations: the 2-minute walk test and other measures of walking and balance. J Rehabil Res Dev. 2011;48(8):931-940. [(Find Online)](https://doi.org/10.2522/ptj.20100287)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -9223,7 +9339,7 @@ class GeneratedContentProvider {
 
                 This test is indicated for patients presenting with shoulder pain, particularly when there is a suspicion of intra-articular pathology. It is commonly used in athletes (especially overhead athletes), individuals with a history of shoulder trauma (e.g., a fall on an outstretched arm), or those with vague, deep-seated shoulder pain accompanied by mechanical symptoms like clicking or popping.
 
-                The test has been studied in various populations with shoulder pain undergoing arthroscopic surgery, which serves as the gold standard for diagnosis [^2, ^3].
+                The test has been studied in various populations with shoulder pain undergoing arthroscopic surgery, which serves as the gold standard for diagnosis [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9270,7 +9386,7 @@ class GeneratedContentProvider {
                 - **Positive for AC Joint Pathology**: A positive test with pain localized specifically over the AC joint is suggestive of AC joint pathology.
                 - **Negative Test**: No pain is produced in the first position, or the pain remains unchanged between the two positions.
 
-                The diagnostic accuracy of O'Brien's test is variable. A meta-analysis reported a sensitivity of 67% and specificity of 37% for SLAP lesions, indicating that while it may help in screening, it has poor specificity and should not be used in isolation to diagnose a SLAP tear [^2]. Its utility for AC joint pathology is generally considered to be better.
+                The diagnostic accuracy of O'Brien's test is variable. A meta-analysis reported a sensitivity of 67% and specificity of 37% for SLAP lesions, indicating that while it may help in screening, it has poor specificity and should not be used in isolation to diagnose a SLAP tear [2]. Its utility for AC joint pathology is generally considered to be better.
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -9316,9 +9432,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: O'Brien SJ, Pagnani MJ, Fealy S, McGlynn SR, Wilson JB. The active compression test: a new and effective test for diagnosing labral tears and acromioclavicular joint abnormality. Am J Sports Med. 1998;26(5):610-613. [(Find Online)](https://doi.org/10.1177/03635465980260050201)
-                [^2]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
-                [^3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+                [1]: O'Brien SJ, Pagnani MJ, Fealy S, McGlynn SR, Wilson JB. The active compression test: a new and effective test for diagnosing labral tears and acromioclavicular joint abnormality. Am J Sports Med. 1998;26(5):610-613. [(Find Online)](https://doi.org/10.1177/03635465980260050201)
+
+                [2]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
+
+                [3]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -9342,7 +9460,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 The primary purpose of Mill's Test is to help differentiate the cause of lateral elbow pain. It is indicated when a patient presents with pain localized to the lateral epicondyle, often exacerbated by activities involving wrist extension, such as gripping, lifting, or repetitive forearm movements.
 
-                This assessment is a standard component of the musculoskeletal examination for patients with suspected lateral epicondylitis. Its use is validated in outpatient orthopedic and physiatry settings for adult populations presenting with symptoms consistent with this condition [^1, ^2].
+                This assessment is a standard component of the musculoskeletal examination for patients with suspected lateral epicondylitis. Its use is validated in outpatient orthopedic and physiatry settings for adult populations presenting with symptoms consistent with this condition [1.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9368,7 +9486,7 @@ class GeneratedContentProvider {
                 ### **Procedure Steps**
 
                 1. **Stabilization and Palpation**: The examiner stands facing the patient and uses one hand to stabilize the patient's humerus, while the thumb of the same hand palpates the lateral epicondyle to monitor for tenderness.
-                2. **Passive Maneuver**: With the other hand, the examiner grasps the patient's hand and passively pronates the forearm, fully flexes the wrist, and then slowly extends the elbow. Some clinicians may add gentle ulnar deviation of the wrist to increase the stretch on the radial wrist extensors [^2].
+                2. **Passive Maneuver**: With the other hand, the examiner grasps the patient's hand and passively pronates the forearm, fully flexes the wrist, and then slowly extends the elbow. Some clinicians may add gentle ulnar deviation of the wrist to increase the stretch on the radial wrist extensors [2].
                 3. **Assessment of Response**: The test is considered positive if the maneuver reproduces the patient's familiar lateral elbow pain.
                 """,
                 parsedContent: [],
@@ -9387,7 +9505,7 @@ class GeneratedContentProvider {
                 - **Positive Test**: Reproduction of the patient's specific pain over the lateral epicondyle. This finding increases the likelihood of a diagnosis of lateral epicondylitis.
                 - **Negative Test**: The maneuver does not reproduce the patient's pain, or it elicits a different type of pain or a general stretching sensation. A negative test decreases the likelihood of lateral epicondylitis but does not rule it out, as the test has moderate sensitivity.
 
-                A systematic review reported that the diagnostic accuracy of Mill's Test is based on low-certainty evidence. Published sensitivity ranges from 41% to 53%, while specificity is reported to be 100% in the studies reviewed. The high specificity suggests that a positive test is strongly indicative of the condition, but the low sensitivity means a negative test cannot reliably exclude it [^1].
+                A systematic review reported that the diagnostic accuracy of Mill's Test is based on low-certainty evidence. Published sensitivity ranges from 41% to 53%, while specificity is reported to be 100% in the studies reviewed. The high specificity suggests that a positive test is strongly indicative of the condition, but the low sensitivity means a negative test cannot reliably exclude it [1].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -9432,8 +9550,9 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Karanasios S, Korakakis V, Moutzouri M, et al. Diagnostic accuracy of clinical tests for lateral epicondylitis: a systematic review. Arch Phys Med Rehabil. 2021;102(12):2424-2436.e22. [(Find Online)](https://doi.org/10.1016/j.jht.2021.02.002)
-                [^2]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+                [1]: Karanasios S, Korakakis V, Moutzouri M, et al. Diagnostic accuracy of clinical tests for lateral epicondylitis: a systematic review. Arch Phys Med Rehabil. 2021;102(12):2424-2436.e22. [(Find Online)](https://doi.org/10.1016/j.jht.2021.02.002)
+
+                [2]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -9459,7 +9578,7 @@ class GeneratedContentProvider {
 
                 It is indicated when a patient presents with symptoms of numbness, tingling, or pain in a peripheral nerve distribution, particularly the median or ulnar nerves of the upper extremity.
 
-                The test has been extensively studied in populations with suspected Carpal Tunnel Syndrome and Cubital Tunnel Syndrome, though its diagnostic accuracy can be variable [^3, ^4].
+                The test has been extensively studied in populations with suspected Carpal Tunnel Syndrome and Cubital Tunnel Syndrome, though its diagnostic accuracy can be variable [3.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9508,7 +9627,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                A positive Tinel's sign suggests focal nerve irritation or entrapment at the point of percussion. In the context of Carpal Tunnel Syndrome, a positive sign at the wrist supports the diagnosis, though its absence does not rule it out. The diagnostic utility is limited; for Carpal Tunnel Syndrome, sensitivity is low to moderate (23-67%) while specificity is generally higher (64-87%) [^3, ^5]. Similarly, for Cubital Tunnel Syndrome, sensitivity is variable but often low [^4].
+                A positive Tinel's sign suggests focal nerve irritation or entrapment at the point of percussion. In the context of Carpal Tunnel Syndrome, a positive sign at the wrist supports the diagnosis, though its absence does not rule it out. The diagnostic utility is limited; for Carpal Tunnel Syndrome, sensitivity is low to moderate (23-67%) while specificity is generally higher (64-87%) [3. Similarly, for Cubital Tunnel Syndrome, sensitivity is variable but often low [4].
 
                 Therefore, Tinel's sign should be interpreted in conjunction with the patient's history and other physical exam findings (e.g., Phalen's test, sensory mapping, motor strength). Electrodiagnostic studies remain the gold standard for confirmation.
 
@@ -9555,10 +9674,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^2]: Valdes K, LaStayo P. The value of provocative tests for the wrist and elbow: a literature review. J Hand Ther. 2013;26(1):32-42; quiz 43. [(Find Online)](https://doi.org/10.1016/j.jht.2012.08.005)
-                [^3]: D'Arcy CA, McGee S. The rational clinical examination. Does this patient have carpal tunnel syndrome? JAMA. 2000;283(23):3110-3117. [(Find Online)](https://doi.org/10.1001/jama.283.23.3110)
-                [^4]: Beekman R, Schreuder AH, Rozeman CA, Koehler PJ, Uitdehaag BM. The diagnostic value of provocative tests in ulnar neuropathy at the elbow. J Hand Surg Br. 2004;29(4):365-369. [(Find Online)](https://doi.org/10.1136/jnnp.2009.180844)
-                [^5]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
+                [2]: Valdes K, LaStayo P. The value of provocative tests for the wrist and elbow: a literature review. J Hand Ther. 2013;26(1):32-42; quiz 43. [(Find Online)](https://doi.org/10.1016/j.jht.2012.08.005)
+
+                [3]: D'Arcy CA, McGee S. The rational clinical examination. Does this patient have carpal tunnel syndrome? JAMA. 2000;283(23):3110-3117. [(Find Online)](https://doi.org/10.1001/jama.283.23.3110)
+
+                [4]: Beekman R, Schreuder AH, Rozeman CA, Koehler PJ, Uitdehaag BM. The diagnostic value of provocative tests in ulnar neuropathy at the elbow. J Hand Surg Br. 2004;29(4):365-369. [(Find Online)](https://doi.org/10.1136/jnnp.2009.180844)
+
+                [5]: MacDermid JC, Wessel J. Clinical diagnosis of carpal tunnel syndrome: a systematic review. J Hand Ther. 2004;17(2):309-319. [(Find Online)](https://doi.org/10.1197/j.jht.2004.02.015)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -9702,12 +9824,19 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Russell DJ, Rosenbaum PL, Avery LM, Lane M. Gross Motor Function Measure (GMFM-66 & GMFM-88) User’s Manual. 2nd ed. Cambridge University Press; 2013. [(Find Online)](http://dx.doi.org/10.1016/j.ejpn.2003.11.003)
+
                 [^2]: Rosenbaum PL, Walter SD, Hanna SE, et al. Prognosis for gross motor function in cerebral palsy: creation of motor development curves.39 JAMA. 2002;288(11):1357-1363. [(Find Online)](https://doi.org/10.1001/jama.288.11.1357)
+
                 [^3]: CanChild. Gross Motor Function Measure (GMFM). CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/44-gross-motor-function-measure-gmfm)
+
                 [^4]: CanChild. GMFM Scoring. CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/321-gmfm-scoring)
+
                 [^5]: Ko J, Kim M. Reliability and validity of the gross motor function measure-88 in children with cerebral palsy. Phys Ther. 2013;93(8):1099-1107. [(Find Online)](https://doi.org/10.2522/ptj.20110374)
+
                 [^6]: CanChild. GMFM Administration. CanChild Centre for Childhood Disability Research, McMaster University; 2019. [(Find Online)](https://canchild.ca/en/resources/320-gmfm-administration)
+
                 [^7]: Oeffinger D, Bagley A, Rogers S, et al. Outcome tools used for ambulatory children with cerebral palsy: responsiveness and minimum clinically important differences.40 Dev Med Child Neurol. 2008;50(12):918-925. [(Find Online)](https://doi.org/10.1111/j.1469-8749.2008.03150.x)
+
                 [^8]: Storm F, Petrarca M, Biffi E, et al. Minimum Clinically Important Difference of Gross Motor Function and Gait Endurance in Children with Motor Impairment: A Comparison of Distribution-Based Approaches. Biomed Res Int. 2020;2020:8101438. [(Find Online)](https://doi.org/10.1155/2020/2794036)
                 """,
                 parsedContent: [],
@@ -9838,11 +9967,17 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. J Am Geriatr Soc. 1991;39(2):142-148. [(Find Online)](https://doi.org/10.1111/j.1532-5415.1991.tb01616.x)
+
                 [^2]: Barry E, Galvin R, Keogh C, Horgan F, Fahey T. Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta- analysis. BMC Geriatr. 2014;14:14. [(Find Online)](https://doi.org/10.1186/1471-2318-14-14)
+
                 [^3]: Morris S, Morris ME, Iansek R. Reliability of measurements obtained with the Timed "Up & Go" test in people with Parkinson disease. Phys Ther. 2001;81(2):810-818. [(Find Online)](https://doi.org/10.1093/ptj/81.2.810)
+
                 [^4]: Bischoff HP, Stähelin HB, Monsch AU, Iwarsson S, Theiler R, Krapp S, et al. Identifying a cut-off point for normal mobility: a comparison of the timed 'up and go' test in community-dwelling and institutionalised elderly women. Z Gerontol Geriatr. 2003;36(1):51-5. [(Find Online)](https://doi.org/10.1093/ageing/32.3.315)
+
                 [^5]: Shumway-Cook A, Brauer S, Woollacott M. Predicting the probability for falls in community-dwelling older adults using the Timed Up & Go Test. Phys Ther. 2000;80(9):896-903. [(Find Online)](https://doi.org/10.1093/ptj/80.9.896)
+
                 [^6]: Flansbjer UB, Holmbäck AM, Downham D, Patten C, Lexell J. Reliability of gait performance tests in men and women with hemiparesis after stroke. J Rehabil Med. 2005;37(2):75-82. [(Find Online)](https://doi.org/10.1080/16501970410017215)
+
                 [^7]: Hofheinz M, Mibs M, Gneveckow U, Schomer K. The Timed Up-and-Go Test with a dual task: a reliable and valid tool to identify fallers among community-dwelling seniors. Gerontology. 2016;62(5):506-513. [(Find Online)](https://doi.org/10.1177/2333721416637798)
                 """,
                 parsedContent: [],
@@ -9867,9 +10002,9 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 The primary purpose of Finkelstein's test is to identify stenosing tenosynovitis of the first dorsal compartment of the wrist, commonly known as De Quervain's tenosynovitis.
 
-                This assessment is indicated when a patient presents with pain, tenderness, or swelling on the radial (thumb) side of the wrist, particularly with activities involving grasping or thumb and wrist motion. It helps to differentiate De Quervain's tenosynovitis from other causes of wrist pain, such as osteoarthritis of the first carpometacarpal (CMC) joint, scaphoid fracture, or Wartenberg's syndrome (superficial radial nerve neuritis) [^2].
+                This assessment is indicated when a patient presents with pain, tenderness, or swelling on the radial (thumb) side of the wrist, particularly with activities involving grasping or thumb and wrist motion. It helps to differentiate De Quervain's tenosynovitis from other causes of wrist pain, such as osteoarthritis of the first carpometacarpal (CMC) joint, scaphoid fracture, or Wartenberg's syndrome (superficial radial nerve neuritis) [2].
 
-                The test has been validated for use in adult populations presenting with symptoms suggestive of De Quervain's tenosynovitis in outpatient clinical settings. It is a standard component of the musculoskeletal examination of the wrist and hand [^2, ^5].
+                The test has been validated for use in adult populations presenting with symptoms suggestive of De Quervain's tenosynovitis in outpatient clinical settings. It is a standard component of the musculoskeletal examination of the wrist and hand [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9896,7 +10031,7 @@ class GeneratedContentProvider {
 
                 1. **Stabilization**: The examiner stabilizes the patient's forearm with one hand just proximal to the wrist.
                 2. **Thumb Flexion**: With the other hand, the examiner gently grasps the patient's thumb.
-                3. **Passive Adduction and Ulnar Deviation**: The examiner passively flexes the patient's thumb across the palm of their hand and then gently but briskly deviates the wrist toward the ulnar side (down toward the little finger) [^1, ^3].
+                3. **Passive Adduction and Ulnar Deviation**: The examiner passively flexes the patient's thumb across the palm of their hand and then gently but briskly deviates the wrist toward the ulnar side (down toward the little finger) [1.
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -9914,7 +10049,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                A positive Finkelstein's test is strongly indicative of De Quervain's tenosynovitis, suggesting inflammation and stenosis of the sheath surrounding the APL and EPB tendons. This result, combined with the patient's history and localization of tenderness on palpation, can confirm the diagnosis and guide treatment, which may include splinting, corticosteroid injection, or activity modification. A negative test makes the diagnosis of De Quervain's less likely and should prompt investigation into other causes of radial wrist pain [^2].
+                A positive Finkelstein's test is strongly indicative of De Quervain's tenosynovitis, suggesting inflammation and stenosis of the sheath surrounding the APL and EPB tendons. This result, combined with the patient's history and localization of tenderness on palpation, can confirm the diagnosis and guide treatment, which may include splinting, corticosteroid injection, or activity modification. A negative test makes the diagnosis of De Quervain's less likely and should prompt investigation into other causes of radial wrist pain [2].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -9931,7 +10066,7 @@ class GeneratedContentProvider {
 
                 - To increase specificity, palpate the first dorsal compartment directly while performing the maneuver. The test is positive if the maximal pain is localized to the examiner's finger over the compartment.
                 - A key diagnostic feature is the comparison with the contralateral, asymptomatic wrist, which should not be painful during the same maneuver.
-                - The true Finkelstein's test (examiner passively moves the thumb) is considered more specific and less likely to produce a false positive compared to the commonly misattributed Eichhoff's test (patient makes a fist around their thumb) [^3].
+                - The true Finkelstein's test (examiner passively moves the thumb) is considered more specific and less likely to produce a false positive compared to the commonly misattributed Eichhoff's test (patient makes a fist around their thumb) [3].
 
                 ### **Contraindications**
 
@@ -9949,9 +10084,9 @@ class GeneratedContentProvider {
 
                 ### **Common Pitfalls**
 
-                **Misattribution to Eichhoff's Test**: The most common pitfall is performing the Eichhoff's test (having the patient make a fist with the thumb inside and then ulnarly deviating the wrist) and calling it Finkelstein's. Eichhoff's test is less specific and can cause pain even in asymptomatic individuals due to the greater stress placed on surrounding structures [^3].
+                **Misattribution to Eichhoff's Test**: The most common pitfall is performing the Eichhoff's test (having the patient make a fist with the thumb inside and then ulnarly deviating the wrist) and calling it Finkelstein's. Eichhoff's test is less specific and can cause pain even in asymptomatic individuals due to the greater stress placed on surrounding structures [3].
 
-                **False Positive from CMC Arthritis**: The maneuver can also stress the first carpometacarpal (CMC) joint. It is critical to differentiate pain originating at the radial styloid (De Quervain's) from pain at the base of the thumb (CMC arthritis). Precise palpation and patient feedback on the exact location of the pain are essential to avoid this error [^2].
+                **False Positive from CMC Arthritis**: The maneuver can also stress the first carpometacarpal (CMC) joint. It is critical to differentiate pain originating at the radial styloid (De Quervain's) from pain at the base of the thumb (CMC arthritis). Precise palpation and patient feedback on the exact location of the pain are essential to avoid this error [2].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -9960,9 +10095,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Finkelstein H. Stenosing tenovaginitis at the radial styloid process. J Bone Joint Surg Am. 1930;12(3):509-540.
-                [^2]: Satteson E, Tannan SC. De Quervain Tenosynovitis. [Updated 2023 Aug 8]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK442005/)
-                [^3]: Wu F, Rajpura A, Sandher D. Finkelstein's Test Is Superior to Eichhoff's Test in the Investigation of de Quervain's Disease. J Hand Microsurg. 2018;10(2):116-118. [(Find Online)](https://doi.org/10.1055/s-0038-1626690)
+                [1]: Finkelstein H. Stenosing tenovaginitis at the radial styloid process. J Bone Joint Surg Am. 1930;12(3):509-540.
+
+                [2]: Satteson E, Tannan SC. De Quervain Tenosynovitis. [Updated 2023 Aug 8]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. [(Find Online)](https://www.ncbi.nlm.nih.gov/books/NBK442005/)
+
+                [3]: Wu F, Rajpura A, Sandher D. Finkelstein's Test Is Superior to Eichhoff's Test in the Investigation of de Quervain's Disease. J Hand Microsurg. 2018;10(2):116-118. [(Find Online)](https://doi.org/10.1055/s-0038-1626690)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -9988,7 +10125,7 @@ class GeneratedContentProvider {
 
                 It is used to assess for pathology within the hip joint itself, such as osteoarthritis, femoroacetabular impingement (FAI), or labral tears. It also serves as a provocative test for sacroiliac joint dysfunction by stressing the joint through the lever arm of the femur.
 
-                This assessment is indicated for patients presenting with complaints of pain in the groin, buttock, lower back, or lateral hip. It is a fundamental component of the physical examination for suspected hip or SI joint pathology. The test has been evaluated in various patient populations, including those with generalized hip pain, suspected FAI, and sacroiliac joint dysfunction [^3, ^4].
+                This assessment is indicated for patients presenting with complaints of pain in the groin, buttock, lower back, or lateral hip. It is a fundamental component of the physical examination for suspected hip or SI joint pathology. The test has been evaluated in various patient populations, including those with generalized hip pain, suspected FAI, and sacroiliac joint dysfunction [3.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -10036,8 +10173,8 @@ class GeneratedContentProvider {
 
                 The interpretation of a positive FABER test is based on the location of the pain elicited:
 
-                - **Anterior Groin Pain**: Suggestive of intra-articular hip pathology. This may include conditions such as hip osteoarthritis, femoroacetabular impingement, a labral tear, or iliopsoas muscle strain/bursitis [^1].
-                - **Posterior Buttock/SI Region Pain**: Suggestive of sacroiliac joint dysfunction. The position places a stress on the SI joint on the tested side [^5].
+                - **Anterior Groin Pain**: Suggestive of intra-articular hip pathology. This may include conditions such as hip osteoarthritis, femoroacetabular impingement, a labral tear, or iliopsoas muscle strain/bursitis [1].
+                - **Posterior Buttock/SI Region Pain**: Suggestive of sacroiliac joint dysfunction. The position places a stress on the SI joint on the tested side [5].
                 - **Lateral Hip Pain**: May indicate greater trochanteric pain syndrome.
                 - **Limited Range of Motion**: If the leg remains significantly above the horizontal plane of the contralateral leg without significant pain, it may indicate hip joint stiffness or capsular tightness.
 
@@ -10057,9 +10194,9 @@ class GeneratedContentProvider {
                 ### **Clinical Pearls**
 
                 - Comparing the range of motion and pain response to the contralateral, asymptomatic side can be a useful clinical indicator.
-                - The test's value is significantly enhanced when used in a "cluster" of tests. For sacroiliac joint dysfunction, combining the FABER test with other SIJ provocative tests (e.g., thigh thrust, compression, distraction, Gaenslen's test) greatly improves diagnostic accuracy [^2].
+                - The test's value is significantly enhanced when used in a "cluster" of tests. For sacroiliac joint dysfunction, combining the FABER test with other SIJ provocative tests (e.g., thigh thrust, compression, distraction, Gaenslen's test) greatly improves diagnostic accuracy [2].
                 - Note any clicking or catching sensations in the hip, which may suggest a labral tear.
-                - The distance from the lateral epicondyle of the femur to the examination table can be measured as an objective marker of mobility, which may be useful for tracking progress, although its standalone diagnostic value is debated [^6].
+                - The distance from the lateral epicondyle of the femur to the examination table can be measured as an objective marker of mobility, which may be useful for tracking progress, although its standalone diagnostic value is debated [6].
 
                 ### **Contraindications**
 
@@ -10090,12 +10227,17 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Martin RL, Enseki KR, Draovitch P, Trapuzzano T, Philippon MJ. Acetabular labral tears of the hip: a review of the literature and operational definition of diagnosis. J Orthop Sports Phys Ther. 2006;36(7):501-517. [(Find Online)](https://doi.org/10.2519/jospt.2006.2135)
-                [^2]: Laslett M, Aprill CN, McDonald B, Young SB. Diagnosis of sacroiliac joint pain: validity of individual provocation tests and composites of tests. Man Ther. 2005;10(3):207-218. [(Find Online)](https://doi.org/10.1016/j.math.2005.01.003)
-                [^3]: Sutlive TG, Lopez HP, Schnitker DE, et al. Development of a clinical prediction rule for diagnosing hip osteoarthritis in individuals with unilateral hip pain. J Orthop Sports Phys Ther. 2008;38(9):542-550. [(Find Online)](https://doi.org/10.2519/jospt.2008.2753)
-                [^4]: Clohisy JC, Knaus ER, Hunt DM, Morrow MM, Millis MB, Podeszwa DA. Clinical presentation of patients with symptomatic anterior hip impingement. Clin Orthop Relat Res. 2009;467(3):638-644. [(Find Online)](https://doi.org/10.1007/s11999-008-0680-y)
-                [^5]: Slipman CW, Sterenfeld EB, Chou LH, Herzog R, Vresilovic E. The predictive value of provocative sacroiliac joint stress maneuvers in the diagnosis of sacroiliac joint syndrome. Arch Phys Med Rehabil. 1998;79(3):288-292. ([Find Online](https://doi.org/10.1016/s0003-9993(98)90008-9))
-                [^6]: Bagwell JJ, Bauer L, Gradoz M, Grindstaff TL. THE RELIABILITY OF FABER TEST HIP RANGE OF MOTION MEASUREMENTS. Int J Sports Phys Ther. 2016;11(7):1101-1105. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5159634/)
+                [1]: Martin RL, Enseki KR, Draovitch P, Trapuzzano T, Philippon MJ. Acetabular labral tears of the hip: a review of the literature and operational definition of diagnosis. J Orthop Sports Phys Ther. 2006;36(7):501-517. [(Find Online)](https://doi.org/10.2519/jospt.2006.2135)
+
+                [2]: Laslett M, Aprill CN, McDonald B, Young SB. Diagnosis of sacroiliac joint pain: validity of individual provocation tests and composites of tests. Man Ther. 2005;10(3):207-218. [(Find Online)](https://doi.org/10.1016/j.math.2005.01.003)
+
+                [3]: Sutlive TG, Lopez HP, Schnitker DE, et al. Development of a clinical prediction rule for diagnosing hip osteoarthritis in individuals with unilateral hip pain. J Orthop Sports Phys Ther. 2008;38(9):542-550. [(Find Online)](https://doi.org/10.2519/jospt.2008.2753)
+
+                [4]: Clohisy JC, Knaus ER, Hunt DM, Morrow MM, Millis MB, Podeszwa DA. Clinical presentation of patients with symptomatic anterior hip impingement. Clin Orthop Relat Res. 2009;467(3):638-644. [(Find Online)](https://doi.org/10.1007/s11999-008-0680-y)
+
+                [5]: Slipman CW, Sterenfeld EB, Chou LH, Herzog R, Vresilovic E. The predictive value of provocative sacroiliac joint stress maneuvers in the diagnosis of sacroiliac joint syndrome. Arch Phys Med Rehabil. 1998;79(3):288-292. ([Find Online](https://doi.org/10.1016/s0003-9993(98)90008-9))
+
+                [6]: Bagwell JJ, Bauer L, Gradoz M, Grindstaff TL. THE RELIABILITY OF FABER TEST HIP RANGE OF MOTION MEASUREMENTS. Int J Sports Phys Ther. 2016;11(7):1101-1105. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5159634/)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -10224,8 +10366,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Neer CS 2nd, Foster CR. Inferior capsular shift for involuntary inferior and multidirectional instability of the shoulder. A preliminary report. J Bone Joint Surg Am. 1980;62(6):897-908. [(Find Online)](https://doi.org/10.2106/00004623-198062060-00004)
+
                 [^2]: Itoi E, Motzkin NE, Morrey BF, An KN. Stabilizing function of the long head of the biceps in the hanging arm position. J Shoulder Elbow Surg. 1994;3(3):135-42. ([Find Online](https://doi.org/10.1016/s1058-2746(09)80092-x))
+
                 [^3]: Tzannes A, Murrell GA. Clinical examination of the unstable shoulder. Sports Med. 2002;32(7):447-57. [(Find Online)](https://doi.org/10.2165/00007256-200232070-00004)
+
                 [^4]: Eshoj H, Ingwersen KG, Larsen CM, Kjaer BH, Juul-Kristensen B. The inter-tester reliability of clinical shoulder instability and laxity tests in subjects with and without self-reported shoulder problems. BMJ Open Sport Exerc Med. 2018;4(1):e000302. [(Find Online)](https://doi.org/10.1136/bmjopen-2017-018472)
                 """,
                 parsedContent: [],
@@ -10252,7 +10397,7 @@ class GeneratedContentProvider {
 
                 It is indicated for patients presenting with shoulder pain, particularly anterior shoulder pain, weakness in internal rotation, or a suspected rotator cuff injury. It is a key component of a comprehensive shoulder examination when pathology of the rotator cuff is suspected.
 
-                The test has been validated primarily in adult populations with shoulder pathology and is commonly used in orthopedic, sports medicine, and physiatry settings [^2, ^3].
+                The test has been validated primarily in adult populations with shoulder pathology and is commonly used in orthopedic, sports medicine, and physiatry settings [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -10297,7 +10442,7 @@ class GeneratedContentProvider {
 
                 - **Positive Test**: The inability to lift the hand off the back strongly suggests a tear or significant dysfunction of the subscapularis tendon. The patient may compensate by extending their elbow or shoulder, which should be noted by the examiner.
                 - **Negative Test**: The ability to lift the hand off the back against resistance makes a significant subscapularis tear less likely. However, partial tears or tendinopathy may still be present with a negative test.
-                - **Diagnostic Accuracy**: A meta-analysis demonstrated that the Lift-Off Test has a high specificity (ranging from 92% to 100%) but a more variable and generally lower sensitivity (ranging from 22% to 62%) for detecting subscapularis tears [^2]. This means a positive test is very good at ruling *in* a tear, but a negative test does not reliably rule one *out*.
+                - **Diagnostic Accuracy**: A meta-analysis demonstrated that the Lift-Off Test has a high specificity (ranging from 92% to 100%) but a more variable and generally lower sensitivity (ranging from 22% to 62%) for detecting subscapularis tears [2]. This means a positive test is very good at ruling *in* a tear, but a negative test does not reliably rule one *out*.
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -10312,7 +10457,7 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 ### **Clinical Pearls**
 
-                - If a patient is unable to place their hand behind their back due to pain or stiffness (limited internal rotation), the **Belly-Press Test (Napoleon Sign)** is a useful alternative for assessing subscapularis function [^3].
+                - If a patient is unable to place their hand behind their back due to pain or stiffness (limited internal rotation), the **Belly-Press Test (Napoleon Sign)** is a useful alternative for assessing subscapularis function [3].
                 - Weakness noted when applying resistance, even if the patient can lift their hand off their back, can be indicative of subscapularis tendinopathy or a partial tear.
                 - Always compare the affected side to the unaffected side to establish the patient's baseline strength and range of motion.
 
@@ -10341,9 +10486,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Gerber C, Krushell RJ. Isolated rupture of the tendon of the subscapularis muscle. Clinical features in 16 cases. J Bone Joint Surg Br. 1991 May;73(3):389-94. [(Find Online)](https://doi.org/10.1302/0301-620x.73b3.1670434)
-                [^2]: Barth JR, Burkhart SS, DeBeer JF. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006 Oct;22(10):1076-84. [(Find Online)](https://doi.org/10.1016/j.arthro.2006.05.005)
-                [^3]: Tokish JM, Decker MJ, Ellis HB, Torry MR, Hawkins RJ. The belly-press test for the physical examination of the subscapularis muscle: electromyographic validation and comparison to the lift-off test. J Shoulder Elbow Surg. 2003 Sep-Oct;12(5):427-30. ([Find Online](https://doi.org/10.1016/s1058-2746(03)00047-8))
+                [1]: Gerber C, Krushell RJ. Isolated rupture of the tendon of the subscapularis muscle. Clinical features in 16 cases. J Bone Joint Surg Br. 1991 May;73(3):389-94. [(Find Online)](https://doi.org/10.1302/0301-620x.73b3.1670434)
+
+                [2]: Barth JR, Burkhart SS, DeBeer JF. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006 Oct;22(10):1076-84. [(Find Online)](https://doi.org/10.1016/j.arthro.2006.05.005)
+
+                [3]: Tokish JM, Decker MJ, Ellis HB, Torry MR, Hawkins RJ. The belly-press test for the physical examination of the subscapularis muscle: electromyographic validation and comparison to the lift-off test. J Shoulder Elbow Surg. 2003 Sep-Oct;12(5):427-30. ([Find Online](https://doi.org/10.1016/s1058-2746(03)00047-8))
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -10487,8 +10634,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Gage B, Deutsch A, Smith L, et al. The Development and Testing of the Continuity Assessment Record and Evaluation (CARE) Item Set: Final Report on the Development of the CARE Item Set. Volume 1 of 3. Report submitted to the Centers for Medicare & Medicaid Services. 2012. [(Find Online)](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Post-Acute-Care-Quality-Initiatives/Downloads/Continuity-Assessment-Record-and-Evaluation-CARE-Item-Set-Video-Reliability-Testing.pdf)
+
                 [^2]: Centers for Medicare & Medicaid Services. Section GG: Functional Abilities and Goals. In: RAI (Resident Assessment Instrument) 3.0 User's Manual. Version 1.18.11. 2023. [(Find Online)](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/MDS30RAIManual)
+
                 [^3]: American Occupational Therapy Association (AOTA). Section GG Medicare Functional Assessment. 2021. [(Find Online)](https://www.aota.org/-/media/corporate/files/practice/manage/documentation/section-gg-medicare-functional-assessment-form-all-elements.pdf)
+
                 [^4]: Centers for Medicare & Medicaid Services. IRF-PAI Manual Version 4.2. 2024. [(Find Online)](https://www.cms.gov/medicare/quality/inpatient-rehabilitation-facility/irf-pai-and-irf-qrp-manual)
                 """,
                 parsedContent: [],
@@ -10513,9 +10663,9 @@ class GeneratedContentProvider {
                 rawMarkdown: """
                 The primary purpose of the Thomas Test is to detect hip flexion contracture and tightness of the one-joint (iliopsoas) and two-joint (rectus femoris) hip flexors.
 
-                It is indicated in the evaluation of patients presenting with lower back pain, anterior hip or groin pain, patellofemoral pain syndrome, or gait abnormalities. By identifying hip flexor tightness, clinicians can better understand contributing factors to abnormal lumbopelvic mechanics and formulate targeted treatment plans [^4].
+                It is indicated in the evaluation of patients presenting with lower back pain, anterior hip or groin pain, patellofemoral pain syndrome, or gait abnormalities. By identifying hip flexor tightness, clinicians can better understand contributing factors to abnormal lumbopelvic mechanics and formulate targeted treatment plans [4].
 
-                The test is validated and commonly used for a wide range of patient populations, from general orthopedic assessments to specialized evaluations in athletes and individuals with neurological conditions like cerebral palsy [^2, ^5].
+                The test is validated and commonly used for a wide range of patient populations, from general orthopedic assessments to specialized evaluations in athletes and individuals with neurological conditions like cerebral palsy [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -10541,14 +10691,14 @@ class GeneratedContentProvider {
 
                 ### **Procedure Steps**
 
-                1. **Initial Positioning**: Assist the patient from a seated position at the end of the table to a supine position, having them bring both knees toward their chest. This ensures the lumbar spine is flat against the table and the pelvis is in a stable, posteriorly tilted position [^1].
+                1. **Initial Positioning**: Assist the patient from a seated position at the end of the table to a supine position, having them bring both knees toward their chest. This ensures the lumbar spine is flat against the table and the pelvis is in a stable, posteriorly tilted position [1].
                 2. **Patient Action**: Instruct the patient to firmly hold the knee of the non-tested leg against their chest. This maintains the stable pelvic position.
                 3. **Lowering the Test Limb**: Instruct the patient to slowly lower the test leg down toward the table, letting it hang off the end if possible, until it comes to a resting position. The examiner should observe the final resting position of the thigh and the angle of the knee.
                 4. **Observation and Differentiation**:
                    - **Assess Iliopsoas**: Observe if the posterior thigh of the test leg makes contact with the table.
                    - **Assess Rectus Femoris**: Observe the angle of knee flexion in the test leg.
-                   - **Examiner Modification**: If rectus femoris tightness is suspected (knee is extended), the examiner can passively flex the knee to see if this causes the thigh to lift further off the table, confirming the finding [^2].
-                   - **Assess TFL/IT Band**: Observe if the thigh abducts or internally rotates as it is lowered [^5].
+                   - **Examiner Modification**: If rectus femoris tightness is suspected (knee is extended), the examiner can passively flex the knee to see if this causes the thigh to lift further off the table, confirming the finding [2].
+                   - **Assess TFL/IT Band**: Observe if the thigh abducts or internally rotates as it is lowered [5].
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -10563,10 +10713,10 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                - **Negative Test (Normal Flexibility)**: The posterior aspect of the thigh of the test leg lies flat on the examination table, and the knee remains flexed to approximately 80-90 degrees without difficulty [^5].
-                - **Positive for Iliopsoas Tightness**: The posterior thigh of the test leg does not touch the surface of the table, remaining in some degree of hip flexion. The degree of contracture can be estimated by the angle between the thigh and the table [^1].
-                - **Positive for Rectus Femoris Tightness**: The posterior thigh of the test leg successfully rests on the table, but the knee extends. A knee flexion angle significantly less than 80 degrees suggests tightness of the rectus femoris, as this two-joint muscle is being stretched over both the hip and the knee [^2].
-                - **Positive for Tensor Fascia Latae (TFL) / Iliotibial (IT) Band Tightness**: The test leg's thigh abducts and/or internally rotates as the hip is extended. This is sometimes referred to as the "J-sign" [^5].
+                - **Negative Test (Normal Flexibility)**: The posterior aspect of the thigh of the test leg lies flat on the examination table, and the knee remains flexed to approximately 80-90 degrees without difficulty [5].
+                - **Positive for Iliopsoas Tightness**: The posterior thigh of the test leg does not touch the surface of the table, remaining in some degree of hip flexion. The degree of contracture can be estimated by the angle between the thigh and the table [1].
+                - **Positive for Rectus Femoris Tightness**: The posterior thigh of the test leg successfully rests on the table, but the knee extends. A knee flexion angle significantly less than 80 degrees suggests tightness of the rectus femoris, as this two-joint muscle is being stretched over both the hip and the knee [2].
+                - **Positive for Tensor Fascia Latae (TFL) / Iliotibial (IT) Band Tightness**: The test leg's thigh abducts and/or internally rotates as the hip is extended. This is sometimes referred to as the "J-sign" [5].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -10591,7 +10741,7 @@ class GeneratedContentProvider {
                 **Absolute contraindications**:
 
                 - Acute fracture of the femur, pelvis, or lumbar spine.
-                - Following posterior hip arthroplasty, where combined hip flexion, adduction, and internal rotation are restricted [^1].
+                - Following posterior hip arthroplasty, where combined hip flexion, adduction, and internal rotation are restricted [1].
                 - Acute, severe lumbar pathology.
 
                 **Relative contraindications**:
@@ -10602,7 +10752,7 @@ class GeneratedContentProvider {
 
                 ### **Common Pitfalls**
 
-                **Unstable Pelvis**: The most common pitfall is failing to ensure the patient maintains sufficient contralateral hip flexion to keep the pelvis posteriorly tilted and the lumbar spine flat. If the patient releases the non-test knee, the pelvis can tilt anteriorly, giving a false-negative result by making the hip flexors appear longer than they are [^1].
+                **Unstable Pelvis**: The most common pitfall is failing to ensure the patient maintains sufficient contralateral hip flexion to keep the pelvis posteriorly tilted and the lumbar spine flat. If the patient releases the non-test knee, the pelvis can tilt anteriorly, giving a false-negative result by making the hip flexors appear longer than they are [1].
 
                 **Over-flexion of Non-Test Hip**: Excessively flexing the non-test hip can cause a posterior pelvic tilt that makes the test leg's thigh lift from the table, potentially leading to a false-positive finding for iliopsoas tightness.
 
@@ -10615,11 +10765,15 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Magee DJ. Orthopedic Physical Assessment. 6th ed. St. Louis, MO: Saunders Elsevier; 2014. [(Find Online)](https://evolve.elsevier.com/cs/product/9780323239790?role=student)
-                [^2]: Kendall FP, McCreary EK, Provance PG, Rodgers MM, Romani WA. Muscles: Testing and Function, with Posture and Pain. 5th ed. Baltimore, MD: Lippincott Williams & Wilkins; 2005. [(Find Online)](https://pt.lwwhealthlibrary.com/book.aspx?bookid=1059)
-                [^3]: Clapis PA, Davis SM, Davis RO. Reliability of inclinometer and goniometric measurements of hip extension flexibility using the modified Thomas test. Physiother Res Int. 2008;13(1):57-61. [(Find Online)](https://doi.org/10.1080/09593980701378256)
-                [^4]: Roach S, San Juan JG, Suprak DN, Lyda M. Concurrent validity of digital inclinometer-derived passive hip-extension and app-based Thomas test measurements for hip-flexor length. Int J Sports Phys Ther. 2013;8(5):679-687. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3811733/)
-                [^5]: Harvey D. Assessment of the flexibility of elite athletes using the modified Thomas test. Br J Sports Med. 1998;32(1):68-70. [(Find Online)](https://doi.org/10.1136/bjsm.32.1.68)
+                [1]: Magee DJ. Orthopedic Physical Assessment. 6th ed. St. Louis, MO: Saunders Elsevier; 2014. [(Find Online)](https://evolve.elsevier.com/cs/product/9780323239790?role=student)
+
+                [2]: Kendall FP, McCreary EK, Provance PG, Rodgers MM, Romani WA. Muscles: Testing and Function, with Posture and Pain. 5th ed. Baltimore, MD: Lippincott Williams & Wilkins; 2005. [(Find Online)](https://pt.lwwhealthlibrary.com/book.aspx?bookid=1059)
+
+                [3]: Clapis PA, Davis SM, Davis RO. Reliability of inclinometer and goniometric measurements of hip extension flexibility using the modified Thomas test. Physiother Res Int. 2008;13(1):57-61. [(Find Online)](https://doi.org/10.1080/09593980701378256)
+
+                [4]: Roach S, San Juan JG, Suprak DN, Lyda M. Concurrent validity of digital inclinometer-derived passive hip-extension and app-based Thomas test measurements for hip-flexor length. Int J Sports Phys Ther. 2013;8(5):679-687. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3811733/)
+
+                [5]: Harvey D. Assessment of the flexibility of elite athletes using the modified Thomas test. Br J Sports Med. 1998;32(1):68-70. [(Find Online)](https://doi.org/10.1136/bjsm.32.1.68)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -10760,11 +10914,17 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Berg K, Wood-Dauphinee S, Williams JI, Maki B. Measuring balance in the elderly: validation of an instrument. Can J Public Health. 1992;83 Suppl 2:S7-S11. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1468055/)
+
                 [^2]: Downs S. The Berg Balance Scale. J Physiother. 2015;61(1):46. [(Find Online)](https://doi.org/10.1016/j.jphys.2014.10.002)
+
                 [^3]: Blum L, Korner-Bitensky N. Usefulness of the Berg Balance Scale in stroke rehabilitation: a systematic review. Phys Ther. 2008;88(5):559-566. [(Find Online)](https://doi.org/10.2522/ptj.20070205)
+
                 [^4]: Berg KO, Wood-Dauphinee SL, Williams JI. The Balance Scale: reliability assessment with elderly residents and patients with an acute stroke. Scand J Rehabil Med. 1995;27(1):27-36. [(Find Online)](https://doi.org/10.2340/1650197719952736)
+
                 [^5]: Donoghue D, Stokes EK. How much change is true change? The minimum detectable change of the Berg Balance Scale in elderly people. J Rehabil Med. 2009;41(4):343-346. [(Find Online)](https://doi.org/10.2340/16501977-0337)
+
                 [^6]: Oh J, Kim T, Lee S. Minimal Clinically Important Difference of Berg Balance Scale scores in people with acute stroke. Phys Ther Rehabil Sci. 2018;7(3):102-108. [(Find Online)](https://doi.org/10.14474/ptrs.2018.7.3.102)
+
                 [^7]: Cattaneo D, Jonsdottir J, Repetti S. Minimal Clinically Important Difference of Berg Balance Scale in People With Multiple Sclerosis. Arch Phys Med Rehabil. 2017;98(4):780-784. [(Find Online)](https://doi.org/10.1016/j.apmr.2016.09.128)
                 """,
                 parsedContent: [],
@@ -10885,7 +11045,9 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Shiri R, Viikari-Juntura E, Varonen H, Heliövaara M. Prevalence and determinants of lateral and medial epicondylitis: a population study. Am J Epidemiol. 2006;164(11):1065-1074. [(Find Online)](https://doi.org/10.1093/aje/kwj325)
+
                 [^2]: Amin NH, Kumar NS, Schickendantz MS. Medial epicondylitis: evaluation and management. J Am Acad Orthop Surg. 2015;23(6):348-355. [(Find Online)](https://doi.org/10.5435/jaaos-d-14-00145)
+
                 [^3]: Pitzer ME, Seidenberg PH, Bader DA. Elbow tendinopathy. Med Clin North Am. 2014;98(4):833-849. [(Find Online)](https://doi.org/10.1016/j.mcna.2014.04.002)
                 """,
                 parsedContent: [],
@@ -11037,9 +11199,13 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Tardieu G, Shentoub S, Delarue R. [Research on a technic for measurement of spasticity]. Rev Neurol (Paris). 1954;91(2):143-144. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/14358132/)
+
                 [^2]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. Eur J Neurol. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://doi.org/10.1111/j.1468-1331.1999.tb00031.x)
+
                 [^3]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. Disabil Rehabil. 2006;28(15):899-907. [(Find Online)](https://doi.org/10.1080/09638280500404305)
+
                 [^4]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. Clin Rehabil. 2006;20(2):173-182. [(Find Online)](https://doi.org/10.1191/0269215506cr922oa)
+
                 [^5]: Mackey AH, Walt SE, Lobb G, Stott NS. Intra-observer reliability of the Modified Tardieu Scale in the upper limb of children with hemiplegia. Dev Med Child Neurol. 2004;46(4):267-272. [(Find Online)](https://doi.org/10.1017/s0012162204000428)
                 """,
                 parsedContent: [],
@@ -11155,8 +11321,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Thompson TC. A test for rupture of the tendo achillis. Acta Orthop Scand. 1962;32:461-5. [(Find Online)](https://doi.org/10.3109/17453676208989608)
+
                 [^2]: Maffulli N. The clinical diagnosis of subcutaneous tear of the Achilles tendon. A prospective study in 174 patients. Am J Sports Med. 1998 Mar-Apr;26(2):266-70. [(Find Online)](https://doi.org/10.1177/03635465980260021801)
+
                 [^3]: Reiman M, Burgi C, Strube E, Prue K, Wright A. The utility of the clinical examination in diagnosing and screening for Achilles tendon rupture: a systematic review. J Man Manip Ther. 2014;22(4):229-237. [(Find Online)](https://doi.org/10.4085/1062-6050-49.3.36)
+
                 [^4]: Simmonds FA. The diagnosis of the ruptured Achilles tendon. Practitioner. 1957 Jul;179(1069):56-8. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/13453094/)
                 """,
                 parsedContent: [],
@@ -11277,7 +11446,9 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Karanasios S, Korakakis V, Whiteley R, et al. Diagnostic accuracy of examination tests for lateral elbow tendinopathy (LET) - A systematic review. Physiotherapy. 2021;112:46-65. [(Find Online)](https://doi.org/10.1016/j.jht.2021.02.002)
+
                 [^2]: Saroja G, Leo Antony A, Sai P. Diagnostic accuracy of provocative tests in lateral epicondylitis. Int J Physiother Res. 2014;2(6):795-800. [(Find Online)](https://doi.org/10.16965/ijpr.2014.699)
+
                 [^4]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
                 """,
                 parsedContent: [],
@@ -11304,7 +11475,7 @@ class GeneratedContentProvider {
 
                 This assessment is indicated when a patient presents with superior shoulder pain, particularly with a history of trauma to the point of the shoulder, repetitive overhead or cross-body activities (e.g., weightlifting), or insidious onset of localized pain.
 
-                The test has been validated for use in various patient populations with suspected shoulder pathology, particularly those with potential acromioclavicular joint dysfunction, in outpatient orthopedic and sports medicine settings [^2, ^3].
+                The test has been validated for use in various patient populations with suspected shoulder pathology, particularly those with potential acromioclavicular joint dysfunction, in outpatient orthopedic and sports medicine settings [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -11346,8 +11517,8 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                - **Positive Test**: The test is considered positive if the patient reports localized pain at the superior aspect of the shoulder, directly over the acromioclavicular joint. Pain in other locations, such as the posterior or anterolateral shoulder, may suggest other pathologies (e.g., subacromial impingement, posterior capsule tightness) and would not constitute a positive test for AC joint pathology [^3].
-                - **Clinical Significance**: A positive test increases the clinical suspicion for AC joint pathology. However, due to its moderate sensitivity and specificity, it should be interpreted in the context of the patient's history (e.g., mechanism of injury, location of pain) and other clinical tests, such as tenderness to palpation of the AC joint and the active compression (O'Brien's) test [^4].
+                - **Positive Test**: The test is considered positive if the patient reports localized pain at the superior aspect of the shoulder, directly over the acromioclavicular joint. Pain in other locations, such as the posterior or anterolateral shoulder, may suggest other pathologies (e.g., subacromial impingement, posterior capsule tightness) and would not constitute a positive test for AC joint pathology [3].
+                - **Clinical Significance**: A positive test increases the clinical suspicion for AC joint pathology. However, due to its moderate sensitivity and specificity, it should be interpreted in the context of the patient's history (e.g., mechanism of injury, location of pain) and other clinical tests, such as tenderness to palpation of the AC joint and the active compression (O'Brien's) test [4].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -11364,7 +11535,7 @@ class GeneratedContentProvider {
 
                 - To increase specificity, ask the patient to point with one finger to the exact location of the pain. Pain directly on the superior AC joint line is more indicative of a positive test.
                 - The test can be used to monitor progress after a corticosteroid injection into the AC joint. A reduction in pain with the maneuver post-injection can help confirm the AC joint as the pain generator.
-                - Combining this test with a cluster of other AC joint tests (e.g., AC Resisted Extension Test, Paxinos Sign, Active Compression Test) improves diagnostic accuracy over using any single test in isolation [^4].
+                - Combining this test with a cluster of other AC joint tests (e.g., AC Resisted Extension Test, Paxinos Sign, Active Compression Test) improves diagnostic accuracy over using any single test in isolation [4].
 
                 ### **Contraindications**
 
@@ -11383,7 +11554,7 @@ class GeneratedContentProvider {
 
                 **Overpressure**: Applying excessive or aggressive overpressure can elicit pain from surrounding non-contractile tissues or cause unnecessary discomfort, potentially leading to a false-positive result. The adduction should be performed smoothly to the point of symptom reproduction or end-range.
 
-                **Misinterpretation of Pain Location**: Failing to distinguish pain localized to the AC joint from more diffuse or referred pain (e.g., subacromial, rotator cuff, or posterior capsule) can lead to an incorrect diagnosis. Pain in the posterior shoulder, for instance, may indicate posterior capsule tightness rather than AC joint pathology [^3].
+                **Misinterpretation of Pain Location**: Failing to distinguish pain localized to the AC joint from more diffuse or referred pain (e.g., subacromial, rotator cuff, or posterior capsule) can lead to an incorrect diagnosis. Pain in the posterior shoulder, for instance, may indicate posterior capsule tightness rather than AC joint pathology [3].
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -11392,10 +11563,13 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Walton J, Mahajan S, Paxinos A, et al. Diagnostic values of tests for acromioclavicular joint pain. J Bone Joint Surg Am. 2004;86(4):807-812. [(Find Online](https://doi.org/10.2106/00004623-200404000-00021))
-                [^2]: Chronopoulos E, Kim TK, Park HB, Ashenbrenner D, McFarland EG. Diagnostic value of physical tests for isolated chronic acromioclavicular lesions. Am J Sports Med. 2004;32(3):655-661. [(Find Online)](https://doi.org/10.1177/0363546503261723)
-                [^3]: PhysioPedia. Scarf Test. [(Find Online)](https://www.physio-pedia.com/Scarf_Test)
-                [^4]: Krill MK, Rosas S, Kwon K, et al. A concise evidence-based physical examination for diagnosis of acromioclavicular joint pathology: a systematic review. Phys Sportsmed. 2018;46(1):98-104. [(Find Online)](https://doi.org/10.1080/00913847.2018.1413920)
+                [1]: Walton J, Mahajan S, Paxinos A, et al. Diagnostic values of tests for acromioclavicular joint pain. J Bone Joint Surg Am. 2004;86(4):807-812. [(Find Online](https://doi.org/10.2106/00004623-200404000-00021))
+
+                [2]: Chronopoulos E, Kim TK, Park HB, Ashenbrenner D, McFarland EG. Diagnostic value of physical tests for isolated chronic acromioclavicular lesions. Am J Sports Med. 2004;32(3):655-661. [(Find Online)](https://doi.org/10.1177/0363546503261723)
+
+                [3]: PhysioPedia. Scarf Test. [(Find Online)](https://www.physio-pedia.com/Scarf_Test)
+
+                [4]: Krill MK, Rosas S, Kwon K, et al. A concise evidence-based physical examination for diagnosis of acromioclavicular joint pathology: a systematic review. Phys Sportsmed. 2018;46(1):98-104. [(Find Online)](https://doi.org/10.1080/00913847.2018.1413920)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -11421,7 +11595,7 @@ class GeneratedContentProvider {
 
                 The NDI is indicated for any patient presenting with neck pain. It is used to establish the severity of disability, guide treatment planning, and facilitate communication between the clinician and patient regarding functional goals.
 
-                The tool has been validated in numerous patient populations, including those with acute and chronic mechanical neck pain, whiplash-associated disorders, cervical radiculopathy, and following cervical spine surgery [^2]. It has also been translated and culturally adapted for use in many different languages.
+                The tool has been validated in numerous patient populations, including those with acute and chronic mechanical neck pain, whiplash-associated disorders, cervical radiculopathy, and following cervical spine surgery [2]. It has also been translated and culturally adapted for use in many different languages.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -11449,7 +11623,7 @@ class GeneratedContentProvider {
 
                 1. **Provide Questionnaire**: Give the patient the NDI form and a writing utensil.
                 2. **Patient Completion**: The patient independently reads each of the 10 sections and selects the one statement in each section that best describes their situation.
-                3. **Review and Collect**: Once completed, the clinician should briefly review the questionnaire to ensure all sections have been answered. If a section is left blank, the clinician should ask the patient to complete it. If a patient cannot answer a section (e.g., the driving section for a non-driver), that section is typically scored as zero, and the total score is prorated [^2].
+                3. **Review and Collect**: Once completed, the clinician should briefly review the questionnaire to ensure all sections have been answered. If a section is left blank, the clinician should ask the patient to complete it. If a patient cannot answer a section (e.g., the driving section for a non-driver), that section is typically scored as zero, and the total score is prorated [2].
                 """,
                 parsedContent: [],
                 sectionType: .description,
@@ -11464,7 +11638,7 @@ class GeneratedContentProvider {
 
                 ### **Interpretation Guidelines**
 
-                The total score is used to classify the level of disability due to neck pain. The original classification by Vernon and Mior is as follows [^1]:
+                The total score is used to classify the level of disability due to neck pain. The original classification by Vernon and Mior is as follows [1]:
 
                 | Raw Score (out of 50) | Percentage (%) | Functional Meaning  |
                 | --------------------- | -------------- | ------------------- |
@@ -11478,7 +11652,7 @@ class GeneratedContentProvider {
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
-                The MCID for the NDI varies depending on the patient population and the method of calculation. However, a change of 5 to 10 points (10-20%) is widely accepted as clinically meaningful for patients with mechanical neck pain or cervical radiculopathy [^5, ^6]. For patients with mechanical neck pain without upper extremity symptoms, an MCID of 5.5 points has been reported, whereas for those with cervical radiculopathy, an MCID of 8.5 points has been suggested [^3].
+                The MCID for the NDI varies depending on the patient population and the method of calculation. However, a change of 5 to 10 points (10-20%) is widely accepted as clinically meaningful for patients with mechanical neck pain or cervical radiculopathy [5. For patients with mechanical neck pain without upper extremity symptoms, an MCID of 5.5 points has been reported, whereas for those with cervical radiculopathy, an MCID of 8.5 points has been suggested [3].
                 """,
                 parsedContent: [],
                 sectionType: .scoring,
@@ -11520,9 +11694,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. J Manipulative Physiol Ther. 1991;14(7):409-415. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1834753/)
-                [^2]: MacDermid JC, Walton DM, Avery S, et al. Measurement properties of the neck disability index: a systematic review. J Orthop Sports Phys Ther. 2009;39(5):400-417. [(Find Online)](https://doi.org/10.2519/jospt.2009.2930)
-                [^3]: Young IA, Cleland JA, Michener LA, Brown C. Reliability, construct validity, and responsiveness of the neck disability index, patient-specific functional scale, and numeric pain rating scale in patients with cervical radiculopathy. Am J Phys Med Rehabil. 2010;89(10):831-839. [(Find Online)](https://doi.org/10.1097/phm.0b013e3181ec98e6)
+                [1]: Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. J Manipulative Physiol Ther. 1991;14(7):409-415. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1834753/)
+
+                [2]: MacDermid JC, Walton DM, Avery S, et al. Measurement properties of the neck disability index: a systematic review. J Orthop Sports Phys Ther. 2009;39(5):400-417. [(Find Online)](https://doi.org/10.2519/jospt.2009.2930)
+
+                [3]: Young IA, Cleland JA, Michener LA, Brown C. Reliability, construct validity, and responsiveness of the neck disability index, patient-specific functional scale, and numeric pain rating scale in patients with cervical radiculopathy. Am J Phys Med Rehabil. 2010;89(10):831-839. [(Find Online)](https://doi.org/10.1097/phm.0b013e3181ec98e6)
                 """,
                 parsedContent: [],
                 sectionType: .references,
@@ -11659,8 +11835,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Granger CV, Hamilton BB, Keith RA, Linacre JM, Wright BD. The Functional Independence Measure: a new tool for rehabilitation.37 Adv Clin Rehabil. 1987;1:6-18. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/3503663/)
+
                 [^2]: Linacre JM, Heinemann AW, Wright BD, Granger CV, Hamilton BB.38 The structure and stability of the Functional Independence Measure. Arch Phys Med Rehabil. 1994;75(2):127-132. ([Find Online](https://doi.org/10.1016/0003-9993(94)90384-0))
+
                 [^3]: Dodds TA, Martin DP, Stolov WC, Deyo RA.39 A validation of the functional independence measurement and its performance among rehabilitation inpatients. Arch Phys Med Rehabil. 1993;74(5):531-536. ([Find Online](https://doi.org/10.1016/0003-9993(93)90119-u))
+
                 [^4]: Beninato M, Gill-Body KM, Salles S, Stark PC, Black-Schaffer RM, Stein J. Determination of the minimal clinically important difference in the FIM score for patients with stroke.40 Arch Phys Med Rehabil. 2006;87(1):32-39. [(Find Online)](https://doi.org/10.1016/j.apmr.2005.08.130)
                 """,
                 parsedContent: [],
@@ -11788,8 +11967,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Bohannon RW, Smith MB. Interrater reliability of a modified Ashworth scale of muscle spasticity. Phys Ther. 1987;67(2):206-207. [(Find Online)](https://doi.org/10.1093/ptj/67.2.206)
+
                 [^2]: Pandyan AD, Johnson GR, Price CI, Curless RH, Barnes MP, Rodgers H. A review of the properties and limitations of the Ashworth and modified Ashworth Scales as measures of spasticity. Clin Rehabil. 1999;13(5):373-383. [(Find Online)](https://doi.org/10.1191/026921599677595404)
+
                 [^3]: Meseguer-Henarejos AB, Sánchez-Meca J, López-Pina JA, Carles-Hernández R. Inter- and intra-rater reliability of the Modified Ashworth Scale: a systematic review and meta-analysis. Eur J Phys Rehabil Med. 20181;54(4):576-590. [(Find Online)](https://doi.org/10.23736/s1973-9087.17.04796-7)
+
                 [^4]: Chen CL, Chen CY, Chen HC, Wu CY, Lin KC, Hsieh YW. Responsiveness and minimal clinically important difference of Modified Ashworth Scale in patients with stroke. Eur J Phys Rehabil Med. 2019;55(6):754-760. [(Find Online)](https://doi.org/10.23736/s1973-9087.19.05545-x)
                 """,
                 parsedContent: [],
@@ -11915,8 +12097,11 @@ class GeneratedContentProvider {
                 title: "References",
                 rawMarkdown: """
                 [^1]: Bunnell WP. Selective screening for scoliosis. Clin Orthop Relat Res. 2005;(434):40-45. [(Find Online)](https://doi.org/10.1097/01.blo.0000163242.92733.66)
+
                 [^2]: Côté P, Kreitz BG, Cassidy JD, Dzus AK, Martel J. A study of the diagnostic accuracy and reliability of the Scoliometer and Adam's forward bend test. Spine (Phila Pa 1976). 1998;23(7):796-802. [(Find Online)](https://doi.org/10.1097/00007632-199804010-00011)
+
                 [^3]: Fong DY, Lee CF, Cheung KM, et al. A meta-analysis of the clinical effectiveness of school scoliosis screening. Spine (Phila Pa 1976). 2010;35(10):1061-1071. [(Find Online)](https://doi.org/10.1097/brs.0b013e3181bcc835)
+
                 [^4]: Horne JP, Flannery R, Usman S. Adolescent Idiopathic Scoliosis: Diagnosis and Management. Am Fam Physician. 2014;89(3):193-198. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/24506121/)
                 """,
                 parsedContent: [],
@@ -11943,7 +12128,7 @@ class GeneratedContentProvider {
 
                 It is indicated for patients presenting with shoulder pain, particularly anterolateral pain, that is exacerbated by overhead activities. The test helps to implicate the structures within the subacromial space as the source of nociception.
 
-                The test has been widely studied in populations with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [^2, ^3].
+                The test has been widely studied in populations with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [2.
                 """,
                 parsedContent: [],
                 sectionType: .purpose,
@@ -11987,7 +12172,7 @@ class GeneratedContentProvider {
 
                 - **Positive Test**: Reproduction of the patient's shoulder pain suggests impingement of the supraspinatus tendon and/or the subacromial bursa against the anteroinferior surface of the acromion.
                 - **Negative Test**: The absence of pain suggests that subacromial impingement is less likely to be the primary source of the patient's symptoms.
-                - **Clinical Context**: The Neer's test has moderate sensitivity but relatively low specificity for subacromial impingement syndrome. This means a negative test is moderately useful for ruling out the condition, but a positive test is less conclusive for ruling it in, as other pathologies can also cause pain with this maneuver. For this reason, it is best used as part of a cluster of physical examination tests (e.g., Hawkins-Kennedy test, painful arc sign, empty can test) to increase diagnostic accuracy [^3].
+                - **Clinical Context**: The Neer's test has moderate sensitivity but relatively low specificity for subacromial impingement syndrome. This means a negative test is moderately useful for ruling out the condition, but a positive test is less conclusive for ruling it in, as other pathologies can also cause pain with this maneuver. For this reason, it is best used as part of a cluster of physical examination tests (e.g., Hawkins-Kennedy test, painful arc sign, empty can test) to increase diagnostic accuracy [3].
 
                 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -12035,9 +12220,11 @@ class GeneratedContentProvider {
             ContentSection(
                 title: "References",
                 rawMarkdown: """
-                [^1]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. J Bone Joint Surg Am. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)
-                [^2]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
-                [^3]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+                [1]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. J Bone Joint Surg Am. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)
+
+                [2]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+
+                [3]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
                 """,
                 parsedContent: [],
                 sectionType: .references,

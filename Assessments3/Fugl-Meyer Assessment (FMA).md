@@ -116,9 +116,16 @@ The MCID for the **Upper Extremity FMA (FMA-UE)** in the subacute stroke populat
 ## **References**
 
 [^1]: Fugl-Meyer AR, Jääskö L, Leyman I, Olsson S, Steglind S. The post-stroke hemiplegic patient. 1. a method for evaluation of physical performance. Scand J Rehabil Med. 1975;7(1):13-31. [(Find Online)](https://doi.org/10.2340/1650197771331)
+
 [^2]: Gladstone DJ, Danells CJ, Black SE. The Fugl-Meyer assessment of motor recovery after stroke: a critical review of its measurement properties. Neurorehabil Neural Repair. 2002;16(3):232-240. [(Find Online)](https://doi.org/10.1177/154596802401105171)
+
 [^3]: See J, Dodakian L, Chou C, et al. A standardized approach to the Fugl-Meyer assessment and its implications for clinical trials. Neurorehabil Neural Repair. 2013;27(8):732-741. [(Find Online)](https://doi.org/10.1177/1545968313491000)
+
 [^4]: Sullivan KJ, Tilson JK, Cen SY, et al. Fugl-Meyer assessment of sensorimotor function after stroke: standardized training procedure for clinical practice and clinical trials. Stroke. 2011;42(2):427-432. [(Find Online)](https://doi.org/10.1161/strokeaha.110.592766)
+
 [^5]: Duncan PW, Goldstein LB, Matchar D, Divine GW, Feussner J. Measurement of motor recovery after stroke. Outcome assessment and sample size requirements. Stroke. 1992;23(8):1084-1089. [(Find Online)](https://doi.org/10.1161/01.str.23.8.1084)
+
 [^6]: Arya KN, Verma R, Garg RK. Estimating the minimal clinically important difference of an upper extremity recovery measure in subacute stroke patients. Top Stroke Rehabil. 2011;18 Suppl 1:599-610. [(Find Online)](https://doi.org/10.1310/tsr18s01-599)
+
 [^7]: Page SJ, Fulk GD, Boyne P. Clinically important differences for the upper-extremity Fugl-Meyer scale in people with minimal to moderate impairment due to chronic stroke. Phys Ther. 2012;92(6):791-798. [(Find Online)](https://doi.org/10.2522/ptj.20110009)
+

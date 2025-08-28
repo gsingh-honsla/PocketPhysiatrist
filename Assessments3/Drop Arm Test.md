@@ -94,8 +94,14 @@ The MCID has not been established for this test as it provides a dichotomous out
 ## **References**
 
 [^1]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
+
 [^2]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of clinical tests for the different degrees of subacromial impingement syndrome. J Bone Joint Surg Am. 2005;87(7):1446-1455. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
+
 [^3]: Jain NB, Wilcox III RB, Katz JN, Higgins LD. Clinical examination of the rotator cuff. PM R. 2013;5(1):45-56. [(Find Online)](https://doi.org/10.1016/j.pmrj.2012.08.019)
+
 [^4]: Hughes PC, Taylor NF, Green RA. Most clinical tests for diagnosing rotator cuff pathology performed in the sitting position are weak. Arch Phys Med Rehabil. 2014;95(11):2072-2080. ([Find Online](https://doi.org/10.1016/s0004-9514(08)70022-9))
+
 [^5]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
+
 [^6]: Lizarazo J, Ahumada J, Gonzalez-Jaramillo N, et al. Diagnostic accuracy of clinical tests after subacromial lidocaine injection and ultrasonography for evaluating supraspinatus tendon disorder. Orthop Rev (Pavia). 2024;16:12108. [(Find Online)](https://doi.org/10.5397/cise.2024.00738)
+

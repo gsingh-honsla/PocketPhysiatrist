@@ -92,5 +92,8 @@ The MCID is not applicable to this dichotomous physical examination test.
 ## **References**
 
 [^1]: Shiri R, Viikari-Juntura E, Varonen H, Heliövaara M. Prevalence and determinants of lateral and medial epicondylitis: a population study. Am J Epidemiol. 2006;164(11):1065-1074. [(Find Online)](https://doi.org/10.1093/aje/kwj325)
+
 [^2]: Amin NH, Kumar NS, Schickendantz MS. Medial epicondylitis: evaluation and management. J Am Acad Orthop Surg. 2015;23(6):348-355. [(Find Online)](https://doi.org/10.5435/jaaos-d-14-00145)
+
 [^3]: Pitzer ME, Seidenberg PH, Bader DA. Elbow tendinopathy. Med Clin North Am. 2014;98(4):833-849. [(Find Online)](https://doi.org/10.1016/j.mcna.2014.04.002)
+

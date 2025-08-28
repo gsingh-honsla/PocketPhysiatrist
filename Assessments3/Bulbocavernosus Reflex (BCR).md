@@ -99,6 +99,10 @@ The MCID is not applicable for this assessment as it is a dichotomous (present/a
 ## **References**
 
 [^1]: Prévinaire JG. The importance of the bulbocavernosus reflex. Spinal Cord Ser Cases. 2018;4:8. [(Find Online)](https://doi.org/10.1038/s41394-017-0012-0)
+
 [^2]: Ko HY, Ditunno JF Jr, Graziani V, Little JW. The pattern of reflex recovery during spinal shock. Spinal Cord. 1999;37(6):402-409. [(Find Online)](https://doi.org/10.1038/sj.sc.3100840)
+
 [^3]: American Spinal Injury Association. International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI) Manual. 2019. [(Find Online)](https://asia-spinalinjury.org/international-standards-neurological-classification-sci-isncsci-worksheet/)
+
 [^4]: Blaivas JG, Zayed AA, Labib KB. The bulbocavernosus reflex in urology: a prospective study of 299 patients. J Urol. 1981;126(2):197-199. ([Find Online](https://doi.org/10.1016/s0022-5347(17)54445-6))
+

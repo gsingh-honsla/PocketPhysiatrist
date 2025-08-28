@@ -10,7 +10,7 @@ Keywords: Shoulder impingement, subacromial pain, rotator cuff, physical examina
 
 ## **Overview**
 
-Neer's Test, also known as the Neer's sign, is a provocative physical examination maneuver used to assess for subacromial impingement syndrome of the shoulder. It was first described by Dr. Charles Neer in 1972 as part of his work on the etiology and surgical management of rotator cuff disease [^1]. The test is designed to mechanically narrow the space between the acromion and the greater tuberosity of the humerus, thereby compressing the subacromial structures, including the supraspinatus tendon, the long head of the biceps tendon, and the subacromial bursa. Reproduction of the patient's shoulder pain during the maneuver is considered a positive sign for impingement [^1, ^2].
+Neer's Test, also known as the Neer's sign, is a provocative physical examination maneuver used to assess for subacromial impingement syndrome of the shoulder. It was first described by Dr. Charles Neer in 1972 as part of his work on the etiology and surgical management of rotator cuff disease [1]. The test is designed to mechanically narrow the space between the acromion and the greater tuberosity of the humerus, thereby compressing the subacromial structures, including the supraspinatus tendon, the long head of the biceps tendon, and the subacromial bursa. Reproduction of the patient's shoulder pain during the maneuver is considered a positive sign for impingement [1.
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of the Neer's Test is to detect subacromial impingement, a c
 
 It is indicated for patients presenting with shoulder pain, particularly anterolateral pain, that is exacerbated by overhead activities. The test helps to implicate the structures within the subacromial space as the source of nociception.
 
-The test has been widely studied in populations with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [^2, ^3].
+The test has been widely studied in populations with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [2.
 
 ## **Description of Assessment**
 
@@ -52,7 +52,7 @@ This assessment does not use a numerical scale. It is a dichotomous test that is
 
 - **Positive Test**: Reproduction of the patient's shoulder pain suggests impingement of the supraspinatus tendon and/or the subacromial bursa against the anteroinferior surface of the acromion.
 - **Negative Test**: The absence of pain suggests that subacromial impingement is less likely to be the primary source of the patient's symptoms.
-- **Clinical Context**: The Neer's test has moderate sensitivity but relatively low specificity for subacromial impingement syndrome. This means a negative test is moderately useful for ruling out the condition, but a positive test is less conclusive for ruling it in, as other pathologies can also cause pain with this maneuver. For this reason, it is best used as part of a cluster of physical examination tests (e.g., Hawkins-Kennedy test, painful arc sign, empty can test) to increase diagnostic accuracy [^3].
+- **Clinical Context**: The Neer's test has moderate sensitivity but relatively low specificity for subacromial impingement syndrome. This means a negative test is moderately useful for ruling out the condition, but a positive test is less conclusive for ruling it in, as other pathologies can also cause pain with this maneuver. For this reason, it is best used as part of a cluster of physical examination tests (e.g., Hawkins-Kennedy test, painful arc sign, empty can test) to increase diagnostic accuracy [3].
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -90,6 +90,9 @@ The MCID is not applicable for this dichotomous (positive/negative) provocative 
 
 ## **References**
 
-[^1]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. J Bone Joint Surg Am. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)
-[^2]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
-[^3]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+[1]: Neer CS 2nd. Anterior acromioplasty for the chronic impingement syndrome in the shoulder: a preliminary report. J Bone Joint Surg Am. 1972;54(1):41-50. [(Find Online)](https://doi.org/10.2106/00004623-197254010-00003)
+
+[2]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+
+[3]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+

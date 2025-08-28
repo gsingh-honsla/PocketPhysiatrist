@@ -10,9 +10,9 @@ Keywords: low back pain, radiculopathy, sciatica, neurodynamic test, lumbosacral
 
 ## **Overview**
 
-The Straight Leg Raise (SLR) test, also known as the Lasègue test, is a fundamental clinical neurodynamic examination used to assess for lumbosacral nerve root irritation, most commonly associated with lumbar disc herniation. First described in medical literature in the late 19th century, the test works by inducing tensile stress on the sciatic nerve (composed of nerve roots L4, L5, S1, S2, and S3) and the dura mater [^1]. When a nerve root is inflamed or compressed, this stretching maneuver reproduces the patient's characteristic radicular pain.
+The Straight Leg Raise (SLR) test, also known as the Lasègue test, is a fundamental clinical neurodynamic examination used to assess for lumbosacral nerve root irritation, most commonly associated with lumbar disc herniation. First described in medical literature in the late 19th century, the test works by inducing tensile stress on the sciatic nerve (composed of nerve roots L4, L5, S1, S2, and S3) and the dura mater [1]. When a nerve root is inflamed or compressed, this stretching maneuver reproduces the patient's characteristic radicular pain.
 
-The test is highly sensitive but has low specificity for lumbar disc herniation [^2]. A positive test, particularly when radicular pain is produced at lower angles of hip flexion (30-70 degrees), is strongly suggestive of nerve root compression, often from a disc protrusion. Various sensitizing maneuvers, such as ankle dorsiflexion (Bragard's test) or neck flexion, can be added to increase stress on the neural tissues and help differentiate neural tension from musculoskeletal pain (e.g., hamstring tightness) [^1].
+The test is highly sensitive but has low specificity for lumbar disc herniation [2]. A positive test, particularly when radicular pain is produced at lower angles of hip flexion (30-70 degrees), is strongly suggestive of nerve root compression, often from a disc protrusion. Various sensitizing maneuvers, such as ankle dorsiflexion (Bragard's test) or neck flexion, can be added to increase stress on the neural tissues and help differentiate neural tension from musculoskeletal pain (e.g., hamstring tightness) [1].
 
 ## **Purpose and Clinical Indication**
 
@@ -20,7 +20,7 @@ The primary purpose of the SLR test is to evaluate for lumbosacral radiculopathy
 
 It is indicated for any patient presenting with low back pain accompanied by radiating symptoms into the buttock, posterior thigh, or lower leg (sciatica). It helps differentiate between radicular pain and other causes of back and leg pain, such as musculoskeletal strain, hip pathology, or sacroiliac joint dysfunction.
 
-The SLR test has been validated primarily in populations with suspected lumbar disc herniation and sciatica. It is a standard component of the physical examination for low back pain in outpatient, inpatient, and emergency department settings [^2, ^3].
+The SLR test has been validated primarily in populations with suspected lumbar disc herniation and sciatica. It is a standard component of the physical examination for low back pain in outpatient, inpatient, and emergency department settings [2.
 
 ## **Description of Assessment**
 
@@ -51,7 +51,7 @@ The SLR test has been validated primarily in populations with suspected lumbar d
    - Neri's Sign: Ask the patient to actively flex their neck (bring chin to chest).
      Reproduction of pain with these maneuvers increases the likelihood of a neural origin.
 7. **Repeat on Affected Side**: Perform the same procedure on the symptomatic leg.
-8. **Assess Crossed SLR (Fajersztajn sign)**: While testing the unaffected leg, note if the maneuver reproduces radicular pain in the *affected* leg. This is a positive Crossed SLR and is highly specific for a significant disc herniation [^3].
+8. **Assess Crossed SLR (Fajersztajn sign)**: While testing the unaffected leg, note if the maneuver reproduces radicular pain in the *affected* leg. This is a positive Crossed SLR and is highly specific for a significant disc herniation [3].
 
 ## **Detailed Scoring and Interpretation**
 
@@ -65,9 +65,9 @@ The SLR test does not use a numerical scoring scale. The outcome is recorded as 
 - **Negative SLR Test**: The test is negative if the examiner can raise the leg to 90 degrees (or to the point of hamstring tightness) without reproducing the patient's radicular symptoms.
 - **Clinical Significance of Angle**:
   - **0-30 degrees**: Pain in this range is less likely to be radicular. Consider acute spondylolisthesis, gluteal abscess, or a very large disc protrusion.
-  - **30-70 degrees**: This is the classic range for a positive test, where lumbosacral nerve roots (L4-S1) are under maximum tension over a herniated disc [^1].
+  - **30-70 degrees**: This is the classic range for a positive test, where lumbosacral nerve roots (L4-S1) are under maximum tension over a herniated disc [1].
   - **>70 degrees**: Pain in this range is more likely mechanical, arising from the hamstrings, gluteus maximus, hip capsule, or sacroiliac joint.
-- **Crossed SLR (Well-Leg Raise)**: Reproduction of pain in the symptomatic leg when the asymptomatic leg is raised is a highly specific (around 90%) but insensitive finding for nerve root compression, often indicating a large or centrally located disc herniation [^3].
+- **Crossed SLR (Well-Leg Raise)**: Reproduction of pain in the symptomatic leg when the asymptomatic leg is raised is a highly specific (around 90%) but insensitive finding for nerve root compression, often indicating a large or centrally located disc herniation [3].
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -78,7 +78,7 @@ The MCID has not been established as the SLR test is a diagnostic, provocative m
 ### **Clinical Pearls**
 
 - Always test the unaffected side first to establish a baseline and gain the patient's trust.
-- A positive Crossed SLR is a powerful indicator of a significant disc herniation and has a high predictive value for the presence of a surgical lesion [^3].
+- A positive Crossed SLR is a powerful indicator of a significant disc herniation and has a high predictive value for the presence of a surgical lesion [3].
 - If hamstring tightness is a confounding factor, the Slump Test can be a useful alternative as it puts the neural structures on tension in a different manner.
 - Reduced SLR range can also be seen in conditions other than disc herniation, such as spinal stenosis, intraspinal tumors, or inflammatory radiculopathy.
 
@@ -105,6 +105,9 @@ The MCID has not been established as the SLR test is a diagnostic, provocative m
 
 ## **References**
 
-[^1]: Rebain R, Baxter GD, McDonough S. A systematic review of the passive straight leg raising test as a diagnostic aid for low back pain (1989 to 2000). J Orthop Sports Phys Ther. 2002;32(1):8-18. [(Find Online)](https://doi.org/10.1097/00007632-200209010-00025)
-[^2]: van der Windt DA, Simons E, Riphagen II, et al. Physical examination for lumbar radiculopathy due to disc herniation in patients with low-back pain. Cochrane Database Syst Rev. 2010;(2):CD007431. [(Find Online)](https://doi.org/10.1002/14651858.cd007431.pub2)
-[^3]: Devillé WL, van der Windt DA, Dzaferagic A, Bezemer PD, Bouter LM. The test of Lasègue: systematic review of the accuracy in diagnosing herniated discs. Spine (Phila Pa 1976). 2000;25(9):1140-1147. [(Find Online)](https://doi.org/10.1097/00007632-200005010-00016)
+[1]: Rebain R, Baxter GD, McDonough S. A systematic review of the passive straight leg raising test as a diagnostic aid for low back pain (1989 to 2000). J Orthop Sports Phys Ther. 2002;32(1):8-18. [(Find Online)](https://doi.org/10.1097/00007632-200209010-00025)
+
+[2]: van der Windt DA, Simons E, Riphagen II, et al. Physical examination for lumbar radiculopathy due to disc herniation in patients with low-back pain. Cochrane Database Syst Rev. 2010;(2):CD007431. [(Find Online)](https://doi.org/10.1002/14651858.cd007431.pub2)
+
+[3]: Devillé WL, van der Windt DA, Dzaferagic A, Bezemer PD, Bouter LM. The test of Lasègue: systematic review of the accuracy in diagnosing herniated discs. Spine (Phila Pa 1976). 2000;25(9):1140-1147. [(Find Online)](https://doi.org/10.1097/00007632-200005010-00016)
+

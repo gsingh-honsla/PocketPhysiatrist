@@ -125,7 +125,12 @@ The MCID has not been definitively established for the Tardieu Scale across all 
 ## **References**
 
 [^1]: Tardieu G, Shentoub S, Delarue R. [Research on a technic for measurement of spasticity]. Rev Neurol (Paris). 1954;91(2):143-144. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/14358132/)
+
 [^2]: Boyd RN, Graham HK. Objective measurement of clinical findings in the use of botulinum toxin type A for the management of children with cerebral palsy. Eur J Neurol. 1999;6(Suppl 4):S23-S35. [(Find Online)](https://doi.org/10.1111/j.1468-1331.1999.tb00031.x)
+
 [^3]: Haugh AB, Pandyan AD, Johnson GR. A systematic review of the Tardieu Scale for the measurement of spasticity. Disabil Rehabil. 2006;28(15):899-907. [(Find Online)](https://doi.org/10.1080/09638280500404305)
+
 [^4]: Patrick E, Ada L. The Tardieu Scale differentiates contracture from spasticity whereas the Ashworth Scale is confounded by it. Clin Rehabil. 2006;20(2):173-182. [(Find Online)](https://doi.org/10.1191/0269215506cr922oa)
+
 [^5]: Mackey AH, Walt SE, Lobb G, Stott NS. Intra-observer reliability of the Modified Tardieu Scale in the upper limb of children with hemiplegia. Dev Med Child Neurol. 2004;46(4):267-272. [(Find Online)](https://doi.org/10.1017/s0012162204000428)
+

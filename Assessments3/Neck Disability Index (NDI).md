@@ -10,7 +10,7 @@ Keywords: neck pain, cervicalgia, functional status, questionnaire, disability
 
 ## **Overview**
 
-The Neck Disability Index (NDI) is a patient-completed, condition-specific functional status questionnaire designed to measure self-rated disability resulting from neck pain. It was developed in 1991 by Vernon and Mior as a modification of the Oswestry Low Back Pain Disability Questionnaire [^1]. The NDI consists of 10 items assessing how neck pain impacts functional activities, including pain intensity, personal care, lifting, reading, headaches, concentration, work, driving, sleeping, and recreation. It has become one of the most widely used and validated instruments for assessing disability in patients with neck pain, utilized extensively in both clinical and research settings for its reliability, validity, and responsiveness [^2].
+The Neck Disability Index (NDI) is a patient-completed, condition-specific functional status questionnaire designed to measure self-rated disability resulting from neck pain. It was developed in 1991 by Vernon and Mior as a modification of the Oswestry Low Back Pain Disability Questionnaire [1]. The NDI consists of 10 items assessing how neck pain impacts functional activities, including pain intensity, personal care, lifting, reading, headaches, concentration, work, driving, sleeping, and recreation. It has become one of the most widely used and validated instruments for assessing disability in patients with neck pain, utilized extensively in both clinical and research settings for its reliability, validity, and responsiveness [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of the NDI is to quantify a patient's perceived limitations 
 
 The NDI is indicated for any patient presenting with neck pain. It is used to establish the severity of disability, guide treatment planning, and facilitate communication between the clinician and patient regarding functional goals.
 
-The tool has been validated in numerous patient populations, including those with acute and chronic mechanical neck pain, whiplash-associated disorders, cervical radiculopathy, and following cervical spine surgery [^2]. It has also been translated and culturally adapted for use in many different languages.
+The tool has been validated in numerous patient populations, including those with acute and chronic mechanical neck pain, whiplash-associated disorders, cervical radiculopathy, and following cervical spine surgery [2]. It has also been translated and culturally adapted for use in many different languages.
 
 ## **Description of Assessment**
 
@@ -41,7 +41,7 @@ The tool has been validated in numerous patient populations, including those wit
 
 1. **Provide Questionnaire**: Give the patient the NDI form and a writing utensil.
 2. **Patient Completion**: The patient independently reads each of the 10 sections and selects the one statement in each section that best describes their situation.
-3. **Review and Collect**: Once completed, the clinician should briefly review the questionnaire to ensure all sections have been answered. If a section is left blank, the clinician should ask the patient to complete it. If a patient cannot answer a section (e.g., the driving section for a non-driver), that section is typically scored as zero, and the total score is prorated [^2].
+3. **Review and Collect**: Once completed, the clinician should briefly review the questionnaire to ensure all sections have been answered. If a section is left blank, the clinician should ask the patient to complete it. If a patient cannot answer a section (e.g., the driving section for a non-driver), that section is typically scored as zero, and the total score is prorated [2].
 
 ## **Detailed Scoring and Interpretation**
 
@@ -51,7 +51,7 @@ The NDI is a 10-item questionnaire. Each item is scored on a 6-point scale from 
 
 ### **Interpretation Guidelines**
 
-The total score is used to classify the level of disability due to neck pain. The original classification by Vernon and Mior is as follows [^1]:
+The total score is used to classify the level of disability due to neck pain. The original classification by Vernon and Mior is as follows [1]:
 
 | Raw Score (out of 50) | Percentage (%) | Functional Meaning  |
 | --------------------- | -------------- | ------------------- |
@@ -65,7 +65,7 @@ These scores help clinicians understand the patient's functional status, set rea
 
 ### **Minimal Clinically Important Difference (MCID)**
 
-The MCID for the NDI varies depending on the patient population and the method of calculation. However, a change of 5 to 10 points (10-20%) is widely accepted as clinically meaningful for patients with mechanical neck pain or cervical radiculopathy [^5, ^6]. For patients with mechanical neck pain without upper extremity symptoms, an MCID of 5.5 points has been reported, whereas for those with cervical radiculopathy, an MCID of 8.5 points has been suggested [^3].
+The MCID for the NDI varies depending on the patient population and the method of calculation. However, a change of 5 to 10 points (10-20%) is widely accepted as clinically meaningful for patients with mechanical neck pain or cervical radiculopathy [5. For patients with mechanical neck pain without upper extremity symptoms, an MCID of 5.5 points has been reported, whereas for those with cervical radiculopathy, an MCID of 8.5 points has been suggested [3].
 
 ## **Clinical Pearls, Contraindications, or Pitfalls**
 
@@ -97,6 +97,9 @@ The MCID for the NDI varies depending on the patient population and the method o
 
 ## **References**
 
-[^1]: Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. J Manipulative Physiol Ther. 1991;14(7):409-415. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1834753/)
-[^2]: MacDermid JC, Walton DM, Avery S, et al. Measurement properties of the neck disability index: a systematic review. J Orthop Sports Phys Ther. 2009;39(5):400-417. [(Find Online)](https://doi.org/10.2519/jospt.2009.2930)
-[^3]: Young IA, Cleland JA, Michener LA, Brown C. Reliability, construct validity, and responsiveness of the neck disability index, patient-specific functional scale, and numeric pain rating scale in patients with cervical radiculopathy. Am J Phys Med Rehabil. 2010;89(10):831-839. [(Find Online)](https://doi.org/10.1097/phm.0b013e3181ec98e6)
+[1]: Vernon H, Mior S. The Neck Disability Index: a study of reliability and validity. J Manipulative Physiol Ther. 1991;14(7):409-415. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1834753/)
+
+[2]: MacDermid JC, Walton DM, Avery S, et al. Measurement properties of the neck disability index: a systematic review. J Orthop Sports Phys Ther. 2009;39(5):400-417. [(Find Online)](https://doi.org/10.2519/jospt.2009.2930)
+
+[3]: Young IA, Cleland JA, Michener LA, Brown C. Reliability, construct validity, and responsiveness of the neck disability index, patient-specific functional scale, and numeric pain rating scale in patients with cervical radiculopathy. Am J Phys Med Rehabil. 2010;89(10):831-839. [(Find Online)](https://doi.org/10.1097/phm.0b013e3181ec98e6)
+

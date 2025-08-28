@@ -94,7 +94,12 @@ The MCID has not been established and is not applicable for this diagnostic mane
 ## **References**
 
 [^1]: Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/12937557/)
+
 [^2]: Colville MR, Marder RA, Zarins B. Reconstruction of the lateral ankle ligaments. A biomechanical analysis. Am J Sports Med. 1992;20(5):594-600. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1443330/)
+
 [^3]: van Dijk CN, Lim LS, Bossuyt PM, Marti RK. Physical examination is sufficient for the diagnosis of sprained ankles. J Bone Joint Surg Br. 1996;78(6):958-62. [(Find Online)](https://doi.org/10.1302/0301-620x.78b6.0780958)
+
 [^4]: Al-Mohrej OA, Al-Kenani NS. Acute ankle sprain: conservative or surgical approach? EFORT Open Rev. 2016;1(2):34-44. [(Find Online)](https://doi.org/10.1302/2058-5241.1.000010)
+
 [^5]: Phisitkul P, Chaichankul C, Sripinyo S, Tengtrakulcharoen P, Suarchawaratana S. Accuracy of anterior drawer and talar tilt tests in chronic lateral ankle instability: a cadaveric study. J Med Assoc Thai. 2009;92(8):1058-63. [(Find Online)](https://doi.org/10.3113/fai.2009.0690)
+

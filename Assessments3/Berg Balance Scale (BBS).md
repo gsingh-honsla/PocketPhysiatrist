@@ -115,9 +115,16 @@ The MCID varies by population and baseline score.
 ## **References**
 
 [^1]: Berg K, Wood-Dauphinee S, Williams JI, Maki B. Measuring balance in the elderly: validation of an instrument. Can J Public Health. 1992;83 Suppl 2:S7-S11. [(Find Online)](https://pubmed.ncbi.nlm.nih.gov/1468055/)
+
 [^2]: Downs S. The Berg Balance Scale. J Physiother. 2015;61(1):46. [(Find Online)](https://doi.org/10.1016/j.jphys.2014.10.002)
+
 [^3]: Blum L, Korner-Bitensky N. Usefulness of the Berg Balance Scale in stroke rehabilitation: a systematic review. Phys Ther. 2008;88(5):559-566. [(Find Online)](https://doi.org/10.2522/ptj.20070205)
+
 [^4]: Berg KO, Wood-Dauphinee SL, Williams JI. The Balance Scale: reliability assessment with elderly residents and patients with an acute stroke. Scand J Rehabil Med. 1995;27(1):27-36. [(Find Online)](https://doi.org/10.2340/1650197719952736)
+
 [^5]: Donoghue D, Stokes EK. How much change is true change? The minimum detectable change of the Berg Balance Scale in elderly people. J Rehabil Med. 2009;41(4):343-346. [(Find Online)](https://doi.org/10.2340/16501977-0337)
+
 [^6]: Oh J, Kim T, Lee S. Minimal Clinically Important Difference of Berg Balance Scale scores in people with acute stroke. Phys Ther Rehabil Sci. 2018;7(3):102-108. [(Find Online)](https://doi.org/10.14474/ptrs.2018.7.3.102)
+
 [^7]: Cattaneo D, Jonsdottir J, Repetti S. Minimal Clinically Important Difference of Berg Balance Scale in People With Multiple Sclerosis. Arch Phys Med Rehabil. 2017;98(4):780-784. [(Find Online)](https://doi.org/10.1016/j.apmr.2016.09.128)
+

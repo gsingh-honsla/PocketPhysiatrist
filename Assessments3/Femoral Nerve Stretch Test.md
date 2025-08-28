@@ -92,4 +92,6 @@ Not applicable for this diagnostic maneuver.
 ## **References**
 
 [^1]: Dutton M. Dutton's Orthopaedic Examination, Evaluation, and Intervention. 5th ed. McGraw-Hill Education; 2020. [(Find Online)](https://accessphysiotherapy.mhmedical.com/book.aspx?bookid=2707)
+
 [^2]: Suri P, Rainville J, Katz JN, et al. The accuracy of the physical examination for the diagnosis of midlumbar and low lumbar nerve root impingement. Spine (Phila Pa 1976). 2011;36(1):63-73. [(Find Online)](https://doi.org/10.1097/brs.0b013e3181c953cc)
+

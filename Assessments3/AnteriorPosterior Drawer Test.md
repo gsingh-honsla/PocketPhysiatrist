@@ -99,6 +99,10 @@ The MCID is not applicable to the Anterior/Posterior Drawer Test, as it is a dia
 ## **References**
 
 [^1]: Malanga GA, Andrus S, Bowen JE, Mautner K. Physical Examination of the Knee: A Review of the Original Test Description and Scientific Validity of Common Orthopedic Tests. Arch Phys Med Rehabil. 2003;84(4):592-603. [(Find Online)](https://doi.org/10.1053/apmr.2003.50026)
+
 [^2]: Benjaminse A, Gokeler A, van der Schans CP. Clinical diagnosis of an anterior cruciate ligament rupture: a meta-analysis. J Orthop Sports Phys Ther. 2006;36(5):267-288. [(Find Online)](https://doi.org/10.2519/jospt.2006.2011)
+
 [^3]: Slocum DB, Larson RL. Rotatory instability of the knee. Its pathogenesis and a clinical test to demonstrate its presence. J Bone Joint Surg Am. 1968;50(2):211-225. [(Find Online)](https://doi.org/10.2106/00004623-196850020-00001)
+
 [^4]: Rubinstein RA Jr, Shelbourne KD, McCarroll JR, VanMeter CD, Rettig AC. The accuracy of the clinical examination in the setting of posterior cruciate ligament injuries. Am J Sports Med. 1994;22(4):550-557. [(Find Online)](https://doi.org/10.1177/036354659402200419)
+

@@ -99,10 +99,18 @@ The MCID has not been established for the manual Valgus/Varus stress tests. Scor
 ## **References**
 
 [^1]: Logerstedt DS, Snyder-Mackler L, Ritter RC, Axe MJ. Knee stability and movement coordination impairments: knee ligament sprain. J Orthop Sports Phys Ther. 2010;40(4):A1-A37. [(Find Online)](https://doi.org/10.2519/jospt.2010.0303)
+
 [^2]: LaPrade RF, Wentorf FA. Diagnosis and treatment of posterolateral knee injuries. Clin Orthop Relat Res. 2002;(402):110-121. [(Find Online)](https://doi.org/10.1097/00003086-200209000-00010)
+
 [^3]: Phisitkul P, James SL, Wolf BR, Amendola A. MCL injuries of the knee: current concepts review. Iowa Orthop J. 2006;26:77-90. [(Find Online)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1888587/)
+
 [^4]: Müller W. The knee: form, function, and ligament reconstruction. Springer-Verlag; 1983. [(Find Online)](https://catalog.nlm.nih.gov/permalink/01NLM_INST/vdtut1/alma995671493406676)
+
 [^5]: Hughston JC, Andrews JR, Cross MJ, Moschi A. Classification of knee ligament instabilities. Part I. The medial compartment and cruciate ligaments. J Bone Joint Surg Am. 1976;58(2):159-172. [(Find Online)](https://doi.org/10.2106/00004623-197658020-00001)
+
 [^6]: LaPrade RF, Terry GC. Injuries to the posterolateral aspect of the knee. Association of anatomic injury patterns with clinical instability. Am J Sports Med. 1997;25(4):433-438. [(Find Online)](https://doi.org/10.1177/036354659702500403)
+
 [^7]: Gollehon DL, Torzilli PA, Warren RF. The role of the posterolateral and cruciate ligaments in the stability of the human knee. A biomechanical study. J Bone Joint Surg Am. 1987;69(2):233-242. [(Find Online)](https://doi.org/10.2106/00004623-198769020-00010)
+
 [^8]: LaPrade RF, Heikes C, Bakker AJ, Jakobsen RB. Correlation of valgus stress radiographs with medial knee ligament injuries: an in vitro biomechanical study. Am J Sports Med. 2009;37(10):2024-2030. [(Find Online)](https://doi.org/10.1177/0363546509349347)
+

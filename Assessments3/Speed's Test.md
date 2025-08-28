@@ -10,7 +10,7 @@ Keywords: biceps tendon, shoulder pain, bicipital tendinopathy, SLAP lesion, pro
 
 ## **Overview**
 
-Speed's Test is a provocative physical examination maneuver used to assess the integrity of the long head of the biceps (LHB) tendon and the superior labrum. It is designed to elicit pain in the anterior shoulder, specifically within the bicipital groove, suggesting inflammation or pathology of the LHB tendon, such as tendinopathy or a superior labrum anterior-posterior (SLAP) lesion [^1]. While commonly used, its diagnostic utility as a standalone test is limited, and it should be interpreted within the context of a comprehensive clinical examination [^2].
+Speed's Test is a provocative physical examination maneuver used to assess the integrity of the long head of the biceps (LHB) tendon and the superior labrum. It is designed to elicit pain in the anterior shoulder, specifically within the bicipital groove, suggesting inflammation or pathology of the LHB tendon, such as tendinopathy or a superior labrum anterior-posterior (SLAP) lesion [1]. While commonly used, its diagnostic utility as a standalone test is limited, and it should be interpreted within the context of a comprehensive clinical examination [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of Speed's Test is to assess for pathology of the LHB tendon
 
 It is indicated for patients presenting with anterior shoulder pain, particularly when there is suspicion of bicipital tendinopathy or a SLAP lesion. The test aims to reproduce the patient's characteristic pain.
 
-The test has been studied in various populations with shoulder pain, but systematic reviews have consistently shown it to have limited diagnostic accuracy, with generally low sensitivity and variable specificity for both LHB pathology and SLAP lesions [^1, ^3].
+The test has been studied in various populations with shoulder pain, but systematic reviews have consistently shown it to have limited diagnostic accuracy, with generally low sensitivity and variable specificity for both LHB pathology and SLAP lesions [1.
 
 ## **Description of Assessment**
 
@@ -53,8 +53,8 @@ This assessment is a dichotomous provocative test and does not use a numerical s
 ### **Interpretation Guidelines**
 
 - **Positive Test**: Pain localized to the bicipital groove suggests inflammation or pathology of the long head of the biceps tendon (e.g., tendinopathy, tenosynovitis) or a SLAP lesion, particularly a Type II lesion.
-- **Negative Test**: The absence of pain in the bicipital groove decreases the likelihood of significant LHB tendinopathy. However, due to the test's low sensitivity, a negative result does not definitively rule out the condition [^1].
-- **Clinical Context**: The results of Speed's Test should be correlated with other clinical findings, including patient history, palpation, and other special tests (e.g., Yergason's Test, O'Brien's Test), as its standalone accuracy is insufficient for diagnosis [^2].
+- **Negative Test**: The absence of pain in the bicipital groove decreases the likelihood of significant LHB tendinopathy. However, due to the test's low sensitivity, a negative result does not definitively rule out the condition [1].
+- **Clinical Context**: The results of Speed's Test should be correlated with other clinical findings, including patient history, palpation, and other special tests (e.g., Yergason's Test, O'Brien's Test), as its standalone accuracy is insufficient for diagnosis [2].
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -91,6 +91,9 @@ The MCID is not applicable for this dichotomous (positive/negative) special test
 
 ## **References**
 
-[^1]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012 Nov;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
-[^2]: Kibler WB, Sciascia AD, Hester P, Dome D, Jacobs C. Clinical utility of traditional and new tests in the diagnosis of biceps tendon injuries and superior labrum anterior and posterior lesions in the shoulder. Am J Sports Med. 2009 Sep;37(9):1840-7. [(Find Online)](https://doi.org/10.1177/0363546509332505)
-[^3]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000 Jan;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+[1]: Hegedus EJ, Goode AP, Cook CE, Michener L, Myer CA, Myer DM, Wright AA. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012 Nov;46(14):964-78. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+
+[2]: Kibler WB, Sciascia AD, Hester P, Dome D, Jacobs C. Clinical utility of traditional and new tests in the diagnosis of biceps tendon injuries and superior labrum anterior and posterior lesions in the shoulder. Am J Sports Med. 2009 Sep;37(9):1840-7. [(Find Online)](https://doi.org/10.1177/0363546509332505)
+
+[3]: Calis M, Akgün K, Birtane M, Karacan I, Calis H, Tüzün F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000 Jan;59(1):44-7. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+

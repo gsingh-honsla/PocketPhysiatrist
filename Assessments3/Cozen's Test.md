@@ -92,5 +92,8 @@ The MCID is not applicable for this diagnostic provocative test.
 ## **References**
 
 [^1]: Karanasios S, Korakakis V, Whiteley R, et al. Diagnostic accuracy of examination tests for lateral elbow tendinopathy (LET) - A systematic review. Physiotherapy. 2021;112:46-65. [(Find Online)](https://doi.org/10.1016/j.jht.2021.02.002)
+
 [^2]: Saroja G, Leo Antony A, Sai P. Diagnostic accuracy of provocative tests in lateral epicondylitis. Int J Physiother Res. 2014;2(6):795-800. [(Find Online)](https://doi.org/10.16965/ijpr.2014.699)
+
 [^4]: Calis M, Akgun K, Birtane M, Karacan I, Calis H, Tuzun F. Diagnostic values of clinical diagnostic tests in subacromial impingement syndrome. Ann Rheum Dis. 2000;59(1):44-47. [(Find Online)](https://doi.org/10.1136/ard.59.1.44)
+

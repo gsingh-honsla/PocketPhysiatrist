@@ -108,6 +108,10 @@ The MCID has not been established. As a 5-level ordinal scale classifying functi
 ## **References**
 
 [^1]: Centers for Medicare & Medicaid Services. Lower Limb Prosthetic Workgroup Consensus Document. 2017. [(Find Online)](https://www.cms.gov/Medicare/Coverage/DeterminationProcess/downloads/LLP_Consensus_Document.pdf)
+
 [^2]: Gailey RS, Roach KE, Applegate EB, et al. The amputee mobility predictor: an instrument to assess determinants of the amputee's ability to ambulate. Arch Phys Med Rehabil. 2002;83(5):613-627. [(Find Online)](https://doi.org/10.1053/apmr.2002.32309)
+
 [^3]: Physio-pedia. Amputee Mobility Predictor. Physiopedia. [(Find Online)](https://www.physio-pedia.com/Amputee_Mobility_Predictor)
+
 [^4]: Centers for Medicare & Medicaid Services. Local Coverage Determination (LCD) for Lower Limb Prostheses (L33787). [(Find Online)](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33787)
+

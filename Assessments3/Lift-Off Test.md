@@ -10,7 +10,7 @@ Keywords: subscapularis, shoulder, rotator cuff, internal rotation, impingement
 
 ## **Overview**
 
-The Lift-Off Test (LOT) is a physical examination maneuver designed to assess the integrity and strength of the subscapularis muscle, one of the four muscles of the rotator cuff. It was first described by Gerber and Krushell in 1991 as a reliable clinical sign for diagnosing ruptures of the subscapularis tendon [^1]. The test evaluates the patient's ability to actively lift their hand off their back, a movement that requires isolated contraction of the subscapularis. A positive test is highly specific for subscapularis pathology, although its sensitivity can be variable [^2].
+The Lift-Off Test (LOT) is a physical examination maneuver designed to assess the integrity and strength of the subscapularis muscle, one of the four muscles of the rotator cuff. It was first described by Gerber and Krushell in 1991 as a reliable clinical sign for diagnosing ruptures of the subscapularis tendon [1]. The test evaluates the patient's ability to actively lift their hand off their back, a movement that requires isolated contraction of the subscapularis. A positive test is highly specific for subscapularis pathology, although its sensitivity can be variable [2].
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of the Lift-Off Test is to detect tears or significant weakn
 
 It is indicated for patients presenting with shoulder pain, particularly anterior shoulder pain, weakness in internal rotation, or a suspected rotator cuff injury. It is a key component of a comprehensive shoulder examination when pathology of the rotator cuff is suspected.
 
-The test has been validated primarily in adult populations with shoulder pathology and is commonly used in orthopedic, sports medicine, and physiatry settings [^2, ^3].
+The test has been validated primarily in adult populations with shoulder pathology and is commonly used in orthopedic, sports medicine, and physiatry settings [2.
 
 ## **Description of Assessment**
 
@@ -53,7 +53,7 @@ This assessment is a diagnostic test and does not use a numerical scale. The res
 
 - **Positive Test**: The inability to lift the hand off the back strongly suggests a tear or significant dysfunction of the subscapularis tendon. The patient may compensate by extending their elbow or shoulder, which should be noted by the examiner.
 - **Negative Test**: The ability to lift the hand off the back against resistance makes a significant subscapularis tear less likely. However, partial tears or tendinopathy may still be present with a negative test.
-- **Diagnostic Accuracy**: A meta-analysis demonstrated that the Lift-Off Test has a high specificity (ranging from 92% to 100%) but a more variable and generally lower sensitivity (ranging from 22% to 62%) for detecting subscapularis tears [^2]. This means a positive test is very good at ruling *in* a tear, but a negative test does not reliably rule one *out*.
+- **Diagnostic Accuracy**: A meta-analysis demonstrated that the Lift-Off Test has a high specificity (ranging from 92% to 100%) but a more variable and generally lower sensitivity (ranging from 22% to 62%) for detecting subscapularis tears [2]. This means a positive test is very good at ruling *in* a tear, but a negative test does not reliably rule one *out*.
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -63,7 +63,7 @@ Not applicable. The Lift-Off Test is a diagnostic maneuver with a positive or ne
 
 ### **Clinical Pearls**
 
-- If a patient is unable to place their hand behind their back due to pain or stiffness (limited internal rotation), the **Belly-Press Test (Napoleon Sign)** is a useful alternative for assessing subscapularis function [^3].
+- If a patient is unable to place their hand behind their back due to pain or stiffness (limited internal rotation), the **Belly-Press Test (Napoleon Sign)** is a useful alternative for assessing subscapularis function [3].
 - Weakness noted when applying resistance, even if the patient can lift their hand off their back, can be indicative of subscapularis tendinopathy or a partial tear.
 - Always compare the affected side to the unaffected side to establish the patient's baseline strength and range of motion.
 
@@ -87,6 +87,9 @@ Not applicable. The Lift-Off Test is a diagnostic maneuver with a positive or ne
 
 ## **References**
 
-[^1]: Gerber C, Krushell RJ. Isolated rupture of the tendon of the subscapularis muscle. Clinical features in 16 cases. J Bone Joint Surg Br. 1991 May;73(3):389-94. [(Find Online)](https://doi.org/10.1302/0301-620x.73b3.1670434)
-[^2]: Barth JR, Burkhart SS, DeBeer JF. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006 Oct;22(10):1076-84. [(Find Online)](https://doi.org/10.1016/j.arthro.2006.05.005)
-[^3]: Tokish JM, Decker MJ, Ellis HB, Torry MR, Hawkins RJ. The belly-press test for the physical examination of the subscapularis muscle: electromyographic validation and comparison to the lift-off test. J Shoulder Elbow Surg. 2003 Sep-Oct;12(5):427-30. ([Find Online](https://doi.org/10.1016/s1058-2746(03)00047-8))
+[1]: Gerber C, Krushell RJ. Isolated rupture of the tendon of the subscapularis muscle. Clinical features in 16 cases. J Bone Joint Surg Br. 1991 May;73(3):389-94. [(Find Online)](https://doi.org/10.1302/0301-620x.73b3.1670434)
+
+[2]: Barth JR, Burkhart SS, DeBeer JF. The bear-hug test: a new and sensitive test for diagnosing a subscapularis tear. Arthroscopy. 2006 Oct;22(10):1076-84. [(Find Online)](https://doi.org/10.1016/j.arthro.2006.05.005)
+
+[3]: Tokish JM, Decker MJ, Ellis HB, Torry MR, Hawkins RJ. The belly-press test for the physical examination of the subscapularis muscle: electromyographic validation and comparison to the lift-off test. J Shoulder Elbow Surg. 2003 Sep-Oct;12(5):427-30. ([Find Online](https://doi.org/10.1016/s1058-2746(03)00047-8))
+

@@ -117,6 +117,10 @@ The MCID represents the smallest change in a score that a patient would perceive
 ## **References**
 
 [^1]: Catz A, Itzkovich M, Agranov E, Ring H, Tamir A. SCIM--spinal cord independence measure: a new disability scale for patients with spinal cord lesions.33 Spinal Cord. 1997;35(12):850-856. [(Find Online)](https://doi.org/10.1038/sj.sc.3100504)
+
 [^2]: Catz A, Itzkovich M, Tesio L, et al. A multi-center international study on the Spinal Cord Independence Measure, version III: Rasch psychometric validation. Spinal Cord. 2007;45(4):275-291. [(Find Online)](https://doi.org/10.1038/sj.sc.3101960)
+
 [^3]: Corallo V, Torre M, Scivoletto G, et al. What do spinal cord injury patients think of their improvement? A study of the minimal clinically important difference of the Spinal Cord Independence Measure III. Eur J Phys Rehabil Med. 2017;53(4):559-568. [(Find Online)](https://doi.org/10.23736/s1973-9087.17.04240-x)
+
 [^4]: Anderson K, Aito S, Atkins M, et al.36 Functional recovery measures for spinal cord injury: an evidence-based review for clinical practice and research. J Spinal Cord Med. 2008;31(2):133-144. [(Find Online)](https://doi.org/10.1080/10790268.2008.11760704)
+

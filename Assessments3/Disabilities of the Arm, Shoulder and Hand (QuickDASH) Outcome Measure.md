@@ -94,4 +94,6 @@ The MCID for the QuickDASH varies by patient population but is generally accepte
 ## **References**
 
 [^1]: Beaton DE, Wright JG, Katz JN; Upper Extremity Collaborative Group. Development of the QuickDASH: comparison of three item-reduction approaches. J Bone Joint Surg Am. 2005;87(5):1038-46. [(Find Online)](https://doi.org/10.2106/jbjs.d.02060)
+
 [^2]: Franchignoni F, Vercelli S, Giordano A, Sartorio F, Bravini E, Ferriero G. Minimal clinically important difference of the disabilities of the arm, shoulder and hand outcome measure (DASH) and its shortened version (QuickDASH). J Orthop Sports Phys 2Ther. 2014;44(1):30-9. [(Find Online)](https://doi.org/10.2519/jospt.2014.4893)
+

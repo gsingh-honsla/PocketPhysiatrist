@@ -94,9 +94,16 @@ The MCID is not applicable for this test, as it yields a dichotomous (positive/n
 ## **References**
 
 [^1]: Jobe FW, Moynes DR. Delineation of diagnostic criteria and a rehabilitation program for rotator cuff injuries. Am J Sports Med. 1982;10(6):336-339. [(Find Online)](https://doi.org/10.1177/036354658201000602)
+
 [^2]: Boettcher CE, Ginn KA, Cathers I. The 'empty can' and 'full can' tests do not selectively activate supraspinatus. J Sci Med Sport. 2009;12(4):435-439. [(Find Online)](https://doi.org/10.1016/j.jsams.2008.09.005)
+
 [^3]: Jain NB, Luz J, Higgins LD, et al. The Diagnostic Accuracy of Special Tests for Rotator Cuff Tear: The ROW Cohort Study. Am J Phys Med Rehabil. 2017;96(3):176-183. [(Find Online)](https://doi.org/10.1097/phm.0000000000000566)
+
 [^4]: Hughes PC, Taylor NF, Green RA. Most clinical tests for subacromial impingement syndrome of the shoulder have poor diagnostic accuracy. J Orthop Sports Phys Ther. 2008;38(5):258-268. ([Find Online](https://doi.org/10.1016/s0004-9514(08)70022-9))
+
 [^5]: Sgroi M, Loitsch T, Reichel H, Kappe T. Diagnostic Value of Clinical Tests for Supraspinatus Tendon Tears. Arthroscopy. 2018;34(8):2326-2333. [(Find Online)](https://doi.org/10.1016/j.arthro.2018.03.030)
+
 [^6]: Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. Diagnostic accuracy of clinical tests for the different degrees of subacromial impingement syndrome. J Bone Joint Surg Am. 2005;87(7):1446-1455. [(Find Online)](https://doi.org/10.2106/00004623-200507000-00005)
+
 [^7]: Kelly BT, Kadrmas WR, Speer KP. The manual muscle examination for rotator cuff strength. An electromyographic investigation. Am J Sports Med. 1996;24(5):581-588. [(Find Online)](https://doi.org/10.1177/036354659602400504)
+

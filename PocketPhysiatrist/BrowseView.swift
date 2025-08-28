@@ -480,31 +480,35 @@ struct CategoryDetailView: View {
                 ForEach(content) { item in
                     NavigationLink(destination: ContentDetailView(content: item)) {
                         HStack(spacing: 16) {
-                            // Content details - now using full width
-                            VStack(alignment: .leading, spacing: 8) {
+                            // Content details - now using full width with fixed layout
+                            VStack(alignment: .leading, spacing: 6) {
                                 Text(item.title)
                                     .font(.headline)
                                     .fontWeight(.semibold)
                                     .foregroundColor(.primary)
-                                    .fixedSize(horizontal: false, vertical: true)
+                                    .lineLimit(2)
                                     .multilineTextAlignment(.leading)
                                 
+                                // Subtitle only when present
                                 if let subtitle = item.subtitle {
                                     Text(subtitle)
                                         .font(.subheadline)
                                         .foregroundColor(accentColor)
                                         .fontWeight(.medium)
-                                        .fixedSize(horizontal: false, vertical: true)
+                                        .lineLimit(1)
                                         .multilineTextAlignment(.leading)
                                 }
+                                
+                                Spacer(minLength: 4)
                                 
                                 Text(cleanOverviewText(item.overview))
                                     .font(.body)
                                     .foregroundColor(.secondary)
-                                    .lineLimit(4)
-                                    .fixedSize(horizontal: false, vertical: true)
+                                    .lineLimit(3)
                                     .multilineTextAlignment(.leading)
-                                    .lineSpacing(3)
+                                    .lineSpacing(2)
+                                
+                                Spacer(minLength: 0)
                             }
                             
                             // Right side indicators
@@ -515,11 +519,14 @@ struct CategoryDetailView: View {
                                         .font(.system(size: 16))
                                 }
                                 
+                                Spacer()
+                                
                                 Image(systemName: "chevron.right")
                                     .font(.system(size: 14, weight: .medium))
                                     .foregroundColor(accentColor.opacity(0.6))
                             }
                         }
+                        .frame(height: 120) // Fixed card height for consistency
                         .padding(12)
                         .background(
                             RoundedRectangle(cornerRadius: 12)
@@ -530,7 +537,7 @@ struct CategoryDetailView: View {
                     .buttonStyle(PlainButtonStyle())
                 }
             }
-            .padding(12)
+            .padding(.horizontal, 12)
         }
         .background(Color(.systemGroupedBackground))
         .navigationTitle("")

@@ -118,4 +118,6 @@ The MCID has not been established in the traditional sense, as the RLAS is an or
 ## **References**
 
 [^1]: Gouvier WD, Blanton PD, LaPorte KK, Nepomuceno C. Reliability and validity of the Disability Rating Scale and the Levels of Cognitive Functioning Scale in monitoring recovery from severe head injury. Arch Phys Med Rehabil. 1987;68(3):158-62. [(Find Online)](https://doi.org/10.1097/00001199-198712000-00015)
+
 [^2]: Whyte J, Nakase-Richardson R. Disorders of consciousness: outcomes, comorbidities, and care. Arch Phys Med Rehabil. 2013;94(10):1851-1854. [(Find Online)](https://doi.org/10.1016/j.apmr.2013.07.003)
+

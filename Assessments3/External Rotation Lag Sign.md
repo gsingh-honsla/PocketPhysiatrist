@@ -10,7 +10,7 @@ Keywords: rotator cuff, infraspinatus, supraspinatus, shoulder examination, phys
 
 ## **Overview**
 
-The External Rotation Lag Sign (ERLS) is a clinical examination test first described by Hertel et al. in 1996 to assess the integrity of the posterosuperior rotator cuff tendons, specifically the infraspinatus and supraspinatus [^1]. The test evaluates the patient's ability to actively maintain a passively-placed position of near-maximal external rotation. An inability to hold this position, resulting in the forearm and hand "lagging" or dropping into internal rotation, suggests a full-thickness tear of these tendons. The magnitude of the lag, measured in degrees, often correlates with the size and extent of the tear, making it a valuable tool for diagnosing rotator cuff pathology [^2, ^3].
+The External Rotation Lag Sign (ERLS) is a clinical examination test first described by Hertel et al. in 1996 to assess the integrity of the posterosuperior rotator cuff tendons, specifically the infraspinatus and supraspinatus [1]. The test evaluates the patient's ability to actively maintain a passively-placed position of near-maximal external rotation. An inability to hold this position, resulting in the forearm and hand "lagging" or dropping into internal rotation, suggests a full-thickness tear of these tendons. The magnitude of the lag, measured in degrees, often correlates with the size and extent of the tear, making it a valuable tool for diagnosing rotator cuff pathology [2.
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The primary purpose of the ERLS is to diagnose full-thickness tears of the supra
 
 This assessment is indicated for patients presenting with shoulder pain, weakness, particularly with external rotation, or when a rotator cuff tear is suspected based on history and other examination findings.
 
-The ERLS has been validated for use in adult patients with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [^1, ^2, ^4].
+The ERLS has been validated for use in adult patients with shoulder pain and suspected rotator cuff pathology in outpatient orthopedic and physical therapy settings [1.
 
 ## **Description of Assessment**
 
@@ -39,9 +39,9 @@ The ERLS has been validated for use in adult patients with shoulder pain and sus
 ### **Procedure Steps**
 
 1. **Positioning the Limb**: The examiner passively flexes the patient's elbow to 90 degrees and elevates the shoulder to 20 degrees in the scapular plane.
-2. **Applying External Rotation**: While supporting the patient's elbow, the examiner passively rotates the shoulder to a position of near-maximal external rotation. It is recommended to back off approximately 5 degrees from the end-range to avoid influence from the elastic recoil of the joint capsule [^1].
+2. **Applying External Rotation**: While supporting the patient's elbow, the examiner passively rotates the shoulder to a position of near-maximal external rotation. It is recommended to back off approximately 5 degrees from the end-range to avoid influence from the elastic recoil of the joint capsule [1].
 3. **Observation**: The examiner releases the patient's wrist while continuing to support the elbow. The patient is instructed to actively hold the position.
-4. **Recording the Lag**: A positive test occurs if the patient cannot maintain the position and the arm rotates internally. This "lag" is observed, and the angle of internal rotation drop can be estimated or measured in degrees [^2].
+4. **Recording the Lag**: A positive test occurs if the patient cannot maintain the position and the arm rotates internally. This "lag" is observed, and the angle of internal rotation drop can be estimated or measured in degrees [2].
 
 ## **Detailed Scoring and Interpretation**
 
@@ -54,9 +54,9 @@ Scoring for this test is a continuous measure of the external rotation lag in de
 
 ### **Interpretation Guidelines**
 
-- A positive ERLS is highly specific for a full-thickness tear of the supraspinatus and/or infraspinatus tendons [^2, ^4].
-- A larger lag is associated with a more extensive tear. Castoldi et al. found that the lag increased from an average of 7 degrees for an isolated supraspinatus tendon rupture to 26 degrees when the tear extended into the teres minor [^2].
-- Due to its high specificity, a positive test is very useful for "ruling in" a diagnosis of a full-thickness tear. However, its sensitivity can be variable, meaning a negative test does not definitively rule out a tear [^2, ^5].
+- A positive ERLS is highly specific for a full-thickness tear of the supraspinatus and/or infraspinatus tendons [2.
+- A larger lag is associated with a more extensive tear. Castoldi et al. found that the lag increased from an average of 7 degrees for an isolated supraspinatus tendon rupture to 26 degrees when the tear extended into the teres minor [2].
+- Due to its high specificity, a positive test is very useful for "ruling in" a diagnosis of a full-thickness tear. However, its sensitivity can be variable, meaning a negative test does not definitively rule out a tear [2.
 
 ### **Minimal Clinically Important Difference (MCID)**
 
@@ -68,8 +68,8 @@ The MCID has not been established for the External Rotation Lag Sign, as it is a
 
 - Always test the contralateral, asymptomatic side first to establish a baseline and check for patient understanding and tolerance.
 - A small lag in a patient with hyperlaxity may be normal; comparison with the unaffected side is critical.
-- The ERLS has been shown to be more specific than many other common shoulder examination tests (e.g., Jobe's test) for diagnosing a posterosuperior rotator cuff tear [^1].
-- Hypertrophy of the teres minor muscle may compensate for a torn infraspinatus, potentially leading to a false-negative result [^6].
+- The ERLS has been shown to be more specific than many other common shoulder examination tests (e.g., Jobe's test) for diagnosing a posterosuperior rotator cuff tear [1].
+- Hypertrophy of the teres minor muscle may compensate for a torn infraspinatus, potentially leading to a false-negative result [6].
 
 ### **Contraindications**
 
@@ -81,7 +81,7 @@ The MCID has not been established for the External Rotation Lag Sign, as it is a
 **Relative contraindications**:
 
 - Severe shoulder pain that prevents passive positioning.
-- Significant adhesive capsulitis or other conditions causing a marked loss of passive external rotation, as this prevents proper positioning for the test [^1].
+- Significant adhesive capsulitis or other conditions causing a marked loss of passive external rotation, as this prevents proper positioning for the test [1].
 
 ### **Common Pitfalls**
 
@@ -93,9 +93,15 @@ The MCID has not been established for the External Rotation Lag Sign, as it is a
 
 ## **References**
 
-[^1]: Hertel R, Ballmer FT, Lombert SM, Gerber C. Lag signs in the diagnosis of rotator cuff rupture. J Shoulder Elbow Surg. 1996;5(4):307-313. ([Find Online](https://doi.org/10.1016/s1058-2746(96)80058-9))
-[^2]: Castoldi F, Blonna D, Hertel R. The external rotation lag sign revisited: accuracy for diagnosis of full thickness supraspinatus tear. J Shoulder Elbow Surg. 2009;18(5):769-773. ([Find Online](https://search.crossref.org/search/works?q=+Castoldi+F%2C+Blonna+D%2C+Hertel+R.+The+external+rotation+lag+sign+revisited%3A+accuracy+for+diagnosis+of+full+thickness+supraspinatus+tear.+J+Shoulder+Elbow+Surg.+2009%3B18(5)%3A769-773.+&from_ui=yes#:~:text=https%3A//doi.org/10.1016/j.jse.2008.11.007))
-[^3]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
-[^4]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
-[^5]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
-[^6]: Walch G, Boulahia A, Calderone S, Robinson AH. The 'dropping' and 'hornblower's' signs in evaluation of rotator-cuff tears. J Bone Joint Surg Br. 1998;80(4):624-628. [(Find Online)](https://doi.org/10.1302/0301-620x.80b4.0800624)
+[1]: Hertel R, Ballmer FT, Lombert SM, Gerber C. Lag signs in the diagnosis of rotator cuff rupture. J Shoulder Elbow Surg. 1996;5(4):307-313. ([Find Online](https://doi.org/10.1016/s1058-2746(96)80058-9))
+
+[2]: Castoldi F, Blonna D, Hertel R. The external rotation lag sign revisited: accuracy for diagnosis of full thickness supraspinatus tear. J Shoulder Elbow Surg. 2009;18(5):769-773. ([Find Online](https://search.crossref.org/search/works?q=+Castoldi+F%2C+Blonna+D%2C+Hertel+R.+The+external+rotation+lag+sign+revisited%3A+accuracy+for+diagnosis+of+full+thickness+supraspinatus+tear.+J+Shoulder+Elbow+Surg.+2009%3B18(5)%3A769-773.+&from_ui=yes#:~:text=https%3A//doi.org/10.1016/j.jse.2008.11.007))
+
+[3]: Miller CA, Forrester GA, Lewis JS. The validity of the lag signs in diagnosing full-thickness tears of the rotator cuff: a preliminary investigation. Arch Phys Med Rehabil. 2008;89(8):1562-1568. [(Find Online)](https://doi.org/10.1016/j.apmr.2007.10.046)
+
+[4]: Hermans J, Luime JJ, Meuffels DE, Reijman M, Simel DL, Bierma-Zeinstra SM. Does this patient with shoulder pain have rotator cuff disease?: The Rational Clinical Examination systematic review. JAMA. 2013;310(8):837-847. [(Find Online)](https://doi.org/10.1001/jama.2013.276187)
+
+[5]: Hegedus EJ, Goode AP, Cook CE, et al. Which physical examination tests provide clinicians with the most value when examining the shoulder? Update of a systematic review with meta-analysis of individual tests. Br J Sports Med. 2012;46(14):964-978. [(Find Online)](https://doi.org/10.1136/bjsports-2012-091066)
+
+[6]: Walch G, Boulahia A, Calderone S, Robinson AH. The 'dropping' and 'hornblower's' signs in evaluation of rotator-cuff tears. J Bone Joint Surg Br. 1998;80(4):624-628. [(Find Online)](https://doi.org/10.1302/0301-620x.80b4.0800624)
+

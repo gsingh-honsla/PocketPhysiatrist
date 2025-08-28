@@ -91,7 +91,12 @@ This assessment does not use a numerical or ordinal scoring scale. The outcome i
 ## **References**
 
 [^1]: Lo IK, Nonweiler B, Woolfrey M, Litchfield R, Kirkley A. An evaluation of the apprehension, relocation, and surprise tests for anterior shoulder instability. Am J Sports Med. 2004;32(2):301-307. [(Find Online)](https://doi.org/10.1177/0095399703258690)
+
 [^2]: Jobe FW, Kvitne RS. Shoulder pain in the overhand or throwing athlete. The relationship of anterior instability and rotator cuff impingement. Orthop Rev. 1989;18(9):963-975. ([Find Online](https://doi.org/10.1016/s0278-5919(20)30188-5))
+
 [^3]: Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. BMC Musculoskelet Disord. 2017;18(1):41. [(Find Online)](https://doi.org/10.1186/s12891-017-1400-0)
+
 [^4]: Farber AJ, Castillo R, Clopatofsky J, et al. Clinical diagnosis of anterior shoulder instability using a simple, combined physical examination test. Arthroscopy. 2006;22(12):1283-1289. [(Find Online)](https://doi.org/10.2106/jbjs.e.00594)
+
 [^5]: Safran O, Milgrom C, Radeva-Petrova DR, Jaber S, Finestone A. Accuracy of the anterior apprehension test as a predictor of risk for redislocation after a first traumatic shoulder dislocation. Am J Sports Med. 2010;38(4):762-765. [(Find Online)](https://doi.org/10.1177/0363546509357610)
+

@@ -10,7 +10,7 @@ Keywords: cognitive screening, mild cognitive impairment, dementia, neurocogniti
 
 ## **Overview**
 
-The Montreal Cognitive Assessment (MoCA) is a brief, 30-point cognitive screening tool developed by Dr. Ziad Nasreddine in 1996 and validated in 2005. Its primary purpose is to assist clinicians in the detection of mild cognitive impairment (MCI), a clinical state between normal aging and dementia. The MoCA assesses several cognitive domains, including attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. It was designed to be more sensitive than the Mini-Mental State Examination (MMSE) for detecting MCI and early Alzheimer's disease, showing superior sensitivity and specificity in the original validation study [^1]. Its brevity (approximately 10 minutes to administer) and ease of use have led to its widespread adoption in various clinical and research settings worldwide.
+The Montreal Cognitive Assessment (MoCA) is a brief, 30-point cognitive screening tool developed by Dr. Ziad Nasreddine in 1996 and validated in 2005. Its primary purpose is to assist clinicians in the detection of mild cognitive impairment (MCI), a clinical state between normal aging and dementia. The MoCA assesses several cognitive domains, including attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. It was designed to be more sensitive than the Mini-Mental State Examination (MMSE) for detecting MCI and early Alzheimer's disease, showing superior sensitivity and specificity in the original validation study [1]. Its brevity (approximately 10 minutes to administer) and ease of use have led to its widespread adoption in various clinical and research settings worldwide.
 
 ## **Purpose and Clinical Indication**
 
@@ -18,7 +18,7 @@ The MoCA is designed to screen for the presence of cognitive dysfunction. It is 
 
 This assessment is indicated when there is a clinical suspicion of cognitive decline, particularly in its early stages. It is frequently used in geriatric and neurologic clinics to evaluate individuals with memory complaints or other cognitive symptoms.
 
-The MoCA has been validated in numerous patient populations, including but not limited to: mild cognitive impairment, Alzheimer's disease, Parkinson's disease, Huntington's disease, stroke, traumatic brain injury, multiple sclerosis, and various other neurological and psychiatric conditions [^1, ^2].
+The MoCA has been validated in numerous patient populations, including but not limited to: mild cognitive impairment, Alzheimer's disease, Parkinson's disease, Huntington's disease, stroke, traumatic brain injury, multiple sclerosis, and various other neurological and psychiatric conditions [1.
 
 ## **Description of Assessment**
 
@@ -60,13 +60,13 @@ The MoCA is scored on a continuous scale out of a total of 30 points. Points are
 A total score is calculated by summing the points from each section.
 
 - **Score ≥ 26**: Generally considered normal.
-- **Score < 26**: Suggests the presence of cognitive impairment and warrants further investigation. This is the most commonly cited cut-off score for detecting MCI [^1].
+- **Score < 26**: Suggests the presence of cognitive impairment and warrants further investigation. This is the most commonly cited cut-off score for detecting MCI [1].
 
 Lower scores typically indicate a greater degree of cognitive impairment. The pattern of deficits across the different domains can provide clinical insights into the nature of the cognitive impairment (e.g., significant deficits in memory recall may suggest an amnestic MCI).
 
 ### **Minimal Clinically Important Difference (MCID)**
 
-The MCID for the MoCA has been explored in different populations. In stroke survivors, an improvement of approximately 2 points has been suggested to represent a clinically meaningful change [^3]. This value can help clinicians and researchers interpret changes in cognitive function over time or in response to an intervention.
+The MCID for the MoCA has been explored in different populations. In stroke survivors, an improvement of approximately 2 points has been suggested to represent a clinically meaningful change [3]. This value can help clinicians and researchers interpret changes in cognitive function over time or in response to an intervention.
 
 ## **Clinical Pearls, Contraindications, or Pitfalls**
 
@@ -101,6 +101,9 @@ The MCID for the MoCA has been explored in different populations. In stroke surv
 
 ## **References**
 
-[^1]: Nasreddine ZS, Phillips NA, Bédirian V, et al. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005;53(4):695-699. [(Find Online)](https://doi.org/10.1111/j.1532-5415.2005.53221.x)
-[^2]: Julayanont P, Phillips N, Chertkow H, Nasreddine ZS. The Montreal Cognitive Assessment (MoCA): concept and clinical review. In: Larner AJ, ed. Cognitive Screening Instruments: A Practical Approach. Springer; 2013:111-152. [(Find Online)](https://doi.org/10.1007/978-1-4471-2452-8_6)
-[^3]: Wong A, Nyenhuis D, Black SE, et al. The Montreal Cognitive Assessment 5-minute protocol is a brief, valid, and reliable screening tool for vascular cognitive impairment. Stroke. 2015;46(4):1059-1064. [(Find Online)](https://doi.org/10.1161/strokeaha.114.007253)
+[1]: Nasreddine ZS, Phillips NA, Bédirian V, et al. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005;53(4):695-699. [(Find Online)](https://doi.org/10.1111/j.1532-5415.2005.53221.x)
+
+[2]: Julayanont P, Phillips N, Chertkow H, Nasreddine ZS. The Montreal Cognitive Assessment (MoCA): concept and clinical review. In: Larner AJ, ed. Cognitive Screening Instruments: A Practical Approach. Springer; 2013:111-152. [(Find Online)](https://doi.org/10.1007/978-1-4471-2452-8_6)
+
+[3]: Wong A, Nyenhuis D, Black SE, et al. The Montreal Cognitive Assessment 5-minute protocol is a brief, valid, and reliable screening tool for vascular cognitive impairment. Stroke. 2015;46(4):1059-1064. [(Find Online)](https://doi.org/10.1161/strokeaha.114.007253)
+
